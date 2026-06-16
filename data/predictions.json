@@ -1,0 +1,2425 @@
+{
+  "status": "live",
+  "lastUpdate": "2026-06-14T10:55:22.923945+00:00Z",
+  "groups": [
+    {
+      "key": "GROUP_A",
+      "name": "Group A",
+      "teams": [
+        {
+          "name": "Mexico",
+          "shortName": "Mexico",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "points": 3,
+          "qualProb": 0.898518756106064,
+          "thirdProb": 0.09527146034101636,
+          "position": 1,
+          "flag": "🇲🇽"
+        },
+        {
+          "name": "South Korea",
+          "shortName": "Korea Republic",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "points": 3,
+          "qualProb": 0.85647219667211,
+          "thirdProb": 0.13422240833830332,
+          "position": 2,
+          "flag": "🇰🇷"
+        },
+        {
+          "name": "Czechia",
+          "shortName": "Czechia",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 0,
+          "qualProb": 0.14463585498893533,
+          "thirdProb": 0.517532522025902,
+          "position": 3,
+          "flag": "🏳️"
+        },
+        {
+          "name": "South Africa",
+          "shortName": "South Africa",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0,
+          "qualProb": 0.1003731922328902,
+          "thirdProb": 0.2529736092947782,
+          "position": 4,
+          "flag": "🇿🇦"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537327,
+          "utcDate": "2026-06-11T19:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Mexico",
+          "away": "South Africa",
+          "homeShort": "Mexico",
+          "awayShort": "South Africa",
+          "homeFlag": "🇲🇽",
+          "awayFlag": "🇿🇦",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537328,
+          "utcDate": "2026-06-12T02:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "South Korea",
+          "away": "Czechia",
+          "homeShort": "Korea Republic",
+          "awayShort": "Czechia",
+          "homeFlag": "🇰🇷",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537329,
+          "utcDate": "2026-06-18T16:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Czechia",
+          "away": "South Africa",
+          "homeShort": "Czechia",
+          "awayShort": "South Africa",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇿🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537330,
+          "utcDate": "2026-06-19T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Mexico",
+          "away": "South Korea",
+          "homeShort": "Mexico",
+          "awayShort": "Korea Republic",
+          "homeFlag": "🇲🇽",
+          "awayFlag": "🇰🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537331,
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Czechia",
+          "away": "Mexico",
+          "homeShort": "Czechia",
+          "awayShort": "Mexico",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇲🇽",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537332,
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "South Africa",
+          "away": "South Korea",
+          "homeShort": "South Africa",
+          "awayShort": "Korea Republic",
+          "homeFlag": "🇿🇦",
+          "awayFlag": "🇰🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_B",
+      "name": "Group B",
+      "teams": [
+        {
+          "name": "Canada",
+          "shortName": "Canada",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.6583971536969124,
+          "thirdProb": 0.19841613110642065,
+          "position": 1,
+          "flag": "🇨🇦"
+        },
+        {
+          "name": "Bosnia-Herzegovina",
+          "shortName": "Bosnia-H.",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.5484848185144497,
+          "thirdProb": 0.21787164880169685,
+          "position": 2,
+          "flag": "🏳️"
+        },
+        {
+          "name": "Qatar",
+          "shortName": "Qatar",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.2993685531792038,
+          "thirdProb": 0.3134962060351445,
+          "position": 3,
+          "flag": "🇶🇦"
+        },
+        {
+          "name": "Switzerland",
+          "shortName": "Switzerland",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.4937494746094343,
+          "thirdProb": 0.2702160140567381,
+          "position": 4,
+          "flag": "🇨🇭"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537333,
+          "utcDate": "2026-06-12T19:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Canada",
+          "away": "Bosnia-Herzegovina",
+          "homeShort": "Canada",
+          "awayShort": "Bosnia-H.",
+          "homeFlag": "🇨🇦",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537334,
+          "utcDate": "2026-06-13T19:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Qatar",
+          "away": "Switzerland",
+          "homeShort": "Qatar",
+          "awayShort": "Switzerland",
+          "homeFlag": "🇶🇦",
+          "awayFlag": "🇨🇭",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537335,
+          "utcDate": "2026-06-18T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Switzerland",
+          "away": "Bosnia-Herzegovina",
+          "homeShort": "Switzerland",
+          "awayShort": "Bosnia-H.",
+          "homeFlag": "🇨🇭",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537336,
+          "utcDate": "2026-06-18T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Canada",
+          "away": "Qatar",
+          "homeShort": "Canada",
+          "awayShort": "Qatar",
+          "homeFlag": "🇨🇦",
+          "awayFlag": "🇶🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537337,
+          "utcDate": "2026-06-24T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Switzerland",
+          "away": "Canada",
+          "homeShort": "Switzerland",
+          "awayShort": "Canada",
+          "homeFlag": "🇨🇭",
+          "awayFlag": "🇨🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537338,
+          "utcDate": "2026-06-24T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Bosnia-Herzegovina",
+          "away": "Qatar",
+          "homeShort": "Bosnia-H.",
+          "awayShort": "Qatar",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇶🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_C",
+      "name": "Group C",
+      "teams": [
+        {
+          "name": "Scotland",
+          "shortName": "Scotland",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 3,
+          "qualProb": 0.4884114270122978,
+          "thirdProb": 0.48399922646121574,
+          "position": 1,
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        {
+          "name": "Brazil",
+          "shortName": "Brazil",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.8331896372291281,
+          "thirdProb": 0.12284949879632437,
+          "position": 2,
+          "flag": "🇧🇷"
+        },
+        {
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "qualProb": 0.6447809010686829,
+          "thirdProb": 0.2507754980483351,
+          "position": 3,
+          "flag": "🇲🇦"
+        },
+        {
+          "name": "Haiti",
+          "shortName": "Haiti",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0,
+          "qualProb": 0.03361803468989131,
+          "thirdProb": 0.14237577669412493,
+          "position": 4,
+          "flag": "🏳️"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537339,
+          "utcDate": "2026-06-13T22:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Brazil",
+          "away": "Morocco",
+          "homeShort": "Brazil",
+          "awayShort": "Morocco",
+          "homeFlag": "🇧🇷",
+          "awayFlag": "🇲🇦",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537340,
+          "utcDate": "2026-06-14T01:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Haiti",
+          "away": "Scotland",
+          "homeShort": "Haiti",
+          "awayShort": "Scotland",
+          "homeFlag": "🏳️",
+          "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537342,
+          "utcDate": "2026-06-19T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Scotland",
+          "away": "Morocco",
+          "homeShort": "Scotland",
+          "awayShort": "Morocco",
+          "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "awayFlag": "🇲🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537341,
+          "utcDate": "2026-06-20T00:30:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Brazil",
+          "away": "Haiti",
+          "homeShort": "Brazil",
+          "awayShort": "Haiti",
+          "homeFlag": "🇧🇷",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537344,
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Morocco",
+          "away": "Haiti",
+          "homeShort": "Morocco",
+          "awayShort": "Haiti",
+          "homeFlag": "🇲🇦",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537343,
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Scotland",
+          "away": "Brazil",
+          "homeShort": "Scotland",
+          "awayShort": "Brazil",
+          "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "awayFlag": "🇧🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_D",
+      "name": "Group D",
+      "teams": [
+        {
+          "name": "United States",
+          "shortName": "USA",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 3,
+          "qualProb": 0.9044069378366888,
+          "thirdProb": 0.0898869521009299,
+          "position": 1,
+          "flag": "🇺🇸"
+        },
+        {
+          "name": "Australia",
+          "shortName": "Australia",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "points": 3,
+          "qualProb": 0.8472712121535084,
+          "thirdProb": 0.1426676790988002,
+          "position": 2,
+          "flag": "🇦🇺"
+        },
+        {
+          "name": "Turkey",
+          "shortName": "Turkey",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0,
+          "qualProb": 0.1494201030513855,
+          "thirdProb": 0.5300571593749257,
+          "position": 3,
+          "flag": "🇹🇷"
+        },
+        {
+          "name": "Paraguay",
+          "shortName": "Paraguay",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 0,
+          "qualProb": 0.09890174695841705,
+          "thirdProb": 0.23738820942534403,
+          "position": 4,
+          "flag": "🇵🇾"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537345,
+          "utcDate": "2026-06-13T01:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "United States",
+          "away": "Paraguay",
+          "homeShort": "USA",
+          "awayShort": "Paraguay",
+          "homeFlag": "🇺🇸",
+          "awayFlag": "🇵🇾",
+          "score": {
+            "home": 4,
+            "away": 1
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537346,
+          "utcDate": "2026-06-14T04:00:00Z",
+          "status": "FINISHED",
+          "matchday": 1,
+          "home": "Australia",
+          "away": "Turkey",
+          "homeShort": "Australia",
+          "awayShort": "Turkey",
+          "homeFlag": "🇦🇺",
+          "awayFlag": "🇹🇷",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "isLive": false,
+          "isFinished": true
+        },
+        {
+          "id": 537348,
+          "utcDate": "2026-06-19T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "United States",
+          "away": "Australia",
+          "homeShort": "USA",
+          "awayShort": "Australia",
+          "homeFlag": "🇺🇸",
+          "awayFlag": "🇦🇺",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537347,
+          "utcDate": "2026-06-20T03:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Turkey",
+          "away": "Paraguay",
+          "homeShort": "Turkey",
+          "awayShort": "Paraguay",
+          "homeFlag": "🇹🇷",
+          "awayFlag": "🇵🇾",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537349,
+          "utcDate": "2026-06-26T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Turkey",
+          "away": "United States",
+          "homeShort": "Turkey",
+          "awayShort": "USA",
+          "homeFlag": "🇹🇷",
+          "awayFlag": "🇺🇸",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537350,
+          "utcDate": "2026-06-26T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Paraguay",
+          "away": "Australia",
+          "homeShort": "Paraguay",
+          "awayShort": "Australia",
+          "homeFlag": "🇵🇾",
+          "awayFlag": "🇦🇺",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_E",
+      "name": "Group E",
+      "teams": [
+        {
+          "name": "Germany",
+          "shortName": "Germany",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.8799164500435914,
+          "thirdProb": 0.08520527055447764,
+          "position": 1,
+          "flag": "🇩🇪"
+        },
+        {
+          "name": "Curaçao",
+          "shortName": "Curaçao",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.3445930597974885,
+          "thirdProb": 0.31249224536469566,
+          "position": 2,
+          "flag": "🏳️"
+        },
+        {
+          "name": "Ivory Coast",
+          "shortName": "Ivory Coast",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.3534076411850253,
+          "thirdProb": 0.31167039779025435,
+          "position": 3,
+          "flag": "🇨🇮"
+        },
+        {
+          "name": "Ecuador",
+          "shortName": "Ecuador",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.42208284897389514,
+          "thirdProb": 0.29063208629057224,
+          "position": 4,
+          "flag": "🇪🇨"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537351,
+          "utcDate": "2026-06-14T17:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Germany",
+          "away": "Curaçao",
+          "homeShort": "Germany",
+          "awayShort": "Curaçao",
+          "homeFlag": "🇩🇪",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537352,
+          "utcDate": "2026-06-14T23:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Ivory Coast",
+          "away": "Ecuador",
+          "homeShort": "Ivory Coast",
+          "awayShort": "Ecuador",
+          "homeFlag": "🇨🇮",
+          "awayFlag": "🇪🇨",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537353,
+          "utcDate": "2026-06-20T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "homeShort": "Germany",
+          "awayShort": "Ivory Coast",
+          "homeFlag": "🇩🇪",
+          "awayFlag": "🇨🇮",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537354,
+          "utcDate": "2026-06-21T00:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Ecuador",
+          "away": "Curaçao",
+          "homeShort": "Ecuador",
+          "awayShort": "Curaçao",
+          "homeFlag": "🇪🇨",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537355,
+          "utcDate": "2026-06-25T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Ecuador",
+          "away": "Germany",
+          "homeShort": "Ecuador",
+          "awayShort": "Germany",
+          "homeFlag": "🇪🇨",
+          "awayFlag": "🇩🇪",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537356,
+          "utcDate": "2026-06-25T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Curaçao",
+          "away": "Ivory Coast",
+          "homeShort": "Curaçao",
+          "awayShort": "Ivory Coast",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇨🇮",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_F",
+      "name": "Group F",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "shortName": "Netherlands",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.8444872537315322,
+          "thirdProb": 0.10882255478792452,
+          "position": 1,
+          "flag": "🇳🇱"
+        },
+        {
+          "name": "Japan",
+          "shortName": "Japan",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.6570473828865168,
+          "thirdProb": 0.2232272284920593,
+          "position": 2,
+          "flag": "🇯🇵"
+        },
+        {
+          "name": "Sweden",
+          "shortName": "Sweden",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.2642521313935081,
+          "thirdProb": 0.37263001898444464,
+          "position": 3,
+          "flag": "🏳️"
+        },
+        {
+          "name": "Tunisia",
+          "shortName": "Tunisia",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.23421323198844268,
+          "thirdProb": 0.29532019773557167,
+          "position": 4,
+          "flag": "🏳️"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537357,
+          "utcDate": "2026-06-14T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Netherlands",
+          "away": "Japan",
+          "homeShort": "Netherlands",
+          "awayShort": "Japan",
+          "homeFlag": "🇳🇱",
+          "awayFlag": "🇯🇵",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537358,
+          "utcDate": "2026-06-15T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Sweden",
+          "away": "Tunisia",
+          "homeShort": "Sweden",
+          "awayShort": "Tunisia",
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537359,
+          "utcDate": "2026-06-20T17:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Netherlands",
+          "away": "Sweden",
+          "homeShort": "Netherlands",
+          "awayShort": "Sweden",
+          "homeFlag": "🇳🇱",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537360,
+          "utcDate": "2026-06-21T04:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Tunisia",
+          "away": "Japan",
+          "homeShort": "Tunisia",
+          "awayShort": "Japan",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇯🇵",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537361,
+          "utcDate": "2026-06-25T23:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Tunisia",
+          "away": "Netherlands",
+          "homeShort": "Tunisia",
+          "awayShort": "Netherlands",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇳🇱",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537362,
+          "utcDate": "2026-06-25T23:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Japan",
+          "away": "Sweden",
+          "homeShort": "Japan",
+          "awayShort": "Sweden",
+          "homeFlag": "🇯🇵",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_G",
+      "name": "Group G",
+      "teams": [
+        {
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.8679121364005086,
+          "thirdProb": 0.09396970373748592,
+          "position": 1,
+          "flag": "🇧🇪"
+        },
+        {
+          "name": "Egypt",
+          "shortName": "Egypt",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.5079140448184758,
+          "thirdProb": 0.2938072195897894,
+          "position": 2,
+          "flag": "🇪🇬"
+        },
+        {
+          "name": "Iran",
+          "shortName": "Iran",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.43231796867397293,
+          "thirdProb": 0.35096273722952065,
+          "position": 3,
+          "flag": "🇮🇷"
+        },
+        {
+          "name": "New Zealand",
+          "shortName": "New Zealand",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.19185585010704342,
+          "thirdProb": 0.2612603394432043,
+          "position": 4,
+          "flag": "🇳🇿"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537363,
+          "utcDate": "2026-06-15T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Belgium",
+          "away": "Egypt",
+          "homeShort": "Belgium",
+          "awayShort": "Egypt",
+          "homeFlag": "🇧🇪",
+          "awayFlag": "🇪🇬",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537364,
+          "utcDate": "2026-06-16T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Iran",
+          "away": "New Zealand",
+          "homeShort": "Iran",
+          "awayShort": "New Zealand",
+          "homeFlag": "🇮🇷",
+          "awayFlag": "🇳🇿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537365,
+          "utcDate": "2026-06-21T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Belgium",
+          "away": "Iran",
+          "homeShort": "Belgium",
+          "awayShort": "Iran",
+          "homeFlag": "🇧🇪",
+          "awayFlag": "🇮🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537366,
+          "utcDate": "2026-06-22T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "New Zealand",
+          "away": "Egypt",
+          "homeShort": "New Zealand",
+          "awayShort": "Egypt",
+          "homeFlag": "🇳🇿",
+          "awayFlag": "🇪🇬",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537367,
+          "utcDate": "2026-06-27T03:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "New Zealand",
+          "away": "Belgium",
+          "homeShort": "New Zealand",
+          "awayShort": "Belgium",
+          "homeFlag": "🇳🇿",
+          "awayFlag": "🇧🇪",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537368,
+          "utcDate": "2026-06-27T03:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Egypt",
+          "away": "Iran",
+          "homeShort": "Egypt",
+          "awayShort": "Iran",
+          "homeFlag": "🇪🇬",
+          "awayFlag": "🇮🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_H",
+      "name": "Group H",
+      "teams": [
+        {
+          "name": "Spain",
+          "shortName": "Spain",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.9325855287780374,
+          "thirdProb": 0.05196008857202166,
+          "position": 1,
+          "flag": "🇪🇸"
+        },
+        {
+          "name": "Cape Verde Islands",
+          "shortName": "Cape Verde",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.29922891857672634,
+          "thirdProb": 0.34524709489886735,
+          "position": 2,
+          "flag": "🏳️"
+        },
+        {
+          "name": "Saudi Arabia",
+          "shortName": "Saudi Arabia",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.26439119965594365,
+          "thirdProb": 0.32421313885592307,
+          "position": 3,
+          "flag": "🇸🇦"
+        },
+        {
+          "name": "Uruguay",
+          "shortName": "Uruguay",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.5037943529892922,
+          "thirdProb": 0.27857967767318775,
+          "position": 4,
+          "flag": "🇺🇾"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537369,
+          "utcDate": "2026-06-15T16:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Spain",
+          "away": "Cape Verde Islands",
+          "homeShort": "Spain",
+          "awayShort": "Cape Verde",
+          "homeFlag": "🇪🇸",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537370,
+          "utcDate": "2026-06-15T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "homeShort": "Saudi Arabia",
+          "awayShort": "Uruguay",
+          "homeFlag": "🇸🇦",
+          "awayFlag": "🇺🇾",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537371,
+          "utcDate": "2026-06-21T16:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Spain",
+          "away": "Saudi Arabia",
+          "homeShort": "Spain",
+          "awayShort": "Saudi Arabia",
+          "homeFlag": "🇪🇸",
+          "awayFlag": "🇸🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537372,
+          "utcDate": "2026-06-21T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Uruguay",
+          "away": "Cape Verde Islands",
+          "homeShort": "Uruguay",
+          "awayShort": "Cape Verde",
+          "homeFlag": "🇺🇾",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537373,
+          "utcDate": "2026-06-27T00:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Uruguay",
+          "away": "Spain",
+          "homeShort": "Uruguay",
+          "awayShort": "Spain",
+          "homeFlag": "🇺🇾",
+          "awayFlag": "🇪🇸",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537374,
+          "utcDate": "2026-06-27T00:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Cape Verde Islands",
+          "away": "Saudi Arabia",
+          "homeShort": "Cape Verde",
+          "awayShort": "Saudi Arabia",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇸🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_I",
+      "name": "Group I",
+      "teams": [
+        {
+          "name": "France",
+          "shortName": "France",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.9336376979671991,
+          "thirdProb": 0.05110312921165961,
+          "position": 1,
+          "flag": "🇫🇷"
+        },
+        {
+          "name": "Senegal",
+          "shortName": "Senegal",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.6127348783019242,
+          "thirdProb": 0.25345632359955117,
+          "position": 2,
+          "flag": "🇸🇳"
+        },
+        {
+          "name": "Iraq",
+          "shortName": "Iraq",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.20115849386856718,
+          "thirdProb": 0.37289833228679886,
+          "position": 3,
+          "flag": "🇮🇶"
+        },
+        {
+          "name": "Norway",
+          "shortName": "Norway",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.2524689298623097,
+          "thirdProb": 0.32254221490199064,
+          "position": 4,
+          "flag": "🏳️"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537391,
+          "utcDate": "2026-06-16T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "France",
+          "away": "Senegal",
+          "homeShort": "France",
+          "awayShort": "Senegal",
+          "homeFlag": "🇫🇷",
+          "awayFlag": "🇸🇳",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537392,
+          "utcDate": "2026-06-16T22:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Iraq",
+          "away": "Norway",
+          "homeShort": "Iraq",
+          "awayShort": "Norway",
+          "homeFlag": "🇮🇶",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537393,
+          "utcDate": "2026-06-22T21:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "France",
+          "away": "Iraq",
+          "homeShort": "France",
+          "awayShort": "Iraq",
+          "homeFlag": "🇫🇷",
+          "awayFlag": "🇮🇶",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537394,
+          "utcDate": "2026-06-23T00:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Norway",
+          "away": "Senegal",
+          "homeShort": "Norway",
+          "awayShort": "Senegal",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇸🇳",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537395,
+          "utcDate": "2026-06-26T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Norway",
+          "away": "France",
+          "homeShort": "Norway",
+          "awayShort": "France",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇫🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537396,
+          "utcDate": "2026-06-26T19:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Senegal",
+          "away": "Iraq",
+          "homeShort": "Senegal",
+          "awayShort": "Iraq",
+          "homeFlag": "🇸🇳",
+          "awayFlag": "🇮🇶",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_J",
+      "name": "Group J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "shortName": "Argentina",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.8921512399349995,
+          "thirdProb": 0.07926706233288472,
+          "position": 1,
+          "flag": "🇦🇷"
+        },
+        {
+          "name": "Algeria",
+          "shortName": "Algeria",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.46333630347681704,
+          "thirdProb": 0.31803401021020095,
+          "position": 2,
+          "flag": "🇩🇿"
+        },
+        {
+          "name": "Austria",
+          "shortName": "Austria",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.47119539000202343,
+          "thirdProb": 0.3437428887104346,
+          "position": 3,
+          "flag": "🇦🇹"
+        },
+        {
+          "name": "Jordan",
+          "shortName": "Jordan",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.17331706658616064,
+          "thirdProb": 0.25895603874647993,
+          "position": 4,
+          "flag": "🇯🇴"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537397,
+          "utcDate": "2026-06-17T01:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Argentina",
+          "away": "Algeria",
+          "homeShort": "Argentina",
+          "awayShort": "Algeria",
+          "homeFlag": "🇦🇷",
+          "awayFlag": "🇩🇿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537398,
+          "utcDate": "2026-06-17T04:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Austria",
+          "away": "Jordan",
+          "homeShort": "Austria",
+          "awayShort": "Jordan",
+          "homeFlag": "🇦🇹",
+          "awayFlag": "🇯🇴",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537399,
+          "utcDate": "2026-06-22T17:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Argentina",
+          "away": "Austria",
+          "homeShort": "Argentina",
+          "awayShort": "Austria",
+          "homeFlag": "🇦🇷",
+          "awayFlag": "🇦🇹",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537400,
+          "utcDate": "2026-06-23T03:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Jordan",
+          "away": "Algeria",
+          "homeShort": "Jordan",
+          "awayShort": "Algeria",
+          "homeFlag": "🇯🇴",
+          "awayFlag": "🇩🇿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537401,
+          "utcDate": "2026-06-28T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Jordan",
+          "away": "Argentina",
+          "homeShort": "Jordan",
+          "awayShort": "Argentina",
+          "homeFlag": "🇯🇴",
+          "awayFlag": "🇦🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537402,
+          "utcDate": "2026-06-28T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Algeria",
+          "away": "Austria",
+          "homeShort": "Algeria",
+          "awayShort": "Austria",
+          "homeFlag": "🇩🇿",
+          "awayFlag": "🇦🇹",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_K",
+      "name": "Group K",
+      "teams": [
+        {
+          "name": "Portugal",
+          "shortName": "Portugal",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.863537044559518,
+          "thirdProb": 0.09934751108895294,
+          "position": 1,
+          "flag": "🇵🇹"
+        },
+        {
+          "name": "Congo DR",
+          "shortName": "Congo DR",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.33440478819225683,
+          "thirdProb": 0.35717606324797935,
+          "position": 2,
+          "flag": "🏳️"
+        },
+        {
+          "name": "Uzbekistan",
+          "shortName": "Uzbekistan",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.22212287828058225,
+          "thirdProb": 0.2916849612936833,
+          "position": 3,
+          "flag": "🇺🇿"
+        },
+        {
+          "name": "Colombia",
+          "shortName": "Colombia",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.5799352889676422,
+          "thirdProb": 0.2517914643693842,
+          "position": 4,
+          "flag": "🇨🇴"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537403,
+          "utcDate": "2026-06-17T17:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Portugal",
+          "away": "Congo DR",
+          "homeShort": "Portugal",
+          "awayShort": "Congo DR",
+          "homeFlag": "🇵🇹",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537404,
+          "utcDate": "2026-06-18T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "homeShort": "Uzbekistan",
+          "awayShort": "Colombia",
+          "homeFlag": "🇺🇿",
+          "awayFlag": "🇨🇴",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537405,
+          "utcDate": "2026-06-23T17:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "homeShort": "Portugal",
+          "awayShort": "Uzbekistan",
+          "homeFlag": "🇵🇹",
+          "awayFlag": "🇺🇿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537406,
+          "utcDate": "2026-06-24T02:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Colombia",
+          "away": "Congo DR",
+          "homeShort": "Colombia",
+          "awayShort": "Congo DR",
+          "homeFlag": "🇨🇴",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537407,
+          "utcDate": "2026-06-27T23:30:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Colombia",
+          "away": "Portugal",
+          "homeShort": "Colombia",
+          "awayShort": "Portugal",
+          "homeFlag": "🇨🇴",
+          "awayFlag": "🇵🇹",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537408,
+          "utcDate": "2026-06-27T23:30:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Congo DR",
+          "away": "Uzbekistan",
+          "homeShort": "Congo DR",
+          "awayShort": "Uzbekistan",
+          "homeFlag": "🏳️",
+          "awayFlag": "🇺🇿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "key": "GROUP_L",
+      "name": "Group L",
+      "teams": [
+        {
+          "name": "England",
+          "shortName": "England",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.8948345594270801,
+          "thirdProb": 0.07906500988057753,
+          "position": 1,
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        },
+        {
+          "name": "Croatia",
+          "shortName": "Croatia",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.7145495353939946,
+          "thirdProb": 0.19927625522563097,
+          "position": 2,
+          "flag": "🇭🇷"
+        },
+        {
+          "name": "Ghana",
+          "shortName": "Ghana",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.20602022640606854,
+          "thirdProb": 0.41339384306201843,
+          "position": 3,
+          "flag": "🇬🇭"
+        },
+        {
+          "name": "Panama",
+          "shortName": "Panama",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "qualProb": 0.18459567877285565,
+          "thirdProb": 0.3082648918317734,
+          "position": 4,
+          "flag": "🇵🇦"
+        }
+      ],
+      "matches": [
+        {
+          "id": 537409,
+          "utcDate": "2026-06-17T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "England",
+          "away": "Croatia",
+          "homeShort": "England",
+          "awayShort": "Croatia",
+          "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "awayFlag": "🇭🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537410,
+          "utcDate": "2026-06-17T23:00:00Z",
+          "status": "TIMED",
+          "matchday": 1,
+          "home": "Ghana",
+          "away": "Panama",
+          "homeShort": "Ghana",
+          "awayShort": "Panama",
+          "homeFlag": "🇬🇭",
+          "awayFlag": "🇵🇦",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537411,
+          "utcDate": "2026-06-23T20:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "England",
+          "away": "Ghana",
+          "homeShort": "England",
+          "awayShort": "Ghana",
+          "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "awayFlag": "🇬🇭",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537412,
+          "utcDate": "2026-06-23T23:00:00Z",
+          "status": "TIMED",
+          "matchday": 2,
+          "home": "Panama",
+          "away": "Croatia",
+          "homeShort": "Panama",
+          "awayShort": "Croatia",
+          "homeFlag": "🇵🇦",
+          "awayFlag": "🇭🇷",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537413,
+          "utcDate": "2026-06-27T21:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Panama",
+          "away": "England",
+          "homeShort": "Panama",
+          "awayShort": "England",
+          "homeFlag": "🇵🇦",
+          "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        },
+        {
+          "id": 537414,
+          "utcDate": "2026-06-27T21:00:00Z",
+          "status": "TIMED",
+          "matchday": 3,
+          "home": "Croatia",
+          "away": "Ghana",
+          "homeShort": "Croatia",
+          "awayShort": "Ghana",
+          "homeFlag": "🇭🇷",
+          "awayFlag": "🇬🇭",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "isLive": false,
+          "isFinished": false
+        }
+      ]
+    }
+  ],
+  "bracket": [
+    {
+      "stage": "QUARTER_FINALS",
+      "name": "Quarter Finals",
+      "matches": [
+        {
+          "id": 537383,
+          "utcDate": "2026-07-09T20:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        },
+        {
+          "id": 537384,
+          "utcDate": "2026-07-10T19:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        },
+        {
+          "id": 537385,
+          "utcDate": "2026-07-11T21:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        },
+        {
+          "id": 537386,
+          "utcDate": "2026-07-12T01:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "stage": "SEMI_FINALS",
+      "name": "Semi Finals",
+      "matches": [
+        {
+          "id": 537387,
+          "utcDate": "2026-07-14T19:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        },
+        {
+          "id": 537388,
+          "utcDate": "2026-07-15T19:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "stage": "THIRD_PLACE",
+      "name": "Third Place",
+      "matches": [
+        {
+          "id": 537389,
+          "utcDate": "2026-07-18T21:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "stage": "FINAL",
+      "name": "Final",
+      "matches": [
+        {
+          "id": 537390,
+          "utcDate": "2026-07-19T19:00:00Z",
+          "status": "TIMED",
+          "home": "TBD",
+          "away": "TBD",
+          "homeShort": null,
+          "awayShort": null,
+          "homeFlag": "🏳️",
+          "awayFlag": "🏳️",
+          "score": {
+            "home": null,
+            "away": null
+          },
+          "winner": null,
+          "isFinished": false
+        }
+      ]
+    }
+  ],
+  "liveMatches": [
+    {
+      "id": 537340,
+      "utcDate": "2026-06-14T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_C",
+      "home": "Haiti",
+      "away": "Scotland",
+      "homeShort": "Haiti",
+      "awayShort": "Scotland",
+      "homeFlag": "🏳️",
+      "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "isLive": false,
+      "isFinished": true
+    },
+    {
+      "id": 537346,
+      "utcDate": "2026-06-14T04:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": "Australia",
+      "away": "Turkey",
+      "homeShort": "Australia",
+      "awayShort": "Turkey",
+      "homeFlag": "🇦🇺",
+      "awayFlag": "🇹🇷",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "isLive": false,
+      "isFinished": true
+    },
+    {
+      "id": 537351,
+      "utcDate": "2026-06-14T17:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "home": "Germany",
+      "away": "Curaçao",
+      "homeShort": "Germany",
+      "awayShort": "Curaçao",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🏳️",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "isLive": false,
+      "isFinished": false
+    },
+    {
+      "id": 537357,
+      "utcDate": "2026-06-14T20:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": "Netherlands",
+      "away": "Japan",
+      "homeShort": "Netherlands",
+      "awayShort": "Japan",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇯🇵",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "isLive": false,
+      "isFinished": false
+    },
+    {
+      "id": 537352,
+      "utcDate": "2026-06-14T23:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "homeShort": "Ivory Coast",
+      "awayShort": "Ecuador",
+      "homeFlag": "🇨🇮",
+      "awayFlag": "🇪🇨",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "isLive": false,
+      "isFinished": false
+    }
+  ]
+}
