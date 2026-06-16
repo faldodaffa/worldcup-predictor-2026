@@ -264,7 +264,7 @@ function renderLiveMatches() {
     container.innerHTML = displayMatches.map(m => {
         const isLiveBadge = m.isLive ? '<span class="animate-pulse bg-red-600 px-2 py-0.5 rounded text-xs font-bold text-white">LIVE</span>' : '';
         const time = new Date(m.utcDate).toLocaleTimeString('id-ID', {hour:'2-digit', minute:'2-digit'});
-        const grpLabel = GROUP_NAME_MAP[m.home] ? `Grup ${GROUP_NAME_MAP[m.home]}` : m.stage.replace(/_/g,' ');
+        const grpLabel = GROUP_NAME_MAP[m.home] ? `Grup ${GROUP_NAME_MAP[m.home].replace('Group ', '')}` : m.stage.replace(/_/g,' ');
         const hs = m.home_scorers && m.home_scorers !== 'null' ? formatScorerDisplay(m.home_scorers) : '';
         const as_ = m.away_scorers && m.away_scorers !== 'null' ? formatScorerDisplay(m.away_scorers) : '';
         const scorersHtml = (hs || as_) ? `
@@ -438,7 +438,7 @@ function renderGroups() {
 
         let html = `
             <div class="bg-card border border-border rounded-sm p-4 cursor-pointer hover:border-cyan-500/50 transition-colors shadow-sm" onclick="switchTab('Fixtures')">
-                <h3 class="text-lg font-bold mb-3 text-primary flex items-center gap-2"><span class="text-cyan-400">Grup ${gName}</span></h3>
+                <h3 class="text-lg font-bold mb-3 text-primary flex items-center gap-2"><span class="text-cyan-400">Grup ${gName.replace('Group ', '')}</span></h3>
                 <table class="w-full text-xs text-left">
                     <thead>
                         <tr class="text-muted border-b border-border text-[9px] uppercase tracking-wider">
@@ -456,7 +456,7 @@ function renderGroups() {
             const flag = `<img src="https://flagcdn.com/16x12/${getCountryCode(t.name)}.png" onerror="this.style.display='none'" class="inline rounded-[1px] mr-1.5 opacity-90"/>`;
             html += `
                 <tr class="hover:bg-muted/10 transition-colors">
-                    <td class="py-1.5 font-bold ${colorClass}">${flag}${t.name}</td>
+                    <td class="py-1.5 font-bold ${colorClass} max-w-[100px] sm:max-w-[140px] truncate" title="${t.name}">${flag}${t.name}</td>
                     <td class="py-1.5 text-center text-primary font-mono text-xs opacity-80">${t.played}</td>
                     <td class="py-1.5 text-center text-primary font-mono text-xs opacity-80">${t.goalDifference > 0 ? '+'+t.goalDifference : t.goalDifference}</td>
                     <td class="py-1.5 text-center font-bold font-mono text-cyan-400 text-sm">${t.points}</td>
@@ -513,7 +513,7 @@ function renderFixturesList() {
     container.innerHTML = matches.map(m => {
         let dateStr = '-';
         try { dateStr = new Date(m.utcDate).toLocaleString('id-ID', {weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) + ' WIT'; } catch(e) {}
-        const grp = GROUP_NAME_MAP[m.home] ? `Grup ${GROUP_NAME_MAP[m.home]}` : m.stage.replace(/_/g,' ');
+        const grp = GROUP_NAME_MAP[m.home] ? `Grup ${GROUP_NAME_MAP[m.home].replace('Group ', '')}` : m.stage.replace(/_/g,' ');
         const hs = m.home_scorers && m.home_scorers !== 'null' ? formatScorerDisplay(m.home_scorers) : '';
         const as_ = m.away_scorers && m.away_scorers !== 'null' ? formatScorerDisplay(m.away_scorers) : '';
         const scorersHtml = (hs || as_) ? `
@@ -540,13 +540,13 @@ function renderFixturesList() {
                 </div>
                 <div class="text-[10px] text-muted mb-4 font-mono opacity-50">📍 ${m.stadium || 'Stadion TBD'}</div>
                 <div class="flex justify-between items-center">
-                    <div class="text-right font-bold text-base md:text-lg flex-1 ${m.score_h > m.score_a ? 'text-primary' : 'text-muted flex items-center justify-end'}">
+                    <div class="text-right font-bold text-sm md:text-lg flex-1 leading-tight ${m.score_h > m.score_a ? 'text-primary' : 'text-muted flex items-center justify-end'}">
                         ${m.score_h > m.score_a ? m.home+hFlag : m.home+hFlag} 
                     </div>
-                    <div class="px-5 py-1.5 font-mono font-extrabold text-xl text-yellow-500 bg-background border border-border rounded-lg mx-4 min-w-[70px] text-center shadow-inner">
+                    <div class="px-3 md:px-5 py-1.5 font-mono font-extrabold text-lg md:text-xl text-yellow-500 bg-background border border-border rounded-lg mx-2 md:mx-4 min-w-[60px] md:min-w-[70px] text-center shadow-inner shrink-0">
                         ${m.score_h != null ? m.score_h : '-'} : ${m.score_a != null ? m.score_a : '-'}
                     </div>
-                    <div class="text-left font-bold text-base md:text-lg flex-1 ${m.score_a > m.score_h ? 'text-primary flex items-center' : 'text-muted flex items-center'}">
+                    <div class="text-left font-bold text-sm md:text-lg flex-1 leading-tight ${m.score_a > m.score_h ? 'text-primary flex items-center' : 'text-muted flex items-center'}">
                         ${aFlag}${m.away}
                     </div>
                 </div>
@@ -692,11 +692,11 @@ function renderBracketTree() {
                         ${m.isFinished ? `<span class="text-yellow-500 font-bold">FT</span>` : ''}
                     </div>
                     <div class="flex justify-between items-center mb-1.5 relative z-10">
-                        <span class="font-bold text-sm ${homeWin ? 'text-primary' : 'text-muted'} truncate max-w-[110px] flex items-center">${hFlag}${m.home || 'TBD'} ${hPath}</span>
+                        <span class="font-bold text-sm ${homeWin ? 'text-primary' : 'text-muted'} truncate max-w-[140px] flex items-center">${hFlag}${m.home || 'TBD'} ${hPath}</span>
                         <span class="text-xs font-mono ml-2 flex-shrink-0 ${m.isFinished ? 'text-yellow-400 bg-background px-1.5 rounded-sm border border-border' : 'text-muted'}">${homeScore}</span>
                     </div>
                     <div class="flex justify-between items-center relative z-10">
-                        <span class="font-bold text-sm ${awayWin ? 'text-primary' : 'text-muted'} truncate max-w-[110px] flex items-center">${aFlag}${m.away || 'TBD'} ${aPath}</span>
+                        <span class="font-bold text-sm ${awayWin ? 'text-primary' : 'text-muted'} truncate max-w-[140px] flex items-center">${aFlag}${m.away || 'TBD'} ${aPath}</span>
                         <span class="text-xs font-mono ml-2 flex-shrink-0 ${m.isFinished ? 'text-yellow-400 bg-background px-1.5 rounded-sm border border-border' : 'text-muted'}">${awayScore}</span>
                     </div>
                 </div>`;
