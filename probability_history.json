@@ -8954,5 +8954,203 @@
         "winProb": 0.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-16T08:36:48.557438Z",
+    "finishedCount": 16,
+    "ranking": [
+      {
+        "name": "Spain",
+        "winProb": 24.47
+      },
+      {
+        "name": "Argentina",
+        "winProb": 21.33
+      },
+      {
+        "name": "France",
+        "winProb": 11.63
+      },
+      {
+        "name": "Germany",
+        "winProb": 7.67
+      },
+      {
+        "name": "England",
+        "winProb": 7.07
+      },
+      {
+        "name": "Mexico",
+        "winProb": 5.27
+      },
+      {
+        "name": "Portugal",
+        "winProb": 4.93
+      },
+      {
+        "name": "Colombia",
+        "winProb": 3.53
+      },
+      {
+        "name": "Australia",
+        "winProb": 2.73
+      },
+      {
+        "name": "Brazil",
+        "winProb": 2.4
+      },
+      {
+        "name": "United States",
+        "winProb": 1.53
+      },
+      {
+        "name": "Netherlands",
+        "winProb": 1.43
+      },
+      {
+        "name": "Norway",
+        "winProb": 1.03
+      },
+      {
+        "name": "Croatia",
+        "winProb": 0.97
+      },
+      {
+        "name": "Japan",
+        "winProb": 0.77
+      },
+      {
+        "name": "Uruguay",
+        "winProb": 0.43
+      },
+      {
+        "name": "Morocco",
+        "winProb": 0.43
+      },
+      {
+        "name": "Belgium",
+        "winProb": 0.37
+      },
+      {
+        "name": "Senegal",
+        "winProb": 0.37
+      },
+      {
+        "name": "South Korea",
+        "winProb": 0.33
+      },
+      {
+        "name": "Scotland",
+        "winProb": 0.33
+      },
+      {
+        "name": "Canada",
+        "winProb": 0.2
+      },
+      {
+        "name": "Sweden",
+        "winProb": 0.17
+      },
+      {
+        "name": "Switzerland",
+        "winProb": 0.13
+      },
+      {
+        "name": "Austria",
+        "winProb": 0.1
+      },
+      {
+        "name": "Ecuador",
+        "winProb": 0.1
+      },
+      {
+        "name": "Ivory Coast",
+        "winProb": 0.07
+      },
+      {
+        "name": "Turkey",
+        "winProb": 0.03
+      },
+      {
+        "name": "Democratic Republic of the Congo",
+        "winProb": 0.03
+      },
+      {
+        "name": "Iran",
+        "winProb": 0.03
+      },
+      {
+        "name": "Algeria",
+        "winProb": 0.03
+      },
+      {
+        "name": "Panama",
+        "winProb": 0.03
+      },
+      {
+        "name": "Paraguay",
+        "winProb": 0.03
+      },
+      {
+        "name": "Egypt",
+        "winProb": 0.0
+      },
+      {
+        "name": "Ghana",
+        "winProb": 0.0
+      },
+      {
+        "name": "South Africa",
+        "winProb": 0.0
+      },
+      {
+        "name": "Haiti",
+        "winProb": 0.0
+      },
+      {
+        "name": "Cura\u00e7ao",
+        "winProb": 0.0
+      },
+      {
+        "name": "Qatar",
+        "winProb": 0.0
+      },
+      {
+        "name": "Uzbekistan",
+        "winProb": 0.0
+      },
+      {
+        "name": "Czech Republic",
+        "winProb": 0.0
+      },
+      {
+        "name": "Cape Verde",
+        "winProb": 0.0
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "winProb": 0.0
+      },
+      {
+        "name": "New Zealand",
+        "winProb": 0.0
+      },
+      {
+        "name": "Saudi Arabia",
+        "winProb": 0.0
+      },
+      {
+        "name": "Iraq",
+        "winProb": 0.0
+      },
+      {
+        "name": "Tunisia",
+        "winProb": 0.0
+      },
+      {
+        "name": "Jordan",
+        "winProb": 0.0
+      }
+    ]
   }
 ]

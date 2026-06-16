@@ -779,44 +779,19 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
                 # Power Gap for Smart Upsets
                 home_total = ph + pd / 2.0
                 away_total = pa + pd / 2.0
-                gap = abs(home_total - away_total)
+                expected_winner = home if home_total >= away_total else away
                 
-                score_h = int(np.random.poisson(lam_h))
-                score_a = int(np.random.poisson(lam_a))
+                # Make the bracket fully deterministic
+                score_h = int(lam_h) if expected_winner == home else int(lam_h)
+                score_a = int(lam_a) if expected_winner == away else int(lam_a)
                 
-                if gap > 0.25:
-                    # Absolute Giant Rule: No silly surprises.
-                    expected_winner = home if home_total >= away_total else away
-                    attempts = 0
-                    while (score_h <= score_a if expected_winner == home else score_a <= score_h) and attempts < 100:
-                        score_h = int(np.random.poisson(lam_h))
-                        score_a = int(np.random.poisson(lam_a))
-                        attempts += 1
-                        
-                    if attempts >= 100:
-                        if expected_winner == home:
-                            score_h, score_a = score_a + 1, score_a
-                        else:
-                            score_h, score_a = score_h, score_h + 1
-                    predicted_winner = expected_winner
-                else:
-                    # Smart Upset Mode (Gap <= 25%): Let the Poisson dice roll!
-                    attempts = 0
-                    while score_h == score_a and attempts < 100: # No draws in knockout
-                        score_h = int(np.random.poisson(lam_h))
-                        score_a = int(np.random.poisson(lam_a))
-                        attempts += 1
-                        
-                    if attempts >= 100:
-                        score_h, score_a = score_h + 1, score_a # fallback
-                        
-                    predicted_winner = home if score_h > score_a else away
-                    
-                    # Giant Killer Momentum Boost!
-                    if predicted_winner == home and home_total < away_total:
-                        G_MOMENTUM_HISTORY[home].append(1)
-                    elif predicted_winner == away and away_total < home_total:
-                        G_MOMENTUM_HISTORY[away].append(1)
+                # Ensure the expected winner actually has a higher score
+                if expected_winner == home and score_h <= score_a:
+                    score_h = score_a + 1
+                elif expected_winner == away and score_a <= score_h:
+                    score_a = score_h + 1
+
+                predicted_winner = expected_winner
 
             match_winners[str(m['id'])] = predicted_winner
 
