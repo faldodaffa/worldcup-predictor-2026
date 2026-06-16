@@ -687,23 +687,29 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
         'FINAL': ['104']
     }
 
+    def get_predicted_standings(g_name):
+        if g_name in groups and len(groups[g_name]['standings']) > 0:
+            return sorted(groups[g_name]['standings'], key=lambda x: (-x.get('qualProb', 0), -x.get('points', 0), -x.get('goalDifference', 0)))
+        return []
+
     thirds = []
     for grp_name, data in groups.items():
-        if len(data['standings']) >= 3:
-            thirds.append(data['standings'][2])
-    thirds.sort(key=lambda x: (-x['points'], -x['goalDifference'], -x['goalsFor'], -tahap7_targets.get(x['name'], 0), -get_elo(x['name'])))
+        st = get_predicted_standings(grp_name)
+        if len(st) >= 3:
+            thirds.append(st[2])
+    thirds.sort(key=lambda x: (-x.get('qualProb', 0), -x.get('points', 0), -x.get('goalDifference', 0)))
     best_thirds = [t['name'] for t in thirds[:8]]
 
     def resolve_team(name):
         if not name: return 'TBD'
         if name.startswith('Winner Group '):
             g = name.replace('Winner Group ', 'Group ')
-            if g in groups and len(groups[g]['standings']) > 0:
-                return groups[g]['standings'][0]['name']
+            st = get_predicted_standings(g)
+            if st: return st[0]['name']
         if name.startswith('Runner-up Group '):
             g = name.replace('Runner-up Group ', 'Group ')
-            if g in groups and len(groups[g]['standings']) > 1:
-                return groups[g]['standings'][1]['name']
+            st = get_predicted_standings(g)
+            if len(st) > 1: return st[1]['name']
         if '3rd Group' in name:
             return best_thirds.pop(0) if best_thirds else 'TBD'
         if name.startswith('Winner Match '):
