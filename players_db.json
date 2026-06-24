@@ -1,0 +1,10082 @@
+{
+  "Algeria": [
+    {
+      "name": "MASTIL Melvin",
+      "pos": "GK",
+      "dob": "19/02/2000",
+      "age_2026": 26,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "MANDI Aissa",
+      "pos": "DF",
+      "dob": "22/10/1991",
+      "age_2026": 35,
+      "caps": 119,
+      "goals": 8
+    },
+    {
+      "name": "ABADA Achref",
+      "pos": "DF",
+      "dob": "15/06/1999",
+      "age_2026": 27,
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "name": "TOUGAI Mohamed Amine",
+      "pos": "DF",
+      "dob": "22/01/2000",
+      "age_2026": 26,
+      "caps": 30,
+      "goals": 2
+    },
+    {
+      "name": "BELAID Zineddine",
+      "pos": "DF",
+      "dob": "20/03/1999",
+      "age_2026": 27,
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "name": "ZERROUKI Ramiz",
+      "pos": "MF",
+      "dob": "26/05/1998",
+      "age_2026": 28,
+      "caps": 53,
+      "goals": 3
+    },
+    {
+      "name": "MAHREZ Riyad",
+      "pos": "FW",
+      "dob": "21/02/1991",
+      "age_2026": 35,
+      "caps": 116,
+      "goals": 38
+    },
+    {
+      "name": "AOUAR Houssem",
+      "pos": "MF",
+      "dob": "30/06/1998",
+      "age_2026": 28,
+      "caps": 23,
+      "goals": 6
+    },
+    {
+      "name": "GOUIRI Amine",
+      "pos": "FW",
+      "dob": "16/02/2000",
+      "age_2026": 26,
+      "caps": 23,
+      "goals": 10
+    },
+    {
+      "name": "CHAIBI Fares",
+      "pos": "MF",
+      "dob": "28/11/2002",
+      "age_2026": 24,
+      "caps": 31,
+      "goals": 3
+    },
+    {
+      "name": "HADJ MOUSSA Anis",
+      "pos": "FW",
+      "dob": "11/02/2002",
+      "age_2026": 24,
+      "caps": 15,
+      "goals": 2
+    },
+    {
+      "name": "BENBOUALI Nadhir",
+      "pos": "FW",
+      "dob": "17/04/2000",
+      "age_2026": 26,
+      "caps": 4,
+      "goals": 1
+    },
+    {
+      "name": "HADJAM Jaouen",
+      "pos": "DF",
+      "dob": "26/03/2003",
+      "age_2026": 23,
+      "caps": 18,
+      "goals": 3
+    },
+    {
+      "name": "BOUDAOUI Hicham",
+      "pos": "MF",
+      "dob": "23/09/1999",
+      "age_2026": 27,
+      "caps": 34,
+      "goals": 0
+    },
+    {
+      "name": "AIT-NOURI Rayan",
+      "pos": "DF",
+      "dob": "06/06/2001",
+      "age_2026": 25,
+      "caps": 30,
+      "goals": 0
+    },
+    {
+      "name": "BENBOT Oussama",
+      "pos": "GK",
+      "dob": "11/10/1994",
+      "age_2026": 32,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "BELGHALI Ra\u0000k",
+      "pos": "DF",
+      "dob": "07/06/2002",
+      "age_2026": 24,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "AMOURA Mohamed",
+      "pos": "FW",
+      "dob": "09/05/2000",
+      "age_2026": 26,
+      "caps": 47,
+      "goals": 19
+    },
+    {
+      "name": "BENTALEB Nabil",
+      "pos": "MF",
+      "dob": "24/11/1994",
+      "age_2026": 32,
+      "caps": 60,
+      "goals": 6
+    },
+    {
+      "name": "BOULBINA Adil",
+      "pos": "FW",
+      "dob": "02/05/2003",
+      "age_2026": 23,
+      "caps": 11,
+      "goals": 5
+    },
+    {
+      "name": "BENSEBAINI Ramy",
+      "pos": "DF",
+      "dob": "16/04/1995",
+      "age_2026": 31,
+      "caps": 82,
+      "goals": 9
+    },
+    {
+      "name": "MAZA Ibrahim",
+      "pos": "MF",
+      "dob": "24/11/2005",
+      "age_2026": 21,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "ZIDANE Luca",
+      "pos": "GK",
+      "dob": "13/05/1998",
+      "age_2026": 28,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "TITRAOUI Yassine",
+      "pos": "MF",
+      "dob": "26/07/2003",
+      "age_2026": 23,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "GHEDJEMIS Fares",
+      "pos": "FW",
+      "dob": "06/09/2002",
+      "age_2026": 24,
+      "caps": 1,
+      "goals": 1
+    },
+    {
+      "name": "CHERGUI Samir",
+      "pos": "DF",
+      "dob": "06/02/1999",
+      "age_2026": 27,
+      "caps": 5,
+      "goals": 0
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "MUSSO Juan",
+      "pos": "GK",
+      "dob": "06/05/1994",
+      "age_2026": 32,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SENESI Marcos",
+      "pos": "MF",
+      "dob": "10/05/1997",
+      "age_2026": 29,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "TAGLIAFICO Nicolas",
+      "pos": "DF",
+      "dob": "31/08/1992",
+      "age_2026": 34,
+      "caps": 76,
+      "goals": 1
+    },
+    {
+      "name": "MONTIEL Gonzalo",
+      "pos": "DF",
+      "dob": "01/01/1997",
+      "age_2026": 29,
+      "caps": 39,
+      "goals": 2
+    },
+    {
+      "name": "PAREDES Leandro",
+      "pos": "MF",
+      "dob": "29/06/1994",
+      "age_2026": 32,
+      "caps": 77,
+      "goals": 5
+    },
+    {
+      "name": "MARTINEZ Lisandro",
+      "pos": "DF",
+      "dob": "18/01/1998",
+      "age_2026": 28,
+      "caps": 28,
+      "goals": 1
+    },
+    {
+      "name": "DE PAUL Rodrigo",
+      "pos": "MF",
+      "dob": "24/05/1994",
+      "age_2026": 32,
+      "caps": 87,
+      "goals": 2
+    },
+    {
+      "name": "BARCO Valentin",
+      "pos": "MF",
+      "dob": "23/07/2004",
+      "age_2026": 22,
+      "caps": 4,
+      "goals": 2
+    },
+    {
+      "name": "ALVAREZ Julian",
+      "pos": "FW",
+      "dob": "31/01/2000",
+      "age_2026": 26,
+      "caps": 51,
+      "goals": 14
+    },
+    {
+      "name": "MESSI Lionel",
+      "pos": "FW",
+      "dob": "24/06/1987",
+      "age_2026": 39,
+      "caps": 199,
+      "goals": 117
+    },
+    {
+      "name": "LO CELSO Giovani",
+      "pos": "MF",
+      "dob": "09/04/1996",
+      "age_2026": 30,
+      "caps": 67,
+      "goals": 4
+    },
+    {
+      "name": "RULLI Geronimo",
+      "pos": "GK",
+      "dob": "20/05/1992",
+      "age_2026": 34,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "ROMERO Cristian",
+      "pos": "DF",
+      "dob": "27/04/1998",
+      "age_2026": 28,
+      "caps": 51,
+      "goals": 3
+    },
+    {
+      "name": "PALACIOS Exequiel",
+      "pos": "MF",
+      "dob": "05/10/1998",
+      "age_2026": 28,
+      "caps": 40,
+      "goals": 0
+    },
+    {
+      "name": "GONZALEZ Nico",
+      "pos": "MF",
+      "dob": "06/04/1998",
+      "age_2026": 28,
+      "caps": 51,
+      "goals": 6
+    },
+    {
+      "name": "ALMADA Thiago",
+      "pos": "FW",
+      "dob": "26/04/2001",
+      "age_2026": 25,
+      "caps": 16,
+      "goals": 5
+    },
+    {
+      "name": "SIMEONE Giuliano",
+      "pos": "FW",
+      "dob": "18/12/2002",
+      "age_2026": 24,
+      "caps": 13,
+      "goals": 2
+    },
+    {
+      "name": "PAZ Nico",
+      "pos": "FW",
+      "dob": "08/09/2004",
+      "age_2026": 22,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "OTAMENDI Nicolas",
+      "pos": "DF",
+      "dob": "12/02/1988",
+      "age_2026": 38,
+      "caps": 132,
+      "goals": 8
+    },
+    {
+      "name": "MAC ALLISTER Alexis",
+      "pos": "MF",
+      "dob": "24/12/1998",
+      "age_2026": 28,
+      "caps": 46,
+      "goals": 6
+    },
+    {
+      "name": "LOPEZ Jose Manuel",
+      "pos": "FW",
+      "dob": "06/12/2000",
+      "age_2026": 26,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MARTINEZ Lautaro",
+      "pos": "FW",
+      "dob": "22/08/1997",
+      "age_2026": 29,
+      "caps": 77,
+      "goals": 37
+    },
+    {
+      "name": "MARTINEZ Emiliano",
+      "pos": "GK",
+      "dob": "02/09/1992",
+      "age_2026": 34,
+      "caps": 59,
+      "goals": 0
+    },
+    {
+      "name": "FERNANDEZ Enzo",
+      "pos": "MF",
+      "dob": "17/01/2001",
+      "age_2026": 25,
+      "caps": 42,
+      "goals": 6
+    },
+    {
+      "name": "MEDINA Facundo",
+      "pos": "DF",
+      "dob": "28/05/1999",
+      "age_2026": 27,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "MOLINA Nahuel",
+      "pos": "DF",
+      "dob": "06/04/1998",
+      "age_2026": 28,
+      "caps": 58,
+      "goals": 1
+    }
+  ],
+  "Australia": [
+    {
+      "name": "RYAN Mathew",
+      "pos": "GK",
+      "dob": "08/04/1992",
+      "age_2026": 34,
+      "caps": 104,
+      "goals": 0
+    },
+    {
+      "name": "DEGENEK Milos",
+      "pos": "DF",
+      "dob": "28/04/1994",
+      "age_2026": 32,
+      "caps": 57,
+      "goals": 1
+    },
+    {
+      "name": "CIRCATI Alessandro",
+      "pos": "DF",
+      "dob": "10/10/2003",
+      "age_2026": 23,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "ITALIANO Jacob",
+      "pos": "DF",
+      "dob": "30/07/2001",
+      "age_2026": 25,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "BOS Jordan",
+      "pos": "DF",
+      "dob": "29/10/2002",
+      "age_2026": 24,
+      "caps": 27,
+      "goals": 4
+    },
+    {
+      "name": "GERIA Jason",
+      "pos": "DF",
+      "dob": "10/05/1993",
+      "age_2026": 33,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "LECKIE Mathew",
+      "pos": "FW",
+      "dob": "04/02/1991",
+      "age_2026": 35,
+      "caps": 81,
+      "goals": 14
+    },
+    {
+      "name": "METCALFE Connor",
+      "pos": "MF",
+      "dob": "05/11/1999",
+      "age_2026": 27,
+      "caps": 36,
+      "goals": 1
+    },
+    {
+      "name": "TOURE Mohamed",
+      "pos": "FW",
+      "dob": "26/03/2004",
+      "age_2026": 22,
+      "caps": 10,
+      "goals": 2
+    },
+    {
+      "name": "HRUSTIC Ajdin",
+      "pos": "FW",
+      "dob": "05/07/1996",
+      "age_2026": 30,
+      "caps": 37,
+      "goals": 3
+    },
+    {
+      "name": "MABIL Awer",
+      "pos": "FW",
+      "dob": "15/09/1995",
+      "age_2026": 31,
+      "caps": 38,
+      "goals": 10
+    },
+    {
+      "name": "IZZO Paul",
+      "pos": "GK",
+      "dob": "06/01/1995",
+      "age_2026": 31,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "ONEILL Aiden",
+      "pos": "MF",
+      "dob": "04/07/1998",
+      "age_2026": 28,
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "name": "DEVLIN Cameron",
+      "pos": "MF",
+      "dob": "07/06/1998",
+      "age_2026": 28,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "TREWIN Kai",
+      "pos": "DF",
+      "dob": "18/05/2001",
+      "age_2026": 25,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "BEHICH Aziz",
+      "pos": "DF",
+      "dob": "16/12/1990",
+      "age_2026": 36,
+      "caps": 84,
+      "goals": 3
+    },
+    {
+      "name": "IRANKUNDA Nestory",
+      "pos": "FW",
+      "dob": "09/02/2006",
+      "age_2026": 20,
+      "caps": 15,
+      "goals": 5
+    },
+    {
+      "name": "BEACH Patrick",
+      "pos": "GK",
+      "dob": "06/08/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "SOUTTAR Harry",
+      "pos": "DF",
+      "dob": "22/10/1998",
+      "age_2026": 28,
+      "caps": 38,
+      "goals": 11
+    },
+    {
+      "name": "VOLPATO Cristian",
+      "pos": "FW",
+      "dob": "15/11/2003",
+      "age_2026": 23,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "BURGESS Cameron",
+      "pos": "DF",
+      "dob": "21/10/1995",
+      "age_2026": 31,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "IRVINE Jackson",
+      "pos": "MF",
+      "dob": "07/03/1993",
+      "age_2026": 33,
+      "caps": 82,
+      "goals": 14
+    },
+    {
+      "name": "VELUPILLAY Nishan",
+      "pos": "FW",
+      "dob": "07/05/2001",
+      "age_2026": 25,
+      "caps": 7,
+      "goals": 3
+    },
+    {
+      "name": "OKON-ENGSTLER Paul",
+      "pos": "MF",
+      "dob": "24/01/2005",
+      "age_2026": 21,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "HERRINGTON Lucas",
+      "pos": "DF",
+      "dob": "05/09/2007",
+      "age_2026": 19,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "YENGI Tete",
+      "pos": "FW",
+      "dob": "28/11/2000",
+      "age_2026": 26,
+      "caps": 1,
+      "goals": 1
+    }
+  ],
+  "Austria": [
+    {
+      "name": "SCHLAGER Alexander",
+      "pos": "GK",
+      "dob": "01/02/1996",
+      "age_2026": 30,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "AFFENGRUBER David",
+      "pos": "DF",
+      "dob": "19/03/2001",
+      "age_2026": 25,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "DANSO Kevin",
+      "pos": "DF",
+      "dob": "19/09/1998",
+      "age_2026": 28,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "SCHLAGER Xaver",
+      "pos": "MF",
+      "dob": "28/09/1997",
+      "age_2026": 29,
+      "caps": 51,
+      "goals": 4
+    },
+    {
+      "name": "POSCH Stefan",
+      "pos": "DF",
+      "dob": "14/05/1997",
+      "age_2026": 29,
+      "caps": 52,
+      "goals": 5
+    },
+    {
+      "name": "SEIWALD Nicolas",
+      "pos": "MF",
+      "dob": "04/05/2001",
+      "age_2026": 25,
+      "caps": 47,
+      "goals": 1
+    },
+    {
+      "name": "ARNAUTOVIC Marko",
+      "pos": "FW",
+      "dob": "19/04/1989",
+      "age_2026": 37,
+      "caps": 133,
+      "goals": 47
+    },
+    {
+      "name": "ALABA David",
+      "pos": "DF",
+      "dob": "24/06/1992",
+      "age_2026": 34,
+      "caps": 113,
+      "goals": 15
+    },
+    {
+      "name": "SABITZER Marcel",
+      "pos": "MF",
+      "dob": "17/03/1994",
+      "age_2026": 32,
+      "caps": 98,
+      "goals": 26
+    },
+    {
+      "name": "GRILLITSCH Florian",
+      "pos": "MF",
+      "dob": "07/08/1995",
+      "age_2026": 31,
+      "caps": 59,
+      "goals": 1
+    },
+    {
+      "name": "GREGORITSCH Michael",
+      "pos": "FW",
+      "dob": "18/04/1994",
+      "age_2026": 32,
+      "caps": 75,
+      "goals": 24
+    },
+    {
+      "name": "WIEGELE Florian",
+      "pos": "GK",
+      "dob": "21/03/2001",
+      "age_2026": 25,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "PENTZ Patrick",
+      "pos": "GK",
+      "dob": "02/01/1997",
+      "age_2026": 29,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "KALAJDZIC Sasa",
+      "pos": "FW",
+      "dob": "07/07/1997",
+      "age_2026": 29,
+      "caps": 22,
+      "goals": 4
+    },
+    {
+      "name": "LIENHART Philipp",
+      "pos": "DF",
+      "dob": "11/07/1996",
+      "age_2026": 30,
+      "caps": 41,
+      "goals": 3
+    },
+    {
+      "name": "MWENE Phillip",
+      "pos": "DF",
+      "dob": "29/01/1994",
+      "age_2026": 32,
+      "caps": 30,
+      "goals": 0
+    },
+    {
+      "name": "CHUKWUEMEKA Carney",
+      "pos": "MF",
+      "dob": "20/10/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 1
+    },
+    {
+      "name": "SCHMID Romano",
+      "pos": "MF",
+      "dob": "27/01/2000",
+      "age_2026": 26,
+      "caps": 34,
+      "goals": 3
+    },
+    {
+      "name": "LJUBICIC Dejan",
+      "pos": "MF",
+      "dob": "08/10/1997",
+      "age_2026": 29,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "LAIMER Konrad",
+      "pos": "MF",
+      "dob": "27/05/1997",
+      "age_2026": 29,
+      "caps": 57,
+      "goals": 7
+    },
+    {
+      "name": "WIMMER Patrick",
+      "pos": "FW",
+      "dob": "30/05/2001",
+      "age_2026": 25,
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "name": "PRASS Alexander",
+      "pos": "MF",
+      "dob": "26/05/2001",
+      "age_2026": 25,
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "name": "FRIEDL Marco",
+      "pos": "DF",
+      "dob": "16/03/1998",
+      "age_2026": 28,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "WANNER Paul",
+      "pos": "MF",
+      "dob": "23/12/2005",
+      "age_2026": 21,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "SVOBODA Michael",
+      "pos": "DF",
+      "dob": "15/10/1998",
+      "age_2026": 28,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SCHOEPF Alessandro",
+      "pos": "MF",
+      "dob": "07/02/1994",
+      "age_2026": 32,
+      "caps": 35,
+      "goals": 6
+    }
+  ],
+  "Belgium": [
+    {
+      "name": "COURTOIS Thibaut",
+      "pos": "GK",
+      "dob": "11/05/1992",
+      "age_2026": 34,
+      "caps": 109,
+      "goals": 0
+    },
+    {
+      "name": "DEBAST Zeno",
+      "pos": "DF",
+      "dob": "24/10/2003",
+      "age_2026": 23,
+      "caps": 26,
+      "goals": 1
+    },
+    {
+      "name": "THEATE Arthur",
+      "pos": "DF",
+      "dob": "25/05/2000",
+      "age_2026": 26,
+      "caps": 33,
+      "goals": 1
+    },
+    {
+      "name": "MECHELE Brandon",
+      "pos": "DF",
+      "dob": "28/01/1993",
+      "age_2026": 33,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "DE CUYPER Maxim",
+      "pos": "DF",
+      "dob": "22/12/2000",
+      "age_2026": 26,
+      "caps": 19,
+      "goals": 4
+    },
+    {
+      "name": "WITSEL Axel",
+      "pos": "MF",
+      "dob": "12/01/1989",
+      "age_2026": 37,
+      "caps": 138,
+      "goals": 12
+    },
+    {
+      "name": "DE BRUYNE Kevin",
+      "pos": "MF",
+      "dob": "28/06/1991",
+      "age_2026": 35,
+      "caps": 119,
+      "goals": 37
+    },
+    {
+      "name": "TIELEMANS Youri",
+      "pos": "MF",
+      "dob": "07/05/1997",
+      "age_2026": 29,
+      "caps": 85,
+      "goals": 13
+    },
+    {
+      "name": "LUKAKU Romelu",
+      "pos": "FW",
+      "dob": "13/05/1993",
+      "age_2026": 33,
+      "caps": 126,
+      "goals": 90
+    },
+    {
+      "name": "TROSSARD Leandro",
+      "pos": "FW",
+      "dob": "04/12/1994",
+      "age_2026": 32,
+      "caps": 51,
+      "goals": 12
+    },
+    {
+      "name": "DOKU Jeremy",
+      "pos": "FW",
+      "dob": "27/05/2002",
+      "age_2026": 24,
+      "caps": 43,
+      "goals": 7
+    },
+    {
+      "name": "LAMMENS Senne",
+      "pos": "GK",
+      "dob": "07/07/2002",
+      "age_2026": 24,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "PENDERS Mike",
+      "pos": "GK",
+      "dob": "31/07/2005",
+      "age_2026": 21,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "LUKEBAKIO Dodi",
+      "pos": "FW",
+      "dob": "24/09/1997",
+      "age_2026": 29,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "MEUNIER Thomas",
+      "pos": "DF",
+      "dob": "12/09/1991",
+      "age_2026": 35,
+      "caps": 80,
+      "goals": 10
+    },
+    {
+      "name": "DE WINTER Koni",
+      "pos": "DF",
+      "dob": "12/06/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "DE KETELAERE Charles",
+      "pos": "FW",
+      "dob": "10/03/2001",
+      "age_2026": 25,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "SEYS Joaquin",
+      "pos": "DF",
+      "dob": "28/03/2005",
+      "age_2026": 21,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MOREIRA Diego",
+      "pos": "MF",
+      "dob": "06/08/2004",
+      "age_2026": 22,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "VANAKEN Hans",
+      "pos": "MF",
+      "dob": "24/08/1992",
+      "age_2026": 34,
+      "caps": 34,
+      "goals": 7
+    },
+    {
+      "name": "CASTAGNE Timothy",
+      "pos": "DF",
+      "dob": "05/12/1995",
+      "age_2026": 31,
+      "caps": 63,
+      "goals": 2
+    },
+    {
+      "name": "SAELEMAEKERS Alexis",
+      "pos": "MF",
+      "dob": "27/06/1999",
+      "age_2026": 27,
+      "caps": 24,
+      "goals": 2
+    },
+    {
+      "name": "RASKIN Nicolas",
+      "pos": "MF",
+      "dob": "23/02/2001",
+      "age_2026": 25,
+      "caps": 13,
+      "goals": 2
+    },
+    {
+      "name": "ONANA Amadou",
+      "pos": "MF",
+      "dob": "16/08/2001",
+      "age_2026": 25,
+      "caps": 29,
+      "goals": 1
+    },
+    {
+      "name": "NGOY Nathan",
+      "pos": "DF",
+      "dob": "10/06/2003",
+      "age_2026": 23,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "FERNANDEZ-PARDO Matias",
+      "pos": "FW",
+      "dob": "03/02/2005",
+      "age_2026": 21,
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "Bosnia And Herzegovina": [
+    {
+      "name": "VASILJ Nikola",
+      "pos": "GK",
+      "dob": "02/12/1995",
+      "age_2026": 31,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "MUJAKIC Nihad",
+      "pos": "DF",
+      "dob": "15/04/1998",
+      "age_2026": 28,
+      "caps": 12,
+      "goals": 1
+    },
+    {
+      "name": "HADZIKADUNIC Dennis",
+      "pos": "DF",
+      "dob": "09/07/1998",
+      "age_2026": 28,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "MUHAREMOVIC Tarik",
+      "pos": "DF",
+      "dob": "28/02/2003",
+      "age_2026": 23,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "KOLASINAC Sead",
+      "pos": "DF",
+      "dob": "20/06/1993",
+      "age_2026": 33,
+      "caps": 66,
+      "goals": 0
+    },
+    {
+      "name": "TAHIROVIC Benjamin",
+      "pos": "MF",
+      "dob": "03/03/2003",
+      "age_2026": 23,
+      "caps": 29,
+      "goals": 2
+    },
+    {
+      "name": "DEDIC Amar",
+      "pos": "DF",
+      "dob": "18/08/2002",
+      "age_2026": 24,
+      "caps": 29,
+      "goals": 1
+    },
+    {
+      "name": "GIGOVIC Armin",
+      "pos": "MF",
+      "dob": "06/04/2002",
+      "age_2026": 24,
+      "caps": 21,
+      "goals": 1
+    },
+    {
+      "name": "BAZDAR Samed",
+      "pos": "FW",
+      "dob": "31/01/2004",
+      "age_2026": 22,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "DEMIROVIC Ermedin",
+      "pos": "FW",
+      "dob": "25/03/1998",
+      "age_2026": 28,
+      "caps": 41,
+      "goals": 4
+    },
+    {
+      "name": "DZEKO Edin",
+      "pos": "FW",
+      "dob": "17/03/1986",
+      "age_2026": 40,
+      "caps": 148,
+      "goals": 73
+    },
+    {
+      "name": "JURKAS Mladen",
+      "pos": "GK",
+      "dob": "07/10/2007",
+      "age_2026": 19,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "BASIC Ivan",
+      "pos": "MF",
+      "dob": "30/04/2002",
+      "age_2026": 24,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "SUNJIC Ivan",
+      "pos": "MF",
+      "dob": "09/10/1996",
+      "age_2026": 30,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "MEMIC Amar",
+      "pos": "MF",
+      "dob": "20/01/2001",
+      "age_2026": 25,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "HADZIAHMETOVIC Amir",
+      "pos": "MF",
+      "dob": "08/03/1997",
+      "age_2026": 29,
+      "caps": 36,
+      "goals": 0
+    },
+    {
+      "name": "BURNIC Dzenis",
+      "pos": "MF",
+      "dob": "22/05/1998",
+      "age_2026": 28,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "KATIC Nikola",
+      "pos": "DF",
+      "dob": "10/10/1996",
+      "age_2026": 30,
+      "caps": 18,
+      "goals": 2
+    },
+    {
+      "name": "ALAJBEGOVIC Kerim",
+      "pos": "FW",
+      "dob": "21/09/2007",
+      "age_2026": 19,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "BAJRAKTAREVIC Esmir",
+      "pos": "FW",
+      "dob": "10/03/2005",
+      "age_2026": 21,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "RADELJIC Stjepan",
+      "pos": "DF",
+      "dob": "05/09/1997",
+      "age_2026": 29,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "ZLOMISLIC Martin",
+      "pos": "GK",
+      "dob": "16/08/1998",
+      "age_2026": 28,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "TABAKOVIC Haris",
+      "pos": "FW",
+      "dob": "20/06/1994",
+      "age_2026": 32,
+      "caps": 10,
+      "goals": 4
+    },
+    {
+      "name": "MALIC Arjan",
+      "pos": "DF",
+      "dob": "28/08/2005",
+      "age_2026": 21,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "LUKIC Jovo",
+      "pos": "FW",
+      "dob": "28/11/1998",
+      "age_2026": 28,
+      "caps": 4,
+      "goals": 1
+    },
+    {
+      "name": "MAHMIC Ermin",
+      "pos": "MF",
+      "dob": "14/03/2005",
+      "age_2026": 21,
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "Brazil": [
+    {
+      "name": "ALISSON",
+      "pos": "GK",
+      "dob": "02/10/1992",
+      "age_2026": 34,
+      "caps": 78,
+      "goals": 0
+    },
+    {
+      "name": "EDERSON SILVA",
+      "pos": "MF",
+      "dob": "07/07/1999",
+      "age_2026": 27,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "GABRIEL MAGALHAES",
+      "pos": "DF",
+      "dob": "19/12/1997",
+      "age_2026": 29,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "MARQUINHOS",
+      "pos": "DF",
+      "dob": "14/05/1994",
+      "age_2026": 32,
+      "caps": 105,
+      "goals": 7
+    },
+    {
+      "name": "CASEMIRO",
+      "pos": "MF",
+      "dob": "23/02/1992",
+      "age_2026": 34,
+      "caps": 86,
+      "goals": 9
+    },
+    {
+      "name": "ALEX SANDRO",
+      "pos": "DF",
+      "dob": "26/01/1991",
+      "age_2026": 35,
+      "caps": 45,
+      "goals": 2
+    },
+    {
+      "name": "VINICIUS JUNIOR",
+      "pos": "FW",
+      "dob": "12/07/2000",
+      "age_2026": 26,
+      "caps": 49,
+      "goals": 9
+    },
+    {
+      "name": "BRUNO GUIMARAES",
+      "pos": "MF",
+      "dob": "16/11/1997",
+      "age_2026": 29,
+      "caps": 43,
+      "goals": 3
+    },
+    {
+      "name": "MATHEUS CUNHA",
+      "pos": "FW",
+      "dob": "27/05/1999",
+      "age_2026": 27,
+      "caps": 23,
+      "goals": 1
+    },
+    {
+      "name": "NEYMAR JR",
+      "pos": "FW",
+      "dob": "05/02/1992",
+      "age_2026": 34,
+      "caps": 128,
+      "goals": 79
+    },
+    {
+      "name": "RAPHINHA",
+      "pos": "FW",
+      "dob": "14/12/1996",
+      "age_2026": 30,
+      "caps": 39,
+      "goals": 11
+    },
+    {
+      "name": "WEVERTON",
+      "pos": "GK",
+      "dob": "13/12/1987",
+      "age_2026": 39,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "DANILO",
+      "pos": "DF",
+      "dob": "15/07/1991",
+      "age_2026": 35,
+      "caps": 70,
+      "goals": 1
+    },
+    {
+      "name": "BREMER",
+      "pos": "DF",
+      "dob": "18/03/1997",
+      "age_2026": 29,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "LEO PEREIRA",
+      "pos": "DF",
+      "dob": "31/01/1996",
+      "age_2026": 30,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "DOUGLAS SANTOS",
+      "pos": "DF",
+      "dob": "22/03/1994",
+      "age_2026": 32,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "FABINHO",
+      "pos": "MF",
+      "dob": "23/10/1993",
+      "age_2026": 33,
+      "caps": 33,
+      "goals": 0
+    },
+    {
+      "name": "DANILO SANTOS",
+      "pos": "MF",
+      "dob": "29/04/2001",
+      "age_2026": 25,
+      "caps": 4,
+      "goals": 2
+    },
+    {
+      "name": "ENDRICK",
+      "pos": "FW",
+      "dob": "21/07/2006",
+      "age_2026": 20,
+      "caps": 17,
+      "goals": 4
+    },
+    {
+      "name": "LUCAS PAQUETA",
+      "pos": "MF",
+      "dob": "27/08/1997",
+      "age_2026": 29,
+      "caps": 63,
+      "goals": 13
+    },
+    {
+      "name": "LUIZ HENRIQUE",
+      "pos": "FW",
+      "dob": "02/01/2001",
+      "age_2026": 25,
+      "caps": 15,
+      "goals": 2
+    },
+    {
+      "name": "GABRIEL MARTINELLI",
+      "pos": "FW",
+      "dob": "18/06/2001",
+      "age_2026": 25,
+      "caps": 23,
+      "goals": 4
+    },
+    {
+      "name": "EDERSON",
+      "pos": "GK",
+      "dob": "17/08/1993",
+      "age_2026": 33,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "ROGER IBANEZ",
+      "pos": "DF",
+      "dob": "23/11/1998",
+      "age_2026": 28,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "IGOR THIAGO",
+      "pos": "FW",
+      "dob": "26/06/2001",
+      "age_2026": 25,
+      "caps": 4,
+      "goals": 2
+    },
+    {
+      "name": "RAYAN",
+      "pos": "FW",
+      "dob": "03/08/2006",
+      "age_2026": 20,
+      "caps": 2,
+      "goals": 1
+    }
+  ],
+  "Cabo Verde": [
+    {
+      "name": "VOZINHA",
+      "pos": "GK",
+      "dob": "03/06/1986",
+      "age_2026": 40,
+      "caps": 90,
+      "goals": 0
+    },
+    {
+      "name": "STOPIRA",
+      "pos": "DF",
+      "dob": "20/05/1988",
+      "age_2026": 38,
+      "caps": 61,
+      "goals": 4
+    },
+    {
+      "name": "DINEY BORGES",
+      "pos": "DF",
+      "dob": "17/01/1995",
+      "age_2026": 31,
+      "caps": 32,
+      "goals": 2
+    },
+    {
+      "name": "PICO LOPES",
+      "pos": "DF",
+      "dob": "17/06/1992",
+      "age_2026": 34,
+      "caps": 45,
+      "goals": 0
+    },
+    {
+      "name": "LOGAN COSTA",
+      "pos": "DF",
+      "dob": "01/04/2001",
+      "age_2026": 25,
+      "caps": 28,
+      "goals": 0
+    },
+    {
+      "name": "KEVIN PINA",
+      "pos": "MF",
+      "dob": "27/01/1997",
+      "age_2026": 29,
+      "caps": 31,
+      "goals": 3
+    },
+    {
+      "name": "JOVANE CABRAL",
+      "pos": "MF",
+      "dob": "14/06/1998",
+      "age_2026": 28,
+      "caps": 29,
+      "goals": 3
+    },
+    {
+      "name": "JOAO PAULO",
+      "pos": "MF",
+      "dob": "26/05/1998",
+      "age_2026": 28,
+      "caps": 41,
+      "goals": 1
+    },
+    {
+      "name": "GILSON BENCHIMOL",
+      "pos": "FW",
+      "dob": "29/12/2001",
+      "age_2026": 25,
+      "caps": 21,
+      "goals": 6
+    },
+    {
+      "name": "JAMIRO MONTEIRO",
+      "pos": "MF",
+      "dob": "23/11/1993",
+      "age_2026": 33,
+      "caps": 55,
+      "goals": 5
+    },
+    {
+      "name": "GARRY RODRIGUES",
+      "pos": "MF",
+      "dob": "27/11/1990",
+      "age_2026": 36,
+      "caps": 61,
+      "goals": 10
+    },
+    {
+      "name": "MARCIO ROSA",
+      "pos": "GK",
+      "dob": "23/02/1997",
+      "age_2026": 29,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "SIDNY LOPES CABRAL",
+      "pos": "DF",
+      "dob": "18/09/2002",
+      "age_2026": 24,
+      "caps": 11,
+      "goals": 3
+    },
+    {
+      "name": "DEROY DUARTE",
+      "pos": "MF",
+      "dob": "04/07/1999",
+      "age_2026": 27,
+      "caps": 33,
+      "goals": 0
+    },
+    {
+      "name": "LAROS DUARTE",
+      "pos": "MF",
+      "dob": "28/02/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "YANNICK SEMEDO",
+      "pos": "MF",
+      "dob": "29/12/1995",
+      "age_2026": 31,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "WILLY SEMEDO",
+      "pos": "MF",
+      "dob": "27/04/1994",
+      "age_2026": 32,
+      "caps": 38,
+      "goals": 3
+    },
+    {
+      "name": "TELMO ARCANJO",
+      "pos": "MF",
+      "dob": "21/06/2001",
+      "age_2026": 25,
+      "caps": 16,
+      "goals": 1
+    },
+    {
+      "name": "DAILON LIVRAMENTO",
+      "pos": "FW",
+      "dob": "04/05/2001",
+      "age_2026": 25,
+      "caps": 22,
+      "goals": 7
+    },
+    {
+      "name": "RYAN MENDES",
+      "pos": "FW",
+      "dob": "08/01/1990",
+      "age_2026": 36,
+      "caps": 98,
+      "goals": 22
+    },
+    {
+      "name": "NUNO DA COSTA",
+      "pos": "MF",
+      "dob": "10/02/1991",
+      "age_2026": 35,
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "name": "STEVEN MOREIRA",
+      "pos": "DF",
+      "dob": "13/08/1994",
+      "age_2026": 32,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "CJ DOS SANTOS",
+      "pos": "GK",
+      "dob": "24/08/2000",
+      "age_2026": 26,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "WAGNER PINA",
+      "pos": "DF",
+      "dob": "03/11/2002",
+      "age_2026": 24,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "KELVIN PIRES",
+      "pos": "DF",
+      "dob": "05/06/2000",
+      "age_2026": 26,
+      "caps": 6,
+      "goals": 1
+    },
+    {
+      "name": "HELIO VARELA",
+      "pos": "MF",
+      "dob": "03/05/2002",
+      "age_2026": 24,
+      "caps": 21,
+      "goals": 0
+    }
+  ],
+  "Canada": [
+    {
+      "name": "ST. CLAIR Dayne",
+      "pos": "GK",
+      "dob": "09/05/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "JOHNSTON Alistair",
+      "pos": "DF",
+      "dob": "08/10/1998",
+      "age_2026": 28,
+      "caps": 59,
+      "goals": 1
+    },
+    {
+      "name": "JONES Al\u0000e",
+      "pos": "DF",
+      "dob": "07/10/1997",
+      "age_2026": 29,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "DE FOUGEROLLES Luc",
+      "pos": "DF",
+      "dob": "12/10/2005",
+      "age_2026": 21,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "WATERMAN Joel",
+      "pos": "DF",
+      "dob": "24/01/1996",
+      "age_2026": 30,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "CHOINIERE Mathieu",
+      "pos": "MF",
+      "dob": "07/02/1999",
+      "age_2026": 27,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "EUSTAQUIO Stephen",
+      "pos": "MF",
+      "dob": "21/12/1996",
+      "age_2026": 30,
+      "caps": 57,
+      "goals": 4
+    },
+    {
+      "name": "KONE Ismael",
+      "pos": "MF",
+      "dob": "16/06/2002",
+      "age_2026": 24,
+      "caps": 41,
+      "goals": 4
+    },
+    {
+      "name": "LARIN Cyle",
+      "pos": "FW",
+      "dob": "17/04/1995",
+      "age_2026": 31,
+      "caps": 91,
+      "goals": 31
+    },
+    {
+      "name": "DAVID Jonathan",
+      "pos": "FW",
+      "dob": "14/01/2000",
+      "age_2026": 26,
+      "caps": 78,
+      "goals": 39
+    },
+    {
+      "name": "MILLAR Liam",
+      "pos": "MF",
+      "dob": "27/09/1999",
+      "age_2026": 27,
+      "caps": 42,
+      "goals": 1
+    },
+    {
+      "name": "OLUWASEYI Tani",
+      "pos": "FW",
+      "dob": "15/05/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 2
+    },
+    {
+      "name": "CORNELIUS Derek",
+      "pos": "DF",
+      "dob": "25/11/1997",
+      "age_2026": 29,
+      "caps": 45,
+      "goals": 1
+    },
+    {
+      "name": "SHAFFELBURG Jacob",
+      "pos": "MF",
+      "dob": "26/11/1999",
+      "age_2026": 27,
+      "caps": 32,
+      "goals": 6
+    },
+    {
+      "name": "BOMBITO Moise",
+      "pos": "DF",
+      "dob": "30/03/2000",
+      "age_2026": 26,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "CREPEAU Maxime",
+      "pos": "GK",
+      "dob": "11/05/1994",
+      "age_2026": 32,
+      "caps": 33,
+      "goals": 0
+    },
+    {
+      "name": "BUCHANAN Tajon",
+      "pos": "FW",
+      "dob": "08/02/1999",
+      "age_2026": 27,
+      "caps": 61,
+      "goals": 8
+    },
+    {
+      "name": "GOODMAN Owen",
+      "pos": "GK",
+      "dob": "27/11/2003",
+      "age_2026": 23,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "DAVIES Alphonso",
+      "pos": "DF",
+      "dob": "02/11/2000",
+      "age_2026": 26,
+      "caps": 58,
+      "goals": 15
+    },
+    {
+      "name": "AHMED Ali",
+      "pos": "FW",
+      "dob": "10/10/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 1
+    },
+    {
+      "name": "OSORIO Jonathan",
+      "pos": "MF",
+      "dob": "12/06/1992",
+      "age_2026": 34,
+      "caps": 92,
+      "goals": 10
+    },
+    {
+      "name": "LARYEA Richie",
+      "pos": "DF",
+      "dob": "07/01/1995",
+      "age_2026": 31,
+      "caps": 77,
+      "goals": 1
+    },
+    {
+      "name": "SIGUR Niko",
+      "pos": "DF",
+      "dob": "09/09/2003",
+      "age_2026": 23,
+      "caps": 19,
+      "goals": 2
+    },
+    {
+      "name": "DAVID Promise",
+      "pos": "FW",
+      "dob": "03/07/2001",
+      "age_2026": 25,
+      "caps": 11,
+      "goals": 3
+    },
+    {
+      "name": "SALIBA Nathan",
+      "pos": "MF",
+      "dob": "07/02/2004",
+      "age_2026": 22,
+      "caps": 15,
+      "goals": 2
+    },
+    {
+      "name": "NELSON Jayden",
+      "pos": "FW",
+      "dob": "26/09/2002",
+      "age_2026": 24,
+      "caps": 15,
+      "goals": 2
+    }
+  ],
+  "Colombia": [
+    {
+      "name": "OSPINA David",
+      "pos": "GK",
+      "dob": "31/08/1988",
+      "age_2026": 38,
+      "caps": 130,
+      "goals": 0
+    },
+    {
+      "name": "MUNOZ Daniel",
+      "pos": "DF",
+      "dob": "26/05/1996",
+      "age_2026": 30,
+      "caps": 46,
+      "goals": 3
+    },
+    {
+      "name": "LUCUMI Jhon",
+      "pos": "DF",
+      "dob": "26/06/1998",
+      "age_2026": 28,
+      "caps": 37,
+      "goals": 1
+    },
+    {
+      "name": "ARIAS Santiago",
+      "pos": "DF",
+      "dob": "13/01/1992",
+      "age_2026": 34,
+      "caps": 68,
+      "goals": 0
+    },
+    {
+      "name": "CASTANO Kevin",
+      "pos": "MF",
+      "dob": "29/09/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 0
+    },
+    {
+      "name": "RIOS Richard",
+      "pos": "MF",
+      "dob": "02/06/2000",
+      "age_2026": 26,
+      "caps": 32,
+      "goals": 2
+    },
+    {
+      "name": "DIAZ Luis",
+      "pos": "FW",
+      "dob": "13/01/1997",
+      "age_2026": 29,
+      "caps": 74,
+      "goals": 22
+    },
+    {
+      "name": "CARRASCAL Jorge",
+      "pos": "MF",
+      "dob": "25/05/1998",
+      "age_2026": 28,
+      "caps": 25,
+      "goals": 2
+    },
+    {
+      "name": "CORDOBA Jhon",
+      "pos": "FW",
+      "dob": "11/05/1993",
+      "age_2026": 33,
+      "caps": 21,
+      "goals": 6
+    },
+    {
+      "name": "RODRIGUEZ James",
+      "pos": "MF",
+      "dob": "12/07/1991",
+      "age_2026": 35,
+      "caps": 126,
+      "goals": 31
+    },
+    {
+      "name": "ARIAS Jhon",
+      "pos": "MF",
+      "dob": "21/09/1997",
+      "age_2026": 29,
+      "caps": 38,
+      "goals": 6
+    },
+    {
+      "name": "VARGAS Camilo",
+      "pos": "GK",
+      "dob": "09/03/1989",
+      "age_2026": 37,
+      "caps": 42,
+      "goals": 0
+    },
+    {
+      "name": "MINA Yerry",
+      "pos": "DF",
+      "dob": "23/09/1994",
+      "age_2026": 32,
+      "caps": 54,
+      "goals": 8
+    },
+    {
+      "name": "PUERTA Gustavo",
+      "pos": "DF",
+      "dob": "23/07/2003",
+      "age_2026": 23,
+      "caps": 6,
+      "goals": 1
+    },
+    {
+      "name": "PORTILLA Juan",
+      "pos": "MF",
+      "dob": "12/09/1998",
+      "age_2026": 28,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "LERMA Jefferson",
+      "pos": "MF",
+      "dob": "25/10/1994",
+      "age_2026": 32,
+      "caps": 65,
+      "goals": 5
+    },
+    {
+      "name": "MOJICA Johan",
+      "pos": "DF",
+      "dob": "21/08/1992",
+      "age_2026": 34,
+      "caps": 45,
+      "goals": 1
+    },
+    {
+      "name": "DITTA Willer",
+      "pos": "DF",
+      "dob": "23/01/1998",
+      "age_2026": 28,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "HERNANDEZ Cucho",
+      "pos": "FW",
+      "dob": "20/04/1999",
+      "age_2026": 27,
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "name": "QUINTERO Juan",
+      "pos": "MF",
+      "dob": "18/01/1993",
+      "age_2026": 33,
+      "caps": 49,
+      "goals": 6
+    },
+    {
+      "name": "CAMPAZ Jaminton",
+      "pos": "FW",
+      "dob": "24/05/2000",
+      "age_2026": 26,
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "name": "MACHADO Deiver",
+      "pos": "DF",
+      "dob": "02/09/1993",
+      "age_2026": 33,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "SANCHEZ Davinson",
+      "pos": "DF",
+      "dob": "12/06/1996",
+      "age_2026": 30,
+      "caps": 79,
+      "goals": 4
+    },
+    {
+      "name": "MONTERO Alvaro",
+      "pos": "GK",
+      "dob": "29/03/1995",
+      "age_2026": 31,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "SUAREZ Luis",
+      "pos": "FW",
+      "dob": "02/12/1997",
+      "age_2026": 29,
+      "caps": 12,
+      "goals": 5
+    },
+    {
+      "name": "GOMEZ Andres",
+      "pos": "FW",
+      "dob": "12/09/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 2
+    }
+  ],
+  "Congo DR": [
+    {
+      "name": "MPASI Lionel",
+      "pos": "GK",
+      "dob": "01/08/1994",
+      "age_2026": 32,
+      "caps": 28,
+      "goals": 0
+    },
+    {
+      "name": "WAN-BISSAKA Aaron",
+      "pos": "DF",
+      "dob": "26/11/1997",
+      "age_2026": 29,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "KAPUADI Steve",
+      "pos": "DF",
+      "dob": "30/04/1998",
+      "age_2026": 28,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "TUANZEBE Axel",
+      "pos": "DF",
+      "dob": "14/11/1997",
+      "age_2026": 29,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "BATUBINSIKA Dylan",
+      "pos": "DF",
+      "dob": "15/02/1996",
+      "age_2026": 30,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "MUKAU Ngalayel",
+      "pos": "MF",
+      "dob": "03/11/2004",
+      "age_2026": 22,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "MBUKU Nathanael",
+      "pos": "MF",
+      "dob": "16/03/2002",
+      "age_2026": 24,
+      "caps": 19,
+      "goals": 2
+    },
+    {
+      "name": "MOUTOUSSAMY Samuel",
+      "pos": "MF",
+      "dob": "12/08/1996",
+      "age_2026": 30,
+      "caps": 58,
+      "goals": 0
+    },
+    {
+      "name": "CIPENGA Brian",
+      "pos": "FW",
+      "dob": "11/03/1998",
+      "age_2026": 28,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "BONGONDA Theo",
+      "pos": "MF",
+      "dob": "20/11/1995",
+      "age_2026": 31,
+      "caps": 38,
+      "goals": 7
+    },
+    {
+      "name": "KAKUTA Gael",
+      "pos": "FW",
+      "dob": "21/06/1991",
+      "age_2026": 35,
+      "caps": 31,
+      "goals": 5
+    },
+    {
+      "name": "KAYEMBE Joris",
+      "pos": "DF",
+      "dob": "08/08/1994",
+      "age_2026": 32,
+      "caps": 26,
+      "goals": 1
+    },
+    {
+      "name": "ELIA Meschack",
+      "pos": "FW",
+      "dob": "06/08/1997",
+      "age_2026": 29,
+      "caps": 68,
+      "goals": 12
+    },
+    {
+      "name": "SADIKI Noah",
+      "pos": "MF",
+      "dob": "17/12/2004",
+      "age_2026": 22,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "TSHIBOLA Aaron",
+      "pos": "MF",
+      "dob": "02/01/1995",
+      "age_2026": 31,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "FAYULU Timothy",
+      "pos": "GK",
+      "dob": "24/07/1999",
+      "age_2026": 27,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "BAKAMBU Cedric",
+      "pos": "FW",
+      "dob": "11/04/1991",
+      "age_2026": 35,
+      "caps": 70,
+      "goals": 21
+    },
+    {
+      "name": "PICKEL Charles",
+      "pos": "MF",
+      "dob": "15/05/1997",
+      "age_2026": 29,
+      "caps": 34,
+      "goals": 1
+    },
+    {
+      "name": "MAYELE Fiston",
+      "pos": "FW",
+      "dob": "24/06/1994",
+      "age_2026": 32,
+      "caps": 36,
+      "goals": 5
+    },
+    {
+      "name": "WISSA Yoane",
+      "pos": "FW",
+      "dob": "03/09/1996",
+      "age_2026": 30,
+      "caps": 38,
+      "goals": 8
+    },
+    {
+      "name": "EPOLO Matthieu",
+      "pos": "GK",
+      "dob": "15/01/2005",
+      "age_2026": 21,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "MBEMBA Chancel",
+      "pos": "DF",
+      "dob": "08/08/1994",
+      "age_2026": 32,
+      "caps": 109,
+      "goals": 7
+    },
+    {
+      "name": "BANZA Simon",
+      "pos": "FW",
+      "dob": "13/08/1996",
+      "age_2026": 30,
+      "caps": 15,
+      "goals": 2
+    },
+    {
+      "name": "KALULU Gedeon",
+      "pos": "DF",
+      "dob": "29/08/1997",
+      "age_2026": 29,
+      "caps": 28,
+      "goals": 0
+    },
+    {
+      "name": "KAYEMBE Edo",
+      "pos": "MF",
+      "dob": "03/06/1998",
+      "age_2026": 28,
+      "caps": 42,
+      "goals": 2
+    },
+    {
+      "name": "MASUAKU Arthur",
+      "pos": "DF",
+      "dob": "07/11/1993",
+      "age_2026": 33,
+      "caps": 44,
+      "goals": 4
+    }
+  ],
+  "Ivoire": [
+    {
+      "name": "FOFANA Yahia",
+      "pos": "GK",
+      "dob": "21/08/2000",
+      "age_2026": 26,
+      "caps": 36,
+      "goals": 0
+    },
+    {
+      "name": "DIOMANDE Ousmane",
+      "pos": "DF",
+      "dob": "04/12/2003",
+      "age_2026": 23,
+      "caps": 16,
+      "goals": 1
+    },
+    {
+      "name": "KONAN Ghislain",
+      "pos": "DF",
+      "dob": "27/12/1995",
+      "age_2026": 31,
+      "caps": 54,
+      "goals": 0
+    },
+    {
+      "name": "SERI Jean Michael",
+      "pos": "MF",
+      "dob": "19/07/1991",
+      "age_2026": 35,
+      "caps": 65,
+      "goals": 4
+    },
+    {
+      "name": "SINGO Wilfried",
+      "pos": "DF",
+      "dob": "25/12/2000",
+      "age_2026": 26,
+      "caps": 35,
+      "goals": 1
+    },
+    {
+      "name": "FOFANA Seko",
+      "pos": "MF",
+      "dob": "07/05/1995",
+      "age_2026": 31,
+      "caps": 32,
+      "goals": 7
+    },
+    {
+      "name": "KOSSOUNOU Odilon",
+      "pos": "DF",
+      "dob": "04/01/2001",
+      "age_2026": 25,
+      "caps": 36,
+      "goals": 0
+    },
+    {
+      "name": "KESSIE Franck",
+      "pos": "MF",
+      "dob": "19/12/1996",
+      "age_2026": 30,
+      "caps": 104,
+      "goals": 15
+    },
+    {
+      "name": "BONNY Ange-Yoan",
+      "pos": "FW",
+      "dob": "25/10/2003",
+      "age_2026": 23,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "ADINGRA Simon",
+      "pos": "FW",
+      "dob": "01/01/2002",
+      "age_2026": 24,
+      "caps": 29,
+      "goals": 5
+    },
+    {
+      "name": "DIOMANDE Yan",
+      "pos": "FW",
+      "dob": "14/11/2006",
+      "age_2026": 20,
+      "caps": 10,
+      "goals": 3
+    },
+    {
+      "name": "WAHI Elye",
+      "pos": "FW",
+      "dob": "02/01/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "OPERI Christopher",
+      "pos": "DF",
+      "dob": "29/04/1997",
+      "age_2026": 29,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "DIAKITE Oumar",
+      "pos": "FW",
+      "dob": "20/12/2003",
+      "age_2026": 23,
+      "caps": 29,
+      "goals": 6
+    },
+    {
+      "name": "DIALLO Amad",
+      "pos": "FW",
+      "dob": "11/07/2002",
+      "age_2026": 24,
+      "caps": 19,
+      "goals": 6
+    },
+    {
+      "name": "KONE Mohamed",
+      "pos": "GK",
+      "dob": "07/03/2002",
+      "age_2026": 24,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "DOUE Guela",
+      "pos": "DF",
+      "dob": "17/10/2002",
+      "age_2026": 24,
+      "caps": 20,
+      "goals": 3
+    },
+    {
+      "name": "SANGARE Ibrahim",
+      "pos": "MF",
+      "dob": "02/12/1997",
+      "age_2026": 29,
+      "caps": 55,
+      "goals": 11
+    },
+    {
+      "name": "PEPE Nicolas",
+      "pos": "FW",
+      "dob": "29/05/1995",
+      "age_2026": 31,
+      "caps": 56,
+      "goals": 12
+    },
+    {
+      "name": "AGBADOU Emmanuel",
+      "pos": "DF",
+      "dob": "17/06/1997",
+      "age_2026": 29,
+      "caps": 21,
+      "goals": 2
+    },
+    {
+      "name": "NDICKA Evan",
+      "pos": "DF",
+      "dob": "20/08/1999",
+      "age_2026": 27,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "GUESSAND Evann",
+      "pos": "FW",
+      "dob": "01/07/2001",
+      "age_2026": 25,
+      "caps": 21,
+      "goals": 4
+    },
+    {
+      "name": "LAFONT Alban",
+      "pos": "GK",
+      "dob": "23/01/1999",
+      "age_2026": 27,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "TOURE Bazoumana",
+      "pos": "FW",
+      "dob": "02/03/2006",
+      "age_2026": 20,
+      "caps": 6,
+      "goals": 2
+    },
+    {
+      "name": "GUIAGON Parfait",
+      "pos": "MF",
+      "dob": "22/02/2001",
+      "age_2026": 25,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "OULAI Christ Inao",
+      "pos": "MF",
+      "dob": "06/04/2006",
+      "age_2026": 20,
+      "caps": 9,
+      "goals": 0
+    }
+  ],
+  "Croatia": [
+    {
+      "name": "LIVAKOVIC Dominik",
+      "pos": "GK",
+      "dob": "09/01/1995",
+      "age_2026": 31,
+      "caps": 75,
+      "goals": 0
+    },
+    {
+      "name": "STANISIC Josip",
+      "pos": "DF",
+      "dob": "02/04/2000",
+      "age_2026": 26,
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "name": "PONGRACIC Marin",
+      "pos": "DF",
+      "dob": "11/09/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "GVARDIOL Josko",
+      "pos": "DF",
+      "dob": "23/01/2002",
+      "age_2026": 24,
+      "caps": 48,
+      "goals": 4
+    },
+    {
+      "name": "CALETA-CAR Duje",
+      "pos": "DF",
+      "dob": "17/09/1996",
+      "age_2026": 30,
+      "caps": 38,
+      "goals": 1
+    },
+    {
+      "name": "SUTALO Josip",
+      "pos": "DF",
+      "dob": "28/02/2000",
+      "age_2026": 26,
+      "caps": 33,
+      "goals": 0
+    },
+    {
+      "name": "MORO Nikola",
+      "pos": "MF",
+      "dob": "12/03/1998",
+      "age_2026": 28,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "KOVACIC Mateo",
+      "pos": "MF",
+      "dob": "06/05/1994",
+      "age_2026": 32,
+      "caps": 113,
+      "goals": 5
+    },
+    {
+      "name": "KRAMARIC Andrej",
+      "pos": "FW",
+      "dob": "19/06/1991",
+      "age_2026": 35,
+      "caps": 116,
+      "goals": 36
+    },
+    {
+      "name": "MODRIC Luka",
+      "pos": "MF",
+      "dob": "09/09/1985",
+      "age_2026": 41,
+      "caps": 198,
+      "goals": 29
+    },
+    {
+      "name": "BUDIMIR Ante",
+      "pos": "FW",
+      "dob": "22/07/1991",
+      "age_2026": 35,
+      "caps": 38,
+      "goals": 6
+    },
+    {
+      "name": "PANDUR Ivor",
+      "pos": "GK",
+      "dob": "25/03/2000",
+      "age_2026": 26,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "VLASIC Nikola",
+      "pos": "MF",
+      "dob": "04/10/1997",
+      "age_2026": 29,
+      "caps": 63,
+      "goals": 10
+    },
+    {
+      "name": "PERISIC Ivan",
+      "pos": "FW",
+      "dob": "02/02/1989",
+      "age_2026": 37,
+      "caps": 154,
+      "goals": 38
+    },
+    {
+      "name": "PASALIC Mario",
+      "pos": "MF",
+      "dob": "09/02/1995",
+      "age_2026": 31,
+      "caps": 85,
+      "goals": 12
+    },
+    {
+      "name": "BATURINA Martin",
+      "pos": "MF",
+      "dob": "16/02/2003",
+      "age_2026": 23,
+      "caps": 19,
+      "goals": 1
+    },
+    {
+      "name": "SUCIC Petar",
+      "pos": "MF",
+      "dob": "25/10/2003",
+      "age_2026": 23,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "JAKIC Kristijan",
+      "pos": "DF",
+      "dob": "14/05/1997",
+      "age_2026": 29,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "FRUK Toni",
+      "pos": "MF",
+      "dob": "09/03/2001",
+      "age_2026": 25,
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "name": "MATANOVIC Igor",
+      "pos": "FW",
+      "dob": "31/03/2003",
+      "age_2026": 23,
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "name": "SUCIC Luka",
+      "pos": "MF",
+      "dob": "08/09/2002",
+      "age_2026": 24,
+      "caps": 21,
+      "goals": 1
+    },
+    {
+      "name": "VUSKOVIC Luka",
+      "pos": "DF",
+      "dob": "24/02/2007",
+      "age_2026": 19,
+      "caps": 5,
+      "goals": 1
+    },
+    {
+      "name": "KOTARSKI Dominik",
+      "pos": "GK",
+      "dob": "10/02/2000",
+      "age_2026": 26,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "PASALIC Marco",
+      "pos": "FW",
+      "dob": "14/09/2000",
+      "age_2026": 26,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "ERLIC Martin",
+      "pos": "DF",
+      "dob": "24/01/1998",
+      "age_2026": 28,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "MUSA Petar",
+      "pos": "FW",
+      "dob": "04/03/1998",
+      "age_2026": 28,
+      "caps": 11,
+      "goals": 1
+    }
+  ],
+  "ao": [
+    {
+      "name": "ROOM Eloy",
+      "pos": "GK",
+      "dob": "06/02/1989",
+      "age_2026": 37,
+      "caps": 72,
+      "goals": 0
+    },
+    {
+      "name": "SAMBO Shurandy",
+      "pos": "DF",
+      "dob": "19/08/2001",
+      "age_2026": 25,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "GAARI Jurien",
+      "pos": "DF",
+      "dob": "23/12/1993",
+      "age_2026": 33,
+      "caps": 60,
+      "goals": 1
+    },
+    {
+      "name": "VAN EIJMA Roshon",
+      "pos": "DF",
+      "dob": "09/06/1998",
+      "age_2026": 28,
+      "caps": 28,
+      "goals": 1
+    },
+    {
+      "name": "FLORANUS Sherel",
+      "pos": "DF",
+      "dob": "23/08/1998",
+      "age_2026": 28,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "ROEMERATOE Godfried",
+      "pos": "MF",
+      "dob": "19/08/1999",
+      "age_2026": 27,
+      "caps": 29,
+      "goals": 1
+    },
+    {
+      "name": "BACUNA Juninho",
+      "pos": "MF",
+      "dob": "07/08/1997",
+      "age_2026": 29,
+      "caps": 50,
+      "goals": 14
+    },
+    {
+      "name": "COMENENCIA Livano",
+      "pos": "MF",
+      "dob": "03/02/2004",
+      "age_2026": 22,
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "name": "LOCADIA Juergen",
+      "pos": "FW",
+      "dob": "07/11/1993",
+      "age_2026": 33,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "BACUNA Leandro",
+      "pos": "MF",
+      "dob": "21/08/1991",
+      "age_2026": 35,
+      "caps": 72,
+      "goals": 16
+    },
+    {
+      "name": "ANTONISSE Jeremy",
+      "pos": "FW",
+      "dob": "29/03/2002",
+      "age_2026": 24,
+      "caps": 27,
+      "goals": 4
+    },
+    {
+      "name": "HANSEN Sontje",
+      "pos": "FW",
+      "dob": "18/05/2002",
+      "age_2026": 24,
+      "caps": 6,
+      "goals": 1
+    },
+    {
+      "name": "NOSLIN Tyrese",
+      "pos": "FW",
+      "dob": "11/09/2002",
+      "age_2026": 24,
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "name": "GORRE Kenji",
+      "pos": "FW",
+      "dob": "29/09/1994",
+      "age_2026": 32,
+      "caps": 38,
+      "goals": 6
+    },
+    {
+      "name": "MARTHA Arjany",
+      "pos": "MF",
+      "dob": "04/09/2003",
+      "age_2026": 23,
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "name": "MARGARITHA Jearl",
+      "pos": "FW",
+      "dob": "10/04/2000",
+      "age_2026": 26,
+      "caps": 22,
+      "goals": 5
+    },
+    {
+      "name": "KUWAS Brandley",
+      "pos": "FW",
+      "dob": "19/09/1992",
+      "age_2026": 34,
+      "caps": 36,
+      "goals": 2
+    },
+    {
+      "name": "OBISPO Armando",
+      "pos": "DF",
+      "dob": "05/03/1999",
+      "age_2026": 27,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "KASTANEER Gervane",
+      "pos": "FW",
+      "dob": "09/06/1996",
+      "age_2026": 30,
+      "caps": 29,
+      "goals": 9
+    },
+    {
+      "name": "BRENET Joshua",
+      "pos": "DF",
+      "dob": "20/03/1994",
+      "age_2026": 32,
+      "caps": 18,
+      "goals": 2
+    },
+    {
+      "name": "CHONG Tahith",
+      "pos": "MF",
+      "dob": "04/12/1999",
+      "age_2026": 27,
+      "caps": 6,
+      "goals": 3
+    },
+    {
+      "name": "FELIDA Kevin",
+      "pos": "MF",
+      "dob": "11/11/1999",
+      "age_2026": 27,
+      "caps": 19,
+      "goals": 1
+    },
+    {
+      "name": "BAZOER Riechedly",
+      "pos": "DF",
+      "dob": "12/10/1996",
+      "age_2026": 30,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "FONVILLE Deveron",
+      "pos": "DF",
+      "dob": "16/05/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "BODAK Tyrick",
+      "pos": "GK",
+      "dob": "15/05/2002",
+      "age_2026": 24,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "DOORNBUSCH Trevor",
+      "pos": "GK",
+      "dob": "06/07/1999",
+      "age_2026": 27,
+      "caps": 8,
+      "goals": 0
+    }
+  ],
+  "Czechia": [
+    {
+      "name": "KOVAR Matej",
+      "pos": "GK",
+      "dob": "17/05/2000",
+      "age_2026": 26,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "ZIMA David",
+      "pos": "DF",
+      "dob": "08/11/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 1
+    },
+    {
+      "name": "HOLES Tomas",
+      "pos": "DF",
+      "dob": "31/03/1993",
+      "age_2026": 33,
+      "caps": 41,
+      "goals": 2
+    },
+    {
+      "name": "HRANAC Robin",
+      "pos": "DF",
+      "dob": "29/01/2000",
+      "age_2026": 26,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "COUFAL Vladimir",
+      "pos": "DF",
+      "dob": "22/08/1992",
+      "age_2026": 34,
+      "caps": 63,
+      "goals": 2
+    },
+    {
+      "name": "CHALOUPEK Stepan",
+      "pos": "DF",
+      "dob": "08/03/2003",
+      "age_2026": 23,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "KREJCI Ladislav",
+      "pos": "DF",
+      "dob": "20/04/1999",
+      "age_2026": 27,
+      "caps": 28,
+      "goals": 6
+    },
+    {
+      "name": "DARIDA Vladimir",
+      "pos": "MF",
+      "dob": "08/08/1990",
+      "age_2026": 36,
+      "caps": 79,
+      "goals": 8
+    },
+    {
+      "name": "HLOZEK Adam",
+      "pos": "FW",
+      "dob": "25/07/2002",
+      "age_2026": 24,
+      "caps": 44,
+      "goals": 5
+    },
+    {
+      "name": "SCHICK Patrik",
+      "pos": "FW",
+      "dob": "24/01/1996",
+      "age_2026": 30,
+      "caps": 54,
+      "goals": 26
+    },
+    {
+      "name": "KUCHTA Jan",
+      "pos": "FW",
+      "dob": "08/01/1997",
+      "age_2026": 29,
+      "caps": 31,
+      "goals": 3
+    },
+    {
+      "name": "CERV Lukas",
+      "pos": "MF",
+      "dob": "10/04/2001",
+      "age_2026": 25,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "CHYTIL Mojmir",
+      "pos": "FW",
+      "dob": "29/04/1999",
+      "age_2026": 27,
+      "caps": 23,
+      "goals": 6
+    },
+    {
+      "name": "JURASEK David",
+      "pos": "DF",
+      "dob": "07/08/2000",
+      "age_2026": 26,
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "name": "SULC Pavel",
+      "pos": "FW",
+      "dob": "29/12/2000",
+      "age_2026": 26,
+      "caps": 22,
+      "goals": 5
+    },
+    {
+      "name": "STANEK Jindrich",
+      "pos": "GK",
+      "dob": "27/04/1996",
+      "age_2026": 30,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "PROVOD Lukas",
+      "pos": "MF",
+      "dob": "23/10/1996",
+      "age_2026": 30,
+      "caps": 39,
+      "goals": 3
+    },
+    {
+      "name": "SADILEK Michal",
+      "pos": "MF",
+      "dob": "31/05/1999",
+      "age_2026": 27,
+      "caps": 36,
+      "goals": 1
+    },
+    {
+      "name": "CHORY Tomas",
+      "pos": "FW",
+      "dob": "26/01/1995",
+      "age_2026": 31,
+      "caps": 23,
+      "goals": 7
+    },
+    {
+      "name": "ZELENY Jaroslav",
+      "pos": "DF",
+      "dob": "20/08/1992",
+      "age_2026": 34,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "DOUDERA David",
+      "pos": "DF",
+      "dob": "31/05/1998",
+      "age_2026": 28,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "SOUCEK Tomas",
+      "pos": "MF",
+      "dob": "27/02/1995",
+      "age_2026": 31,
+      "caps": 91,
+      "goals": 17
+    },
+    {
+      "name": "HORNICEK Lukas",
+      "pos": "GK",
+      "dob": "13/07/2002",
+      "age_2026": 24,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "SOJKA Alexandr",
+      "pos": "MF",
+      "dob": "02/04/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "SOCHUREK Hugo",
+      "pos": "MF",
+      "dob": "07/06/2008",
+      "age_2026": 18,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "VISINSKY Denis",
+      "pos": "FW",
+      "dob": "21/03/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 1
+    }
+  ],
+  "Ecuador": [
+    {
+      "name": "GALINDEZ Hernan",
+      "pos": "GK",
+      "dob": "30/03/1987",
+      "age_2026": 39,
+      "caps": 35,
+      "goals": 0
+    },
+    {
+      "name": "TORRES Felix",
+      "pos": "DF",
+      "dob": "11/01/1997",
+      "age_2026": 29,
+      "caps": 49,
+      "goals": 5
+    },
+    {
+      "name": "HINCAPIE Piero",
+      "pos": "DF",
+      "dob": "09/01/2002",
+      "age_2026": 24,
+      "caps": 52,
+      "goals": 2
+    },
+    {
+      "name": "ORDONEZ Joel",
+      "pos": "DF",
+      "dob": "21/04/2004",
+      "age_2026": 22,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "ALCIVAR Jordy",
+      "pos": "MF",
+      "dob": "05/08/1999",
+      "age_2026": 27,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "PACHO Willian",
+      "pos": "DF",
+      "dob": "16/10/2001",
+      "age_2026": 25,
+      "caps": 34,
+      "goals": 2
+    },
+    {
+      "name": "ESTUPINAN Pervis",
+      "pos": "DF",
+      "dob": "21/01/1998",
+      "age_2026": 28,
+      "caps": 54,
+      "goals": 5
+    },
+    {
+      "name": "VALENCIA Anthony",
+      "pos": "MF",
+      "dob": "21/07/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 1
+    },
+    {
+      "name": "YEBOAH John",
+      "pos": "FW",
+      "dob": "23/06/2000",
+      "age_2026": 26,
+      "caps": 22,
+      "goals": 3
+    },
+    {
+      "name": "PAEZ Kendry",
+      "pos": "MF",
+      "dob": "04/05/2007",
+      "age_2026": 19,
+      "caps": 26,
+      "goals": 2
+    },
+    {
+      "name": "RODRIGUEZ Kevin",
+      "pos": "FW",
+      "dob": "04/03/2000",
+      "age_2026": 26,
+      "caps": 31,
+      "goals": 2
+    },
+    {
+      "name": "RAMIREZ Moises",
+      "pos": "GK",
+      "dob": "09/09/2000",
+      "age_2026": 26,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "VALENCIA Enner",
+      "pos": "FW",
+      "dob": "04/11/1989",
+      "age_2026": 37,
+      "caps": 105,
+      "goals": 49
+    },
+    {
+      "name": "MINDA Alan",
+      "pos": "MF",
+      "dob": "14/05/2003",
+      "age_2026": 23,
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "name": "VITE Pedro",
+      "pos": "MF",
+      "dob": "09/03/2002",
+      "age_2026": 24,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "CAICEDO Jordy",
+      "pos": "FW",
+      "dob": "18/11/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 4
+    },
+    {
+      "name": "PRECIADO Angelo",
+      "pos": "DF",
+      "dob": "18/02/1998",
+      "age_2026": 28,
+      "caps": 56,
+      "goals": 0
+    },
+    {
+      "name": "CASTILLO Denil",
+      "pos": "MF",
+      "dob": "24/03/2004",
+      "age_2026": 22,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "PLATA Gonzalo",
+      "pos": "FW",
+      "dob": "01/11/2000",
+      "age_2026": 26,
+      "caps": 50,
+      "goals": 8
+    },
+    {
+      "name": "ANGULO Nilson",
+      "pos": "FW",
+      "dob": "19/06/2003",
+      "age_2026": 23,
+      "caps": 14,
+      "goals": 2
+    },
+    {
+      "name": "FRANCO Alan",
+      "pos": "MF",
+      "dob": "21/08/1998",
+      "age_2026": 28,
+      "caps": 58,
+      "goals": 1
+    },
+    {
+      "name": "VALLE Gonzalo",
+      "pos": "GK",
+      "dob": "28/02/1996",
+      "age_2026": 30,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "CAICEDO Moises",
+      "pos": "MF",
+      "dob": "02/11/2001",
+      "age_2026": 25,
+      "caps": 61,
+      "goals": 3
+    },
+    {
+      "name": "AREVALO Jeremy",
+      "pos": "FW",
+      "dob": "19/03/2005",
+      "age_2026": 21,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "POROZO Jackson",
+      "pos": "DF",
+      "dob": "04/08/2000",
+      "age_2026": 26,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "MEDINA Yaimar",
+      "pos": "DF",
+      "dob": "05/11/2004",
+      "age_2026": 22,
+      "caps": 6,
+      "goals": 0
+    }
+  ],
+  "Egypt": [
+    {
+      "name": "MOHAMED ELSHENAWY",
+      "pos": "GK",
+      "dob": "18/12/1988",
+      "age_2026": 38,
+      "caps": 77,
+      "goals": 0
+    },
+    {
+      "name": "YASSER IBRAHIM",
+      "pos": "DF",
+      "dob": "10/02/1993",
+      "age_2026": 33,
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "name": "MOHAMED HANY",
+      "pos": "DF",
+      "dob": "02/02/1996",
+      "age_2026": 30,
+      "caps": 43,
+      "goals": 0
+    },
+    {
+      "name": "HOSSAM ABDELMAGUID",
+      "pos": "DF",
+      "dob": "30/04/2001",
+      "age_2026": 25,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "RAMY RABIA",
+      "pos": "DF",
+      "dob": "20/05/1993",
+      "age_2026": 33,
+      "caps": 47,
+      "goals": 6
+    },
+    {
+      "name": "MOHAMED ABDELMONEIM",
+      "pos": "DF",
+      "dob": "01/02/1999",
+      "age_2026": 27,
+      "caps": 36,
+      "goals": 3
+    },
+    {
+      "name": "TREZEGUET",
+      "pos": "FW",
+      "dob": "01/10/1994",
+      "age_2026": 32,
+      "caps": 96,
+      "goals": 23
+    },
+    {
+      "name": "EMAM ASHOUR",
+      "pos": "MF",
+      "dob": "20/02/1998",
+      "age_2026": 28,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "HAMZA ABDELKARIM",
+      "pos": "FW",
+      "dob": "01/01/2008",
+      "age_2026": 18,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMED SALAH",
+      "pos": "FW",
+      "dob": "15/06/1992",
+      "age_2026": 34,
+      "caps": 116,
+      "goals": 67
+    },
+    {
+      "name": "MOSTAFA ZICO",
+      "pos": "MF",
+      "dob": "27/04/1997",
+      "age_2026": 29,
+      "caps": 2,
+      "goals": 2
+    },
+    {
+      "name": "HAISSEM HASSAN",
+      "pos": "FW",
+      "dob": "08/02/2002",
+      "age_2026": 24,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "AHMED FATOUH",
+      "pos": "DF",
+      "dob": "22/03/1998",
+      "age_2026": 28,
+      "caps": 39,
+      "goals": 1
+    },
+    {
+      "name": "HAMDY FATHY",
+      "pos": "MF",
+      "dob": "29/09/1994",
+      "age_2026": 32,
+      "caps": 64,
+      "goals": 4
+    },
+    {
+      "name": "KARIM HAFEZ",
+      "pos": "DF",
+      "dob": "12/03/1996",
+      "age_2026": 30,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "MAHDY SOLIMAN",
+      "pos": "GK",
+      "dob": "08/06/1987",
+      "age_2026": 39,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "MOHANAD LASHIN",
+      "pos": "MF",
+      "dob": "29/05/1996",
+      "age_2026": 30,
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "name": "NABIL DONGA",
+      "pos": "MF",
+      "dob": "06/04/1996",
+      "age_2026": 30,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "MARAWAN ATTIA",
+      "pos": "MF",
+      "dob": "01/08/1998",
+      "age_2026": 28,
+      "caps": 35,
+      "goals": 1
+    },
+    {
+      "name": "IBRAHIM ADEL",
+      "pos": "FW",
+      "dob": "23/04/2001",
+      "age_2026": 25,
+      "caps": 24,
+      "goals": 3
+    },
+    {
+      "name": "MAHMOUD SABER",
+      "pos": "MF",
+      "dob": "30/07/2001",
+      "age_2026": 25,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "OMAR MARMOUSH",
+      "pos": "FW",
+      "dob": "07/02/1999",
+      "age_2026": 27,
+      "caps": 50,
+      "goals": 11
+    },
+    {
+      "name": "MOSTAFA SHOUBIR",
+      "pos": "GK",
+      "dob": "15/05/2000",
+      "age_2026": 26,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "TAREK ALAA",
+      "pos": "DF",
+      "dob": "05/01/2002",
+      "age_2026": 24,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "ZIZO",
+      "pos": "FW",
+      "dob": "10/01/1996",
+      "age_2026": 30,
+      "caps": 64,
+      "goals": 5
+    },
+    {
+      "name": "MOHAMED ALAA",
+      "pos": "GK",
+      "dob": "01/01/1999",
+      "age_2026": 27,
+      "caps": 0,
+      "goals": 0
+    }
+  ],
+  "England": [
+    {
+      "name": "PICKFORD Jordan",
+      "pos": "GK",
+      "dob": "07/03/1994",
+      "age_2026": 32,
+      "caps": 84,
+      "goals": 0
+    },
+    {
+      "name": "KONSA Ezri",
+      "pos": "DF",
+      "dob": "23/10/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "OREILLY Nico",
+      "pos": "DF",
+      "dob": "21/03/2005",
+      "age_2026": 21,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "RICE Declan",
+      "pos": "MF",
+      "dob": "14/01/1999",
+      "age_2026": 27,
+      "caps": 73,
+      "goals": 7
+    },
+    {
+      "name": "STONES John",
+      "pos": "DF",
+      "dob": "28/05/1994",
+      "age_2026": 32,
+      "caps": 89,
+      "goals": 3
+    },
+    {
+      "name": "GUEHI Marc",
+      "pos": "DF",
+      "dob": "13/07/2000",
+      "age_2026": 26,
+      "caps": 29,
+      "goals": 1
+    },
+    {
+      "name": "SAKA Bukayo",
+      "pos": "FW",
+      "dob": "05/09/2001",
+      "age_2026": 25,
+      "caps": 49,
+      "goals": 14
+    },
+    {
+      "name": "ANDERSON Elliot",
+      "pos": "MF",
+      "dob": "06/11/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "KANE Harry",
+      "pos": "FW",
+      "dob": "28/07/1993",
+      "age_2026": 33,
+      "caps": 114,
+      "goals": 79
+    },
+    {
+      "name": "BELLINGHAM Jude",
+      "pos": "MF",
+      "dob": "29/06/2003",
+      "age_2026": 23,
+      "caps": 48,
+      "goals": 6
+    },
+    {
+      "name": "RASHFORD Marcus",
+      "pos": "FW",
+      "dob": "31/10/1997",
+      "age_2026": 29,
+      "caps": 72,
+      "goals": 18
+    },
+    {
+      "name": "LIVRAMENTO Tino",
+      "pos": "DF",
+      "dob": "12/11/2002",
+      "age_2026": 24,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "HENDERSON Dean",
+      "pos": "GK",
+      "dob": "12/03/1997",
+      "age_2026": 29,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "HENDERSON Jordan",
+      "pos": "MF",
+      "dob": "17/06/1990",
+      "age_2026": 36,
+      "caps": 91,
+      "goals": 3
+    },
+    {
+      "name": "BURN Dan",
+      "pos": "DF",
+      "dob": "09/05/1992",
+      "age_2026": 34,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "MAINOO Kobbie",
+      "pos": "MF",
+      "dob": "19/04/2005",
+      "age_2026": 21,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "ROGERS Morgan",
+      "pos": "MF",
+      "dob": "26/07/2002",
+      "age_2026": 24,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "GORDON Anthony",
+      "pos": "FW",
+      "dob": "24/02/2001",
+      "age_2026": 25,
+      "caps": 19,
+      "goals": 3
+    },
+    {
+      "name": "WATKINS Ollie",
+      "pos": "FW",
+      "dob": "30/12/1995",
+      "age_2026": 31,
+      "caps": 22,
+      "goals": 7
+    },
+    {
+      "name": "MADUEKE Noni",
+      "pos": "FW",
+      "dob": "10/03/2002",
+      "age_2026": 24,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "EZE Eberechi",
+      "pos": "MF",
+      "dob": "29/06/1998",
+      "age_2026": 28,
+      "caps": 17,
+      "goals": 3
+    },
+    {
+      "name": "TONEY Ivan",
+      "pos": "FW",
+      "dob": "16/03/1996",
+      "age_2026": 30,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "TRAFFORD James",
+      "pos": "GK",
+      "dob": "10/10/2002",
+      "age_2026": 24,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "JAMES Reece",
+      "pos": "DF",
+      "dob": "08/12/1999",
+      "age_2026": 27,
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "name": "SPENCE Djed",
+      "pos": "DF",
+      "dob": "09/08/2000",
+      "age_2026": 26,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "QUANSAH Jarell",
+      "pos": "DF",
+      "dob": "29/01/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 0
+    }
+  ],
+  "France": [
+    {
+      "name": "SAMBA Brice",
+      "pos": "GK",
+      "dob": "25/04/1994",
+      "age_2026": 32,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "GUSTO Malo",
+      "pos": "DF",
+      "dob": "19/05/2003",
+      "age_2026": 23,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "DIGNE Lucas",
+      "pos": "DF",
+      "dob": "20/07/1993",
+      "age_2026": 33,
+      "caps": 58,
+      "goals": 0
+    },
+    {
+      "name": "UPAMECANO Dayot",
+      "pos": "DF",
+      "dob": "27/10/1998",
+      "age_2026": 28,
+      "caps": 38,
+      "goals": 2
+    },
+    {
+      "name": "KOUNDE Jules",
+      "pos": "DF",
+      "dob": "12/11/1998",
+      "age_2026": 28,
+      "caps": 48,
+      "goals": 0
+    },
+    {
+      "name": "KONE Manu",
+      "pos": "MF",
+      "dob": "17/05/2001",
+      "age_2026": 25,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "DEMBELE Ousmane",
+      "pos": "FW",
+      "dob": "15/05/1997",
+      "age_2026": 29,
+      "caps": 59,
+      "goals": 7
+    },
+    {
+      "name": "TCHOUAMENI Aurelien",
+      "pos": "MF",
+      "dob": "27/01/2000",
+      "age_2026": 26,
+      "caps": 46,
+      "goals": 3
+    },
+    {
+      "name": "THURAM Marcus",
+      "pos": "FW",
+      "dob": "06/08/1997",
+      "age_2026": 29,
+      "caps": 34,
+      "goals": 3
+    },
+    {
+      "name": "MBAPPE Kylian",
+      "pos": "FW",
+      "dob": "20/12/1998",
+      "age_2026": 28,
+      "caps": 98,
+      "goals": 56
+    },
+    {
+      "name": "OLISE Michael",
+      "pos": "FW",
+      "dob": "12/12/2001",
+      "age_2026": 25,
+      "caps": 17,
+      "goals": 7
+    },
+    {
+      "name": "BARCOLA Bradley",
+      "pos": "FW",
+      "dob": "02/09/2002",
+      "age_2026": 24,
+      "caps": 20,
+      "goals": 3
+    },
+    {
+      "name": "KANTE Ngolo",
+      "pos": "MF",
+      "dob": "29/03/1991",
+      "age_2026": 35,
+      "caps": 69,
+      "goals": 2
+    },
+    {
+      "name": "RABIOT Adrien",
+      "pos": "MF",
+      "dob": "03/04/1995",
+      "age_2026": 31,
+      "caps": 59,
+      "goals": 7
+    },
+    {
+      "name": "KONATE Ibrahima",
+      "pos": "DF",
+      "dob": "25/05/1999",
+      "age_2026": 27,
+      "caps": 28,
+      "goals": 0
+    },
+    {
+      "name": "MAIGNAN Mike",
+      "pos": "GK",
+      "dob": "03/07/1995",
+      "age_2026": 31,
+      "caps": 40,
+      "goals": 0
+    },
+    {
+      "name": "SALIBA William",
+      "pos": "DF",
+      "dob": "24/03/2001",
+      "age_2026": 25,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "ZAIRE-EMERY Warren",
+      "pos": "MF",
+      "dob": "08/03/2006",
+      "age_2026": 20,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "HERNANDEZ Theo",
+      "pos": "DF",
+      "dob": "06/10/1997",
+      "age_2026": 29,
+      "caps": 44,
+      "goals": 2
+    },
+    {
+      "name": "DOUE Desire",
+      "pos": "FW",
+      "dob": "03/06/2005",
+      "age_2026": 21,
+      "caps": 7,
+      "goals": 2
+    },
+    {
+      "name": "HERNANDEZ Lucas",
+      "pos": "DF",
+      "dob": "14/02/1996",
+      "age_2026": 30,
+      "caps": 42,
+      "goals": 0
+    },
+    {
+      "name": "MATETA Jean-Philippe",
+      "pos": "FW",
+      "dob": "28/06/1997",
+      "age_2026": 29,
+      "caps": 4,
+      "goals": 2
+    },
+    {
+      "name": "RISSER Robin",
+      "pos": "GK",
+      "dob": "02/12/2004",
+      "age_2026": 22,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "CHERKI Rayan",
+      "pos": "MF",
+      "dob": "17/08/2003",
+      "age_2026": 23,
+      "caps": 7,
+      "goals": 2
+    },
+    {
+      "name": "AKLIOUCHE Maghnes",
+      "pos": "MF",
+      "dob": "25/02/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "LACROIX Maxence",
+      "pos": "DF",
+      "dob": "06/04/2000",
+      "age_2026": 26,
+      "caps": 4,
+      "goals": 0
+    }
+  ],
+  "Germany": [
+    {
+      "name": "NEUER Manuel",
+      "pos": "GK",
+      "dob": "27/03/1986",
+      "age_2026": 40,
+      "caps": 124,
+      "goals": 0
+    },
+    {
+      "name": "RUEDIGER Antonio",
+      "pos": "DF",
+      "dob": "03/03/1993",
+      "age_2026": 33,
+      "caps": 82,
+      "goals": 3
+    },
+    {
+      "name": "ANTON Waldemar",
+      "pos": "DF",
+      "dob": "20/07/1996",
+      "age_2026": 30,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "TAH Jonathan",
+      "pos": "DF",
+      "dob": "11/02/1996",
+      "age_2026": 30,
+      "caps": 47,
+      "goals": 1
+    },
+    {
+      "name": "PAVLOVIC Aleksandar",
+      "pos": "MF",
+      "dob": "03/05/2004",
+      "age_2026": 22,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "KIMMICH Joshua",
+      "pos": "DF",
+      "dob": "08/02/1995",
+      "age_2026": 31,
+      "caps": 110,
+      "goals": 10
+    },
+    {
+      "name": "HAVERTZ Kai",
+      "pos": "FW",
+      "dob": "11/06/1999",
+      "age_2026": 27,
+      "caps": 58,
+      "goals": 22
+    },
+    {
+      "name": "GORETZKA Leon",
+      "pos": "MF",
+      "dob": "06/02/1995",
+      "age_2026": 31,
+      "caps": 70,
+      "goals": 15
+    },
+    {
+      "name": "LEWELING Jamie",
+      "pos": "MF",
+      "dob": "26/02/2001",
+      "age_2026": 25,
+      "caps": 5,
+      "goals": 1
+    },
+    {
+      "name": "MUSIALA Jamal",
+      "pos": "MF",
+      "dob": "26/02/2003",
+      "age_2026": 23,
+      "caps": 42,
+      "goals": 9
+    },
+    {
+      "name": "WOLTEMADE Nick",
+      "pos": "FW",
+      "dob": "14/02/2002",
+      "age_2026": 24,
+      "caps": 11,
+      "goals": 4
+    },
+    {
+      "name": "BAUMANN Oliver",
+      "pos": "GK",
+      "dob": "02/06/1990",
+      "age_2026": 36,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "GROSS Pascal",
+      "pos": "MF",
+      "dob": "15/06/1991",
+      "age_2026": 35,
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "name": "BEIER Maximilian",
+      "pos": "FW",
+      "dob": "17/10/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "SCHLOTTERBECK Nico",
+      "pos": "DF",
+      "dob": "01/12/1999",
+      "age_2026": 27,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "STILLER Angelo",
+      "pos": "MF",
+      "dob": "04/04/2001",
+      "age_2026": 25,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "WIRTZ Florian",
+      "pos": "MF",
+      "dob": "03/05/2003",
+      "age_2026": 23,
+      "caps": 41,
+      "goals": 11
+    },
+    {
+      "name": "BROWN Nathaniel",
+      "pos": "DF",
+      "dob": "16/06/2003",
+      "age_2026": 23,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "SANE Leroy",
+      "pos": "MF",
+      "dob": "11/01/1996",
+      "age_2026": 30,
+      "caps": 76,
+      "goals": 17
+    },
+    {
+      "name": "AMIRI Nadiem",
+      "pos": "MF",
+      "dob": "27/10/1996",
+      "age_2026": 30,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "NUEBEL Alexander",
+      "pos": "GK",
+      "dob": "30/09/1996",
+      "age_2026": 30,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "RAUM David",
+      "pos": "DF",
+      "dob": "22/04/1998",
+      "age_2026": 28,
+      "caps": 37,
+      "goals": 1
+    },
+    {
+      "name": "NMECHA Felix",
+      "pos": "MF",
+      "dob": "10/10/2000",
+      "age_2026": 26,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "THIAW Malick",
+      "pos": "DF",
+      "dob": "08/08/2001",
+      "age_2026": 25,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "OUEDRAOGO Assan",
+      "pos": "MF",
+      "dob": "09/05/2006",
+      "age_2026": 20,
+      "caps": 1,
+      "goals": 1
+    },
+    {
+      "name": "UNDAV Deniz",
+      "pos": "FW",
+      "dob": "19/07/1996",
+      "age_2026": 30,
+      "caps": 9,
+      "goals": 6
+    }
+  ],
+  "Ghana": [
+    {
+      "name": "ZIGI Lawrence Ati",
+      "pos": "GK",
+      "dob": "29/11/1996",
+      "age_2026": 30,
+      "caps": 30,
+      "goals": 0
+    },
+    {
+      "name": "SEIDU Alidu",
+      "pos": "DF",
+      "dob": "04/06/2000",
+      "age_2026": 26,
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "name": "YIRENKYI Caleb",
+      "pos": "MF",
+      "dob": "15/01/2006",
+      "age_2026": 20,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "ADJETEY Jonas",
+      "pos": "DF",
+      "dob": "13/12/2003",
+      "age_2026": 23,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "PARTEY Thomas",
+      "pos": "MF",
+      "dob": "13/06/1993",
+      "age_2026": 33,
+      "caps": 59,
+      "goals": 16
+    },
+    {
+      "name": "MUMIN Abdul",
+      "pos": "DF",
+      "dob": "06/06/1998",
+      "age_2026": 28,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "FATAWU Abdul",
+      "pos": "FW",
+      "dob": "08/03/2004",
+      "age_2026": 22,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "SIBO Kwasi",
+      "pos": "MF",
+      "dob": "24/06/1998",
+      "age_2026": 28,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "AYEW Jordan",
+      "pos": "FW",
+      "dob": "11/09/1991",
+      "age_2026": 35,
+      "caps": 120,
+      "goals": 34
+    },
+    {
+      "name": "THOMAS-ASANTE Brandon",
+      "pos": "FW",
+      "dob": "29/12/1998",
+      "age_2026": 28,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "SEMENYO Antoine",
+      "pos": "MF",
+      "dob": "07/01/2000",
+      "age_2026": 26,
+      "caps": 34,
+      "goals": 3
+    },
+    {
+      "name": "ANANG Joseph",
+      "pos": "GK",
+      "dob": "08/06/2000",
+      "age_2026": 26,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "BAAH Christopher Bonsu",
+      "pos": "FW",
+      "dob": "14/12/2004",
+      "age_2026": 22,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "MENSAH Gideon",
+      "pos": "DF",
+      "dob": "18/07/1998",
+      "age_2026": 28,
+      "caps": 40,
+      "goals": 0
+    },
+    {
+      "name": "OWUSU Elisha",
+      "pos": "MF",
+      "dob": "07/11/1997",
+      "age_2026": 29,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "ASARE Benjamin",
+      "pos": "GK",
+      "dob": "13/07/1992",
+      "age_2026": 34,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "RAHMAN Baba",
+      "pos": "DF",
+      "dob": "02/07/1994",
+      "age_2026": 32,
+      "caps": 53,
+      "goals": 1
+    },
+    {
+      "name": "OPOKU Jerome",
+      "pos": "DF",
+      "dob": "14/10/1998",
+      "age_2026": 28,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "WILLIAMS Inaki",
+      "pos": "FW",
+      "dob": "15/06/1994",
+      "age_2026": 32,
+      "caps": 26,
+      "goals": 2
+    },
+    {
+      "name": "BOAKYE Augustine",
+      "pos": "MF",
+      "dob": "03/11/2000",
+      "age_2026": 26,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "OPPONG Kojo Peprah",
+      "pos": "DF",
+      "dob": "04/06/2004",
+      "age_2026": 22,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SULEMANA Kamaldeen",
+      "pos": "FW",
+      "dob": "15/02/2002",
+      "age_2026": 24,
+      "caps": 28,
+      "goals": 1
+    },
+    {
+      "name": "LUCKASSEN Derrick",
+      "pos": "DF",
+      "dob": "03/07/1995",
+      "age_2026": 31,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "NUAMAH Ernest",
+      "pos": "FW",
+      "dob": "01/11/2003",
+      "age_2026": 23,
+      "caps": 19,
+      "goals": 4
+    },
+    {
+      "name": "ADU Prince",
+      "pos": "FW",
+      "dob": "23/09/2003",
+      "age_2026": 23,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "SENAYA Marvin",
+      "pos": "DF",
+      "dob": "28/01/2001",
+      "age_2026": 25,
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "Haiti": [
+    {
+      "name": "PLACIDE Johny",
+      "pos": "GK",
+      "dob": "29/01/1988",
+      "age_2026": 38,
+      "caps": 83,
+      "goals": 0
+    },
+    {
+      "name": "ARCUS Carlens",
+      "pos": "DF",
+      "dob": "28/06/1996",
+      "age_2026": 30,
+      "caps": 56,
+      "goals": 1
+    },
+    {
+      "name": "THERMONCY Keeto",
+      "pos": "DF",
+      "dob": "29/03/2006",
+      "age_2026": 20,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "ADE Ricardo",
+      "pos": "DF",
+      "dob": "21/05/1990",
+      "age_2026": 36,
+      "caps": 61,
+      "goals": 2
+    },
+    {
+      "name": "DELCROIX Hannes",
+      "pos": "DF",
+      "dob": "28/02/1999",
+      "age_2026": 27,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "SAINTE Carl",
+      "pos": "MF",
+      "dob": "09/08/2002",
+      "age_2026": 24,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "ETIENNE Derrick",
+      "pos": "FW",
+      "dob": "25/11/1996",
+      "age_2026": 30,
+      "caps": 50,
+      "goals": 8
+    },
+    {
+      "name": "EXPERIENCE Martin",
+      "pos": "DF",
+      "dob": "09/03/1999",
+      "age_2026": 27,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "NAZON Duckens",
+      "pos": "FW",
+      "dob": "07/04/1994",
+      "age_2026": 32,
+      "caps": 83,
+      "goals": 44
+    },
+    {
+      "name": "BELLEGARDE Jean-Ricner",
+      "pos": "MF",
+      "dob": "27/06/1998",
+      "age_2026": 28,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "DEEDSON Louicius",
+      "pos": "FW",
+      "dob": "11/02/2001",
+      "age_2026": 25,
+      "caps": 32,
+      "goals": 10
+    },
+    {
+      "name": "PIERRE Alexandre",
+      "pos": "GK",
+      "dob": "25/02/2001",
+      "age_2026": 25,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "LACROIX Markhus",
+      "pos": "DF",
+      "dob": "14/10/1993",
+      "age_2026": 33,
+      "caps": 16,
+      "goals": 3
+    },
+    {
+      "name": "METUSALA Garven",
+      "pos": "DF",
+      "dob": "31/12/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "PROVIDENCE Ruben",
+      "pos": "FW",
+      "dob": "07/07/2001",
+      "age_2026": 25,
+      "caps": 15,
+      "goals": 3
+    },
+    {
+      "name": "JOSEPH Lenny",
+      "pos": "FW",
+      "dob": "12/10/2000",
+      "age_2026": 26,
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "name": "JEAN JACQUES Danley",
+      "pos": "MF",
+      "dob": "20/05/2000",
+      "age_2026": 26,
+      "caps": 31,
+      "goals": 6
+    },
+    {
+      "name": "ISIDOR Wilson",
+      "pos": "FW",
+      "dob": "27/08/2000",
+      "age_2026": 26,
+      "caps": 4,
+      "goals": 2
+    },
+    {
+      "name": "FORTUNE Yassin",
+      "pos": "FW",
+      "dob": "30/01/1999",
+      "age_2026": 27,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "PIERROT Frantzdy",
+      "pos": "FW",
+      "dob": "29/03/1995",
+      "age_2026": 31,
+      "caps": 53,
+      "goals": 34
+    },
+    {
+      "name": "CASIMIR Josue",
+      "pos": "FW",
+      "dob": "24/09/2001",
+      "age_2026": 25,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "DUVERNE Jean-Kevin",
+      "pos": "DF",
+      "dob": "12/07/1997",
+      "age_2026": 29,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "DUVERGER Josue",
+      "pos": "GK",
+      "dob": "27/04/2000",
+      "age_2026": 26,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "PAUGAIN Wilguens",
+      "pos": "DF",
+      "dob": "24/08/2001",
+      "age_2026": 25,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "SIMON Dominique",
+      "pos": "MF",
+      "dob": "29/07/2000",
+      "age_2026": 26,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "PIERRE Woodensky",
+      "pos": "MF",
+      "dob": "30/12/2004",
+      "age_2026": 22,
+      "caps": 1,
+      "goals": 0
+    }
+  ],
+  "IR Iran": [
+    {
+      "name": "BEIRANVAND Alireza",
+      "pos": "GK",
+      "dob": "21/09/1992",
+      "age_2026": 34,
+      "caps": 87,
+      "goals": 0
+    },
+    {
+      "name": "HARDANI Saleh",
+      "pos": "DF",
+      "dob": "26/12/1998",
+      "age_2026": 28,
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "name": "HAJISAFI Ehsan",
+      "pos": "DF",
+      "dob": "25/02/1990",
+      "age_2026": 36,
+      "caps": 146,
+      "goals": 7
+    },
+    {
+      "name": "KHALILZADEH Shoja",
+      "pos": "DF",
+      "dob": "14/05/1989",
+      "age_2026": 37,
+      "caps": 58,
+      "goals": 2
+    },
+    {
+      "name": "MOHAMMADI Milad",
+      "pos": "DF",
+      "dob": "29/09/1993",
+      "age_2026": 33,
+      "caps": 77,
+      "goals": 1
+    },
+    {
+      "name": "EZATOLAHI Saeid",
+      "pos": "MF",
+      "dob": "01/10/1996",
+      "age_2026": 30,
+      "caps": 84,
+      "goals": 2
+    },
+    {
+      "name": "JAHANBAKHSH Alireza",
+      "pos": "MF",
+      "dob": "11/08/1993",
+      "age_2026": 33,
+      "caps": 99,
+      "goals": 17
+    },
+    {
+      "name": "MOHEBBI Mohammad",
+      "pos": "MF",
+      "dob": "20/12/1998",
+      "age_2026": 28,
+      "caps": 37,
+      "goals": 13
+    },
+    {
+      "name": "TAREMI Mehdi",
+      "pos": "FW",
+      "dob": "18/07/1992",
+      "age_2026": 34,
+      "caps": 106,
+      "goals": 59
+    },
+    {
+      "name": "GHAYEDI Mehdi",
+      "pos": "FW",
+      "dob": "05/12/1998",
+      "age_2026": 28,
+      "caps": 30,
+      "goals": 10
+    },
+    {
+      "name": "ALIPOUR Ali",
+      "pos": "FW",
+      "dob": "11/11/1995",
+      "age_2026": 31,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "NIAZMAND Payam",
+      "pos": "GK",
+      "dob": "06/04/1995",
+      "age_2026": 31,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "KANANI Hossein",
+      "pos": "DF",
+      "dob": "23/03/1994",
+      "age_2026": 32,
+      "caps": 65,
+      "goals": 6
+    },
+    {
+      "name": "GHODDOS Saman",
+      "pos": "MF",
+      "dob": "06/09/1993",
+      "age_2026": 33,
+      "caps": 68,
+      "goals": 3
+    },
+    {
+      "name": "CHESHMI Roozbeh",
+      "pos": "MF",
+      "dob": "24/07/1993",
+      "age_2026": 33,
+      "caps": 41,
+      "goals": 3
+    },
+    {
+      "name": "TORABI Mehdi",
+      "pos": "MF",
+      "dob": "10/09/1994",
+      "age_2026": 32,
+      "caps": 52,
+      "goals": 7
+    },
+    {
+      "name": "YOUSEFI Arya",
+      "pos": "DF",
+      "dob": "22/04/2002",
+      "age_2026": 24,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "HOSSEINZADEH Amirhossein",
+      "pos": "FW",
+      "dob": "30/10/2000",
+      "age_2026": 26,
+      "caps": 18,
+      "goals": 5
+    },
+    {
+      "name": "NEMATI Ali",
+      "pos": "DF",
+      "dob": "08/02/1996",
+      "age_2026": 30,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "MOGHANLOO Shahriyar",
+      "pos": "FW",
+      "dob": "21/12/1994",
+      "age_2026": 32,
+      "caps": 21,
+      "goals": 2
+    },
+    {
+      "name": "GHORBANI Mohammad",
+      "pos": "MF",
+      "dob": "07/10/2001",
+      "age_2026": 25,
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "name": "HOSSEINI Hossein",
+      "pos": "GK",
+      "dob": "30/06/1992",
+      "age_2026": 34,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "REZAEIAN Ramin",
+      "pos": "DF",
+      "dob": "21/03/1990",
+      "age_2026": 36,
+      "caps": 74,
+      "goals": 8
+    },
+    {
+      "name": "DARGAHI Dennis",
+      "pos": "FW",
+      "dob": "09/01/1997",
+      "age_2026": 29,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "IRI Danial",
+      "pos": "DF",
+      "dob": "26/10/2003",
+      "age_2026": 23,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "RAZAGHINIA Amirmohammad",
+      "pos": "MF",
+      "dob": "11/04/2006",
+      "age_2026": 20,
+      "caps": 4,
+      "goals": 0
+    }
+  ],
+  "Iraq": [
+    {
+      "name": "FAHAD TALIB",
+      "pos": "GK",
+      "dob": "21/10/1994",
+      "age_2026": 32,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "REBIN SULAKA",
+      "pos": "DF",
+      "dob": "12/04/1992",
+      "age_2026": 34,
+      "caps": 56,
+      "goals": 1
+    },
+    {
+      "name": "HUSSEIN ALI",
+      "pos": "DF",
+      "dob": "01/03/2002",
+      "age_2026": 24,
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "name": "ZAID TAHSEEN",
+      "pos": "DF",
+      "dob": "29/01/2001",
+      "age_2026": 25,
+      "caps": 28,
+      "goals": 1
+    },
+    {
+      "name": "AKAM HASHIM",
+      "pos": "DF",
+      "dob": "16/08/1998",
+      "age_2026": 28,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "MUNAF YOUNUS",
+      "pos": "DF",
+      "dob": "16/11/1996",
+      "age_2026": 30,
+      "caps": 34,
+      "goals": 1
+    },
+    {
+      "name": "YOUSSEF AMYN",
+      "pos": "MF",
+      "dob": "21/08/2003",
+      "age_2026": 23,
+      "caps": 27,
+      "goals": 2
+    },
+    {
+      "name": "IBRAHIM BAYESH",
+      "pos": "MF",
+      "dob": "01/05/2000",
+      "age_2026": 26,
+      "caps": 76,
+      "goals": 8
+    },
+    {
+      "name": "ALI ALHAMADI",
+      "pos": "FW",
+      "dob": "01/03/2002",
+      "age_2026": 24,
+      "caps": 20,
+      "goals": 5
+    },
+    {
+      "name": "MOHANAD ALI",
+      "pos": "FW",
+      "dob": "20/06/2000",
+      "age_2026": 26,
+      "caps": 72,
+      "goals": 26
+    },
+    {
+      "name": "AHMED QASEM",
+      "pos": "FW",
+      "dob": "12/07/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "JALAL HASSAN",
+      "pos": "GK",
+      "dob": "18/05/1991",
+      "age_2026": 35,
+      "caps": 104,
+      "goals": 0
+    },
+    {
+      "name": "ALI YOUSIF",
+      "pos": "FW",
+      "dob": "19/01/1996",
+      "age_2026": 30,
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "name": "ZIDANE IQBAL",
+      "pos": "MF",
+      "dob": "27/04/2003",
+      "age_2026": 23,
+      "caps": 25,
+      "goals": 2
+    },
+    {
+      "name": "AHMED MAKNAZI",
+      "pos": "DF",
+      "dob": "24/09/2001",
+      "age_2026": 25,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "AMIR ALAMMARI",
+      "pos": "MF",
+      "dob": "27/07/1997",
+      "age_2026": 29,
+      "caps": 51,
+      "goals": 3
+    },
+    {
+      "name": "ALI JASIM",
+      "pos": "FW",
+      "dob": "20/01/2004",
+      "age_2026": 22,
+      "caps": 36,
+      "goals": 2
+    },
+    {
+      "name": "AYMEN HUSSEIN",
+      "pos": "FW",
+      "dob": "22/03/1996",
+      "age_2026": 30,
+      "caps": 95,
+      "goals": 33
+    },
+    {
+      "name": "KEVIN YAKOB",
+      "pos": "MF",
+      "dob": "10/10/2000",
+      "age_2026": 26,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "AIMAR SHER",
+      "pos": "MF",
+      "dob": "20/12/2002",
+      "age_2026": 24,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "MARKO FARJI",
+      "pos": "FW",
+      "dob": "16/03/2004",
+      "age_2026": 22,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "AHMED BASIL",
+      "pos": "GK",
+      "dob": "19/08/1996",
+      "age_2026": 30,
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "name": "MERCHAS DOSKI",
+      "pos": "DF",
+      "dob": "07/12/1999",
+      "age_2026": 27,
+      "caps": 31,
+      "goals": 1
+    },
+    {
+      "name": "ZAID ISMAEL",
+      "pos": "MF",
+      "dob": "03/01/2002",
+      "age_2026": 24,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "MUSTAFA SAADOON",
+      "pos": "DF",
+      "dob": "25/05/2001",
+      "age_2026": 25,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "FRANS PUTROS",
+      "pos": "DF",
+      "dob": "14/07/1993",
+      "age_2026": 33,
+      "caps": 28,
+      "goals": 0
+    }
+  ],
+  "Japan": [
+    {
+      "name": "SUZUKI Zion",
+      "pos": "GK",
+      "dob": "21/08/2002",
+      "age_2026": 24,
+      "caps": 25,
+      "goals": 0
+    },
+    {
+      "name": "SUGAWARA Yukinari",
+      "pos": "DF",
+      "dob": "28/06/2000",
+      "age_2026": 26,
+      "caps": 22,
+      "goals": 2
+    },
+    {
+      "name": "TANIGUCHI Shogo",
+      "pos": "DF",
+      "dob": "15/07/1991",
+      "age_2026": 35,
+      "caps": 39,
+      "goals": 1
+    },
+    {
+      "name": "ITAKURA Kou",
+      "pos": "DF",
+      "dob": "27/01/1997",
+      "age_2026": 29,
+      "caps": 41,
+      "goals": 3
+    },
+    {
+      "name": "NAGATOMO Yuto",
+      "pos": "DF",
+      "dob": "12/09/1986",
+      "age_2026": 40,
+      "caps": 145,
+      "goals": 4
+    },
+    {
+      "name": "MACHINO Shuto",
+      "pos": "FW",
+      "dob": "30/09/1999",
+      "age_2026": 27,
+      "caps": 14,
+      "goals": 5
+    },
+    {
+      "name": "TANAKA Ao",
+      "pos": "MF",
+      "dob": "10/09/1998",
+      "age_2026": 28,
+      "caps": 38,
+      "goals": 8
+    },
+    {
+      "name": "KUBO Takefusa",
+      "pos": "MF",
+      "dob": "04/06/2001",
+      "age_2026": 25,
+      "caps": 49,
+      "goals": 7
+    },
+    {
+      "name": "GOTO Keisuke",
+      "pos": "FW",
+      "dob": "03/06/2005",
+      "age_2026": 21,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "DOAN Ritsu",
+      "pos": "MF",
+      "dob": "16/06/1998",
+      "age_2026": 28,
+      "caps": 66,
+      "goals": 11
+    },
+    {
+      "name": "MAEDA Daizen",
+      "pos": "MF",
+      "dob": "20/10/1997",
+      "age_2026": 29,
+      "caps": 28,
+      "goals": 5
+    },
+    {
+      "name": "OSAKO Keisuke",
+      "pos": "GK",
+      "dob": "28/07/1999",
+      "age_2026": 27,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "NAKAMURA Keito",
+      "pos": "MF",
+      "dob": "28/07/2000",
+      "age_2026": 26,
+      "caps": 26,
+      "goals": 11
+    },
+    {
+      "name": "ITO Junya",
+      "pos": "MF",
+      "dob": "09/03/1993",
+      "age_2026": 33,
+      "caps": 69,
+      "goals": 15
+    },
+    {
+      "name": "KAMADA Daichi",
+      "pos": "MF",
+      "dob": "05/08/1996",
+      "age_2026": 30,
+      "caps": 49,
+      "goals": 12
+    },
+    {
+      "name": "WATANABE Tsuyoshi",
+      "pos": "DF",
+      "dob": "05/02/1997",
+      "age_2026": 29,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "SUZUKI Yuito",
+      "pos": "MF",
+      "dob": "25/10/2001",
+      "age_2026": 25,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "UEDA Ayase",
+      "pos": "FW",
+      "dob": "28/08/1998",
+      "age_2026": 28,
+      "caps": 40,
+      "goals": 16
+    },
+    {
+      "name": "OGAWA Koki",
+      "pos": "FW",
+      "dob": "08/08/1997",
+      "age_2026": 29,
+      "caps": 15,
+      "goals": 11
+    },
+    {
+      "name": "SEKO Ayumu",
+      "pos": "DF",
+      "dob": "07/06/2000",
+      "age_2026": 26,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "ITO Hiroki",
+      "pos": "DF",
+      "dob": "12/05/1999",
+      "age_2026": 27,
+      "caps": 25,
+      "goals": 1
+    },
+    {
+      "name": "TOMIYASU Takehiro",
+      "pos": "DF",
+      "dob": "05/11/1998",
+      "age_2026": 28,
+      "caps": 43,
+      "goals": 1
+    },
+    {
+      "name": "HAYAKAWA Tomoki",
+      "pos": "GK",
+      "dob": "03/03/1999",
+      "age_2026": 27,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SANO Kaishu",
+      "pos": "MF",
+      "dob": "30/12/2000",
+      "age_2026": 26,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "SUZUKI Junnosuke",
+      "pos": "DF",
+      "dob": "12/07/2003",
+      "age_2026": 23,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "SHIOGAI Kento",
+      "pos": "FW",
+      "dob": "26/03/2005",
+      "age_2026": 21,
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "Jordan": [
+    {
+      "name": "YAZEED ABULAILA",
+      "pos": "GK",
+      "dob": "08/01/1993",
+      "age_2026": 33,
+      "caps": 76,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMMAD ABUHASHEESH",
+      "pos": "DF",
+      "dob": "09/05/1995",
+      "age_2026": 31,
+      "caps": 56,
+      "goals": 1
+    },
+    {
+      "name": "ABDALLAH NASIB",
+      "pos": "DF",
+      "dob": "25/02/1994",
+      "age_2026": 32,
+      "caps": 65,
+      "goals": 2
+    },
+    {
+      "name": "HUSAM ABUDAHAB",
+      "pos": "DF",
+      "dob": "13/05/2000",
+      "age_2026": 26,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "YAZAN ALARAB",
+      "pos": "DF",
+      "dob": "31/01/1996",
+      "age_2026": 30,
+      "caps": 80,
+      "goals": 3
+    },
+    {
+      "name": "AMER JAMOUS",
+      "pos": "MF",
+      "dob": "03/07/2002",
+      "age_2026": 24,
+      "caps": 19,
+      "goals": 1
+    },
+    {
+      "name": "MOHAMMAD ABUZRAIQ",
+      "pos": "FW",
+      "dob": "30/12/1997",
+      "age_2026": 29,
+      "caps": 40,
+      "goals": 5
+    },
+    {
+      "name": "NOOR ALRAWABDEH",
+      "pos": "MF",
+      "dob": "24/02/1997",
+      "age_2026": 29,
+      "caps": 68,
+      "goals": 3
+    },
+    {
+      "name": "ALI OLWAN",
+      "pos": "FW",
+      "dob": "26/03/2000",
+      "age_2026": 26,
+      "caps": 66,
+      "goals": 29
+    },
+    {
+      "name": "MOUSA ALTAMARI",
+      "pos": "FW",
+      "dob": "10/06/1997",
+      "age_2026": 29,
+      "caps": 92,
+      "goals": 24
+    },
+    {
+      "name": "ODEH FAKHOURY",
+      "pos": "FW",
+      "dob": "22/11/2005",
+      "age_2026": 21,
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "name": "NOUR BANIATEYAH",
+      "pos": "GK",
+      "dob": "25/01/1993",
+      "age_2026": 33,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MAHMOUD ALMARDI",
+      "pos": "FW",
+      "dob": "06/10/1993",
+      "age_2026": 33,
+      "caps": 87,
+      "goals": 8
+    },
+    {
+      "name": "RAJAEI AYED",
+      "pos": "MF",
+      "dob": "25/07/1993",
+      "age_2026": 33,
+      "caps": 73,
+      "goals": 0
+    },
+    {
+      "name": "IBRAHIM SADEH",
+      "pos": "MF",
+      "dob": "27/04/2000",
+      "age_2026": 26,
+      "caps": 57,
+      "goals": 3
+    },
+    {
+      "name": "MOHAMMAD ABUALNADI",
+      "pos": "DF",
+      "dob": "08/02/2001",
+      "age_2026": 25,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "SALEEM OBAID",
+      "pos": "DF",
+      "dob": "17/01/1992",
+      "age_2026": 34,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMMAD ABUGHOUSH",
+      "pos": "MF",
+      "dob": "13/07/2005",
+      "age_2026": 21,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "SAED ALROSAN",
+      "pos": "DF",
+      "dob": "01/02/1997",
+      "age_2026": 29,
+      "caps": 21,
+      "goals": 2
+    },
+    {
+      "name": "MOHANNAD ABUTAHA",
+      "pos": "MF",
+      "dob": "02/02/2003",
+      "age_2026": 23,
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "name": "NIZAR ALRASHDAN",
+      "pos": "MF",
+      "dob": "23/03/1999",
+      "age_2026": 27,
+      "caps": 47,
+      "goals": 4
+    },
+    {
+      "name": "ABDALLAH ALFAKHORI",
+      "pos": "GK",
+      "dob": "22/01/2000",
+      "age_2026": 26,
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "name": "EHSAN HADDAD",
+      "pos": "DF",
+      "dob": "05/02/1994",
+      "age_2026": 32,
+      "caps": 90,
+      "goals": 2
+    },
+    {
+      "name": "ALI AZAIZEH",
+      "pos": "FW",
+      "dob": "13/04/2004",
+      "age_2026": 22,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMMAD ALDAOUD",
+      "pos": "MF",
+      "dob": "12/04/1992",
+      "age_2026": 34,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "ANAS BADAWI",
+      "pos": "DF",
+      "dob": "13/09/1997",
+      "age_2026": 29,
+      "caps": 1,
+      "goals": 0
+    }
+  ],
+  "Korea Republic": [
+    {
+      "name": "KIM Seunggyu",
+      "pos": "GK",
+      "dob": "30/09/1990",
+      "age_2026": 36,
+      "caps": 87,
+      "goals": 0
+    },
+    {
+      "name": "LEE Hanbeom",
+      "pos": "DF",
+      "dob": "17/06/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "LEE Gihyuk",
+      "pos": "MF",
+      "dob": "07/07/2000",
+      "age_2026": 26,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "KIM Minjae",
+      "pos": "DF",
+      "dob": "15/11/1996",
+      "age_2026": 30,
+      "caps": 80,
+      "goals": 4
+    },
+    {
+      "name": "KIM Taehyeon",
+      "pos": "DF",
+      "dob": "17/09/2000",
+      "age_2026": 26,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "HWANG Inbeom",
+      "pos": "MF",
+      "dob": "20/09/1996",
+      "age_2026": 30,
+      "caps": 74,
+      "goals": 7
+    },
+    {
+      "name": "SON Heungmin",
+      "pos": "FW",
+      "dob": "08/07/1992",
+      "age_2026": 34,
+      "caps": 145,
+      "goals": 56
+    },
+    {
+      "name": "PAIK Seungho",
+      "pos": "MF",
+      "dob": "17/03/1997",
+      "age_2026": 29,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "CHO Guesung",
+      "pos": "FW",
+      "dob": "25/01/1998",
+      "age_2026": 28,
+      "caps": 44,
+      "goals": 12
+    },
+    {
+      "name": "LEE Jaesung",
+      "pos": "MF",
+      "dob": "10/08/1992",
+      "age_2026": 34,
+      "caps": 106,
+      "goals": 15
+    },
+    {
+      "name": "HWANG Heechan",
+      "pos": "MF",
+      "dob": "26/01/1996",
+      "age_2026": 30,
+      "caps": 80,
+      "goals": 17
+    },
+    {
+      "name": "SONG Bumkeun",
+      "pos": "GK",
+      "dob": "15/10/1997",
+      "age_2026": 29,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "LEE Taeseok",
+      "pos": "DF",
+      "dob": "28/07/2002",
+      "age_2026": 24,
+      "caps": 16,
+      "goals": 1
+    },
+    {
+      "name": "CHO Wije",
+      "pos": "DF",
+      "dob": "25/08/2001",
+      "age_2026": 25,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "KIM Moonhwan",
+      "pos": "DF",
+      "dob": "01/08/1995",
+      "age_2026": 31,
+      "caps": 36,
+      "goals": 0
+    },
+    {
+      "name": "PARK Jinseob",
+      "pos": "DF",
+      "dob": "23/10/1995",
+      "age_2026": 31,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "BAE Junho",
+      "pos": "MF",
+      "dob": "21/08/2003",
+      "age_2026": 23,
+      "caps": 13,
+      "goals": 2
+    },
+    {
+      "name": "OH Hyeongyu",
+      "pos": "FW",
+      "dob": "12/04/2001",
+      "age_2026": 25,
+      "caps": 28,
+      "goals": 7
+    },
+    {
+      "name": "LEE Kangin",
+      "pos": "MF",
+      "dob": "19/02/2001",
+      "age_2026": 25,
+      "caps": 48,
+      "goals": 10
+    },
+    {
+      "name": "YANG Hyunjun",
+      "pos": "MF",
+      "dob": "25/05/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "JO Hyeonwoo",
+      "pos": "GK",
+      "dob": "25/09/1991",
+      "age_2026": 35,
+      "caps": 48,
+      "goals": 0
+    },
+    {
+      "name": "SEOL Youngwoo",
+      "pos": "DF",
+      "dob": "05/12/1998",
+      "age_2026": 28,
+      "caps": 35,
+      "goals": 0
+    },
+    {
+      "name": "CASTROP Jens",
+      "pos": "DF",
+      "dob": "29/07/2003",
+      "age_2026": 23,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "KIM Jingyu",
+      "pos": "MF",
+      "dob": "24/02/1997",
+      "age_2026": 29,
+      "caps": 23,
+      "goals": 3
+    },
+    {
+      "name": "EOM Jisung",
+      "pos": "MF",
+      "dob": "09/05/2002",
+      "age_2026": 24,
+      "caps": 10,
+      "goals": 2
+    },
+    {
+      "name": "LEE Donggyeong",
+      "pos": "MF",
+      "dob": "20/09/1997",
+      "age_2026": 29,
+      "caps": 18,
+      "goals": 4
+    }
+  ],
+  "Mexico": [
+    {
+      "name": "RANGEL Raul",
+      "pos": "GK",
+      "dob": "25/02/2000",
+      "age_2026": 26,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "SANCHEZ Jorge",
+      "pos": "DF",
+      "dob": "10/12/1997",
+      "age_2026": 29,
+      "caps": 59,
+      "goals": 3
+    },
+    {
+      "name": "MONTES Cesar",
+      "pos": "DF",
+      "dob": "24/02/1997",
+      "age_2026": 29,
+      "caps": 69,
+      "goals": 4
+    },
+    {
+      "name": "ALVAREZ Edson",
+      "pos": "DF",
+      "dob": "24/10/1997",
+      "age_2026": 29,
+      "caps": 100,
+      "goals": 7
+    },
+    {
+      "name": "VASQUEZ Johan",
+      "pos": "DF",
+      "dob": "22/10/1998",
+      "age_2026": 28,
+      "caps": 47,
+      "goals": 3
+    },
+    {
+      "name": "LIRA Erik",
+      "pos": "MF",
+      "dob": "08/05/2000",
+      "age_2026": 26,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "ROMO Luis",
+      "pos": "MF",
+      "dob": "05/06/1995",
+      "age_2026": 31,
+      "caps": 62,
+      "goals": 4
+    },
+    {
+      "name": "FIDALGO Alvaro",
+      "pos": "MF",
+      "dob": "09/04/1997",
+      "age_2026": 29,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "JIMENEZ Raul",
+      "pos": "FW",
+      "dob": "05/05/1991",
+      "age_2026": 35,
+      "caps": 127,
+      "goals": 46
+    },
+    {
+      "name": "VEGA Alexis",
+      "pos": "FW",
+      "dob": "25/11/1997",
+      "age_2026": 29,
+      "caps": 53,
+      "goals": 7
+    },
+    {
+      "name": "GIMENEZ Santiago",
+      "pos": "FW",
+      "dob": "18/04/2001",
+      "age_2026": 25,
+      "caps": 47,
+      "goals": 6
+    },
+    {
+      "name": "ACEVEDO Carlos",
+      "pos": "GK",
+      "dob": "19/04/1996",
+      "age_2026": 30,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "OCHOA Guillermo",
+      "pos": "GK",
+      "dob": "13/07/1985",
+      "age_2026": 41,
+      "caps": 153,
+      "goals": 0
+    },
+    {
+      "name": "GONZALEZ Armando",
+      "pos": "FW",
+      "dob": "20/04/2003",
+      "age_2026": 23,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "REYES Israel",
+      "pos": "DF",
+      "dob": "23/05/2000",
+      "age_2026": 26,
+      "caps": 35,
+      "goals": 2
+    },
+    {
+      "name": "QUINONES Julian",
+      "pos": "FW",
+      "dob": "24/03/1997",
+      "age_2026": 29,
+      "caps": 23,
+      "goals": 3
+    },
+    {
+      "name": "PINEDA Orbelin",
+      "pos": "MF",
+      "dob": "24/03/1996",
+      "age_2026": 30,
+      "caps": 92,
+      "goals": 12
+    },
+    {
+      "name": "VARGAS Obed",
+      "pos": "MF",
+      "dob": "05/08/2005",
+      "age_2026": 21,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "MORA Gilberto",
+      "pos": "MF",
+      "dob": "14/10/2008",
+      "age_2026": 18,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "CHAVEZ Mateo",
+      "pos": "DF",
+      "dob": "12/05/2004",
+      "age_2026": 22,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "HUERTA Cesar",
+      "pos": "FW",
+      "dob": "03/12/2000",
+      "age_2026": 26,
+      "caps": 26,
+      "goals": 3
+    },
+    {
+      "name": "MARTINEZ Guillermo",
+      "pos": "FW",
+      "dob": "15/03/1995",
+      "age_2026": 31,
+      "caps": 12,
+      "goals": 3
+    },
+    {
+      "name": "GALLARDO Jesus",
+      "pos": "DF",
+      "dob": "15/08/1994",
+      "age_2026": 32,
+      "caps": 123,
+      "goals": 3
+    },
+    {
+      "name": "CHAVEZ Luis",
+      "pos": "MF",
+      "dob": "15/01/1996",
+      "age_2026": 30,
+      "caps": 46,
+      "goals": 5
+    },
+    {
+      "name": "ALVARADO Roberto",
+      "pos": "FW",
+      "dob": "07/09/1998",
+      "age_2026": 28,
+      "caps": 69,
+      "goals": 6
+    },
+    {
+      "name": "GUTIERREZ Brian",
+      "pos": "MF",
+      "dob": "17/06/2003",
+      "age_2026": 23,
+      "caps": 8,
+      "goals": 2
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "BOUNOU Yassine",
+      "pos": "GK",
+      "dob": "05/04/1991",
+      "age_2026": 35,
+      "caps": 90,
+      "goals": 0
+    },
+    {
+      "name": "HAKIMI Achraf",
+      "pos": "DF",
+      "dob": "04/11/1998",
+      "age_2026": 28,
+      "caps": 96,
+      "goals": 11
+    },
+    {
+      "name": "MAZRAOUI Noussair",
+      "pos": "DF",
+      "dob": "14/11/1997",
+      "age_2026": 29,
+      "caps": 45,
+      "goals": 2
+    },
+    {
+      "name": "AMRABAT Sofyan",
+      "pos": "MF",
+      "dob": "21/08/1996",
+      "age_2026": 30,
+      "caps": 75,
+      "goals": 0
+    },
+    {
+      "name": "SAADANE Marwane",
+      "pos": "DF",
+      "dob": "17/01/1992",
+      "age_2026": 34,
+      "caps": 17,
+      "goals": 1
+    },
+    {
+      "name": "BOUADDI Ayyoub",
+      "pos": "MF",
+      "dob": "02/10/2007",
+      "age_2026": 19,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "TALBI Chemsdine",
+      "pos": "MF",
+      "dob": "09/05/2005",
+      "age_2026": 21,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "OUNAHI Azzedine",
+      "pos": "MF",
+      "dob": "19/04/2000",
+      "age_2026": 26,
+      "caps": 49,
+      "goals": 9
+    },
+    {
+      "name": "RAHIMI Sou\u0000ane",
+      "pos": "FW",
+      "dob": "02/06/1996",
+      "age_2026": 30,
+      "caps": 37,
+      "goals": 12
+    },
+    {
+      "name": "DIAZ Brahim",
+      "pos": "FW",
+      "dob": "03/08/1999",
+      "age_2026": 27,
+      "caps": 26,
+      "goals": 15
+    },
+    {
+      "name": "SAIBARI Ismael",
+      "pos": "MF",
+      "dob": "28/01/2001",
+      "age_2026": 25,
+      "caps": 30,
+      "goals": 9
+    },
+    {
+      "name": "EL KAJOUI Munir",
+      "pos": "GK",
+      "dob": "10/05/1989",
+      "age_2026": 37,
+      "caps": 52,
+      "goals": 0
+    },
+    {
+      "name": "EL OUAHDI Zakaria",
+      "pos": "DF",
+      "dob": "31/12/2001",
+      "age_2026": 25,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "DIOP Issa",
+      "pos": "DF",
+      "dob": "09/01/1997",
+      "age_2026": 29,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "EL MOURABET Samir",
+      "pos": "MF",
+      "dob": "06/10/2005",
+      "age_2026": 21,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "YASSINE Gessime",
+      "pos": "MF",
+      "dob": "22/11/2005",
+      "age_2026": 21,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SBAI Amine",
+      "pos": "FW",
+      "dob": "05/11/2000",
+      "age_2026": 26,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "RIAD Chadi",
+      "pos": "DF",
+      "dob": "17/06/2003",
+      "age_2026": 23,
+      "caps": 6,
+      "goals": 1
+    },
+    {
+      "name": "BELAMMARI Youssef",
+      "pos": "DF",
+      "dob": "20/09/1998",
+      "age_2026": 28,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "EL KAABI Ayoub",
+      "pos": "FW",
+      "dob": "25/06/1993",
+      "age_2026": 33,
+      "caps": 71,
+      "goals": 36
+    },
+    {
+      "name": "AMAIMOUNI Ayoube",
+      "pos": "FW",
+      "dob": "30/11/2004",
+      "age_2026": 22,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "TAGNAOUTI Ahmed Reda",
+      "pos": "GK",
+      "dob": "05/04/1996",
+      "age_2026": 30,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "EL KHANNOUSS Bilal",
+      "pos": "MF",
+      "dob": "10/05/2004",
+      "age_2026": 22,
+      "caps": 37,
+      "goals": 3
+    },
+    {
+      "name": "EL AYNAOUI Neil",
+      "pos": "MF",
+      "dob": "02/07/2001",
+      "age_2026": 25,
+      "caps": 16,
+      "goals": 2
+    },
+    {
+      "name": "HALHAL Redouane",
+      "pos": "DF",
+      "dob": "05/03/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "SALAH EDDINE Anass",
+      "pos": "DF",
+      "dob": "18/01/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 0
+    }
+  ],
+  "Netherlands": [
+    {
+      "name": "VERBRUGGEN Bart",
+      "pos": "GK",
+      "dob": "18/08/2002",
+      "age_2026": 24,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "GEERTRUIDA Lutsharel",
+      "pos": "DF",
+      "dob": "18/07/2000",
+      "age_2026": 26,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "DE ROON Marten",
+      "pos": "MF",
+      "dob": "29/03/1991",
+      "age_2026": 35,
+      "caps": 43,
+      "goals": 1
+    },
+    {
+      "name": "VAN DIJK Virgil",
+      "pos": "DF",
+      "dob": "08/07/1991",
+      "age_2026": 35,
+      "caps": 92,
+      "goals": 12
+    },
+    {
+      "name": "AKE Nathan",
+      "pos": "DF",
+      "dob": "18/02/1995",
+      "age_2026": 31,
+      "caps": 59,
+      "goals": 5
+    },
+    {
+      "name": "VAN HECKE Jan Paul",
+      "pos": "DF",
+      "dob": "08/06/2000",
+      "age_2026": 26,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "KLUIVERT Justin",
+      "pos": "MF",
+      "dob": "05/05/1999",
+      "age_2026": 27,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "GRAVENBERCH Ryan",
+      "pos": "MF",
+      "dob": "16/05/2002",
+      "age_2026": 24,
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "name": "WEGHORST Wout",
+      "pos": "FW",
+      "dob": "07/08/1992",
+      "age_2026": 34,
+      "caps": 52,
+      "goals": 14
+    },
+    {
+      "name": "DEPAY Memphis",
+      "pos": "FW",
+      "dob": "13/02/1994",
+      "age_2026": 32,
+      "caps": 109,
+      "goals": 55
+    },
+    {
+      "name": "GAKPO Cody",
+      "pos": "FW",
+      "dob": "07/05/1999",
+      "age_2026": 27,
+      "caps": 50,
+      "goals": 21
+    },
+    {
+      "name": "WIEFFER Mats",
+      "pos": "DF",
+      "dob": "16/11/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "ROEFS Robin",
+      "pos": "GK",
+      "dob": "17/01/2003",
+      "age_2026": 23,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "REIJNDERS Tijjani",
+      "pos": "MF",
+      "dob": "29/07/1998",
+      "age_2026": 28,
+      "caps": 32,
+      "goals": 7
+    },
+    {
+      "name": "VAN DE VEN Micky",
+      "pos": "DF",
+      "dob": "19/04/2001",
+      "age_2026": 25,
+      "caps": 21,
+      "goals": 1
+    },
+    {
+      "name": "TIL Guus",
+      "pos": "MF",
+      "dob": "22/12/1997",
+      "age_2026": 29,
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "name": "LANG Noa",
+      "pos": "FW",
+      "dob": "17/06/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 3
+    },
+    {
+      "name": "MALEN Donyell",
+      "pos": "FW",
+      "dob": "19/01/1999",
+      "age_2026": 27,
+      "caps": 53,
+      "goals": 13
+    },
+    {
+      "name": "BROBBEY Brian",
+      "pos": "FW",
+      "dob": "01/02/2002",
+      "age_2026": 24,
+      "caps": 12,
+      "goals": 1
+    },
+    {
+      "name": "KOOPMEINERS Teun",
+      "pos": "MF",
+      "dob": "28/02/1998",
+      "age_2026": 28,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "DE JONG Frenkie",
+      "pos": "MF",
+      "dob": "12/05/1997",
+      "age_2026": 29,
+      "caps": 66,
+      "goals": 2
+    },
+    {
+      "name": "DUMFRIES Denzel",
+      "pos": "DF",
+      "dob": "18/04/1996",
+      "age_2026": 30,
+      "caps": 72,
+      "goals": 11
+    },
+    {
+      "name": "FLEKKEN Mark",
+      "pos": "GK",
+      "dob": "13/06/1993",
+      "age_2026": 33,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "SUMMERVILLE Crysencio",
+      "pos": "FW",
+      "dob": "30/10/2001",
+      "age_2026": 25,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "HATO Jorrel",
+      "pos": "DF",
+      "dob": "07/03/2006",
+      "age_2026": 20,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "TIMBER Quinten",
+      "pos": "MF",
+      "dob": "17/06/2001",
+      "age_2026": 25,
+      "caps": 11,
+      "goals": 1
+    }
+  ],
+  "New Zealand": [
+    {
+      "name": "CROCOMBE Max",
+      "pos": "GK",
+      "dob": "12/08/1993",
+      "age_2026": 33,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "PAYNE Tim",
+      "pos": "DF",
+      "dob": "10/01/1994",
+      "age_2026": 32,
+      "caps": 52,
+      "goals": 3
+    },
+    {
+      "name": "DE VRIES Francis",
+      "pos": "DF",
+      "dob": "28/11/1994",
+      "age_2026": 32,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "BINDON Tyler",
+      "pos": "DF",
+      "dob": "27/01/2005",
+      "age_2026": 21,
+      "caps": 25,
+      "goals": 2
+    },
+    {
+      "name": "BOXALL Michael",
+      "pos": "DF",
+      "dob": "18/08/1988",
+      "age_2026": 38,
+      "caps": 64,
+      "goals": 1
+    },
+    {
+      "name": "BELL Joe",
+      "pos": "MF",
+      "dob": "27/04/1999",
+      "age_2026": 27,
+      "caps": 32,
+      "goals": 1
+    },
+    {
+      "name": "GARBETT Matthew",
+      "pos": "MF",
+      "dob": "13/04/2002",
+      "age_2026": 24,
+      "caps": 39,
+      "goals": 5
+    },
+    {
+      "name": "STAMENIC Marko",
+      "pos": "MF",
+      "dob": "19/02/2002",
+      "age_2026": 24,
+      "caps": 40,
+      "goals": 3
+    },
+    {
+      "name": "WOOD Chris",
+      "pos": "FW",
+      "dob": "07/12/1991",
+      "age_2026": 35,
+      "caps": 90,
+      "goals": 45
+    },
+    {
+      "name": "SINGH Sarpreet",
+      "pos": "MF",
+      "dob": "20/02/1999",
+      "age_2026": 27,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "JUST Elijah",
+      "pos": "MF",
+      "dob": "01/05/2000",
+      "age_2026": 26,
+      "caps": 44,
+      "goals": 9
+    },
+    {
+      "name": "PAULSEN Alex",
+      "pos": "GK",
+      "dob": "04/07/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "CACACE Liberato",
+      "pos": "DF",
+      "dob": "27/09/2000",
+      "age_2026": 26,
+      "caps": 37,
+      "goals": 1
+    },
+    {
+      "name": "RUFER Alex",
+      "pos": "MF",
+      "dob": "12/06/1996",
+      "age_2026": 30,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "PIJNAKER Nando",
+      "pos": "DF",
+      "dob": "25/02/1999",
+      "age_2026": 27,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "SURMAN Finn",
+      "pos": "DF",
+      "dob": "23/09/2003",
+      "age_2026": 23,
+      "caps": 19,
+      "goals": 2
+    },
+    {
+      "name": "BARBAROUSES Kosta",
+      "pos": "FW",
+      "dob": "19/02/1990",
+      "age_2026": 36,
+      "caps": 76,
+      "goals": 10
+    },
+    {
+      "name": "WAINE Ben",
+      "pos": "FW",
+      "dob": "11/06/2001",
+      "age_2026": 25,
+      "caps": 31,
+      "goals": 9
+    },
+    {
+      "name": "OLD Ben",
+      "pos": "MF",
+      "dob": "13/08/2002",
+      "age_2026": 24,
+      "caps": 24,
+      "goals": 2
+    },
+    {
+      "name": "McCOWATT Callum",
+      "pos": "MF",
+      "dob": "30/04/1999",
+      "age_2026": 27,
+      "caps": 33,
+      "goals": 5
+    },
+    {
+      "name": "RANDALL Jesse",
+      "pos": "FW",
+      "dob": "19/08/2002",
+      "age_2026": 24,
+      "caps": 11,
+      "goals": 2
+    },
+    {
+      "name": "WOUD Michael",
+      "pos": "GK",
+      "dob": "16/01/1999",
+      "age_2026": 27,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "THOMAS Ryan",
+      "pos": "MF",
+      "dob": "20/12/1994",
+      "age_2026": 32,
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "name": "ELLIOT Callan",
+      "pos": "DF",
+      "dob": "07/07/1999",
+      "age_2026": 27,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "BAYLISS Lachlan",
+      "pos": "MF",
+      "dob": "24/07/2002",
+      "age_2026": 24,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "SMITH Tommy",
+      "pos": "DF",
+      "dob": "31/03/1990",
+      "age_2026": 36,
+      "caps": 57,
+      "goals": 2
+    }
+  ],
+  "Norway": [
+    {
+      "name": "NYLAND Orjan",
+      "pos": "GK",
+      "dob": "10/09/1990",
+      "age_2026": 36,
+      "caps": 71,
+      "goals": 0
+    },
+    {
+      "name": "THORSBY Morten",
+      "pos": "MF",
+      "dob": "05/05/1996",
+      "age_2026": 30,
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "name": "AJER Kristoffer",
+      "pos": "DF",
+      "dob": "17/04/1998",
+      "age_2026": 28,
+      "caps": 52,
+      "goals": 2
+    },
+    {
+      "name": "OSTIGARD Leo",
+      "pos": "DF",
+      "dob": "28/11/1999",
+      "age_2026": 27,
+      "caps": 38,
+      "goals": 1
+    },
+    {
+      "name": "MOLLER WOLFE David",
+      "pos": "DF",
+      "dob": "23/04/2002",
+      "age_2026": 24,
+      "caps": 22,
+      "goals": 1
+    },
+    {
+      "name": "BERG Patrick",
+      "pos": "MF",
+      "dob": "24/11/1997",
+      "age_2026": 29,
+      "caps": 43,
+      "goals": 0
+    },
+    {
+      "name": "SORLOTH Alexander",
+      "pos": "FW",
+      "dob": "05/12/1995",
+      "age_2026": 31,
+      "caps": 72,
+      "goals": 26
+    },
+    {
+      "name": "BERGE Sander",
+      "pos": "MF",
+      "dob": "14/02/1998",
+      "age_2026": 28,
+      "caps": 66,
+      "goals": 1
+    },
+    {
+      "name": "HAALAND Erling",
+      "pos": "FW",
+      "dob": "21/07/2000",
+      "age_2026": 26,
+      "caps": 50,
+      "goals": 55
+    },
+    {
+      "name": "ODEGAARD Martin",
+      "pos": "MF",
+      "dob": "17/12/1998",
+      "age_2026": 28,
+      "caps": 68,
+      "goals": 5
+    },
+    {
+      "name": "STRAND LARSEN Jorgen",
+      "pos": "FW",
+      "dob": "06/02/2000",
+      "age_2026": 26,
+      "caps": 28,
+      "goals": 6
+    },
+    {
+      "name": "TANGVIK Sander",
+      "pos": "GK",
+      "dob": "29/11/2002",
+      "age_2026": 24,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "SELVIK Egil",
+      "pos": "GK",
+      "dob": "30/07/1997",
+      "age_2026": 29,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "AURSNES Fredrik",
+      "pos": "MF",
+      "dob": "10/12/1995",
+      "age_2026": 31,
+      "caps": 22,
+      "goals": 1
+    },
+    {
+      "name": "BJORKAN Fredrik Andre",
+      "pos": "DF",
+      "dob": "21/08/1998",
+      "age_2026": 28,
+      "caps": 21,
+      "goals": 1
+    },
+    {
+      "name": "HOLMGREN PEDERSEN Marcus",
+      "pos": "DF",
+      "dob": "16/07/2000",
+      "age_2026": 26,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "HEGGEM Torbjorn",
+      "pos": "DF",
+      "dob": "12/01/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "THORSTVEDT Kristian",
+      "pos": "MF",
+      "dob": "13/03/1999",
+      "age_2026": 27,
+      "caps": 37,
+      "goals": 4
+    },
+    {
+      "name": "AASGAARD Thelo",
+      "pos": "MF",
+      "dob": "02/05/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 5
+    },
+    {
+      "name": "NUSA Antonio",
+      "pos": "FW",
+      "dob": "17/04/2005",
+      "age_2026": 21,
+      "caps": 24,
+      "goals": 8
+    },
+    {
+      "name": "SCHJELDERUP Andreas",
+      "pos": "MF",
+      "dob": "01/06/2004",
+      "age_2026": 22,
+      "caps": 12,
+      "goals": 1
+    },
+    {
+      "name": "BOBB Oscar",
+      "pos": "MF",
+      "dob": "12/07/2003",
+      "age_2026": 23,
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "name": "HAUGE Jens Petter",
+      "pos": "MF",
+      "dob": "12/10/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "LANGAS Sondre",
+      "pos": "DF",
+      "dob": "02/02/2001",
+      "age_2026": 25,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "FALCHENER Henrik",
+      "pos": "DF",
+      "dob": "08/05/2003",
+      "age_2026": 23,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "RYERSON Julian",
+      "pos": "FW",
+      "dob": "17/11/1997",
+      "age_2026": 29,
+      "caps": 43,
+      "goals": 1
+    }
+  ],
+  "Panama": [
+    {
+      "name": "MEJIA Luis",
+      "pos": "GK",
+      "dob": "16/03/1991",
+      "age_2026": 35,
+      "caps": 56,
+      "goals": 0
+    },
+    {
+      "name": "BLACKMAN Cesar",
+      "pos": "DF",
+      "dob": "02/04/1998",
+      "age_2026": 28,
+      "caps": 40,
+      "goals": 3
+    },
+    {
+      "name": "CORDOBA Jose",
+      "pos": "DF",
+      "dob": "03/06/2001",
+      "age_2026": 25,
+      "caps": 32,
+      "goals": 1
+    },
+    {
+      "name": "ESCOBAR Fidel",
+      "pos": "DF",
+      "dob": "09/01/1995",
+      "age_2026": 31,
+      "caps": 99,
+      "goals": 4
+    },
+    {
+      "name": "FARINA Edgardo",
+      "pos": "DF",
+      "dob": "19/10/2001",
+      "age_2026": 25,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "MARTINEZ Cristian",
+      "pos": "MF",
+      "dob": "06/02/1997",
+      "age_2026": 29,
+      "caps": 67,
+      "goals": 2
+    },
+    {
+      "name": "RODRIGUEZ Jose Luis",
+      "pos": "MF",
+      "dob": "19/06/1998",
+      "age_2026": 28,
+      "caps": 70,
+      "goals": 8
+    },
+    {
+      "name": "CARRASQUILLA Adalberto",
+      "pos": "MF",
+      "dob": "28/11/1998",
+      "age_2026": 28,
+      "caps": 73,
+      "goals": 3
+    },
+    {
+      "name": "RODRIGUEZ Tomas",
+      "pos": "FW",
+      "dob": "09/03/1999",
+      "age_2026": 27,
+      "caps": 13,
+      "goals": 4
+    },
+    {
+      "name": "DIAZ Ismael",
+      "pos": "MF",
+      "dob": "12/05/1997",
+      "age_2026": 29,
+      "caps": 56,
+      "goals": 17
+    },
+    {
+      "name": "BARCENAS Edgar Yoel",
+      "pos": "MF",
+      "dob": "23/10/1993",
+      "age_2026": 33,
+      "caps": 104,
+      "goals": 10
+    },
+    {
+      "name": "SAMUDIO Cesar",
+      "pos": "GK",
+      "dob": "23/02/1994",
+      "age_2026": 32,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "RAMOS Jiovany",
+      "pos": "DF",
+      "dob": "26/01/1997",
+      "age_2026": 29,
+      "caps": 23,
+      "goals": 2
+    },
+    {
+      "name": "HARVEY Carlos",
+      "pos": "DF",
+      "dob": "03/02/2000",
+      "age_2026": 26,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "DAVIS Eric",
+      "pos": "DF",
+      "dob": "31/03/1991",
+      "age_2026": 35,
+      "caps": 107,
+      "goals": 9
+    },
+    {
+      "name": "ANDRADE Andres",
+      "pos": "DF",
+      "dob": "16/10/1998",
+      "age_2026": 28,
+      "caps": 50,
+      "goals": 1
+    },
+    {
+      "name": "FAJARDO Jose",
+      "pos": "FW",
+      "dob": "18/08/1993",
+      "age_2026": 33,
+      "caps": 69,
+      "goals": 17
+    },
+    {
+      "name": "WATERMAN Cecilio",
+      "pos": "FW",
+      "dob": "13/04/1991",
+      "age_2026": 35,
+      "caps": 55,
+      "goals": 15
+    },
+    {
+      "name": "QUINTERO Alberto",
+      "pos": "MF",
+      "dob": "18/12/1987",
+      "age_2026": 39,
+      "caps": 141,
+      "goals": 7
+    },
+    {
+      "name": "GODOY Anibal",
+      "pos": "MF",
+      "dob": "10/02/1990",
+      "age_2026": 36,
+      "caps": 159,
+      "goals": 4
+    },
+    {
+      "name": "YANIS Cesar",
+      "pos": "MF",
+      "dob": "28/01/1996",
+      "age_2026": 30,
+      "caps": 55,
+      "goals": 5
+    },
+    {
+      "name": "MOSQUERA Orlando",
+      "pos": "GK",
+      "dob": "25/12/1994",
+      "age_2026": 32,
+      "caps": 49,
+      "goals": 0
+    },
+    {
+      "name": "MURILLO Amir",
+      "pos": "DF",
+      "dob": "11/02/1996",
+      "age_2026": 30,
+      "caps": 93,
+      "goals": 9
+    },
+    {
+      "name": "LONDONO Azarias",
+      "pos": "FW",
+      "dob": "21/06/2001",
+      "age_2026": 25,
+      "caps": 12,
+      "goals": 1
+    },
+    {
+      "name": "MILLER Roderick",
+      "pos": "DF",
+      "dob": "03/04/1992",
+      "age_2026": 34,
+      "caps": 49,
+      "goals": 2
+    },
+    {
+      "name": "GUTIERREZ Jorge",
+      "pos": "DF",
+      "dob": "01/09/1998",
+      "age_2026": 28,
+      "caps": 18,
+      "goals": 0
+    }
+  ],
+  "Paraguay": [
+    {
+      "name": "FERNANDEZ Gatito",
+      "pos": "GK",
+      "dob": "29/03/1988",
+      "age_2026": 38,
+      "caps": 30,
+      "goals": 0
+    },
+    {
+      "name": "VELAZQUEZ Gustavo",
+      "pos": "DF",
+      "dob": "17/04/1991",
+      "age_2026": 35,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "ALDERETE Omar",
+      "pos": "DF",
+      "dob": "26/12/1996",
+      "age_2026": 30,
+      "caps": 37,
+      "goals": 3
+    },
+    {
+      "name": "CACERES Juan Jose",
+      "pos": "DF",
+      "dob": "01/06/2000",
+      "age_2026": 26,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "BALBUENA Fabian",
+      "pos": "DF",
+      "dob": "23/08/1991",
+      "age_2026": 35,
+      "caps": 47,
+      "goals": 2
+    },
+    {
+      "name": "ALONSO Junior",
+      "pos": "DF",
+      "dob": "09/02/1993",
+      "age_2026": 33,
+      "caps": 72,
+      "goals": 3
+    },
+    {
+      "name": "SOSA Ramon",
+      "pos": "MF",
+      "dob": "31/08/1999",
+      "age_2026": 27,
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "name": "GOMEZ Diego",
+      "pos": "MF",
+      "dob": "27/03/2003",
+      "age_2026": 23,
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "name": "SANABRIA Antonio",
+      "pos": "FW",
+      "dob": "04/03/1996",
+      "age_2026": 30,
+      "caps": 49,
+      "goals": 7
+    },
+    {
+      "name": "ALMIRON Miguel",
+      "pos": "MF",
+      "dob": "10/02/1994",
+      "age_2026": 32,
+      "caps": 77,
+      "goals": 10
+    },
+    {
+      "name": "MAURICIO",
+      "pos": "MF",
+      "dob": "22/06/2001",
+      "age_2026": 25,
+      "caps": 4,
+      "goals": 1
+    },
+    {
+      "name": "GILL Orlando",
+      "pos": "GK",
+      "dob": "11/06/2000",
+      "age_2026": 26,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "CANALE Jose",
+      "pos": "DF",
+      "dob": "20/07/1996",
+      "age_2026": 30,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "CUBAS Andres",
+      "pos": "MF",
+      "dob": "11/05/1996",
+      "age_2026": 30,
+      "caps": 34,
+      "goals": 0
+    },
+    {
+      "name": "GOMEZ Gustavo",
+      "pos": "DF",
+      "dob": "06/05/1993",
+      "age_2026": 33,
+      "caps": 90,
+      "goals": 4
+    },
+    {
+      "name": "BOBADILLA Damian",
+      "pos": "MF",
+      "dob": "11/07/2001",
+      "age_2026": 25,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "ROMERO GAMARRA Alejandro",
+      "pos": "FW",
+      "dob": "11/01/1995",
+      "age_2026": 31,
+      "caps": 35,
+      "goals": 6
+    },
+    {
+      "name": "ARCE Alex",
+      "pos": "FW",
+      "dob": "16/06/1995",
+      "age_2026": 31,
+      "caps": 16,
+      "goals": 1
+    },
+    {
+      "name": "ENCISO Julio",
+      "pos": "FW",
+      "dob": "23/01/2004",
+      "age_2026": 22,
+      "caps": 33,
+      "goals": 4
+    },
+    {
+      "name": "OJEDA Braian",
+      "pos": "MF",
+      "dob": "27/06/2000",
+      "age_2026": 26,
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "name": "AVALOS Gabriel",
+      "pos": "FW",
+      "dob": "09/07/1991",
+      "age_2026": 35,
+      "caps": 23,
+      "goals": 2
+    },
+    {
+      "name": "OLVEIRA Gaston",
+      "pos": "GK",
+      "dob": "21/04/1993",
+      "age_2026": 33,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "GALARZA Matias",
+      "pos": "MF",
+      "dob": "11/02/2002",
+      "age_2026": 24,
+      "caps": 15,
+      "goals": 3
+    },
+    {
+      "name": "CABALLERO Gustavo",
+      "pos": "MF",
+      "dob": "21/09/2001",
+      "age_2026": 25,
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "name": "PITTA Isidro",
+      "pos": "FW",
+      "dob": "14/08/1999",
+      "age_2026": 27,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MAIDANA Alexandro",
+      "pos": "DF",
+      "dob": "26/07/2005",
+      "age_2026": 21,
+      "caps": 2,
+      "goals": 1
+    }
+  ],
+  "Portugal": [
+    {
+      "name": "DIOGO COSTA",
+      "pos": "GK",
+      "dob": "19/09/1999",
+      "age_2026": 27,
+      "caps": 43,
+      "goals": 0
+    },
+    {
+      "name": "NELSON SEMEDO",
+      "pos": "DF",
+      "dob": "16/11/1993",
+      "age_2026": 33,
+      "caps": 50,
+      "goals": 0
+    },
+    {
+      "name": "RUBEN DIAS",
+      "pos": "DF",
+      "dob": "14/05/1997",
+      "age_2026": 29,
+      "caps": 76,
+      "goals": 3
+    },
+    {
+      "name": "TOMAS ARAUJO",
+      "pos": "DF",
+      "dob": "16/05/2002",
+      "age_2026": 24,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "DIOGO DALOT",
+      "pos": "DF",
+      "dob": "18/03/1999",
+      "age_2026": 27,
+      "caps": 35,
+      "goals": 3
+    },
+    {
+      "name": "MATHEUS NUNES",
+      "pos": "MF",
+      "dob": "27/08/1998",
+      "age_2026": 28,
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "name": "CRISTIANO RONALDO",
+      "pos": "FW",
+      "dob": "05/02/1985",
+      "age_2026": 41,
+      "caps": 228,
+      "goals": 143
+    },
+    {
+      "name": "BRUNO FERNANDES",
+      "pos": "MF",
+      "dob": "08/09/1994",
+      "age_2026": 32,
+      "caps": 89,
+      "goals": 29
+    },
+    {
+      "name": "GONCALO RAMOS",
+      "pos": "FW",
+      "dob": "20/06/2001",
+      "age_2026": 25,
+      "caps": 25,
+      "goals": 10
+    },
+    {
+      "name": "BERNARDO SILVA",
+      "pos": "MF",
+      "dob": "10/08/1994",
+      "age_2026": 32,
+      "caps": 109,
+      "goals": 14
+    },
+    {
+      "name": "JOAO FELIX",
+      "pos": "FW",
+      "dob": "10/11/1999",
+      "age_2026": 27,
+      "caps": 54,
+      "goals": 12
+    },
+    {
+      "name": "JOSE SA",
+      "pos": "GK",
+      "dob": "17/01/1993",
+      "age_2026": 33,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "RENATO VEIGA",
+      "pos": "DF",
+      "dob": "29/07/2003",
+      "age_2026": 23,
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "name": "GONCALO INACIO",
+      "pos": "DF",
+      "dob": "25/08/2001",
+      "age_2026": 25,
+      "caps": 22,
+      "goals": 2
+    },
+    {
+      "name": "JOAO NEVES",
+      "pos": "MF",
+      "dob": "27/09/2004",
+      "age_2026": 22,
+      "caps": 22,
+      "goals": 3
+    },
+    {
+      "name": "FRANCISCO TRINCAO",
+      "pos": "FW",
+      "dob": "29/12/1999",
+      "age_2026": 27,
+      "caps": 18,
+      "goals": 3
+    },
+    {
+      "name": "RAFAEL LEAO",
+      "pos": "FW",
+      "dob": "10/06/1999",
+      "age_2026": 27,
+      "caps": 44,
+      "goals": 5
+    },
+    {
+      "name": "PEDRO NETO",
+      "pos": "FW",
+      "dob": "09/03/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "name": "GONCALO GUEDES",
+      "pos": "FW",
+      "dob": "29/11/1996",
+      "age_2026": 30,
+      "caps": 35,
+      "goals": 8
+    },
+    {
+      "name": "JOAO CANCELO",
+      "pos": "DF",
+      "dob": "27/05/1994",
+      "age_2026": 32,
+      "caps": 68,
+      "goals": 12
+    },
+    {
+      "name": "RUBEN NEVES",
+      "pos": "MF",
+      "dob": "13/03/1997",
+      "age_2026": 29,
+      "caps": 67,
+      "goals": 1
+    },
+    {
+      "name": "RUI SILVA",
+      "pos": "GK",
+      "dob": "07/02/1994",
+      "age_2026": 32,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "VITINHA",
+      "pos": "MF",
+      "dob": "13/02/2000",
+      "age_2026": 26,
+      "caps": 38,
+      "goals": 0
+    },
+    {
+      "name": "SAMU COSTA",
+      "pos": "DF",
+      "dob": "27/11/2000",
+      "age_2026": 26,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "NUNO MENDES",
+      "pos": "DF",
+      "dob": "19/06/2002",
+      "age_2026": 24,
+      "caps": 44,
+      "goals": 1
+    },
+    {
+      "name": "FRANCISCO CONCEICAO",
+      "pos": "FW",
+      "dob": "14/12/2002",
+      "age_2026": 24,
+      "caps": 17,
+      "goals": 4
+    }
+  ],
+  "Qatar": [
+    {
+      "name": "MAHMOUD ABUNADA",
+      "pos": "GK",
+      "dob": "05/02/2000",
+      "age_2026": 26,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "PEDRO MIGUEL",
+      "pos": "DF",
+      "dob": "06/08/1990",
+      "age_2026": 36,
+      "caps": 111,
+      "goals": 4
+    },
+    {
+      "name": "LUCAS MENDES",
+      "pos": "DF",
+      "dob": "03/07/1990",
+      "age_2026": 36,
+      "caps": 28,
+      "goals": 2
+    },
+    {
+      "name": "ISSA LAYE",
+      "pos": "DF",
+      "dob": "22/12/1997",
+      "age_2026": 29,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "JASSEM GABER",
+      "pos": "DF",
+      "dob": "20/02/2002",
+      "age_2026": 24,
+      "caps": 37,
+      "goals": 1
+    },
+    {
+      "name": "ABDULAZIZ HATEM",
+      "pos": "MF",
+      "dob": "01/01/1990",
+      "age_2026": 36,
+      "caps": 132,
+      "goals": 11
+    },
+    {
+      "name": "AHMED ALAAELDIN",
+      "pos": "FW",
+      "dob": "31/01/1993",
+      "age_2026": 33,
+      "caps": 77,
+      "goals": 10
+    },
+    {
+      "name": "EDMILSON JUNIOR",
+      "pos": "FW",
+      "dob": "19/08/1994",
+      "age_2026": 32,
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMMED MUNTARI",
+      "pos": "FW",
+      "dob": "20/12/1993",
+      "age_2026": 33,
+      "caps": 74,
+      "goals": 17
+    },
+    {
+      "name": "HASSAN ALHAYDOS",
+      "pos": "FW",
+      "dob": "11/12/1990",
+      "age_2026": 36,
+      "caps": 189,
+      "goals": 39
+    },
+    {
+      "name": "AKRAM AFIF",
+      "pos": "FW",
+      "dob": "18/11/1996",
+      "age_2026": 30,
+      "caps": 136,
+      "goals": 40
+    },
+    {
+      "name": "KARIM BOUDIAF",
+      "pos": "MF",
+      "dob": "16/09/1990",
+      "age_2026": 36,
+      "caps": 128,
+      "goals": 6
+    },
+    {
+      "name": "AYOUB ALOUI",
+      "pos": "DF",
+      "dob": "11/03/2005",
+      "age_2026": 21,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "HOMAM AHMED",
+      "pos": "DF",
+      "dob": "25/08/1999",
+      "age_2026": 27,
+      "caps": 76,
+      "goals": 3
+    },
+    {
+      "name": "YUSUF ABDURISAG",
+      "pos": "FW",
+      "dob": "06/08/1999",
+      "age_2026": 27,
+      "caps": 44,
+      "goals": 3
+    },
+    {
+      "name": "BOUALEM KHOUKHI",
+      "pos": "DF",
+      "dob": "09/07/1990",
+      "age_2026": 36,
+      "caps": 128,
+      "goals": 21
+    },
+    {
+      "name": "AHMED ALGANEHI",
+      "pos": "MF",
+      "dob": "22/09/2000",
+      "age_2026": 26,
+      "caps": 15,
+      "goals": 1
+    },
+    {
+      "name": "SULTAN ALBRAKE",
+      "pos": "DF",
+      "dob": "07/04/1996",
+      "age_2026": 30,
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "name": "ALMOEZ ALI",
+      "pos": "FW",
+      "dob": "19/08/1996",
+      "age_2026": 30,
+      "caps": 128,
+      "goals": 58
+    },
+    {
+      "name": "AHMED FATHY",
+      "pos": "MF",
+      "dob": "25/01/1993",
+      "age_2026": 33,
+      "caps": 54,
+      "goals": 0
+    },
+    {
+      "name": "SALAH ZAKARIA",
+      "pos": "GK",
+      "dob": "24/04/1999",
+      "age_2026": 27,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "MESHAAL BARSHAM",
+      "pos": "GK",
+      "dob": "14/02/1998",
+      "age_2026": 28,
+      "caps": 60,
+      "goals": 0
+    },
+    {
+      "name": "ASSIM MADIBO",
+      "pos": "MF",
+      "dob": "22/10/1996",
+      "age_2026": 30,
+      "caps": 64,
+      "goals": 0
+    },
+    {
+      "name": "TAHSIN MOHAMMED",
+      "pos": "FW",
+      "dob": "16/06/2006",
+      "age_2026": 20,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "ALHASHMI ALHUSSEIN",
+      "pos": "DF",
+      "dob": "15/08/2003",
+      "age_2026": 23,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMED MANAI",
+      "pos": "FW",
+      "dob": "25/10/2002",
+      "age_2026": 24,
+      "caps": 11,
+      "goals": 0
+    }
+  ],
+  "Saudi Arabia": [
+    {
+      "name": "NAWAF ALAQIDI",
+      "pos": "GK",
+      "dob": "10/05/2000",
+      "age_2026": 26,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "ALI MAJRASHI",
+      "pos": "DF",
+      "dob": "02/10/1999",
+      "age_2026": 27,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "ALI LAJAMI",
+      "pos": "DF",
+      "dob": "24/04/1996",
+      "age_2026": 30,
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "name": "ABDULELAH ALAMRI",
+      "pos": "DF",
+      "dob": "15/01/1997",
+      "age_2026": 29,
+      "caps": 44,
+      "goals": 1
+    },
+    {
+      "name": "HASSAN ALTAMBAKTI",
+      "pos": "DF",
+      "dob": "09/02/1999",
+      "age_2026": 27,
+      "caps": 54,
+      "goals": 1
+    },
+    {
+      "name": "NASSER ALDAWSARI",
+      "pos": "MF",
+      "dob": "19/12/1998",
+      "age_2026": 28,
+      "caps": 47,
+      "goals": 1
+    },
+    {
+      "name": "MUSAB ALJUWAYR",
+      "pos": "MF",
+      "dob": "20/06/2003",
+      "age_2026": 23,
+      "caps": 37,
+      "goals": 6
+    },
+    {
+      "name": "AIMAN YAHYA",
+      "pos": "FW",
+      "dob": "14/05/2001",
+      "age_2026": 25,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "FERAS ALBRIKAN",
+      "pos": "FW",
+      "dob": "14/05/2000",
+      "age_2026": 26,
+      "caps": 72,
+      "goals": 16
+    },
+    {
+      "name": "SALEM ALDAWSARI",
+      "pos": "FW",
+      "dob": "19/08/1991",
+      "age_2026": 35,
+      "caps": 111,
+      "goals": 27
+    },
+    {
+      "name": "SALEH ALSHEHRI",
+      "pos": "FW",
+      "dob": "01/11/1993",
+      "age_2026": 33,
+      "caps": 59,
+      "goals": 17
+    },
+    {
+      "name": "SAUD ABDULHAMID",
+      "pos": "DF",
+      "dob": "18/07/1999",
+      "age_2026": 27,
+      "caps": 55,
+      "goals": 1
+    },
+    {
+      "name": "NAWAF BU WASHL",
+      "pos": "DF",
+      "dob": "16/09/1999",
+      "age_2026": 27,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "HASSAN KADISH",
+      "pos": "DF",
+      "dob": "26/09/1992",
+      "age_2026": 34,
+      "caps": 21,
+      "goals": 2
+    },
+    {
+      "name": "ABDULLAH ALKHAIBARI",
+      "pos": "MF",
+      "dob": "16/08/1996",
+      "age_2026": 30,
+      "caps": 42,
+      "goals": 0
+    },
+    {
+      "name": "ZIYAD ALJOHANI",
+      "pos": "MF",
+      "dob": "11/11/2001",
+      "age_2026": 25,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "KHALID ALGHANNAM",
+      "pos": "FW",
+      "dob": "08/11/2000",
+      "age_2026": 26,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "ALA ALHAJJI",
+      "pos": "MF",
+      "dob": "03/12/1995",
+      "age_2026": 31,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "ABDULLAH ALHAMDDAN",
+      "pos": "FW",
+      "dob": "13/09/1999",
+      "age_2026": 27,
+      "caps": 52,
+      "goals": 13
+    },
+    {
+      "name": "SULTAN MANDASH",
+      "pos": "FW",
+      "dob": "17/10/1994",
+      "age_2026": 32,
+      "caps": 7,
+      "goals": 2
+    },
+    {
+      "name": "MOHAMMED ALOWAIS",
+      "pos": "GK",
+      "dob": "10/10/1991",
+      "age_2026": 35,
+      "caps": 65,
+      "goals": 0
+    },
+    {
+      "name": "AHMED ALKASSAR",
+      "pos": "GK",
+      "dob": "08/05/1991",
+      "age_2026": 35,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMED KANNO",
+      "pos": "MF",
+      "dob": "22/09/1994",
+      "age_2026": 32,
+      "caps": 79,
+      "goals": 8
+    },
+    {
+      "name": "MOTEB ALHARBI",
+      "pos": "DF",
+      "dob": "20/02/2000",
+      "age_2026": 26,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "JEHAD THIKRI",
+      "pos": "DF",
+      "dob": "21/07/2001",
+      "age_2026": 25,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "MOHAMMED ABU ALSHAMAT",
+      "pos": "DF",
+      "dob": "11/08/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 0
+    }
+  ],
+  "Scotland": [
+    {
+      "name": "GUNN Angus",
+      "pos": "GK",
+      "dob": "22/01/1996",
+      "age_2026": 30,
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "name": "HICKEY Aaron",
+      "pos": "DF",
+      "dob": "10/06/2002",
+      "age_2026": 24,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "ROBERTSON Andy",
+      "pos": "DF",
+      "dob": "11/03/1994",
+      "age_2026": 32,
+      "caps": 94,
+      "goals": 4
+    },
+    {
+      "name": "McTOMINAY Scott",
+      "pos": "MF",
+      "dob": "08/12/1996",
+      "age_2026": 30,
+      "caps": 70,
+      "goals": 15
+    },
+    {
+      "name": "HANLEY Grant",
+      "pos": "DF",
+      "dob": "20/11/1991",
+      "age_2026": 35,
+      "caps": 68,
+      "goals": 2
+    },
+    {
+      "name": "TIERNEY Kieran",
+      "pos": "DF",
+      "dob": "05/06/1997",
+      "age_2026": 29,
+      "caps": 56,
+      "goals": 2
+    },
+    {
+      "name": "McGINN John",
+      "pos": "MF",
+      "dob": "18/10/1994",
+      "age_2026": 32,
+      "caps": 86,
+      "goals": 20
+    },
+    {
+      "name": "FLETCHER Tyler",
+      "pos": "MF",
+      "dob": "19/03/2007",
+      "age_2026": 19,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "DYKES Lyndon",
+      "pos": "FW",
+      "dob": "07/10/1995",
+      "age_2026": 31,
+      "caps": 51,
+      "goals": 10
+    },
+    {
+      "name": "ADAMS Che",
+      "pos": "FW",
+      "dob": "13/07/1996",
+      "age_2026": 30,
+      "caps": 47,
+      "goals": 13
+    },
+    {
+      "name": "CHRISTIE Ryan",
+      "pos": "MF",
+      "dob": "22/02/1995",
+      "age_2026": 31,
+      "caps": 68,
+      "goals": 10
+    },
+    {
+      "name": "KELLY Liam",
+      "pos": "GK",
+      "dob": "23/01/1996",
+      "age_2026": 30,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "HENDRY Jack",
+      "pos": "DF",
+      "dob": "07/05/1995",
+      "age_2026": 31,
+      "caps": 38,
+      "goals": 3
+    },
+    {
+      "name": "STEWART Ross",
+      "pos": "FW",
+      "dob": "11/07/1996",
+      "age_2026": 30,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "SOUTTAR John",
+      "pos": "DF",
+      "dob": "25/09/1996",
+      "age_2026": 30,
+      "caps": 24,
+      "goals": 2
+    },
+    {
+      "name": "HYAM Dominic",
+      "pos": "DF",
+      "dob": "20/12/1995",
+      "age_2026": 31,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "GANNON-DOAK Ben",
+      "pos": "FW",
+      "dob": "11/11/2005",
+      "age_2026": 21,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "HIRST George",
+      "pos": "FW",
+      "dob": "15/02/1999",
+      "age_2026": 27,
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "name": "FERGUSON Lewis",
+      "pos": "MF",
+      "dob": "24/08/1999",
+      "age_2026": 27,
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "name": "SHANKLAND Lawrence",
+      "pos": "FW",
+      "dob": "10/08/1995",
+      "age_2026": 31,
+      "caps": 20,
+      "goals": 7
+    },
+    {
+      "name": "GORDON Craig",
+      "pos": "GK",
+      "dob": "31/12/1982",
+      "age_2026": 44,
+      "caps": 84,
+      "goals": 0
+    },
+    {
+      "name": "PATTERSON Nathan",
+      "pos": "DF",
+      "dob": "16/10/2001",
+      "age_2026": 25,
+      "caps": 26,
+      "goals": 1
+    },
+    {
+      "name": "McLEAN Kenny",
+      "pos": "MF",
+      "dob": "08/01/1992",
+      "age_2026": 34,
+      "caps": 58,
+      "goals": 3
+    },
+    {
+      "name": "RALSTON Anthony",
+      "pos": "DF",
+      "dob": "16/11/1998",
+      "age_2026": 28,
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "name": "CURTIS Findlay",
+      "pos": "FW",
+      "dob": "09/06/2006",
+      "age_2026": 20,
+      "caps": 3,
+      "goals": 1
+    },
+    {
+      "name": "McKENNA Scott",
+      "pos": "DF",
+      "dob": "12/11/1996",
+      "age_2026": 30,
+      "caps": 50,
+      "goals": 1
+    }
+  ],
+  "Senegal": [
+    {
+      "name": "DIOUF Yehvann",
+      "pos": "GK",
+      "dob": "16/11/1999",
+      "age_2026": 27,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "SARR Mamadou",
+      "pos": "DF",
+      "dob": "29/08/2005",
+      "age_2026": 21,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "KOULIBALY Kalidou",
+      "pos": "DF",
+      "dob": "20/06/1991",
+      "age_2026": 35,
+      "caps": 104,
+      "goals": 2
+    },
+    {
+      "name": "SECK Abdoulaye",
+      "pos": "DF",
+      "dob": "04/06/1992",
+      "age_2026": 34,
+      "caps": 23,
+      "goals": 4
+    },
+    {
+      "name": "GUEYE Idrissa Gana",
+      "pos": "MF",
+      "dob": "26/09/1989",
+      "age_2026": 37,
+      "caps": 136,
+      "goals": 7
+    },
+    {
+      "name": "CISS Pathe",
+      "pos": "MF",
+      "dob": "16/03/1994",
+      "age_2026": 32,
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "name": "DIAO Assane",
+      "pos": "FW",
+      "dob": "07/09/2005",
+      "age_2026": 21,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "CAMARA Lamine",
+      "pos": "MF",
+      "dob": "01/01/2004",
+      "age_2026": 22,
+      "caps": 45,
+      "goals": 7
+    },
+    {
+      "name": "DIENG Bamba",
+      "pos": "FW",
+      "dob": "23/03/2000",
+      "age_2026": 26,
+      "caps": 23,
+      "goals": 2
+    },
+    {
+      "name": "MANE Sadio",
+      "pos": "FW",
+      "dob": "10/04/1992",
+      "age_2026": 34,
+      "caps": 130,
+      "goals": 54
+    },
+    {
+      "name": "JACKSON Nicolas",
+      "pos": "FW",
+      "dob": "20/06/2001",
+      "age_2026": 25,
+      "caps": 34,
+      "goals": 8
+    },
+    {
+      "name": "NDIAYE Cherif",
+      "pos": "FW",
+      "dob": "23/01/1996",
+      "age_2026": 30,
+      "caps": 19,
+      "goals": 4
+    },
+    {
+      "name": "NDIAYE Iliman",
+      "pos": "FW",
+      "dob": "06/03/2000",
+      "age_2026": 26,
+      "caps": 41,
+      "goals": 4
+    },
+    {
+      "name": "JAKOBS Ismail",
+      "pos": "DF",
+      "dob": "17/08/1999",
+      "age_2026": 27,
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "name": "DIATTA Krepin",
+      "pos": "DF",
+      "dob": "25/02/1999",
+      "age_2026": 27,
+      "caps": 62,
+      "goals": 2
+    },
+    {
+      "name": "MENDY Edouard",
+      "pos": "GK",
+      "dob": "01/03/1992",
+      "age_2026": 34,
+      "caps": 58,
+      "goals": 0
+    },
+    {
+      "name": "SARR Pape Matar",
+      "pos": "MF",
+      "dob": "14/09/2002",
+      "age_2026": 24,
+      "caps": 41,
+      "goals": 4
+    },
+    {
+      "name": "SARR Ismaila",
+      "pos": "FW",
+      "dob": "25/02/1998",
+      "age_2026": 28,
+      "caps": 84,
+      "goals": 19
+    },
+    {
+      "name": "NIAKHATE Moussa",
+      "pos": "DF",
+      "dob": "08/03/1996",
+      "age_2026": 30,
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "name": "MBAYE Ibrahim",
+      "pos": "FW",
+      "dob": "24/01/2008",
+      "age_2026": 18,
+      "caps": 11,
+      "goals": 3
+    },
+    {
+      "name": "DIARRA Habib",
+      "pos": "MF",
+      "dob": "03/01/2004",
+      "age_2026": 22,
+      "caps": 21,
+      "goals": 4
+    },
+    {
+      "name": "NDIAYE Bara Sapoko",
+      "pos": "MF",
+      "dob": "31/12/2007",
+      "age_2026": 19,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "DIAW Mory",
+      "pos": "GK",
+      "dob": "22/06/1993",
+      "age_2026": 33,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MENDY Antoine",
+      "pos": "DF",
+      "dob": "27/05/2004",
+      "age_2026": 22,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "DIOUF El Hadji Malick",
+      "pos": "DF",
+      "dob": "29/12/2004",
+      "age_2026": 22,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "GUEYE Pape",
+      "pos": "MF",
+      "dob": "24/01/1999",
+      "age_2026": 27,
+      "caps": 42,
+      "goals": 6
+    }
+  ],
+  "South Africa": [
+    {
+      "name": "WILLIAMS Ronwen",
+      "pos": "GK",
+      "dob": "21/01/1992",
+      "age_2026": 34,
+      "caps": 65,
+      "goals": 0
+    },
+    {
+      "name": "MATULUDI Thabang",
+      "pos": "DF",
+      "dob": "14/01/1999",
+      "age_2026": 27,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "NDAMANE Khulumani",
+      "pos": "DF",
+      "dob": "05/02/2004",
+      "age_2026": 22,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "MOKOENA Teboho",
+      "pos": "MF",
+      "dob": "24/01/1997",
+      "age_2026": 29,
+      "caps": 58,
+      "goals": 9
+    },
+    {
+      "name": "MBATHA Thalente",
+      "pos": "MF",
+      "dob": "06/03/2000",
+      "age_2026": 26,
+      "caps": 17,
+      "goals": 3
+    },
+    {
+      "name": "MODIBA Aubrey",
+      "pos": "DF",
+      "dob": "22/07/1995",
+      "age_2026": 31,
+      "caps": 49,
+      "goals": 3
+    },
+    {
+      "name": "APPOLLIS Oswin",
+      "pos": "FW",
+      "dob": "25/08/2001",
+      "age_2026": 25,
+      "caps": 28,
+      "goals": 8
+    },
+    {
+      "name": "MOREMI Tshepang",
+      "pos": "FW",
+      "dob": "02/10/2000",
+      "age_2026": 26,
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "name": "FOSTER Lyle",
+      "pos": "FW",
+      "dob": "03/09/2000",
+      "age_2026": 26,
+      "caps": 32,
+      "goals": 10
+    },
+    {
+      "name": "MOFOKENG Relebohile",
+      "pos": "FW",
+      "dob": "23/10/2004",
+      "age_2026": 22,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "ZWANE Themba",
+      "pos": "MF",
+      "dob": "03/08/1989",
+      "age_2026": 37,
+      "caps": 56,
+      "goals": 12
+    },
+    {
+      "name": "MASEKO Thapelo",
+      "pos": "FW",
+      "dob": "11/11/2003",
+      "age_2026": 23,
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "name": "SITHOLE Sphephelo",
+      "pos": "MF",
+      "dob": "03/03/1999",
+      "age_2026": 27,
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "name": "MBOKAZI Mbekezeli",
+      "pos": "DF",
+      "dob": "19/09/2005",
+      "age_2026": 21,
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "name": "RAYNERS Iqraam",
+      "pos": "FW",
+      "dob": "19/12/1995",
+      "age_2026": 31,
+      "caps": 21,
+      "goals": 5
+    },
+    {
+      "name": "CHAINE Sipho",
+      "pos": "GK",
+      "dob": "14/12/1996",
+      "age_2026": 30,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "MAKGOPA Evidence",
+      "pos": "FW",
+      "dob": "05/06/2000",
+      "age_2026": 26,
+      "caps": 28,
+      "goals": 6
+    },
+    {
+      "name": "KABINI Samukele",
+      "pos": "DF",
+      "dob": "15/03/2004",
+      "age_2026": 22,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "SIBISI Nkosinathi",
+      "pos": "DF",
+      "dob": "22/09/1995",
+      "age_2026": 31,
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "name": "MUDAU Khuliso",
+      "pos": "DF",
+      "dob": "26/04/1995",
+      "age_2026": 31,
+      "caps": 35,
+      "goals": 1
+    },
+    {
+      "name": "OKON Ime",
+      "pos": "DF",
+      "dob": "20/02/2004",
+      "age_2026": 22,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "GOSS Ricardo",
+      "pos": "GK",
+      "dob": "02/04/1994",
+      "age_2026": 32,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "ADAMS Jayden",
+      "pos": "MF",
+      "dob": "05/05/2001",
+      "age_2026": 25,
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "name": "MAKHANYA Olwethu",
+      "pos": "DF",
+      "dob": "30/04/2004",
+      "age_2026": 22,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "SEBELEBELE Kamogelo",
+      "pos": "FW",
+      "dob": "21/07/2002",
+      "age_2026": 24,
+      "caps": 9,
+      "goals": 1
+    },
+    {
+      "name": "CROSS Bradley",
+      "pos": "DF",
+      "dob": "30/01/2001",
+      "age_2026": 25,
+      "caps": 1,
+      "goals": 0
+    }
+  ],
+  "Spain": [
+    {
+      "name": "RAYA David",
+      "pos": "GK",
+      "dob": "15/09/1995",
+      "age_2026": 31,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "PUBILL Marc",
+      "pos": "DF",
+      "dob": "20/06/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "GRIMALDO Alex",
+      "pos": "DF",
+      "dob": "20/09/1995",
+      "age_2026": 31,
+      "caps": 14,
+      "goals": 0
+    },
+    {
+      "name": "GARCIA Eric",
+      "pos": "DF",
+      "dob": "09/01/2001",
+      "age_2026": 25,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "LLORENTE Marcos",
+      "pos": "DF",
+      "dob": "30/01/1995",
+      "age_2026": 31,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "MERINO Mikel",
+      "pos": "MF",
+      "dob": "22/06/1996",
+      "age_2026": 30,
+      "caps": 43,
+      "goals": 10
+    },
+    {
+      "name": "TORRES Ferran",
+      "pos": "FW",
+      "dob": "29/02/2000",
+      "age_2026": 26,
+      "caps": 57,
+      "goals": 24
+    },
+    {
+      "name": "RUIZ Fabian",
+      "pos": "MF",
+      "dob": "03/04/1996",
+      "age_2026": 30,
+      "caps": 42,
+      "goals": 6
+    },
+    {
+      "name": "GAVI",
+      "pos": "MF",
+      "dob": "05/08/2004",
+      "age_2026": 22,
+      "caps": 30,
+      "goals": 5
+    },
+    {
+      "name": "OLMO Dani",
+      "pos": "FW",
+      "dob": "07/05/1998",
+      "age_2026": 28,
+      "caps": 50,
+      "goals": 12
+    },
+    {
+      "name": "PINO Yeremy",
+      "pos": "FW",
+      "dob": "20/10/2002",
+      "age_2026": 24,
+      "caps": 23,
+      "goals": 4
+    },
+    {
+      "name": "PORRO Pedro",
+      "pos": "DF",
+      "dob": "13/09/1999",
+      "age_2026": 27,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "GARCIA Joan",
+      "pos": "GK",
+      "dob": "04/05/2001",
+      "age_2026": 25,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "LAPORTE Aymeric",
+      "pos": "DF",
+      "dob": "27/05/1994",
+      "age_2026": 32,
+      "caps": 46,
+      "goals": 2
+    },
+    {
+      "name": "BAENA Alex",
+      "pos": "MF",
+      "dob": "20/07/2001",
+      "age_2026": 25,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "RODRI",
+      "pos": "MF",
+      "dob": "22/06/1996",
+      "age_2026": 30,
+      "caps": 62,
+      "goals": 4
+    },
+    {
+      "name": "WILLIAMS Nico",
+      "pos": "FW",
+      "dob": "12/07/2002",
+      "age_2026": 24,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "ZUBIMENDI Martin",
+      "pos": "MF",
+      "dob": "02/02/1999",
+      "age_2026": 27,
+      "caps": 26,
+      "goals": 3
+    },
+    {
+      "name": "YAMAL Lamine",
+      "pos": "FW",
+      "dob": "13/07/2007",
+      "age_2026": 19,
+      "caps": 25,
+      "goals": 6
+    },
+    {
+      "name": "PEDRI",
+      "pos": "MF",
+      "dob": "25/11/2002",
+      "age_2026": 24,
+      "caps": 41,
+      "goals": 6
+    },
+    {
+      "name": "OYARZABAL Mikel",
+      "pos": "FW",
+      "dob": "21/04/1997",
+      "age_2026": 29,
+      "caps": 53,
+      "goals": 25
+    },
+    {
+      "name": "CUBARSI Pau",
+      "pos": "DF",
+      "dob": "22/01/2007",
+      "age_2026": 19,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "SIMON Unai",
+      "pos": "GK",
+      "dob": "11/06/1997",
+      "age_2026": 29,
+      "caps": 58,
+      "goals": 0
+    },
+    {
+      "name": "CUCURELLA Marc",
+      "pos": "DF",
+      "dob": "22/07/1998",
+      "age_2026": 28,
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "name": "MUNOZ Victor",
+      "pos": "FW",
+      "dob": "13/07/2003",
+      "age_2026": 23,
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "name": "IGLESIAS Borja",
+      "pos": "FW",
+      "dob": "17/01/1993",
+      "age_2026": 33,
+      "caps": 8,
+      "goals": 0
+    }
+  ],
+  "Sweden": [
+    {
+      "name": "WIDELL ZETTERSTROM Jacob",
+      "pos": "GK",
+      "dob": "11/07/1998",
+      "age_2026": 28,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "LAGERBIELKE Gustaf",
+      "pos": "DF",
+      "dob": "10/04/2000",
+      "age_2026": 26,
+      "caps": 11,
+      "goals": 2
+    },
+    {
+      "name": "LINDELOF Victor",
+      "pos": "DF",
+      "dob": "17/07/1994",
+      "age_2026": 32,
+      "caps": 76,
+      "goals": 3
+    },
+    {
+      "name": "HIEN Isak",
+      "pos": "DF",
+      "dob": "13/01/1999",
+      "age_2026": 27,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "GUDMUNDSSON Gabriel",
+      "pos": "DF",
+      "dob": "29/04/1999",
+      "age_2026": 27,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "JOHANSSON Herman",
+      "pos": "DF",
+      "dob": "16/10/1997",
+      "age_2026": 29,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "BERGVALL Lucas",
+      "pos": "MF",
+      "dob": "02/02/2006",
+      "age_2026": 20,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "SVENSSON Daniel",
+      "pos": "DF",
+      "dob": "12/02/2002",
+      "age_2026": 24,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "ISAK Alexander",
+      "pos": "FW",
+      "dob": "21/09/1999",
+      "age_2026": 27,
+      "caps": 58,
+      "goals": 17
+    },
+    {
+      "name": "NYGREN Benjamin",
+      "pos": "MF",
+      "dob": "08/07/2001",
+      "age_2026": 25,
+      "caps": 11,
+      "goals": 3
+    },
+    {
+      "name": "ELANGA Anthony",
+      "pos": "FW",
+      "dob": "27/04/2002",
+      "age_2026": 24,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "JOHANSSON Viktor",
+      "pos": "GK",
+      "dob": "14/09/1998",
+      "age_2026": 28,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "SEMA Ken",
+      "pos": "MF",
+      "dob": "30/09/1993",
+      "age_2026": 33,
+      "caps": 32,
+      "goals": 5
+    },
+    {
+      "name": "EKDAL Hjalmar",
+      "pos": "DF",
+      "dob": "21/10/1998",
+      "age_2026": 28,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "STARFELT Carl",
+      "pos": "DF",
+      "dob": "01/06/1995",
+      "age_2026": 31,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "KARLSTROM Jesper",
+      "pos": "MF",
+      "dob": "21/06/1995",
+      "age_2026": 31,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "GYOKERES Viktor",
+      "pos": "FW",
+      "dob": "04/06/1998",
+      "age_2026": 28,
+      "caps": 33,
+      "goals": 20
+    },
+    {
+      "name": "AYARI Yasin",
+      "pos": "MF",
+      "dob": "06/10/2003",
+      "age_2026": 23,
+      "caps": 21,
+      "goals": 3
+    },
+    {
+      "name": "SVANBERG Mattias",
+      "pos": "MF",
+      "dob": "05/01/1999",
+      "age_2026": 27,
+      "caps": 40,
+      "goals": 2
+    },
+    {
+      "name": "SMITH Eric",
+      "pos": "DF",
+      "dob": "08/01/1997",
+      "age_2026": 29,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "BERNHARDSSON Alexander",
+      "pos": "DF",
+      "dob": "08/09/1998",
+      "age_2026": 28,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "ZENELI Besfort",
+      "pos": "MF",
+      "dob": "21/11/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "NORDFELDT Kristoffer",
+      "pos": "GK",
+      "dob": "23/06/1989",
+      "age_2026": 37,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "STROUD Elliot",
+      "pos": "DF",
+      "dob": "22/06/2002",
+      "age_2026": 24,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "NILSSON Gustaf",
+      "pos": "FW",
+      "dob": "23/05/1997",
+      "age_2026": 29,
+      "caps": 9,
+      "goals": 4
+    },
+    {
+      "name": "ALI Taha",
+      "pos": "FW",
+      "dob": "01/07/1998",
+      "age_2026": 28,
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "Switzerland": [
+    {
+      "name": "KOBEL Gregor",
+      "pos": "GK",
+      "dob": "06/12/1997",
+      "age_2026": 29,
+      "caps": 21,
+      "goals": 0
+    },
+    {
+      "name": "MUHEIM Miro",
+      "pos": "DF",
+      "dob": "24/03/1998",
+      "age_2026": 28,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "WIDMER Silvan",
+      "pos": "DF",
+      "dob": "05/03/1993",
+      "age_2026": 33,
+      "caps": 60,
+      "goals": 5
+    },
+    {
+      "name": "ELVEDI Nico",
+      "pos": "DF",
+      "dob": "30/09/1996",
+      "age_2026": 30,
+      "caps": 67,
+      "goals": 3
+    },
+    {
+      "name": "AKANJI Manuel",
+      "pos": "DF",
+      "dob": "19/07/1995",
+      "age_2026": 31,
+      "caps": 81,
+      "goals": 4
+    },
+    {
+      "name": "ZAKARIA Denis",
+      "pos": "MF",
+      "dob": "20/11/1996",
+      "age_2026": 30,
+      "caps": 65,
+      "goals": 3
+    },
+    {
+      "name": "EMBOLO Breel",
+      "pos": "FW",
+      "dob": "14/02/1997",
+      "age_2026": 29,
+      "caps": 86,
+      "goals": 24
+    },
+    {
+      "name": "FREULER Remo",
+      "pos": "MF",
+      "dob": "15/04/1992",
+      "age_2026": 34,
+      "caps": 88,
+      "goals": 11
+    },
+    {
+      "name": "MANZAMBI Johan",
+      "pos": "MF",
+      "dob": "14/10/2005",
+      "age_2026": 21,
+      "caps": 12,
+      "goals": 3
+    },
+    {
+      "name": "XHAKA Granit",
+      "pos": "MF",
+      "dob": "27/09/1992",
+      "age_2026": 34,
+      "caps": 146,
+      "goals": 17
+    },
+    {
+      "name": "NDOYE Dan",
+      "pos": "FW",
+      "dob": "25/10/2000",
+      "age_2026": 26,
+      "caps": 31,
+      "goals": 8
+    },
+    {
+      "name": "MVOGO Yvon",
+      "pos": "GK",
+      "dob": "06/06/1994",
+      "age_2026": 32,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "RODRIGUEZ Ricardo",
+      "pos": "DF",
+      "dob": "25/08/1992",
+      "age_2026": 34,
+      "caps": 138,
+      "goals": 9
+    },
+    {
+      "name": "JASHARI Ardon",
+      "pos": "MF",
+      "dob": "30/07/2002",
+      "age_2026": 24,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "SOW Djibril",
+      "pos": "MF",
+      "dob": "06/02/1997",
+      "age_2026": 29,
+      "caps": 52,
+      "goals": 0
+    },
+    {
+      "name": "FASSNACHT Christian",
+      "pos": "FW",
+      "dob": "11/11/1993",
+      "age_2026": 33,
+      "caps": 23,
+      "goals": 5
+    },
+    {
+      "name": "VARGAS Ruben",
+      "pos": "FW",
+      "dob": "05/08/1998",
+      "age_2026": 28,
+      "caps": 61,
+      "goals": 11
+    },
+    {
+      "name": "COEMERT Eray",
+      "pos": "DF",
+      "dob": "04/02/1998",
+      "age_2026": 28,
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "name": "OKAFOR Noah",
+      "pos": "FW",
+      "dob": "24/05/2000",
+      "age_2026": 26,
+      "caps": 25,
+      "goals": 2
+    },
+    {
+      "name": "AEBISCHER Michel",
+      "pos": "MF",
+      "dob": "06/01/1997",
+      "age_2026": 29,
+      "caps": 40,
+      "goals": 2
+    },
+    {
+      "name": "KELLER Marvin",
+      "pos": "GK",
+      "dob": "03/07/2002",
+      "age_2026": 24,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "RIEDER Fabian",
+      "pos": "MF",
+      "dob": "16/02/2002",
+      "age_2026": 24,
+      "caps": 28,
+      "goals": 1
+    },
+    {
+      "name": "AMDOUNI Zeki",
+      "pos": "FW",
+      "dob": "04/12/2000",
+      "age_2026": 26,
+      "caps": 29,
+      "goals": 11
+    },
+    {
+      "name": "AMENDA Aurele",
+      "pos": "DF",
+      "dob": "31/07/2003",
+      "age_2026": 23,
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "name": "JAQUEZ Luca",
+      "pos": "DF",
+      "dob": "02/06/2003",
+      "age_2026": 23,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "ITTEN Cedric",
+      "pos": "FW",
+      "dob": "27/12/1996",
+      "age_2026": 30,
+      "caps": 15,
+      "goals": 5
+    }
+  ],
+  "Tunisia": [
+    {
+      "name": "CHAMAKH Mouhib",
+      "pos": "GK",
+      "dob": "25/08/2001",
+      "age_2026": 25,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "ABDI Ali",
+      "pos": "DF",
+      "dob": "20/12/1993",
+      "age_2026": 33,
+      "caps": 46,
+      "goals": 7
+    },
+    {
+      "name": "TALBI Montassar",
+      "pos": "DF",
+      "dob": "26/05/1998",
+      "age_2026": 28,
+      "caps": 64,
+      "goals": 4
+    },
+    {
+      "name": "REKIK Omar",
+      "pos": "DF",
+      "dob": "20/12/2001",
+      "age_2026": 25,
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "name": "AROUS Adam",
+      "pos": "DF",
+      "dob": "17/07/2004",
+      "age_2026": 22,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "BRONN Dylan",
+      "pos": "DF",
+      "dob": "19/06/1995",
+      "age_2026": 31,
+      "caps": 52,
+      "goals": 2
+    },
+    {
+      "name": "ACHOURI Elias",
+      "pos": "FW",
+      "dob": "10/02/1999",
+      "age_2026": 27,
+      "caps": 30,
+      "goals": 5
+    },
+    {
+      "name": "SAAD Elias",
+      "pos": "FW",
+      "dob": "27/12/1999",
+      "age_2026": 27,
+      "caps": 15,
+      "goals": 3
+    },
+    {
+      "name": "MASTOURI Hazem",
+      "pos": "FW",
+      "dob": "18/06/1997",
+      "age_2026": 29,
+      "caps": 19,
+      "goals": 4
+    },
+    {
+      "name": "MEJBRI Hannibal",
+      "pos": "MF",
+      "dob": "21/01/2003",
+      "age_2026": 23,
+      "caps": 45,
+      "goals": 1
+    },
+    {
+      "name": "GHARBI Ismael",
+      "pos": "MF",
+      "dob": "10/04/2004",
+      "age_2026": 22,
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "name": "BEN OUANES Mortadha",
+      "pos": "DF",
+      "dob": "02/07/1994",
+      "age_2026": 32,
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "name": "KHEDIRA Rani",
+      "pos": "MF",
+      "dob": "27/01/1994",
+      "age_2026": 32,
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "name": "AYARI Khalil",
+      "pos": "MF",
+      "dob": "02/02/2005",
+      "age_2026": 21,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "HADJ MAHMOUD Mohamed",
+      "pos": "MF",
+      "dob": "24/04/2000",
+      "age_2026": 26,
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "name": "DAHMEN Aymen",
+      "pos": "GK",
+      "dob": "28/01/1997",
+      "age_2026": 29,
+      "caps": 37,
+      "goals": 0
+    },
+    {
+      "name": "SKHIRI Ellyes",
+      "pos": "MF",
+      "dob": "10/05/1995",
+      "age_2026": 31,
+      "caps": 83,
+      "goals": 4
+    },
+    {
+      "name": "ELLOUMI Rayan",
+      "pos": "FW",
+      "dob": "17/09/2007",
+      "age_2026": 19,
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "name": "CHAOUAT Firas",
+      "pos": "FW",
+      "dob": "08/05/1996",
+      "age_2026": 30,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "VALERY Yan",
+      "pos": "DF",
+      "dob": "22/02/1999",
+      "age_2026": 27,
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "name": "BEN HMIDA Mohamed Amine",
+      "pos": "DF",
+      "dob": "15/12/1995",
+      "age_2026": 31,
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "name": "BEN HESSEN Sabri",
+      "pos": "GK",
+      "dob": "13/06/1996",
+      "age_2026": 30,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "NEFFATI Moutaz",
+      "pos": "DF",
+      "dob": "04/09/2004",
+      "age_2026": 22,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "CHIKHAOUI Raed",
+      "pos": "DF",
+      "dob": "09/06/2004",
+      "age_2026": 22,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "SLIMANE Anis",
+      "pos": "MF",
+      "dob": "16/03/2001",
+      "age_2026": 25,
+      "caps": 40,
+      "goals": 4
+    },
+    {
+      "name": "TOUNEKTI Sebastian",
+      "pos": "MF",
+      "dob": "13/07/2002",
+      "age_2026": 24,
+      "caps": 12,
+      "goals": 1
+    }
+  ],
+  "rkiye": [
+    {
+      "name": "GUNOK Mert",
+      "pos": "GK",
+      "dob": "01/03/1989",
+      "age_2026": 37,
+      "caps": 37,
+      "goals": 0
+    },
+    {
+      "name": "CELIK Zeki",
+      "pos": "DF",
+      "dob": "17/02/1997",
+      "age_2026": 29,
+      "caps": 61,
+      "goals": 3
+    },
+    {
+      "name": "DEMIRAL Merih",
+      "pos": "DF",
+      "dob": "05/03/1998",
+      "age_2026": 28,
+      "caps": 63,
+      "goals": 6
+    },
+    {
+      "name": "SOYUNCU Caglar",
+      "pos": "DF",
+      "dob": "23/05/1996",
+      "age_2026": 30,
+      "caps": 60,
+      "goals": 2
+    },
+    {
+      "name": "OZCAN Salih",
+      "pos": "MF",
+      "dob": "11/01/1998",
+      "age_2026": 28,
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "name": "KOKCU Orkun",
+      "pos": "MF",
+      "dob": "29/12/2000",
+      "age_2026": 26,
+      "caps": 50,
+      "goals": 4
+    },
+    {
+      "name": "AKTURKOGLU Kerem",
+      "pos": "FW",
+      "dob": "21/10/1998",
+      "age_2026": 28,
+      "caps": 52,
+      "goals": 15
+    },
+    {
+      "name": "GULER Arda",
+      "pos": "FW",
+      "dob": "25/02/2005",
+      "age_2026": 21,
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "name": "GUL Deniz",
+      "pos": "FW",
+      "dob": "02/07/2004",
+      "age_2026": 22,
+      "caps": 8,
+      "goals": 2
+    },
+    {
+      "name": "CALHANOGLU Hakan",
+      "pos": "MF",
+      "dob": "08/02/1994",
+      "age_2026": 32,
+      "caps": 106,
+      "goals": 22
+    },
+    {
+      "name": "YILDIZ Kenan",
+      "pos": "FW",
+      "dob": "04/05/2005",
+      "age_2026": 21,
+      "caps": 28,
+      "goals": 5
+    },
+    {
+      "name": "BAYINDIR Altay",
+      "pos": "GK",
+      "dob": "14/04/1998",
+      "age_2026": 28,
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "name": "ELMALI Eren",
+      "pos": "DF",
+      "dob": "07/07/2000",
+      "age_2026": 26,
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "name": "BARDAKCI Abdulkerim",
+      "pos": "DF",
+      "dob": "07/09/1994",
+      "age_2026": 32,
+      "caps": 27,
+      "goals": 2
+    },
+    {
+      "name": "KABAK Ozan",
+      "pos": "DF",
+      "dob": "25/03/2000",
+      "age_2026": 26,
+      "caps": 30,
+      "goals": 2
+    },
+    {
+      "name": "YUKSEK Ismail",
+      "pos": "MF",
+      "dob": "26/01/1999",
+      "age_2026": 27,
+      "caps": 32,
+      "goals": 1
+    },
+    {
+      "name": "KAHVECI Irfan Can",
+      "pos": "FW",
+      "dob": "15/07/1995",
+      "age_2026": 31,
+      "caps": 47,
+      "goals": 6
+    },
+    {
+      "name": "MULDUR Mert",
+      "pos": "DF",
+      "dob": "03/04/1999",
+      "age_2026": 27,
+      "caps": 45,
+      "goals": 3
+    },
+    {
+      "name": "AKGUN Yunus",
+      "pos": "FW",
+      "dob": "07/07/2000",
+      "age_2026": 26,
+      "caps": 19,
+      "goals": 4
+    },
+    {
+      "name": "KADIOGLU Ferdi",
+      "pos": "DF",
+      "dob": "07/10/1999",
+      "age_2026": 27,
+      "caps": 30,
+      "goals": 2
+    },
+    {
+      "name": "YILMAZ Baris Alper",
+      "pos": "FW",
+      "dob": "23/05/2000",
+      "age_2026": 26,
+      "caps": 35,
+      "goals": 4
+    },
+    {
+      "name": "AYHAN Kaan",
+      "pos": "MF",
+      "dob": "10/11/1994",
+      "age_2026": 32,
+      "caps": 73,
+      "goals": 5
+    },
+    {
+      "name": "CAKIR Ugurcan",
+      "pos": "GK",
+      "dob": "05/04/1996",
+      "age_2026": 30,
+      "caps": 39,
+      "goals": 0
+    },
+    {
+      "name": "AYDIN Oguz",
+      "pos": "FW",
+      "dob": "27/10/2000",
+      "age_2026": 26,
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "name": "AKAYDIN Samet",
+      "pos": "DF",
+      "dob": "13/03/1994",
+      "age_2026": 32,
+      "caps": 19,
+      "goals": 1
+    },
+    {
+      "name": "UZUN Can",
+      "pos": "FW",
+      "dob": "11/11/2005",
+      "age_2026": 21,
+      "caps": 6,
+      "goals": 1
+    }
+  ],
+  "Uruguay": [
+    {
+      "name": "ROCHET Sergio",
+      "pos": "GK",
+      "dob": "23/03/1993",
+      "age_2026": 33,
+      "caps": 35,
+      "goals": 0
+    },
+    {
+      "name": "GIMENEZ Jose Maria",
+      "pos": "DF",
+      "dob": "20/01/1995",
+      "age_2026": 31,
+      "caps": 99,
+      "goals": 8
+    },
+    {
+      "name": "CACERES Sebastian",
+      "pos": "DF",
+      "dob": "18/08/1999",
+      "age_2026": 27,
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "name": "ARAUJO Ronald",
+      "pos": "DF",
+      "dob": "07/03/1999",
+      "age_2026": 27,
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "name": "UGARTE Manuel",
+      "pos": "MF",
+      "dob": "11/04/2001",
+      "age_2026": 25,
+      "caps": 35,
+      "goals": 1
+    },
+    {
+      "name": "BENTANCUR Rodrigo",
+      "pos": "MF",
+      "dob": "25/06/1997",
+      "age_2026": 29,
+      "caps": 73,
+      "goals": 3
+    },
+    {
+      "name": "DE LA CRUZ Nicolas",
+      "pos": "MF",
+      "dob": "01/06/1997",
+      "age_2026": 29,
+      "caps": 34,
+      "goals": 5
+    },
+    {
+      "name": "VALVERDE Federico",
+      "pos": "MF",
+      "dob": "22/07/1998",
+      "age_2026": 28,
+      "caps": 73,
+      "goals": 9
+    },
+    {
+      "name": "NUNEZ Darwin",
+      "pos": "FW",
+      "dob": "24/06/1999",
+      "age_2026": 27,
+      "caps": 38,
+      "goals": 13
+    },
+    {
+      "name": "DE ARRASCAETA Giorgian",
+      "pos": "MF",
+      "dob": "01/06/1994",
+      "age_2026": 32,
+      "caps": 59,
+      "goals": 13
+    },
+    {
+      "name": "PELLISTRI Facundo",
+      "pos": "FW",
+      "dob": "20/12/2001",
+      "age_2026": 25,
+      "caps": 39,
+      "goals": 2
+    },
+    {
+      "name": "MELE Santiago",
+      "pos": "GK",
+      "dob": "06/09/1997",
+      "age_2026": 29,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "VARELA Guillermo",
+      "pos": "DF",
+      "dob": "24/03/1993",
+      "age_2026": 33,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "CANOBBIO Agustin",
+      "pos": "MF",
+      "dob": "01/10/1998",
+      "age_2026": 28,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "MARTINEZ Emiliano",
+      "pos": "MF",
+      "dob": "17/08/1999",
+      "age_2026": 27,
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "name": "OLIVERA Mathias",
+      "pos": "DF",
+      "dob": "31/10/1997",
+      "age_2026": 29,
+      "caps": 35,
+      "goals": 2
+    },
+    {
+      "name": "VINA Matias",
+      "pos": "DF",
+      "dob": "09/11/1997",
+      "age_2026": 29,
+      "caps": 43,
+      "goals": 1
+    },
+    {
+      "name": "RODRIGUEZ Brian",
+      "pos": "FW",
+      "dob": "20/05/2000",
+      "age_2026": 26,
+      "caps": 33,
+      "goals": 4
+    },
+    {
+      "name": "AGUIRRE Rodrigo",
+      "pos": "FW",
+      "dob": "01/10/1994",
+      "age_2026": 32,
+      "caps": 10,
+      "goals": 3
+    },
+    {
+      "name": "ARAUJO Maxi",
+      "pos": "MF",
+      "dob": "15/02/2000",
+      "age_2026": 26,
+      "caps": 28,
+      "goals": 3
+    },
+    {
+      "name": "VINAS Federico",
+      "pos": "FW",
+      "dob": "30/06/1998",
+      "age_2026": 28,
+      "caps": 11,
+      "goals": 2
+    },
+    {
+      "name": "PIQUEREZ Joaquin",
+      "pos": "MF",
+      "dob": "24/08/1998",
+      "age_2026": 28,
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "name": "MUSLERA Fernando",
+      "pos": "GK",
+      "dob": "16/06/1986",
+      "age_2026": 40,
+      "caps": 134,
+      "goals": 0
+    },
+    {
+      "name": "BUENO Santiago",
+      "pos": "DF",
+      "dob": "09/11/1998",
+      "age_2026": 28,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "SANABRIA Juan Manuel",
+      "pos": "MF",
+      "dob": "29/03/2000",
+      "age_2026": 26,
+      "caps": 5,
+      "goals": 1
+    },
+    {
+      "name": "ZALAZAR Rodrigo",
+      "pos": "MF",
+      "dob": "12/08/1999",
+      "age_2026": 27,
+      "caps": 7,
+      "goals": 2
+    }
+  ],
+  "USA": [
+    {
+      "name": "TURNER Matt",
+      "pos": "GK",
+      "dob": "24/06/1994",
+      "age_2026": 32,
+      "caps": 54,
+      "goals": 0
+    },
+    {
+      "name": "DEST Sergino",
+      "pos": "DF",
+      "dob": "03/11/2000",
+      "age_2026": 26,
+      "caps": 40,
+      "goals": 3
+    },
+    {
+      "name": "RICHARDS Chris",
+      "pos": "DF",
+      "dob": "28/03/2000",
+      "age_2026": 26,
+      "caps": 37,
+      "goals": 3
+    },
+    {
+      "name": "ADAMS Tyler",
+      "pos": "MF",
+      "dob": "14/02/1999",
+      "age_2026": 27,
+      "caps": 55,
+      "goals": 2
+    },
+    {
+      "name": "ROBINSON Antonee",
+      "pos": "DF",
+      "dob": "08/08/1997",
+      "age_2026": 29,
+      "caps": 55,
+      "goals": 5
+    },
+    {
+      "name": "TRUSTY Auston",
+      "pos": "DF",
+      "dob": "12/08/1998",
+      "age_2026": 28,
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "name": "REYNA Giovanni",
+      "pos": "MF",
+      "dob": "13/11/2002",
+      "age_2026": 24,
+      "caps": 39,
+      "goals": 10
+    },
+    {
+      "name": "McKENNIE Weston",
+      "pos": "MF",
+      "dob": "28/08/1998",
+      "age_2026": 28,
+      "caps": 67,
+      "goals": 12
+    },
+    {
+      "name": "PEPI Ricardo",
+      "pos": "FW",
+      "dob": "09/01/2003",
+      "age_2026": 23,
+      "caps": 38,
+      "goals": 13
+    },
+    {
+      "name": "PULISIC Christian",
+      "pos": "FW",
+      "dob": "18/09/1998",
+      "age_2026": 28,
+      "caps": 87,
+      "goals": 33
+    },
+    {
+      "name": "AARONSON Brenden",
+      "pos": "FW",
+      "dob": "22/10/2000",
+      "age_2026": 26,
+      "caps": 58,
+      "goals": 9
+    },
+    {
+      "name": "ROBINSON Miles",
+      "pos": "DF",
+      "dob": "14/03/1997",
+      "age_2026": 29,
+      "caps": 40,
+      "goals": 3
+    },
+    {
+      "name": "REAM Tim",
+      "pos": "DF",
+      "dob": "05/10/1987",
+      "age_2026": 39,
+      "caps": 83,
+      "goals": 1
+    },
+    {
+      "name": "BERHALTER Sebastian",
+      "pos": "MF",
+      "dob": "10/05/2001",
+      "age_2026": 25,
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "name": "ROLDAN Cristian",
+      "pos": "MF",
+      "dob": "03/06/1995",
+      "age_2026": 31,
+      "caps": 47,
+      "goals": 0
+    },
+    {
+      "name": "FREEMAN Alex",
+      "pos": "DF",
+      "dob": "09/08/2004",
+      "age_2026": 22,
+      "caps": 18,
+      "goals": 2
+    },
+    {
+      "name": "TILLMAN Malik",
+      "pos": "MF",
+      "dob": "28/05/2002",
+      "age_2026": 24,
+      "caps": 31,
+      "goals": 3
+    },
+    {
+      "name": "ARFSTEN Max",
+      "pos": "DF",
+      "dob": "19/04/2001",
+      "age_2026": 25,
+      "caps": 20,
+      "goals": 1
+    },
+    {
+      "name": "WRIGHT Haji",
+      "pos": "FW",
+      "dob": "27/03/1998",
+      "age_2026": 28,
+      "caps": 20,
+      "goals": 7
+    },
+    {
+      "name": "BALOGUN Folarin",
+      "pos": "FW",
+      "dob": "03/07/2001",
+      "age_2026": 25,
+      "caps": 28,
+      "goals": 11
+    },
+    {
+      "name": "WEAH Timothy",
+      "pos": "FW",
+      "dob": "22/02/2000",
+      "age_2026": 26,
+      "caps": 52,
+      "goals": 7
+    },
+    {
+      "name": "McKENZIE Mark",
+      "pos": "DF",
+      "dob": "25/02/1999",
+      "age_2026": 27,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "SCALLY Joe",
+      "pos": "DF",
+      "dob": "31/12/2002",
+      "age_2026": 24,
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "name": "FREESE Matt",
+      "pos": "GK",
+      "dob": "02/09/1998",
+      "age_2026": 28,
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "name": "BRADY Chris",
+      "pos": "GK",
+      "dob": "03/03/2004",
+      "age_2026": 22,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "ZENDEJAS Alex",
+      "pos": "FW",
+      "dob": "07/02/1998",
+      "age_2026": 28,
+      "caps": 14,
+      "goals": 2
+    }
+  ],
+  "Uzbekistan": [
+    {
+      "name": "YUSUPOV Utkir",
+      "pos": "GK",
+      "dob": "04/01/1991",
+      "age_2026": 35,
+      "caps": 45,
+      "goals": 0
+    },
+    {
+      "name": "KHUSANOV Abdukodir",
+      "pos": "DF",
+      "dob": "29/02/2004",
+      "age_2026": 22,
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "name": "ALIJONOV Khojiakbar",
+      "pos": "DF",
+      "dob": "19/04/1997",
+      "age_2026": 29,
+      "caps": 52,
+      "goals": 3
+    },
+    {
+      "name": "SAYFIEV Farrukh",
+      "pos": "DF",
+      "dob": "17/01/1991",
+      "age_2026": 35,
+      "caps": 71,
+      "goals": 1
+    },
+    {
+      "name": "ASHURMATOV Rustam",
+      "pos": "DF",
+      "dob": "07/07/1996",
+      "age_2026": 30,
+      "caps": 51,
+      "goals": 1
+    },
+    {
+      "name": "MOZGOVOY Akmal",
+      "pos": "MF",
+      "dob": "02/04/1999",
+      "age_2026": 27,
+      "caps": 25,
+      "goals": 1
+    },
+    {
+      "name": "SHUKUROV Otabek",
+      "pos": "MF",
+      "dob": "22/06/1996",
+      "age_2026": 30,
+      "caps": 90,
+      "goals": 10
+    },
+    {
+      "name": "ISKANDEROV Jamshid",
+      "pos": "MF",
+      "dob": "16/10/1993",
+      "age_2026": 33,
+      "caps": 46,
+      "goals": 4
+    },
+    {
+      "name": "XAMROBEKOV Odiljon",
+      "pos": "MF",
+      "dob": "13/02/1996",
+      "age_2026": 30,
+      "caps": 76,
+      "goals": 1
+    },
+    {
+      "name": "MASHARIPOV Jaloliddin",
+      "pos": "MF",
+      "dob": "01/09/1993",
+      "age_2026": 33,
+      "caps": 75,
+      "goals": 14
+    },
+    {
+      "name": "URUNOV Oston",
+      "pos": "MF",
+      "dob": "19/12/2000",
+      "age_2026": 26,
+      "caps": 45,
+      "goals": 10
+    },
+    {
+      "name": "NEMATOV Abduvohid",
+      "pos": "GK",
+      "dob": "20/03/2001",
+      "age_2026": 25,
+      "caps": 15,
+      "goals": 0
+    },
+    {
+      "name": "NASRULLAEV Sherzod",
+      "pos": "DF",
+      "dob": "23/07/1998",
+      "age_2026": 28,
+      "caps": 40,
+      "goals": 2
+    },
+    {
+      "name": "SHOMURODOV Eldor",
+      "pos": "FW",
+      "dob": "29/06/1995",
+      "age_2026": 31,
+      "caps": 93,
+      "goals": 44
+    },
+    {
+      "name": "ESHMURODOV Umar",
+      "pos": "DF",
+      "dob": "30/11/1992",
+      "age_2026": 34,
+      "caps": 40,
+      "goals": 0
+    },
+    {
+      "name": "ERGASHEV Botirali",
+      "pos": "GK",
+      "dob": "23/06/1995",
+      "age_2026": 31,
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "name": "KHAMDAMOV Dostonbek",
+      "pos": "MF",
+      "dob": "24/07/1996",
+      "age_2026": 30,
+      "caps": 37,
+      "goals": 5
+    },
+    {
+      "name": "ABDULLAEV Abdulla",
+      "pos": "DF",
+      "dob": "01/09/1997",
+      "age_2026": 29,
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "name": "GANIEV Azizjon",
+      "pos": "MF",
+      "dob": "22/02/1998",
+      "age_2026": 28,
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "name": "AMONOV Azizbek",
+      "pos": "FW",
+      "dob": "30/10/1997",
+      "age_2026": 29,
+      "caps": 13,
+      "goals": 2
+    },
+    {
+      "name": "SERGEEV Igor",
+      "pos": "FW",
+      "dob": "30/04/1993",
+      "age_2026": 33,
+      "caps": 85,
+      "goals": 25
+    },
+    {
+      "name": "FAYZULLAEV Abbosbek",
+      "pos": "MF",
+      "dob": "03/10/2003",
+      "age_2026": 23,
+      "caps": 32,
+      "goals": 8
+    },
+    {
+      "name": "ESANOV Sherzod",
+      "pos": "MF",
+      "dob": "01/02/2003",
+      "age_2026": 23,
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "name": "KARIMOV Behruzjon",
+      "pos": "DF",
+      "dob": "07/08/2007",
+      "age_2026": 19,
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "name": "ULMASALIYEV Avazbek",
+      "pos": "DF",
+      "dob": "27/03/2000",
+      "age_2026": 26,
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "name": "UROZOV Jakhongir",
+      "pos": "DF",
+      "dob": "18/01/2004",
+      "age_2026": 22,
+      "caps": 4,
+      "goals": 1
+    }
+  ]
+}

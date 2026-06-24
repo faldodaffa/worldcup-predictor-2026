@@ -267,9 +267,9 @@ def process_matches(matches):
 
         if done:
             for name in parse_scorers_str(m.get('home_scorers')):
-                G_GOALSCORERS[name] += 1
+                G_GOALSCORERS[(name.upper(), home)] += 1
             for name in parse_scorers_str(m.get('away_scorers')):
-                G_GOALSCORERS[name] += 1
+                G_GOALSCORERS[(name.upper(), away)] += 1
 
         stage_map = {
             'group': 'GROUP_STAGE', 'r32': 'LAST_32', 'r16': 'LAST_16',
@@ -689,18 +689,47 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
 
     def get_predicted_standings(g_name):
         if g_name in groups and len(groups[g_name]['standings']) > 0:
-            return sorted(groups[g_name]['standings'], key=lambda x: (-x.get('qualProb', 0), -x.get('points', 0), -x.get('goalDifference', 0)))
+            return sorted(groups[g_name]['standings'], key=lambda x: (
+                -x.get('qualProb', 0), 
+                -x.get('points', 0), 
+                -x.get('goalDifference', 0),
+                -x.get('goalsFor', 0),
+                -get_elo(x.get('name', ''))
+            ))
         return []
 
     thirds = []
+    third_group_map = {}
     for grp_name, data in groups.items():
         st = get_predicted_standings(grp_name)
         if len(st) >= 3:
-            thirds.append(st[2])
-    thirds.sort(key=lambda x: (-x.get('qualProb', 0), -x.get('points', 0), -x.get('goalDifference', 0)))
+            team_info = st[2]
+            thirds.append(team_info)
+            third_group_map[team_info['name']] = grp_name.replace('Group ', '')
+    thirds.sort(key=lambda x: (
+        -x.get('qualProb', 0), 
+        -x.get('points', 0), 
+        -x.get('goalDifference', 0),
+        -x.get('goalsFor', 0),
+        -get_elo(x.get('name', ''))
+    ))
     best_thirds = [t['name'] for t in thirds[:8]]
+    best_thirds_groups = sorted([third_group_map[t] for t in best_thirds])
+    combo_key = "".join(best_thirds_groups)
+    
+    import json
+    import os
+    permutations = {}
+    if os.path.exists('permutations_495.json'):
+        try:
+            with open('permutations_495.json', 'r') as f:
+                permutations = json.load(f)
+        except:
+            pass
+            
+    current_combo_map = permutations.get(combo_key, {})
 
-    def resolve_team(name):
+    def resolve_team(name, opponent_name=None):
         if not name: return 'TBD'
         if name.startswith('Winner Group '):
             g = name.replace('Winner Group ', 'Group ')
@@ -711,6 +740,12 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
             st = get_predicted_standings(g)
             if len(st) > 1: return st[1]['name']
         if '3rd Group' in name:
+            if opponent_name and opponent_name in current_combo_map:
+                target_group = current_combo_map[opponent_name]
+                target_letter = target_group.replace('3rd Group ', '')
+                for t in best_thirds:
+                    if third_group_map[t] == target_letter:
+                        return t
             return best_thirds.pop(0) if best_thirds else 'TBD'
         if name.startswith('Winner Match '):
             return 'TBD'
@@ -735,13 +770,13 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
                 m_id = home.replace('Winner Match ', '')
                 home = match_winners.get(m_id, 'TBD')
             else:
-                home = resolve_team(home)
+                home = resolve_team(home, opponent_name=m['away'])
 
             if away.startswith('Winner Match '):
                 m_id = away.replace('Winner Match ', '')
                 away = match_winners.get(m_id, 'TBD')
             else:
-                away = resolve_team(away)
+                away = resolve_team(away, opponent_name=m['home'])
 
             predicted_winner = 'TBD'
             score_h = m.get('score_h')
@@ -822,35 +857,271 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
     return bracket
 
 def predict_awards(bracket, ranking):
-    top_scorer = {'expected': 'Unknown', 'real': 'Unknown'}
-
-    if G_GOALSCORERS:
-        best = max(G_GOALSCORERS, key=G_GOALSCORERS.get)
-        top_scorer['real'] = f"{best} - {G_GOALSCORERS[best]} gol"
-    else:
-        top_scorer['real'] = "Belum ada gol tercatat"
-
-    star_players = {
-        'Spain': 'Lamine Yamal', 'France': 'Kylian Mbappé',
-        'Argentina': 'Lionel Messi', 'United States': 'Christian Pulisic'
+    awards = {
+        'topScorer': {'expected': 'Unknown', 'real': 'Unknown'},
+        'bestPlayer': [],
+        'bestYoung': [],
+        'bestGoalkeeper': [],
+        'predictedBoot': [],
+        'topScorerList': []
     }
-    best_team = ranking[0]['name'] if ranking else 'Spain'
-    
-    team_match_count = 0
-    for stage in bracket:
-        for match in stage['matches']:
-            if (match['home'] == best_team or match['away'] == best_team) and match['home'] != 'TBD':
-                team_match_count += 1
-    pred_goals = round(team_match_count * 1.3 * (get_elo(best_team) / 2100.0) * 0.4, 1)
+    import os
+    import json
+    db_path = 'players_db.json'
+    players_db = {}
+    if os.path.exists(db_path):
+        try:
+            with open(db_path, 'r') as f: players_db = json.load(f)
+        except: pass
+        
+    def get_elo(team_name):
+        r = next((x for x in ranking if x['name'] == team_name), None)
+        return r['elo'] if r else 1500
 
-    top_scorer_candidates = players.get('topScorerCandidates', [])
-    best_player = star_players.get(best_team, top_scorer_candidates[0]['name'] if top_scorer_candidates else 'Unknown')
-    top_scorer['expected'] = f"{best_player} ({best_team}) - ~{pred_goals} gol (xG)"
+    def get_tactic_weight(team_name):
+        tactic_map = {'Norway': 1.6, 'Poland': 1.4, 'Spain': 0.8, 'Germany': 0.85}
+        return tactic_map.get(team_name, 1.0)
+        
+    def get_injury_multiplier(pname):
+        if 'neymar' in pname.lower(): return 0.2
+        if 'ouedraogo' in pname.lower(): return 0.3
+        return 1.0
 
-    best_player_name = players['bestPlayerCandidates'][0]['name'] + " (" + players['bestPlayerCandidates'][0]['team'] + ")" if players.get('bestPlayerCandidates') else 'Unknown'
-    best_young = players['youngPlayerCandidates'][0]['name'] + " (" + players['youngPlayerCandidates'][0]['team'] + ")" if players.get('youngPlayerCandidates') else 'Unknown'
-    best_gk = players['goalkeeperCandidates'][0]['name'] + " (" + players['goalkeeperCandidates'][0]['team'] + ")" if players.get('goalkeeperCandidates') else 'Unknown'
-    return top_scorer, best_player_name, best_young, best_gk
+    if players_db:
+        # Calculate team_matches_count from the bracket
+        from collections import defaultdict
+        team_matches_count = defaultdict(int)
+        for stage in bracket:
+            for m in stage.get('matches', []):
+                if m.get('home') != 'TBD': team_matches_count[m['home']] += 1
+                if m.get('away') != 'TBD': team_matches_count[m['away']] += 1
+
+        # Simulate clean sheets for GKs: stages in bracket where score is 0 for a team
+        team_clean_sheets = defaultdict(int)
+        for stage in bracket:
+            for m in stage.get('matches', []):
+                sh, sa = m.get('score_h'), m.get('score_a')
+                if sh is not None and sa is not None:
+                    if sa == 0 and m.get('home') != 'TBD': team_clean_sheets[m['home']] += 1
+                    if sh == 0 and m.get('away') != 'TBD': team_clean_sheets[m['away']] += 1
+
+        def get_progress_multiplier(team):
+            matches_played = 3 + team_matches_count.get(team, 0)
+            if matches_played >= 7: return 2.5
+            if matches_played >= 5: return 1.0
+            return 0.15
+
+        # Build a quick lookup of real goals scored per player (using NORM_G_GOALSCORERS which
+        # is constructed later — we use G_GOALSCORERS here since NORM is built after this block)
+        import unicodedata
+        def norm_words_local(s):
+            n = unicodedata.normalize('NFKD', s).encode('ASCII', 'ignore').decode('utf-8')
+            return set(w for w in n.upper().replace('.', ' ').replace('-', ' ').split() if w)
+
+        def get_real_goals(p_name, team):
+            p_words = norm_words_local(p_name)
+            for (g_name, g_team), goals in G_GOALSCORERS.items():
+                if g_team != team: continue
+                g_words = norm_words_local(g_name)
+                long_g = {w for w in g_words if len(w) > 1}
+                if long_g and long_g.issubset(p_words):
+                    return goals
+            return 0
+
+        # Populate bestPlayer, bestYoung, bestGoalkeeper — all synced with real data
+        for t in players_db:
+            prog_mult = get_progress_multiplier(t)
+            elo_factor = get_elo(t) / 2000.0
+            team_depth = 3 + team_matches_count.get(t, 0)  # total matches in tournament
+            clean_sheets = team_clean_sheets.get(t, 0)
+
+            for p in players_db[t]:
+                real_goals = get_real_goals(p['name'], t)
+                age = p.get('age_2026', 27)
+                inj = get_injury_multiplier(p['name'])
+                caps = p.get('caps', 0)
+                hist_goals = p.get('goals', 0)
+
+                if p['pos'] == 'GK':
+                    # Golden Glove: clean sheets in simulation + caps reputation + deep run
+                    # clean_sheets is the key synergy: directly from bracket simulation
+                    cs_score = clean_sheets * 3.0
+                    rep_score = caps * 0.05 * elo_factor
+                    depth_score = team_depth * 0.3
+                    score = (cs_score + rep_score + depth_score) * prog_mult * inj
+                    awards['bestGoalkeeper'].append({'name': p['name'], 'team': t, 'score': score})
+
+                elif age <= 21:
+                    # Golden Boy: real goals matter most, then historical talent + team depth
+                    real_goal_score = real_goals * 4.0   # real goals weighted heavily
+                    talent_score = (hist_goals * 0.2 + caps * 0.08) * elo_factor
+                    score = (real_goal_score + talent_score) * prog_mult * inj
+                    # no age penalty for young players, but ensure they're truly young
+                    awards['bestYoung'].append({'name': p['name'], 'team': t, 'score': score})
+
+                else:
+                    # Golden Ball: all-round impact — real goals, team success, historical calibre
+                    real_goal_score = real_goals * 3.0   # synced with boot scorers
+                    historical_score = (hist_goals * 0.15 + caps * 0.04) * elo_factor
+                    # Bonus for being in a team that won many games (impact player)
+                    team_success_bonus = team_depth * 0.2 * elo_factor
+                    score = (real_goal_score + historical_score + team_success_bonus) * prog_mult * inj
+                    # Mild age penalty only for players with no real goals (reputational candidates only)
+                    if real_goals == 0:
+                        if age > 38: score *= 0.2
+                        elif age > 36: score *= 0.5
+                    awards['bestPlayer'].append({'name': p['name'], 'team': t, 'score': score})
+
+        def dedup_by_team(lst, max_n=3):
+            seen_teams = set()
+            result = []
+            for item in lst:
+                if item['team'] not in seen_teams:
+                    seen_teams.add(item['team'])
+                    result.append(item)
+                if len(result) >= max_n:
+                    break
+            return result
+
+        for k in ['bestPlayer', 'bestYoung', 'bestGoalkeeper']:
+            awards[k].sort(key=lambda x: x['score'], reverse=True)
+            awards[k] = dedup_by_team(awards[k], 3)
+
+
+
+        all_player_cands = [(p, t) for t in players_db for p in players_db[t] if p['pos'] in ['FW', 'MF']]
+        
+        # Build Elo map for fast lookup
+        elo_map = {r['name']: r['elo'] for r in ranking}
+
+        import unicodedata
+        def norm_words(s):
+            n = unicodedata.normalize('NFKD', s).encode('ASCII', 'ignore').decode('utf-8')
+            n = n.upper().replace('.', ' ').replace('-', ' ')
+            return set(w for w in n.split() if w)
+
+        NORM_G_GOALSCORERS = defaultdict(int)
+        for (g_name, g_team), goals in G_GOALSCORERS.items():
+            g_words = norm_words(g_name)
+            matched_player = None
+            if g_team in players_db:
+                for p in players_db[g_team]:
+                    p_words = norm_words(p['name'])
+                    long_g_words = {w for w in g_words if len(w) > 1}
+                    if long_g_words and long_g_words.issubset(p_words):
+                        matched_player = p['name']
+                        break
+            if matched_player:
+                NORM_G_GOALSCORERS[(matched_player, g_team)] += goals
+            else:
+                NORM_G_GOALSCORERS[(g_name, g_team)] += goals
+
+        def get_boot_score(x):
+            p, t = x[0], x[1]
+            sim_goals = NORM_G_GOALSCORERS.get((p['name'], t), 0)
+            if sim_goals == 0:
+                sim_goals = NORM_G_GOALSCORERS.get((p['name'].upper(), t), 0)
+            
+            future_team_xg = 0.0
+            team_matches = []
+            for stage in bracket:
+                for m in stage['matches']:
+                    if m['home'] == t: team_matches.append(m['away'])
+                    elif m['away'] == t: team_matches.append(m['home'])
+            
+            team_elo = elo_map.get(t, 1800)
+            tactic_w = get_tactic_weight(t)
+            
+            for opp in team_matches:
+                if opp == 'TBD': continue
+                opp_elo = elo_map.get(opp, get_elo(opp))
+                # Elo-adjusted team xG per match (calibrated to avg ~1.8 goals/game)
+                elo_diff = team_elo - opp_elo
+                lam_team = 1.0 + elo_diff / 1200.0   # ~0.6-1.4 range for realistic teams
+                lam_team = max(0.4, min(2.2, lam_team))
+                match_team_xg = lam_team
+                future_team_xg += match_team_xg
+                
+            pos_share = 0.30 if p.get('pos') == 'FW' else 0.10
+            player_xg_share = pos_share * tactic_w
+            
+            # form_bonus: small factor based on historical performance, not dominant
+            form_bonus = (p.get('goals', 0) * 0.01) + (p.get('caps', 0) * 0.002)
+            
+            predicted_xg = (future_team_xg * player_xg_share) + form_bonus
+            
+            # Historical calibration: WC top scorer ~1 goal/match played, avg 6-8 total
+            # 2026 format: max 8 matches. So cap prediction at ~10 for realism
+            predicted_xg = min(predicted_xg, 10.0)
+            
+            age = p.get('age_2026', 27)
+            if sim_goals == 0:
+                if age > 38: predicted_xg *= 0.2
+                elif age > 36: predicted_xg *= 0.5
+            
+            # Hot form bonus: if already scored real goals, boost future xG by 15% per goal 
+            # (historical precedent: hot strikers tend to keep scoring)
+            if sim_goals > 0:
+                hot_form_factor = 1.0 + (sim_goals * 0.15)
+                predicted_xg *= hot_form_factor
+            
+            total_player_xg = sim_goals + predicted_xg
+            return total_player_xg * get_injury_multiplier(p['name'])
+        
+        boot_scored = [(p, t) for p, t in all_player_cands]
+        boot_scored.sort(key=get_boot_score, reverse=True)
+        
+        if boot_scored:
+            boot_list = []
+            for p, t in boot_scored[:15]:
+                score_xg = get_boot_score((p, t))
+                predicted_goals = max(1, round(score_xg))
+                name_parts = p['name'].split()
+                display = ' '.join(name_parts[1:]) + ' ' + name_parts[0].title() if name_parts and name_parts[0].isupper() else p['name'].title()
+                boot_list.append({'name': display, 'goals': predicted_goals, 'team': t, 'score': round(score_xg, 2)})
+            awards['predictedBoot'] = boot_list
+
+    if NORM_G_GOALSCORERS:
+        best_tuple = max(NORM_G_GOALSCORERS, key=NORM_G_GOALSCORERS.get)
+        awards['topScorer']['real'] = f"{best_tuple[0]} - {NORM_G_GOALSCORERS[best_tuple]} gol"
+        sorted_scorers = sorted(NORM_G_GOALSCORERS.items(), key=lambda x: x[1], reverse=True)
+        top_list = []
+        for (name, p_team), goals in sorted_scorers:
+            name_parts = name.split()
+            if name_parts and name_parts[0].isupper() and len(name_parts) > 1:
+                display_name = ' '.join(name_parts[1:]) + ' ' + name_parts[0].title()
+            else:
+                display_name = name.title() if name.isupper() else name
+            top_list.append({'name': display_name, 'goals': goals, 'team': p_team, 'score': goals})
+        awards['topScorerList'] = top_list
+    else:
+        fallback_list = []
+        if players_db:
+            for t in players_db:
+                for p in players_db[t]:
+                    if p.get('goals', 0) > 0:
+                        name_parts = p['name'].split()
+                        display = ' '.join(name_parts[1:]) + ' ' + name_parts[0].title() if name_parts and name_parts[0].isupper() else p['name'].title()
+                        fallback_list.append({'name': display, 'goals': p['goals'], 'team': t, 'score': p['goals']})
+            fallback_list.sort(key=lambda x: x['goals'], reverse=True)
+            
+        if fallback_list:
+            awards['topScorerList'] = fallback_list
+            best = fallback_list[0]
+            awards['topScorer']['real'] = f"{best['name']} - {best['goals']} gol"
+        else:
+            awards['topScorer']['real'] = "Belum ada gol tercatat"
+            awards['topScorerList'] = []
+        
+    if awards.get('topScorerList'):
+        best = awards['topScorerList'][0]
+        awards['topScorer']['real'] = f"{best['name']} ({best['team']}) - {best['goals']} gol"
+
+    if awards['predictedBoot']:
+        best_pred = awards['predictedBoot'][0]
+        awards['topScorer']['expected'] = f"{best_pred['name']} ({best_pred['team']}) - ~{best_pred['goals']} gol (xG)"
+
+    return awards
 
 # ---------- MAIN ----------
 def main():
@@ -865,7 +1136,7 @@ def main():
     sim_result = simulate_tournament(groups, knockouts)
     bracket = sim_result['bracket']
 
-    top_scorer, best_player, best_young, best_gk = predict_awards(bracket, sim_result['globalRanking'])
+    awards = predict_awards(bracket, sim_result['globalRanking'])
 
     # Live Matches (today, UTC+9 -> today UTC)
     today_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()[:10]
@@ -917,10 +1188,7 @@ def main():
         'winnerProb': sim_result['winnerProb'],
         'darkHorses': sim_result['darkHorses'],
         'flops': sim_result['flops'],
-        'topScorer': top_scorer,
-        'bestPlayer': best_player,
-        'bestYoung': best_young,
-        'bestGoalkeeper': best_gk,
+        'awards': awards,
         'globalRanking': sim_result.get('globalRanking', []),
         'groups': groups,
         'bracket': bracket,

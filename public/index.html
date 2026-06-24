@@ -29,7 +29,13 @@
                             900: '#003344'
                         },
                         magenta: '#FF007F',
-                        lime: '#00FF66'
+                        lime: '#00FF66',
+                        // Custom Palette
+                        cgreen: '#3CAC3B',
+                        cblue: '#2A398D',
+                        cred: '#E61D25',
+                        cgray: '#D1D4D1',
+                        cdarkgrey: '#474A4A'
                     }
                 }
             }
@@ -44,28 +50,70 @@
 </head>
 <body class="bg-background text-primary min-h-screen pb-10 antialiased font-sans">
     
-    <div class="container mx-auto p-4 max-w-6xl">
-        <header class="text-center mb-8 mt-6">
-            <h1 class="text-4xl font-extrabold text-primary tracking-tight mb-2">World Cup 2026 Research Predictor</h1>
-            <div class="text-sm text-muted font-medium">Causal Inference & Monte Carlo Simulation Engine</div>
-            <div class="text-xs text-muted mt-2">Last Update: <span id="lastUpdate" class="font-mono text-white">-</span></div>
+    <div class="container mx-auto p-4 max-w-6xl pt-6">
+        
+        <!-- PREMIUM HERO SECTION -->
+        <header class="bg-card border-b border-border p-4 sm:px-6 flex flex-col md:flex-row justify-between items-center z-50 shadow-sm relative rounded-t-2xl">
+            <div class="flex flex-col md:flex-row items-center gap-3 md:gap-6 w-full md:w-auto">
+                <div class="flex items-center gap-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/960px-2026_FIFA_World_Cup_emblem.svg.png" alt="WC2026" class="h-10 w-10 drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
+                    <div>
+                        <h1 class="text-xl md:text-2xl font-black tracking-tighter text-primary uppercase leading-none text-shadow-sm">World Cup <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">2026</span></h1>
+                        <p class="text-[10px] uppercase tracking-[0.2em] font-semibold text-cyan-400/80 mt-0.5" data-i18n="header_subtitle">Ultimate Dashboard</p>
+                    </div>
+                </div>
+                <!-- Monte Carlo Branding -->
+                <div class="hidden md:flex flex-col border-l border-border/50 pl-6 justify-center">
+                    <span class="text-[9px] text-muted tracking-widest uppercase font-bold">Powered By</span>
+                    <span class="text-xs text-cyan-400 font-mono font-bold tracking-tight">Monte Carlo Simulation</span>
+                </div>
+            </div>
+            
+            <div class="flex flex-col items-end gap-2 mt-3 md:mt-0">
+                <div class="text-[10px] text-muted font-mono bg-background border border-border px-3 py-1.5 rounded-sm shadow-sm flex items-center gap-2 relative overflow-hidden group">
+                    <span class="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_rgba(6,182,212,0.8)]"></span>
+                    <span><span data-i18n="status_live">Live Predictor Engine Active</span> • <span id="witClock" class="text-cgreen font-bold px-1"></span> • <span id="lastUpdate">-</span></span>
+                </div>
+                <!-- Mobile Branding (only visible on small screens) -->
+                <div class="md:hidden flex items-center gap-1.5 text-[9px]">
+                    <span class="text-muted tracking-widest uppercase font-bold">Powered By</span>
+                    <span class="text-cyan-400 font-mono font-bold">Monte Carlo</span>
+                </div>
+            </div>
         </header>
 
-        <!-- HERO SECTION -->
-        <div class="max-w-3xl mx-auto text-center mb-10">
-            <h2 class="text-3xl font-extrabold text-white mb-3 tracking-tight">The Mathematics of Glory</h2>
-            <p class="text-muted text-sm leading-relaxed font-medium">Bukan sekadar opini. Kami menjalankan 3.000 simulasi alam semesta paralel secara <span class="text-white font-bold">real-time</span> berbasis data <em>Elo Rating</em> & <em>Expected Goals (xG)</em> untuk memprediksi takdir Piala Dunia 2026.</p>
+        <!-- Horizontal Results Carousel -->
+        <div class="bg-background border-b border-border/50 py-2 overflow-hidden relative">
+            <div class="max-w-[1600px] mx-auto px-4 flex items-center">
+                <button id="carouselPrev" class="w-8 h-8 flex items-center justify-center bg-card border border-border rounded-full text-muted hover:text-white transition-colors z-10 shrink-0 shadow-md">
+                    &lt;
+                </button>
+                <div id="topCarouselContainer" class="flex-1 overflow-x-auto scrollbar-hide flex gap-3 px-3 scroll-smooth">
+                    <!-- Cards populated by JS -->
+                </div>
+                <button id="carouselNext" class="w-8 h-8 flex items-center justify-center bg-card border border-border rounded-full text-muted hover:text-white transition-colors z-10 shrink-0 shadow-md">
+                    &gt;
+                </button>
+            </div>
         </div>
 
-        <!-- Tab menu -->
-        <div class="flex gap-2 border-b border-border mb-8 overflow-x-auto pb-0 justify-start md:justify-center scrollbar-hide">
-            <button id="tabSummary" class="tab-btn active" onclick="switchTab('Summary')">Overview</button>
-            <button id="tabRanking" class="tab-btn" onclick="switchTab('Ranking')">Global Ranking</button>
-            <button id="tabGroups" class="tab-btn" onclick="switchTab('Groups')">Groups</button>
-            <button id="tabFixtures" class="tab-btn" onclick="switchTab('Fixtures')">Results & Fixtures</button>
-            <button id="tabBracket" class="tab-btn" onclick="switchTab('Bracket')">Knockout Tree</button>
-            <button id="tabAbout" class="tab-btn" onclick="switchTab('About')">Metodologi</button>
-        </div>
+        <nav class="flex overflow-x-auto gap-1 pb-2 scrollbar-hide border-b border-border/50 sticky top-0 bg-background/95 backdrop-blur-md z-40 py-2 items-center">
+            <button id="tabSummary" class="tab-btn active" onclick="switchTab('Summary')" data-i18n="nav_overview">Live Overview</button>
+            <button id="tabFixtures" class="tab-btn" onclick="switchTab('Fixtures')" data-i18n="nav_matches">Fixtures & Results</button>
+            <button id="tabGroups" class="tab-btn" onclick="switchTab('Groups')" data-i18n="nav_groups">Standings</button>
+            <button id="tabRanking" class="tab-btn" onclick="switchTab('Ranking')" data-i18n="nav_predictions">AI Predictions</button>
+            <button id="tabPlayerStats" class="tab-btn" onclick="switchTab('PlayerStats')" data-i18n="nav_player_stats">Player Stats</button>
+            <button id="tabAbout" class="tab-btn" onclick="switchTab('About')" data-i18n="nav_journal">Simulation Methodology</button>
+            <!-- Language Toggle — prominent position, right side of nav -->
+            <div class="ml-auto shrink-0 pl-3">
+                <button id="langToggle" onclick="toggleLanguage()"
+                    class="flex items-center gap-2 px-3 py-1.5 rounded-lg font-bold text-xs tracking-wide border-2 border-cyan-500 bg-cyan-500/15 text-cyan-300 hover:bg-cyan-500/30 hover:text-white transition-all shadow-[0_0_12px_rgba(6,182,212,0.3)] cursor-pointer whitespace-nowrap">
+                    <span class="text-base leading-none">🇮🇩</span>
+                    <span>Bahasa</span>
+                    <span class="opacity-50 text-[10px] font-mono border border-cyan-500/30 px-1 py-px rounded bg-cyan-900/40 inline-block">ID</span>
+                </button>
+            </div>
+        </nav>
 
         <!-- Tab 1: Summary -->
         <div id="contentSummary" class="tab-content active space-y-6">
@@ -73,10 +121,10 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Projected Champion & Final -->
                 <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex flex-col justify-center items-center text-center">
-                    <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1">⚔️ Projected Final</h2>
+                    <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1" data-i18n="header_final">⚔️ Projected Final</h2>
                     <p id="final" class="text-sm font-bold text-primary mb-3">-</p>
                     <div class="w-full h-px bg-border my-2"></div>
-                    <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-2">🏆 Projected Champion</h2>
+                    <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-2" data-i18n="header_champion">🏆 Projected Champion</h2>
                     <div id="winnerCard" class="w-full py-1 transition-all flex flex-col items-center">
                         <p class="text-3xl font-black text-primary mb-1"><span id="winner">-</span></p>
                         <p class="text-[10px] text-lime font-mono bg-lime/10 px-2 py-0.5 rounded-sm"><span id="winnerProb"></span>% Win Probability</p>
@@ -86,8 +134,8 @@
                 <!-- Dark Horses -->
                 <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex flex-col justify-between">
                     <div>
-                        <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1 flex items-center gap-2">🚀 Biggest Dark Horse</h2>
-                        <p class="text-[9px] text-muted opacity-60 mb-3 leading-tight">Probabilitas tertinggi bagi tim non-unggulan untuk menembus Semifinal.</p>
+                        <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1 flex items-center gap-2" data-i18n="header_darkhorses">🚀 Biggest Dark Horse</h2>
+                        <p class="text-[9px] text-muted opacity-60 mb-3 leading-tight" data-i18n="desc_darkhorses">Probabilitas tertinggi bagi tim non-unggulan untuk menembus Semifinal.</p>
                     </div>
                     <div id="darkHorses" class="space-y-2"></div>
                 </div>
@@ -95,152 +143,187 @@
                 <!-- Flops -->
                 <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex flex-col justify-between">
                     <div>
-                        <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1 flex items-center gap-2">📉 Potential Flops</h2>
-                        <p class="text-[9px] text-muted opacity-60 mb-3 leading-tight">Probabilitas tim raksasa gagal lolos ke Fase Gugur (R16).</p>
+                        <h2 class="text-[10px] text-muted uppercase tracking-widest font-bold mb-1 flex items-center gap-2" data-i18n="header_flops">📉 Potential Flops</h2>
+                        <p class="text-[9px] text-muted opacity-60 mb-3 leading-tight" data-i18n="desc_flops">Probabilitas tim raksasa gagal lolos ke Fase Gugur (R16).</p>
                     </div>
                     <div id="flops" class="space-y-2"></div>
                 </div>
-            </div>
-
-            <!-- SPLIT LAYOUT: Live Matches (Left 2/3) & Top Scorers (Right 1/3) -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <!-- Live Matches -->
-                <div class="bg-card border border-border shadow-sm p-5 rounded-sm lg:col-span-2 flex flex-col h-full">
+            </div>            <!-- SPLIT LAYOUT: Live Matches & Top Scorers (Upcoming matches removed and moved to carousel) -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Live/Recent Matches -->
+                <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex flex-col h-full">
                     <div class="flex justify-between items-center mb-4">
-                        <h2 id="liveMatchesHeader" class="text-lg font-bold flex items-center gap-2 transition-colors"><span id="liveMatchesIcon" class="animate-pulse text-magenta">🔴</span> <span id="liveMatchesTitle">Live & Today's Matches</span></h2>
-                        <button onclick="switchTab('Fixtures')" class="text-xs text-cyan-400 hover:text-cyan-300 font-semibold uppercase tracking-wider">View All Matches ↗</button>
+                        <h2 id="liveMatchesHeader" class="text-lg font-bold flex items-center gap-2 transition-colors"><span id="liveMatchesIcon" class="animate-pulse text-magenta">🔴</span> <span id="liveMatchesTitle" data-i18n="header_live">Live & Today's Matches</span></h2>
                     </div>
-                    <div id="liveMatches" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                        <div class="text-muted">No matches today.</div>
+                    <div id="liveMatchesList" class="flex-1 flex flex-col justify-start space-y-3">
+                        <div class="text-muted italic text-sm text-center" data-i18n="loading">Loading...</div>
                     </div>
                 </div>
 
-                <!-- Top Scorers & Awards -->
-                <div class="flex flex-col gap-6 lg:col-span-1">
-                    <!-- Top Scorers Table -->
-                    <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex-1 overflow-hidden">
-                        <div class="flex justify-between items-center mb-3">
-                            <h2 class="text-base font-bold text-primary flex items-center gap-2">⚽ Top Scorers</h2>
+                <!-- Awards Preview Panel -->
+                <div class="bg-card border border-border shadow-sm p-5 rounded-sm flex flex-col h-full gap-3">
+                    <!-- Top Scorer -->
+                    <div class="cursor-pointer hover:bg-white/5 rounded-lg p-2 transition-colors group" onclick="switchTab('PlayerStats')">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="text-[10px] uppercase tracking-widest font-bold text-red-400 flex items-center gap-1.5">👟 Golden Boot</h3>
+                            <span class="text-[9px] text-muted group-hover:text-cyan-400 transition-colors">→ Full Leaderboard</span>
                         </div>
-                        <div class="overflow-y-auto">
-                            <table class="w-full text-sm text-left">
-                                <thead>
-                                    <tr class="text-muted uppercase tracking-wider border-b border-border text-[10px]">
-                                        <th class="pb-2 font-medium w-6">#</th>
-                                        <th class="pb-2 font-medium">Player</th>
-                                        <th class="pb-2 text-right font-medium">G</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="playerStatsBody" class="divide-y divide-border">
-                                    <tr><td colspan="3" class="py-4 text-center text-muted italic">Loading...</td></tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <div id="overviewTopScorer" class="text-sm font-bold text-primary">Loading...</div>
                     </div>
-
-                    <!-- Awards -->
-                    <div class="bg-card border border-border shadow-sm p-6 rounded-md">
-                        <h2 class="text-lg font-bold mb-4 text-primary flex items-center gap-2">🥇 Awards</h2>
-                        <div class="space-y-3">
-                            <div class="flex justify-between items-center pb-2 border-b border-border">
-                                <span class="text-xs text-muted">Golden Ball</span>
-                                <span id="bestPlayer" class="font-bold text-sm text-white">-</span>
-                            </div>
-                            <div class="flex justify-between items-center pb-2 border-b border-border">
-                                <span class="text-xs text-muted">Best Young</span>
-                                <span id="bestYoung" class="font-bold text-sm text-white">-</span>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs text-muted">Golden Glove</span>
-                                <span id="bestGK" class="font-bold text-sm text-white">-</span>
-                            </div>
+                    <div class="h-px bg-border/50"></div>
+                    <!-- Golden Ball -->
+                    <div class="cursor-pointer hover:bg-white/5 rounded-lg p-2 transition-colors group" onclick="switchTab('PlayerStats')">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="text-[10px] uppercase tracking-widest font-bold text-yellow-400 flex items-center gap-1.5">🥇 Golden Ball</h3>
+                            <span class="text-[9px] text-muted group-hover:text-cyan-400 transition-colors">→ Top 3</span>
                         </div>
+                        <div id="overviewBestPlayer" class="text-sm font-bold text-primary">Loading...</div>
+                    </div>
+                    <div class="h-px bg-border/50"></div>
+                    <!-- Best Young -->
+                    <div class="cursor-pointer hover:bg-white/5 rounded-lg p-2 transition-colors group" onclick="switchTab('PlayerStats')">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="text-[10px] uppercase tracking-widest font-bold text-cyan-400 flex items-center gap-1.5">🌟 Best Young Player</h3>
+                            <span class="text-[9px] text-muted group-hover:text-cyan-400 transition-colors">→ Top 3</span>
+                        </div>
+                        <div id="overviewBestYoung" class="text-sm font-bold text-primary">Loading...</div>
+                    </div>
+                    <div class="h-px bg-border/50"></div>
+                    <!-- Golden Glove -->
+                    <div class="cursor-pointer hover:bg-white/5 rounded-lg p-2 transition-colors group" onclick="switchTab('PlayerStats')">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="text-[10px] uppercase tracking-widest font-bold text-emerald-400 flex items-center gap-1.5">🧤 Golden Glove</h3>
+                            <span class="text-[9px] text-muted group-hover:text-cyan-400 transition-colors">→ Top 3</span>
+                        </div>
+                        <div id="overviewBestGK" class="text-sm font-bold text-primary">Loading...</div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Tab: Ranking -->
         <!-- Tab: Ranking -->
         <div id="contentRanking" class="hidden flex flex-col gap-6">
-            <!-- Chart -->
-            <div class="bg-card border border-border shadow-sm p-6 rounded-md">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-xl font-bold flex items-center gap-2"><span class="text-2xl">📊</span> Dinamika Probabilitas</h2>
-                    <select id="chartTeamSelect" class="bg-gray-800 text-sm text-gray-300 border border-gray-600 rounded px-2 py-1 outline-none focus:border-cyan-500" onchange="updateChartTeams()">
-                        <option value="top5">Top 5 Tim</option>
-                        <option value="all">Semua Tim (48)</option>
-                    </select>
+            <!-- Top Row: Dynamics and Rank Table -->
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                <!-- Left: Chart -->
+                <div class="bg-card border border-border shadow-sm p-6 rounded-md flex flex-col h-full">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-xl font-bold flex items-center gap-2"><span class="text-2xl">📊</span> Dinamika Probabilitas</h2>
+                        <select id="chartTeamSelect" class="bg-gray-800 text-sm text-gray-300 border border-gray-600 rounded px-2 py-1 outline-none focus:border-cyan-500" onchange="updateChartTeams()">
+                            <option value="top5">Top 5 Tim</option>
+                            <option value="all">Semua Tim (48)</option>
+                        </select>
+                    </div>
+                    <div class="relative flex-1 w-full min-h-[300px]">
+                        <canvas id="probabilityChart"></canvas>
+                    </div>
                 </div>
-                <div class="relative h-64 w-full">
-                    <canvas id="probabilityChart"></canvas>
+
+                <!-- Right: Table -->
+                <div class="bg-card border border-border shadow-sm rounded-md p-6 flex flex-col h-full max-h-[500px]">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 shrink-0">
+                        <h2 class="text-lg font-bold text-primary leading-tight">🌍 48 Countries Championship Probability</h2>
+                        <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+                            <div class="relative w-full sm:w-48">
+                                <input type="text" id="rankingSearch" onkeyup="renderRanking()" placeholder="Search team..." class="w-full bg-background border border-border rounded-sm px-3 py-1 text-xs text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors">
+                                <span class="absolute right-2 top-1.5 text-muted text-[10px]">🔍</span>
+                            </div>
+                            <div class="flex bg-gray-800/50 rounded-lg p-0.5 border border-gray-700/50 text-[10px]">
+                                <button id="trendBasisLast" class="px-2 py-1 font-semibold rounded transition-colors bg-cyan-600/30 text-cyan-300 border border-border" onclick="setTrendBasis('last')">vs Laga Terakhir</button>
+                                <button id="trendBasisFirst" class="px-2 py-1 font-semibold rounded transition-colors text-gray-400 hover:text-white" onclick="setTrendBasis('first')">vs Awal Turnamen</button>
+                            </div>
+                            <input type="hidden" id="trendBasisSelect" value="last">
+                        </div>
+                    </div>
+                    <p class="text-xs text-muted mb-4 shrink-0 italic">* Win Probability memengaruhi penempatan jalur dan potensi menang di bagan gugur di bawah.</p>
+                    <div class="overflow-y-auto flex-1 pr-2 custom-scrollbar">
+                        <table class="w-full text-sm text-left">
+                            <thead class="sticky top-0 bg-card z-10">
+                                <tr class="text-gray-400 uppercase tracking-wider border-b border-gray-700/50 text-[10px]">
+                                    <th class="pb-2 pl-4 font-medium">Rank</th>
+                                    <th class="pb-2 font-medium">Country</th>
+                                    <th class="pb-2 font-medium">Elo Rating</th>
+                                    <th class="pb-2 font-medium text-right">Trend</th>
+                                    <th class="pb-2 font-medium text-right pr-4">Win Probability</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rankingTableBody" class="divide-y divide-gray-800/50 text-xs"></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <!-- Table -->
-            <div class="bg-card border border-border shadow-sm rounded-md p-6">
-                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
-                    <h2 class="text-2xl font-bold text-primary">🌍 48 Countries Championship Probability</h2>
-                    <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-                        <div class="relative w-full sm:w-64">
-                            <input type="text" id="rankingSearch" onkeyup="renderRanking()" placeholder="Search team... (e.g. Brazil)" class="w-full bg-background border border-border rounded-sm px-4 py-1.5 text-sm text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors">
-                            <span class="absolute right-3 top-2.5 text-muted text-xs">🔍</span>
-                        </div>
-                        <div class="flex bg-gray-800/50 rounded-lg p-1 border border-gray-700/50">
-                            <button id="trendBasisLast" class="px-3 py-1.5 text-xs font-semibold rounded-md transition-colors bg-cyan-600/30 text-cyan-300 border border-border" onclick="setTrendBasis('last')">Trend: vs Laga Terakhir</button>
-                            <button id="trendBasisFirst" class="px-3 py-1.5 text-xs font-semibold rounded-md transition-colors text-gray-400 hover:text-white" onclick="setTrendBasis('first')">Trend: vs Awal Turnamen</button>
-                        </div>
-                        <input type="hidden" id="trendBasisSelect" value="last">
-                    </div>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm text-left">
-                        <thead>
-                            <tr class="text-gray-400 uppercase tracking-wider border-b border-gray-700/50">
-                                <th class="pb-3 pl-4 font-medium">Rank</th>
-                                <th class="pb-3 font-medium">Country</th>
-                                <th class="pb-3 font-medium">Elo Rating</th>
-                                <th class="pb-3 font-medium text-right">Trend</th>
-                                <th class="pb-3 font-medium text-right pr-4">Win Probability</th>
-                            </tr>
-                        </thead>
-                        <tbody id="rankingTableBody" class="divide-y divide-gray-800/50"></tbody>
-                    </table>
+            <!-- Bottom Row: Bracket -->
+            <div class="bg-card border border-border shadow-sm rounded-md p-6 overflow-x-auto relative mt-2">
+                <h2 class="text-xl font-bold mb-2 text-primary flex flex-col md:block" data-i18n="nav_bracket">
+                    <span>🏆 Knockout Tournament Tree</span>
+                    <span class="text-xs text-cyan-400 font-normal mt-2 md:hidden animate-pulse">👉 Geser untuk melihat babak selanjutnya</span>
+                </h2>
+                <p class="text-muted text-xs mb-6">Pohon turnamen ini digenerate secara otomatis berdasarkan probabilitas dari tabel di atas.</p>
+                
+                <div id="bracketContainer" class="overflow-x-auto">
+                    <!-- Tree generated by JS -->
                 </div>
             </div>
         </div>
 
-        <!-- Tab 3: Groups -->
+        <!-- Tab 3: Standings (Groups) -->
         <div id="contentGroups" class="hidden">
-            <div class="bg-card border border-border shadow-sm p-6 rounded-sm mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <h2 class="text-2xl font-bold text-primary">📊 Group Standings</h2>
-                <div class="relative w-full sm:w-64">
-                    <input type="text" id="groupsSearch" onkeyup="renderGroups()" placeholder="Search team... (e.g. Japan)" class="w-full bg-background border border-border rounded-sm px-4 py-1.5 text-sm text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors">
-                    <span class="absolute right-3 top-2.5 text-muted text-xs">🔍</span>
+            <!-- Sub-tabs -->
+            <div class="flex border-b border-border mb-6 overflow-x-auto hide-scrollbar">
+                <button id="tabStandingsGroups" onclick="setStandingsView('groups')" class="px-6 py-3 font-bold text-sm border-b-2 border-cyan-500 text-cyan-400 hover:bg-muted/10 transition-colors whitespace-nowrap">Group Stage</button>
+                <button id="tabStandingsTBA" onclick="setStandingsView('tba')" class="px-6 py-3 font-semibold text-sm border-b-2 border-transparent text-muted hover:text-primary hover:bg-muted/10 transition-colors whitespace-nowrap">Knockout Path (TBA)</button>
+            </div>
+
+            <!-- Group View -->
+            <div id="standingsGroupView">
+                <div class="bg-card border border-border shadow-sm p-6 rounded-sm mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                    <h2 class="text-2xl font-bold text-primary" data-i18n="nav_groups">📊 Group Standings</h2>
+                    <div class="relative w-full sm:w-64">
+                        <input type="text" id="groupsSearch" onkeyup="renderGroups()" placeholder="Search team..." class="w-full bg-background border border-border rounded-sm px-4 py-1.5 text-sm text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors">
+                        <span class="absolute right-3 top-2.5 text-muted text-xs">🔍</span>
+                    </div>
+                </div>
+                <div id="groupsContainer" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+            </div>
+
+            <!-- TBA Knockout View -->
+            <div id="standingsTBAView" class="hidden">
+                <div class="bg-card border border-border shadow-sm p-6 rounded-sm mb-6">
+                    <h2 class="text-xl font-bold text-primary mb-2">Knockout Phase Pathway</h2>
+                    <p class="text-muted text-sm">Skema pertemuan babak gugur berdasarkan posisi klasemen akhir fase grup.</p>
+                </div>
+                <div id="tbaBracketContainer" class="flex justify-center items-center w-full min-h-[500px] overflow-x-auto">
+                    <!-- Generated by JS -->
                 </div>
             </div>
-            <div id="groupsContainer" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
         </div>
 
         <!-- Tab 4: Matches -->
         <div id="contentFixtures" class="hidden">
-            <div class="bg-card border border-border shadow-sm rounded-sm p-6 mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <h2 class="text-2xl font-bold text-primary">📅 Matches</h2>
+            <!-- Main Results / Upcoming Toggle -->
+            <div class="flex justify-center mb-2 pt-4">
+                <div class="inline-flex bg-card border border-border rounded-full p-1 shadow-sm">
+                    <button id="toggleResultsBtn" onclick="setStatusFilter('results')" class="px-6 py-1.5 rounded-full text-sm font-bold transition-all text-white bg-cyan-500/20 shadow-[0_0_10px_rgba(6,182,212,0.3)] border border-cyan-500/30">Results</button>
+                    <button id="toggleUpcomingBtn" onclick="setStatusFilter('upcoming')" class="px-6 py-1.5 rounded-full text-sm font-bold transition-all text-muted hover:text-white border border-transparent">Upcoming</button>
+                </div>
+            </div>
+            <!-- Pill Navigation for Fixtures -->
+            <div class="flex flex-wrap gap-2 justify-center mb-6 py-4 border-b border-border/50" id="fixturePillNav">
+                <!-- Pills populated by JS -->
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 mb-6 px-2">
+                <h2 id="fixturesSectionTitle" class="text-2xl font-bold text-primary tracking-wide text-center w-full md:w-auto">All Matches</h2>
                 
                 <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto items-center">
-                    <div class="flex bg-background rounded-sm p-1 border border-border flex-shrink-0">
-                        <button id="btnMatchesResults" class="px-4 py-1.5 rounded-sm text-muted text-sm font-semibold transition-colors hover:text-white" onclick="setMatchStatusFilter('results')">Results</button>
-                        <button id="btnMatchesUpcoming" class="px-4 py-1.5 rounded-sm bg-cyan-900/30 text-cyan-400 border border-border text-sm font-semibold transition-colors shadow-sm" onclick="setMatchStatusFilter('upcoming')">Fixtures</button>
+                    <div class="bg-card border border-border p-1 rounded-sm flex">
+                        <button id="btnListView" onclick="toggleFixtureView('list')" class="px-4 py-1.5 rounded-sm bg-primary text-background text-sm font-bold transition-colors shadow-sm">List</button>
+                        <button id="btnCalView" onclick="toggleFixtureView('calendar')" class="px-4 py-1.5 rounded-sm text-muted text-sm font-semibold hover:text-primary transition-colors">Calendar</button>
                     </div>
-                    <input type="hidden" id="matchStatusFilter" value="upcoming">
-
-                    <div class="relative w-full sm:w-48">
-                        <input type="text" id="fixtureSearch" onkeyup="renderFixtures()" placeholder="Search team..." class="w-full bg-background border border-border rounded-sm px-4 py-1.5 text-sm text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors">
-                        <span class="absolute right-3 top-2.5 text-muted text-xs">🔍</span>
-                    </div>
-
-                    <div class="flex bg-background rounded-sm p-1 border border-border flex-shrink-0">
-                        <button id="btnListView" class="px-4 py-1.5 rounded-sm bg-primary text-background text-sm font-bold transition-colors shadow-sm" onclick="toggleFixtureView('list')">List</button>
-                        <button id="btnCalView" class="px-4 py-1.5 rounded-sm text-muted text-sm font-semibold hover:text-primary transition-colors" onclick="toggleFixtureView('calendar')">Calendar</button>
+                    <div class="relative w-full sm:w-64">
+                        <input type="text" id="fixtureSearch" onkeyup="renderFixtures()" placeholder="Search team..." class="w-full bg-background border border-border rounded-full px-4 py-2 text-sm text-primary placeholder-muted focus:outline-none focus:border-cyan-500 transition-colors shadow-sm">
+                        <span class="absolute right-4 top-2.5 text-muted text-xs">🔍</span>
                     </div>
                 </div>
             </div>
@@ -257,80 +340,153 @@
             </div>
         </div>
 
-        <!-- Tab: Bracket -->
-        <div id="contentBracket" class="hidden">
-            <div class="bg-card border border-border shadow-sm rounded-md p-6 overflow-x-auto relative">
-                <h2 class="text-2xl font-bold mb-2 text-primary flex flex-col md:block">
-                    <span>🏆 Knockout Tournament Tree</span>
-                    <span class="text-xs text-cyan-400 font-normal mt-2 md:hidden animate-pulse">👉 Geser untuk melihat babak selanjutnya</span>
-                </h2>
-                <p class="text-muted text-sm mb-8">Matches with <span class="bg-primary/20 text-primary border border-primary/30 px-1 rounded text-xs">Official</span> are confirmed draws. Others are predicted paths.</p>
-                
-                <div id="bracketContainer" class="bracket-wrapper flex justify-start items-center min-w-max pb-10">
-                    <!-- Tree generated by JS -->
+        <!-- Tab: Player Stats -->
+        <div id="contentPlayerStats" class="hidden">
+            <div class="bg-card border border-border shadow-sm rounded-md p-6 mb-8 text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-primary mb-2 flex items-center justify-center gap-2">⭐ Player Statistics & Awards</h2>
+                <p class="text-muted text-sm leading-relaxed">Top kandidat untuk penghargaan individu, dikalkulasi dari akumulasi metrik turnamen.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+                <div class="bg-gradient-to-b from-yellow-500/10 to-card border border-yellow-500/30 p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-center text-yellow-400 font-extrabold uppercase tracking-widest text-lg mb-4 flex flex-col items-center gap-2">
+                        <span class="text-3xl">🥇</span> Golden Ball
+                    </h3>
+                    <div id="podiumPlayer" class="flex flex-col gap-1"></div>
+                </div>
+                <div class="bg-gradient-to-b from-red-500/10 to-card border border-red-500/30 p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-center text-red-400 font-extrabold uppercase tracking-widest text-lg mb-4 flex flex-col items-center gap-2">
+                        <span class="text-3xl">👟</span> Golden Boot
+                    </h3>
+                    <div id="podiumTopScorer" class="flex flex-col gap-1"></div>
+                </div>
+                <div class="bg-gradient-to-b from-cyan-500/10 to-card border border-cyan-500/30 p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-center text-cyan-400 font-extrabold uppercase tracking-widest text-lg mb-4 flex flex-col items-center gap-2">
+                        <span class="text-3xl">🌟</span> Best Young Player
+                    </h3>
+                    <div id="podiumYoung" class="flex flex-col gap-1"></div>
+                </div>
+                <div class="bg-gradient-to-b from-emerald-500/10 to-card border border-emerald-500/30 p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-center text-emerald-400 font-extrabold uppercase tracking-widest text-lg mb-4 flex flex-col items-center gap-2">
+                        <span class="text-3xl">🧤</span> Golden Glove
+                    </h3>
+                    <div id="podiumGK" class="flex flex-col gap-1"></div>
+                </div>
+            </div>
+
+            <div class="mt-8 bg-card border border-border rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-gradient-to-r from-cyan-900/30 to-card p-4 border-b border-border">
+                    <h3 class="font-extrabold text-white text-lg flex items-center gap-2"><span class="text-xl">⚽</span> Top Scorers Leaderboard</h3>
+                </div>
+                <div class="p-4">
+                    <div class="flex font-mono text-xs uppercase text-muted font-bold border-b border-border pb-2 mb-2">
+                        <div class="w-12 text-center">GOL</div>
+                        <div class="flex-1">Pemain</div>
+                    </div>
+                    <div id="playerStatsBody" class="divide-y divide-border/50">
+                        <!-- JS injected -->
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Tab: Player Stats (Removed as it is now in Overview) -->
-
-        <!-- Tab: About / Methodology -->
+        <!-- Tab: About / Methodology (Science Journal Rewrite) -->
         <div id="contentAbout" class="hidden">
-            <div class="bg-card border border-border shadow-sm rounded-md p-8 max-w-4xl mx-auto space-y-8">
-                <!-- Header -->
-                <div class="text-center">
-                    <div class="text-5xl mb-3">🔬</div>
-                    <h2 class="text-3xl font-extrabold text-primary mb-2">Metodologi & Tentang Aplikasi</h2>
-                    <p class="text-gray-400 text-sm">Dibangun dengan riset mendalam, bukan sekadar tebakan</p>
-                </div>
+            <div class="bg-card border border-border shadow-sm rounded-md p-8 md:p-12 max-w-5xl mx-auto text-primary font-serif leading-relaxed space-y-10">
+                
+                <!-- Journal Header -->
+                <header class="text-center border-b border-border pb-8">
+                    <h1 class="text-3xl md:text-4xl font-extrabold mb-4 font-sans" data-i18n="journal_title">A Bivariate Poisson Monte Carlo Approach for Predicting the 2026 FIFA World Cup</h1>
+                    <p class="text-muted text-sm md:text-base italic mb-6" data-i18n="journal_subtitle">Published on World Cup Predictor Analytics, June 2026</p>
+                    <div class="flex flex-col items-center justify-center gap-1 font-sans text-sm">
+                        <span class="font-bold text-cyan-400">@faldodaffa</span>
+                        <span class="text-gray-400">Sports Data Scientist & Researcher</span>
+                    </div>
+                </header>
 
-                <!-- Creator -->
-                <div class="bg-muted/10 p-6 rounded-md border border-border flex items-center gap-6">
-                    <div class="text-5xl">👤</div>
-                    <div>
-                        <div class="text-xs text-cyan-400 uppercase tracking-widest font-bold mb-1">Dibuat Oleh</div>
-                        <div class="text-2xl font-extrabold text-white">@faldodaffa</div>
-                        <div class="text-sm text-gray-400 mt-1">World Cup 2026 Researcher & Data Scientist</div>
-                    </div>
-                </div>
+                <!-- Abstract -->
+                <section>
+                    <h2 class="text-xl font-bold font-sans text-white mb-3 uppercase tracking-wider text-center" data-i18n="journal_abstract_title">Abstract</h2>
+                    <p class="text-gray-300 text-justify" data-i18n="journal_abstract">
+                        This paper presents a robust probabilistic model designed to predict the outcomes of the 2026 FIFA World Cup. Utilizing a **Bivariate Poisson Distribution**, the model generates expected goals (xG) for competing nations based on dynamic **Elo Ratings**. The core prediction engine employs a **Monte Carlo Simulation (3,000 iterations)** to resolve complex tournament paths asynchronously. Unlike traditional static models, this architecture integrates **Causal Inference variables**—such as *Underdog Rally*, *Champions' Curse*, and geographic modifiers (altitude, humidity)—ensuring predictions align not only with pure mathematics but also with historical tournament narratives.
+                    </p>
+                </section>
 
-                <!-- Methodology sections -->
-                <div class="space-y-4">
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-yellow-400 mb-2">⚙️ Tahap 1 — Monte Carlo Engine (3000 iterasi)</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Setiap turnamen disimulasikan 3000 kali secara acak (berjalan asinkronus di belakang layar). Proporsi kemenangan di 3000 skenario inilah yang melahirkan persentase absolut di <span class="text-cyan-400 font-semibold">Global Ranking</span>.</p>
+                <!-- Chapter 1 -->
+                <section>
+                    <h2 class="text-lg font-bold font-sans text-cyan-400 mb-3 border-l-4 border-cyan-400 pl-3" data-i18n="journal_ch1_title">1. Bivariate Poisson Distribution & Expected Goals (xG)</h2>
+                    <p class="text-gray-300 text-justify mb-4" data-i18n="journal_ch1_desc">
+                        Football is a low-scoring game where goal occurrences can be accurately modeled using the Poisson distribution. The expected number of goals (denoted as $\lambda$) for a team is derived fundamentally from the discrepancy in Elo Ratings between the two competing nations. Let $E_A$ and $E_B$ be the Elo ratings of Team A and Team B.
+                    </p>
+                    <div class="bg-gray-900 p-4 rounded-md font-mono text-xs text-yellow-300 overflow-x-auto mb-4">
+                        λ_home = Base_xG * (E_A / 1500)^2 * (E_B / 1500)^(-1.5)
                     </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-blue-400 mb-2">🌍 Tahap 2 — Elo Rating Dinamis</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Kekuatan awal tim bertumpu pada Elo Rating. Selisih poin Elo antara dua tim menentukan rasio <span class="text-blue-400 font-semibold">Bivariate Poisson Lambda (λ)</span> untuk pengacakan ekspektasi gol (xG).</p>
-                    </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-purple-400 mb-2">🏠 Tahap 3 — Modifikator Geografis (Stadion)</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Tuan rumah mendapat buff moral (<span class="text-purple-400 font-semibold">+0.15 xG</span>). Stadion spesifik memberikan debuff pada lawan: Azteca (<span class="text-purple-400 font-semibold">ketinggian</span>), Miami (<span class="text-purple-400 font-semibold">kelembapan ekstrim</span>), Houston (<span class="text-purple-400 font-semibold">suhu indoor dengan AC</span>).</p>
-                    </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-orange-400 mb-2">⚡ Tahap 4 — Momentum Berantai & Underdog Rally</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Tim kecil yang berhasil menumbangkan Raksasa secara mengejutkan akan mendapat <span class="text-orange-400 font-semibold">Momentum Boost</span> permanen. Ada juga faktor <em>Underdog Rally</em> untuk negara spesifik yang memiliki tren lonjakan performa historis.</p>
-                    </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-red-400 mb-2">🎲 Tahap 5 — Threshold: Smart Upsets (Power Gap &le; 25%)</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Di dalam bagan Knockout, jika selisih probabilitas (Gap) antar tim > 25%, Raksasa <span class="text-red-400 font-semibold">dipastikan menang</span> secara matematis. Namun jika Gap &le; 25% (laga sengit / badai momentum), mesin mengaktifkan mode <span class="text-red-400 font-semibold">Smart Upsets</span>: Dadu Poisson dilempar murni, mengizinkan lahirnya Kuda Hitam seperti Maroko 2022!</p>
-                    </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-green-400 mb-2">🏆 Tahap 6 — Overview Follows Bracket</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Dasbor Overview (Juara, Finalis, Kuda Hitam, Flop) <span class="text-green-400 font-semibold">Bukanlah sekadar tebakan dari rata-rata Monte Carlo</span>, melainkan diekstrak secara mutlak dari apa yang divisualisasikan oleh Bagan Knockout. Ini menjamin konsistensi 100%.</p>
-                    </div>
-                    <div class="bg-gray-900/50 p-5 rounded-xl border border-gray-700/50">
-                        <h3 class="text-base font-bold text-cyan-400 mb-2">📈 Tahap 7 — Sinkronisasi API Real-Time</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">Node.js server memantau <span class="text-cyan-400 font-semibold">worldcup26.ir</span> setiap 30 detik. Perubahan skor riil akan men-<em>trigger</em> ulang seluruh infrastruktur Python di atas untuk merajut realitas probabilistik baru.</p>
-                    </div>
-                </div>
+                    <p class="text-gray-300 text-justify" data-i18n="journal_ch1_desc2">
+                        This formula dynamically calculates offensive and defensive strengths. A slight correlation factor (0.1) is applied to form a *Bivariate* distribution, accounting for the reality that a highly offensive game by Team A naturally impacts the defensive structure of Team B.
+                    </p>
+                </section>
 
-                <div class="text-center text-xs text-gray-600 pt-4 border-t border-gray-800">
-                    Aplikasi ini adalah proyek riset personal. Semua prediksi bersifat probabilistik dan tidak menjamin hasil aktual pertandingan.
+                <!-- Chapter 2 -->
+                <section>
+                    <h2 class="text-lg font-bold font-sans text-purple-400 mb-3 border-l-4 border-purple-400 pl-3" data-i18n="journal_ch2_title">2. Geographic & Stadium Modifiers</h2>
+                    <p class="text-gray-300 text-justify mb-2" data-i18n="journal_ch2_desc">
+                        The 2026 tournament spans across diverse climates in North America. The model applies systemic *debuffs* to away teams based on stadium metadata:
+                    </p>
+                    <ul class="list-disc pl-8 space-y-2 text-gray-300 text-sm">
+                        <li data-i18n="journal_ch2_li1"><strong>Estadio Azteca (Mexico):</strong> Extreme altitude introduces a $-0.10$ xG penalty to non-Latin American teams.</li>
+                        <li data-i18n="journal_ch2_li2"><strong>Miami & Houston:</strong> Humidity and indoor AC variations mathematically skew stamina, modeled as an additional variance parameter.</li>
+                        <li data-i18n="journal_ch2_li3"><strong>Host Advantage:</strong> Teams playing in their home nations (USA, CAN, MEX) receive a strict $+0.15$ xG morale buff.</li>
+                    </ul>
+                </section>
+
+                <!-- Chapter 3 -->
+                <section>
+                    <h2 class="text-lg font-bold font-sans text-orange-400 mb-3 border-l-4 border-orange-400 pl-3" data-i18n="journal_ch3_title">3. Causal Inference: Momentum, Hubris, & The Curse</h2>
+                    <p class="text-gray-300 text-justify mb-4" data-i18n="journal_ch3_desc">
+                        Pure Elo ratings often fail to capture the psychological volatility of knockout football. We injected causal logic into the simulation loop:
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-900/50 border border-gray-700 p-4 rounded text-sm">
+                            <h4 class="font-bold text-red-400 mb-1" data-i18n="journal_ch3_curse_title">Champions' Curse</h4>
+                            <p class="text-gray-400" data-i18n="journal_ch3_curse_desc">Statistically, defending champions face catastrophic early exits (e.g., France 2002, Germany 2018). Argentina faces a rigid -0.1 xG penalty in the Group Stage to simulate this anomaly.</p>
+                        </div>
+                        <div class="bg-gray-900/50 border border-gray-700 p-4 rounded text-sm">
+                            <h4 class="font-bold text-orange-400 mb-1" data-i18n="journal_ch3_hubris_title">Anti-Climax Hubris</h4>
+                            <p class="text-gray-400" data-i18n="journal_ch3_hubris_desc">Teams that accumulate maximum momentum (>0.35) during groups often suffer a psychological crash in the knockouts, simulated as a -0.05 xG *hubris* debuff.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Chapter 4 -->
+                <section>
+                    <h2 class="text-lg font-bold font-sans text-lime mb-3 border-l-4 border-lime pl-3" data-i18n="journal_ch4_title">4. The "Smart Upset" Threshold</h2>
+                    <p class="text-gray-300 text-justify mb-4" data-i18n="journal_ch4_desc">
+                        To prevent determinism, the model enforces a <em>Power Gap Threshold</em> in the knockout brackets. If the win probability gap between two teams exceeds 25%, the statistical giant is hard-coded to advance. However, if the gap is $\le 25\%$, the model unlocks "Smart Upsets" — engaging pure Poisson dice rolls to allow historical underdog miracles (e.g., Morocco 2022) to emerge naturally.
+                    </p>
+                </section>
+
+                <!-- Limitations -->
+                <section class="bg-red-950/20 p-6 rounded-lg border border-red-900/50">
+                    <h2 class="text-lg font-bold font-sans text-red-500 mb-3 flex items-center gap-2" data-i18n="journal_limit_title">⚠️ Discussion & Limitations</h2>
+                    <p class="text-gray-300 text-justify text-sm leading-relaxed" data-i18n="journal_limit_desc">
+                        It must be explicitly stated that predicting football mathematically yields a ceiling accuracy of approximately <strong>60% - 65%</strong>. Football has immense *low-scoring variance* compared to basketball or tennis. A singular red card, injury, or crossbar hit invalidates 90% probabilities instantly. Therefore, the outputs shown in the <em>Global Ranking</em> are probabilistic likelihoods of a parallel universe, not deterministic prophecies. 
+                    </p>
+                </section>
+
+        </div>
+
+        <!-- Global Footer -->
+        <footer class="bg-card border-t border-border mt-12 py-8 px-6 text-center shadow-inner">
+            <div class="max-w-4xl mx-auto flex flex-col items-center gap-4">
+                <div class="text-primary font-bold text-lg">World Cup 2026 Predictor</div>
+                <div class="text-muted text-sm">
+                    Dibuat oleh <a href="#" class="text-cyan-400 hover:text-cyan-300 font-bold">@faldodaffa</a>
+                </div>
+                <div class="bg-background/50 border border-border/50 p-4 rounded text-xs text-muted/80 max-w-2xl leading-relaxed mt-2 text-justify md:text-center">
+                    <strong>DISCLAIMER:</strong> Aplikasi ini murni dibangun untuk tujuan demonstrasi, penelitian sains data, dan hiburan semata menggunakan pemodelan matematika (Monte Carlo & Poisson). Hasil prediksi tidak menjamin kejadian di dunia nyata. <strong>Dilarang keras menggunakan aplikasi dan hasil analisis ini untuk tujuan perjudian atau taruhan dalam bentuk apa pun.</strong>
                 </div>
             </div>
-        </div>
+        </footer>
 
     </div>
 
