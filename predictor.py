@@ -474,7 +474,8 @@ def simulate_tournament(groups, knockouts):
             else:
                 pts[a] += 3; gd_s[a] += 1; gd_s[h] -= 1
 
-        return sorted(teams, key=lambda t: (-pts.get(t, 0), -gd_s.get(t, 0)))
+        sorted_teams = sorted(teams, key=lambda t: (-pts.get(t, 0), -gd_s.get(t, 0)))
+        return [{'name': t, 'pts': pts.get(t, 0), 'gd': gd_s.get(t, 0)} for t in sorted_teams]
 
     def knockout_match(h, a, stadium_id=""):
         if h == 'TBD' or not h: return a
@@ -493,6 +494,7 @@ def simulate_tournament(groups, knockouts):
         return [knockout_match(h, a) for h, a in matches]
 
     num_sims = 3000
+    reach_r32 = defaultdict(int)
     reach_qf = defaultdict(int)
     reach_sf = defaultdict(int)
     for _ in range(num_sims):
@@ -506,20 +508,20 @@ def simulate_tournament(groups, knockouts):
             key = group_key_map.get(grp_letter)
             if not key: return 'TBD'
             s = sim_standings.get(key, [])
-            return s[pos-1] if len(s) >= pos else 'TBD'
+            return s[pos-1]['name'] if len(s) >= pos else 'TBD'
 
         thirds_pool = []
         for grp_key, standings in sim_standings.items():
             if len(standings) >= 3:
                 thirds_pool.append(standings[2])
-        # Sort best thirds by Elo as a robust proxy for strength in the simulation
-        thirds_pool.sort(key=lambda t: -get_elo(t))
+        # Sort best thirds by points, then GD, then Elo as tiebreaker
+        thirds_pool.sort(key=lambda t: (-t['pts'], -t['gd'], -get_elo(t['name'])))
         best_thirds = thirds_pool[:8]
 
         t_idx = 0
         def get_third():
             nonlocal t_idx
-            t = best_thirds[t_idx] if t_idx < len(best_thirds) else 'TBD'
+            t = best_thirds[t_idx]['name'] if t_idx < len(best_thirds) else 'TBD'
             t_idx += 1
             return t
 
@@ -540,6 +542,16 @@ def simulate_tournament(groups, knockouts):
         m86 = (get_team(1, 'J'), get_team(2, 'H'))
         m87 = (get_team(1, 'K'), get_third())
         m88 = (get_team(2, 'D'), get_team(2, 'G'))
+
+        # Track qualification for reach_r32
+        all_r32_teams = [
+            m73[0], m73[1], m74[0], m74[1], m75[0], m75[1], m76[0], m76[1],
+            m77[0], m77[1], m78[0], m78[1], m79[0], m79[1], m80[0], m80[1],
+            m81[0], m81[1], m82[0], m82[1], m83[0], m83[1], m84[0], m84[1],
+            m85[0], m85[1], m86[0], m86[1], m87[0], m87[1], m88[0], m88[1]
+        ]
+        for t in all_r32_teams:
+            if t != 'TBD': reach_r32[t] += 1
 
         # Ordered so sequential pairs form R16 matches correctly (official FIFA 2026 format)
         r32_matches = [
@@ -662,6 +674,12 @@ def simulate_tournament(groups, knockouts):
     if not real_flops:
         real_flops = [{'name': t['name'], 'prob': t['winProb']} for t in ranking if t['name'] in GIANTS][:2]
 
+    # Update true qualProb for all teams based on Monte Carlo R32 qualification frequency
+    for grp_name, grp_data in groups.items():
+        if 'standings' in grp_data:
+            for t in grp_data['standings']:
+                t['qualProb'] = round((reach_r32.get(t['name'], 0) / num_sims) * 100, 2)
+
     # Build group qualification status for standings syncing
     group_qual_status = {}
     for grp_name, grp_data in groups.items():
@@ -677,8 +695,8 @@ def simulate_tournament(groups, knockouts):
             'pred_3rd': st[2]['name'] if len(st) > 2 else None,
         }
 
-    # Build best 8 third-place teams list for standings table
-    all_thirds = []
+    # Build best 8 third-place teams list for standings table (PREDICTED)
+    all_thirds_pred = []
     for grp_name, grp_data in groups.items():
         st = sorted(grp_data.get('standings', []), key=lambda x: (
             -x.get('qualProb', 0), -x.get('points', 0),
@@ -686,7 +704,7 @@ def simulate_tournament(groups, knockouts):
         ))
         if len(st) >= 3:
             t = st[2]
-            all_thirds.append({
+            all_thirds_pred.append({
                 'name': t['name'],
                 'group': grp_name.replace('Group ', ''),
                 'qualProb': t.get('qualProb', 0),
@@ -696,23 +714,57 @@ def simulate_tournament(groups, knockouts):
                 'played': t.get('played', 0),
                 'confirmed': group_qual_status.get(grp_name, {}).get('confirmed', False)
             })
-    all_thirds.sort(key=lambda x: (-x['qualProb'], -x['points'], -x['goalDifference'], -x['goalsFor']))
-    best_8_thirds = all_thirds[:8]
+    all_thirds_pred.sort(key=lambda x: (-x['qualProb'], -x['points'], -x['goalDifference'], -x['goalsFor']))
+    best_8_thirds_predicted = all_thirds_pred[:8]
     
     # Mark which ones are selected based on combo key
     try:
-        _t_groups = sorted([t['group'] for t in best_8_thirds])
+        _t_groups = sorted([t['group'] for t in best_8_thirds_predicted])
         _combo = ''.join(_t_groups)
         import json as _json, os as _os
         if _os.path.exists('permutations_495.json'):
             _perms = _json.load(open('permutations_495.json'))
             _combo_map = _perms.get(_combo, {})
-            selected_third_names = set(t['name'] for t in best_8_thirds)
+            selected_third_names = set(t['name'] for t in best_8_thirds_predicted)
     except:
-        selected_third_names = set(t['name'] for t in best_8_thirds)
+        selected_third_names = set(t['name'] for t in best_8_thirds_predicted)
     
-    for t in best_8_thirds:
+    for t in best_8_thirds_predicted:
         t['selected'] = t['name'] in selected_third_names
+
+    # Build best 8 third-place teams list for standings table (REAL-TIME)
+    all_thirds_rt = []
+    for grp_name, grp_data in groups.items():
+        st = sorted(grp_data.get('standings', []), key=lambda x: (
+            -x.get('points', 0), -x.get('goalDifference', 0), -x.get('goalsFor', 0)
+        ))
+        if len(st) >= 3:
+            t = st[2]
+            all_thirds_rt.append({
+                'name': t['name'],
+                'group': grp_name.replace('Group ', ''),
+                'qualProb': t.get('qualProb', 0),
+                'points': t.get('points', 0),
+                'goalDifference': t.get('goalDifference', 0),
+                'goalsFor': t.get('goalsFor', 0),
+                'played': t.get('played', 0),
+                'confirmed': group_qual_status.get(grp_name, {}).get('confirmed', False)
+            })
+    all_thirds_rt.sort(key=lambda x: (-x['points'], -x['goalDifference'], -x['goalsFor']))
+    best_8_thirds_realtime = all_thirds_rt[:8]
+    
+    try:
+        _t_groups_rt = sorted([t['group'] for t in best_8_thirds_realtime])
+        _combo_rt = ''.join(_t_groups_rt)
+        if _os.path.exists('permutations_495.json'):
+            _perms_rt = _json.load(open('permutations_495.json'))
+            _combo_map_rt = _perms_rt.get(_combo_rt, {})
+            selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime)
+    except:
+        selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime)
+    
+    for t in best_8_thirds_realtime:
+        t['selected'] = t['name'] in selected_third_names_rt
 
     return {
         'winner': winner,
@@ -723,7 +775,8 @@ def simulate_tournament(groups, knockouts):
         'globalRanking': ranking,
         'bracket': bracket,
         'groupQualStatus': group_qual_status,
-        'best8Thirds': best_8_thirds
+        'best8ThirdsPredicted': best_8_thirds_predicted,
+        'best8ThirdsRealTime': best_8_thirds_realtime
     }
 
 def build_bracket(knockouts, groups, tahap7_targets, ranking):
@@ -1162,6 +1215,16 @@ def predict_awards(bracket, ranking):
                 display = ' '.join(name_parts[1:]) + ' ' + name_parts[0].title() if name_parts and name_parts[0].isupper() else p['name'].title()
                 boot_list.append({'name': display, 'goals': predicted_goals, 'team': t, 'score': round(score_xg, 2)})
             awards['predictedBoot'] = boot_list
+            
+            # Apply Golden Boot vs Golden Ball exclusion rule (historical precedent)
+            if awards.get('bestPlayer') and len(awards['bestPlayer']) > 0:
+                top_boot_winner = boot_scored[0][0]['name']
+                if awards['bestPlayer'][0]['name'] == top_boot_winner:
+                    # Penalize the Golden Ball score so another player wins it
+                    awards['bestPlayer'][0]['score'] *= 0.5
+                    awards['bestPlayer'].sort(key=lambda x: x['score'], reverse=True)
+                    # Re-dedup to ensure top 3 are still from distinct teams
+                    awards['bestPlayer'] = dedup_by_team(awards['bestPlayer'], 3)
 
     if NORM_G_GOALSCORERS:
         best_tuple = max(NORM_G_GOALSCORERS, key=NORM_G_GOALSCORERS.get)
@@ -1279,7 +1342,8 @@ def main():
         'history': history_data,
         'lastUpdate': timestamp,
         'groupQualStatus': sim_result.get('groupQualStatus', {}),
-        'best8Thirds': sim_result.get('best8Thirds', [])
+        'best8ThirdsPredicted': sim_result.get('best8ThirdsPredicted', []),
+        'best8ThirdsRealTime': sim_result.get('best8ThirdsRealTime', [])
     }
     with open('predictions_output.json', 'w') as f:
         json.dump(output, f, indent=2)
