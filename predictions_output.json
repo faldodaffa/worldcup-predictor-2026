@@ -5,25 +5,25 @@
     "Argentina"
   ],
   "winner": "Spain",
-  "winnerProb": 24.33,
+  "winnerProb": 26.37,
   "darkHorses": [
     {
       "name": "Colombia",
-      "prob": 53.63333333333333
+      "prob": 54.86666666666666
     }
   ],
   "flops": [
     {
       "name": "Uruguay",
-      "prob": 90.2
+      "prob": 92.26666666666667
     },
     {
       "name": "Germany",
-      "prob": 74.13333333333333
+      "prob": 71.0
     },
     {
       "name": "Portugal",
-      "prob": 63.33333333333333
+      "prob": 64.56666666666668
     }
   ],
   "awards": {
@@ -33,14 +33,14 @@
     },
     "bestPlayer": [
       {
-        "name": "MESSI Lionel",
-        "team": "Argentina",
-        "score": 109.649058024114
-      },
-      {
         "name": "KANE Harry",
         "team": "England",
         "score": 60.01428202760022
+      },
+      {
+        "name": "MESSI Lionel",
+        "team": "Argentina",
+        "score": 54.824529012057
       },
       {
         "name": "MBAPPE Kylian",
@@ -55,14 +55,14 @@
         "score": 18.56202475932065
       },
       {
-        "name": "IRANKUNDA Nestory",
-        "team": "Australia",
-        "score": 6.019538116086802
-      },
-      {
         "name": "NUSA Antonio",
         "team": "Norway",
         "score": 3.409951728223365
+      },
+      {
+        "name": "MAINOO Kobbie",
+        "team": "England",
+        "score": 2.830768998928257
       }
     ],
     "bestGoalkeeper": [
@@ -87,7 +87,7 @@
         "name": "Lionel Messi",
         "goals": 11,
         "team": "Argentina",
-        "score": 10.82
+        "score": 10.87
       },
       {
         "name": "Kylian Mbappe",
@@ -99,7 +99,7 @@
         "name": "Erling Haaland",
         "goals": 7,
         "team": "Norway",
-        "score": 6.68
+        "score": 6.64
       },
       {
         "name": "JUNIOR Vinicius",
@@ -117,7 +117,7 @@
         "name": "Harry Kane",
         "goals": 5,
         "team": "England",
-        "score": 4.97
+        "score": 5.0
       },
       {
         "name": "Jonathan David",
@@ -159,7 +159,7 @@
         "name": "Marcus Rashford",
         "goals": 3,
         "team": "England",
-        "score": 2.83
+        "score": 2.85
       },
       {
         "name": "Ousmane Dembele",
@@ -875,44 +875,44 @@
   },
   "globalRanking": [
     {
-      "name": "Argentina",
-      "elo": 2129.075854640029,
-      "winProb": 26.97
-    },
-    {
       "name": "Spain",
       "elo": 2140.506189830162,
-      "winProb": 24.33
+      "winProb": 26.37
+    },
+    {
+      "name": "Argentina",
+      "elo": 2129.075854640029,
+      "winProb": 25.77
     },
     {
       "name": "France",
       "elo": 2077.0868589772394,
-      "winProb": 15.47
+      "winProb": 15.17
     },
     {
       "name": "England",
       "elo": 2021.9778563773261,
-      "winProb": 6.67
+      "winProb": 7.23
     },
     {
       "name": "Colombia",
       "elo": 2000.569892341307,
-      "winProb": 6.27
-    },
-    {
-      "name": "Brazil",
-      "elo": 1987.2741759739502,
-      "winProb": 4.2
+      "winProb": 5.3
     },
     {
       "name": "Portugal",
       "elo": 1988.0162779869422,
-      "winProb": 3.97
+      "winProb": 4.17
+    },
+    {
+      "name": "Brazil",
+      "elo": 1987.2741759739502,
+      "winProb": 3.43
     },
     {
       "name": "Netherlands",
       "elo": 1957.3508456321342,
-      "winProb": 2.37
+      "winProb": 2.9
     },
     {
       "name": "Germany",
@@ -922,22 +922,22 @@
     {
       "name": "Norway",
       "elo": 1937.4725728541848,
-      "winProb": 1.67
+      "winProb": 2.07
     },
     {
       "name": "Mexico",
       "elo": 1901.2235400654758,
-      "winProb": 1.4
-    },
-    {
-      "name": "Japan",
-      "elo": 1916.2477524763694,
-      "winProb": 1.1
+      "winProb": 1.43
     },
     {
       "name": "United States",
       "elo": 1832.7180685745432,
-      "winProb": 0.8
+      "winProb": 0.97
+    },
+    {
+      "name": "Japan",
+      "elo": 1916.2477524763694,
+      "winProb": 0.83
     },
     {
       "name": "Switzerland",
@@ -945,63 +945,38 @@
       "winProb": 0.63
     },
     {
-      "name": "Morocco",
-      "elo": 1870.6000343816336,
-      "winProb": 0.4
-    },
-    {
       "name": "Belgium",
       "elo": 1876.921227814794,
-      "winProb": 0.4
+      "winProb": 0.53
     },
     {
       "name": "Canada",
       "elo": 1752.0682091247988,
-      "winProb": 0.3
-    },
-    {
-      "name": "Uruguay",
-      "elo": 1864.2048517891417,
-      "winProb": 0.27
-    },
-    {
-      "name": "Iran",
-      "elo": 1767.9693381242764,
-      "winProb": 0.1
+      "winProb": 0.2
     },
     {
       "name": "Egypt",
       "elo": 1720.878560365011,
-      "winProb": 0.07
+      "winProb": 0.17
     },
     {
-      "name": "Cura\u00e7ao",
-      "elo": 1790.2015889113047,
-      "winProb": 0.07
+      "name": "Morocco",
+      "elo": 1870.6000343816336,
+      "winProb": 0.17
     },
     {
-      "name": "Paraguay",
-      "elo": 1778.0498030424328,
-      "winProb": 0.07
-    },
-    {
-      "name": "Democratic Republic of the Congo",
-      "elo": 1799.452458995279,
-      "winProb": 0.07
-    },
-    {
-      "name": "Austria",
-      "elo": 1835.9077513552525,
-      "winProb": 0.03
-    },
-    {
-      "name": "Turkey",
-      "elo": 1801.2883864859311,
-      "winProb": 0.03
+      "name": "Uruguay",
+      "elo": 1864.2048517891417,
+      "winProb": 0.1
     },
     {
       "name": "Scotland",
       "elo": 1770.9920262857052,
+      "winProb": 0.07
+    },
+    {
+      "name": "Iran",
+      "elo": 1767.9693381242764,
       "winProb": 0.03
     },
     {
@@ -1010,19 +985,29 @@
       "winProb": 0.03
     },
     {
-      "name": "Croatia",
-      "elo": 1905.8887138960927,
+      "name": "Ivory Coast",
+      "elo": 1718.3438119999184,
       "winProb": 0.03
     },
     {
-      "name": "Czech Republic",
-      "elo": 1711.5656808326567,
-      "winProb": 0.0
+      "name": "Paraguay",
+      "elo": 1778.0498030424328,
+      "winProb": 0.03
     },
     {
-      "name": "Ivory Coast",
-      "elo": 1718.3438119999184,
-      "winProb": 0.0
+      "name": "Ghana",
+      "elo": 1559.0595845104299,
+      "winProb": 0.03
+    },
+    {
+      "name": "Cura\u00e7ao",
+      "elo": 1790.2015889113047,
+      "winProb": 0.03
+    },
+    {
+      "name": "Algeria",
+      "elo": 1780.0949737935587,
+      "winProb": 0.03
     },
     {
       "name": "Panama",
@@ -1030,18 +1015,88 @@
       "winProb": 0.0
     },
     {
-      "name": "Ghana",
-      "elo": 1559.0595845104299,
+      "name": "Ecuador",
+      "elo": 1899.1472807527705,
       "winProb": 0.0
     },
     {
-      "name": "Bosnia and Herzegovina",
-      "elo": 1626.204508100573,
+      "name": "South Korea",
+      "elo": 1788.03021652356,
+      "winProb": 0.0
+    },
+    {
+      "name": "Qatar",
+      "elo": 1442.40809924632,
+      "winProb": 0.0
+    },
+    {
+      "name": "Iraq",
+      "elo": 1596.2343267498914,
+      "winProb": 0.0
+    },
+    {
+      "name": "Cape Verde",
+      "elo": 1609.9988396456322,
+      "winProb": 0.0
+    },
+    {
+      "name": "Czech Republic",
+      "elo": 1711.5656808326567,
+      "winProb": 0.0
+    },
+    {
+      "name": "Croatia",
+      "elo": 1905.8887138960927,
       "winProb": 0.0
     },
     {
       "name": "Senegal",
       "elo": 1833.2062414186844,
+      "winProb": 0.0
+    },
+    {
+      "name": "Saudi Arabia",
+      "elo": 1588.2901187350644,
+      "winProb": 0.0
+    },
+    {
+      "name": "Uzbekistan",
+      "elo": 1696.961370676472,
+      "winProb": 0.0
+    },
+    {
+      "name": "New Zealand",
+      "elo": 1558.2308736959185,
+      "winProb": 0.0
+    },
+    {
+      "name": "Sweden",
+      "elo": 1720.07677420996,
+      "winProb": 0.0
+    },
+    {
+      "name": "Jordan",
+      "elo": 1651.9214202111605,
+      "winProb": 0.0
+    },
+    {
+      "name": "Austria",
+      "elo": 1835.9077513552525,
+      "winProb": 0.0
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "elo": 1799.452458995279,
+      "winProb": 0.0
+    },
+    {
+      "name": "South Africa",
+      "elo": 1517.1805625783074,
+      "winProb": 0.0
+    },
+    {
+      "name": "Turkey",
+      "elo": 1801.2883864859311,
       "winProb": 0.0
     },
     {
@@ -1055,63 +1110,8 @@
       "winProb": 0.0
     },
     {
-      "name": "Cape Verde",
-      "elo": 1609.9988396456322,
-      "winProb": 0.0
-    },
-    {
-      "name": "Sweden",
-      "elo": 1720.07677420996,
-      "winProb": 0.0
-    },
-    {
-      "name": "South Africa",
-      "elo": 1517.1805625783074,
-      "winProb": 0.0
-    },
-    {
-      "name": "Ecuador",
-      "elo": 1899.1472807527705,
-      "winProb": 0.0
-    },
-    {
-      "name": "Qatar",
-      "elo": 1442.40809924632,
-      "winProb": 0.0
-    },
-    {
-      "name": "South Korea",
-      "elo": 1788.03021652356,
-      "winProb": 0.0
-    },
-    {
-      "name": "Uzbekistan",
-      "elo": 1696.961370676472,
-      "winProb": 0.0
-    },
-    {
-      "name": "Saudi Arabia",
-      "elo": 1588.2901187350644,
-      "winProb": 0.0
-    },
-    {
-      "name": "Jordan",
-      "elo": 1651.9214202111605,
-      "winProb": 0.0
-    },
-    {
-      "name": "Iraq",
-      "elo": 1596.2343267498914,
-      "winProb": 0.0
-    },
-    {
-      "name": "Algeria",
-      "elo": 1780.0949737935587,
-      "winProb": 0.0
-    },
-    {
-      "name": "New Zealand",
-      "elo": 1558.2308736959185,
+      "name": "Bosnia and Herzegovina",
+      "elo": 1626.204508100573,
       "winProb": 0.0
     }
   ],
@@ -1128,7 +1128,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 87.17,
+          "qualProb": 99.97,
           "position": 2
         },
         "Turkey": {
@@ -1141,7 +1141,7 @@
           "goalsAgainst": 3,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 4.1,
           "position": 4
         },
         "United States": {
@@ -1167,7 +1167,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 12.83,
+          "qualProb": 80.7,
           "position": 3
         }
       },
@@ -1289,7 +1289,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 87.17,
+          "qualProb": 99.97,
           "position": 2
         },
         {
@@ -1302,7 +1302,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 12.83,
+          "qualProb": 80.7,
           "position": 3
         },
         {
@@ -1315,7 +1315,7 @@
           "goalsAgainst": 3,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 4.1,
           "position": 4
         }
       ]
@@ -1332,7 +1332,7 @@
           "goalsAgainst": 10,
           "goalDifference": -8,
           "points": 1,
-          "qualProb": 0,
+          "qualProb": 0.0,
           "position": 4
         },
         "Switzerland": {
@@ -1345,7 +1345,7 @@
           "goalsAgainst": 3,
           "goalDifference": 4,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 1
         },
         "Canada": {
@@ -1358,7 +1358,7 @@
           "goalsAgainst": 3,
           "goalDifference": 5,
           "points": 4,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 2
         },
         "Bosnia and Herzegovina": {
@@ -1371,7 +1371,7 @@
           "goalsAgainst": 6,
           "goalDifference": -1,
           "points": 4,
-          "qualProb": 0,
+          "qualProb": 100.0,
           "position": 3
         }
       },
@@ -1478,7 +1478,7 @@
           "goalsAgainst": 3,
           "goalDifference": 4,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 1
         },
         {
@@ -1491,7 +1491,7 @@
           "goalsAgainst": 3,
           "goalDifference": 5,
           "points": 4,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 2
         },
         {
@@ -1504,7 +1504,7 @@
           "goalsAgainst": 6,
           "goalDifference": -1,
           "points": 4,
-          "qualProb": 0,
+          "qualProb": 100.0,
           "position": 3
         },
         {
@@ -1517,7 +1517,7 @@
           "goalsAgainst": 10,
           "goalDifference": -8,
           "points": 1,
-          "qualProb": 0,
+          "qualProb": 0.0,
           "position": 4
         }
       ]
@@ -1547,7 +1547,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 50.5,
+          "qualProb": 92.37,
           "position": 2
         },
         "Ecuador": {
@@ -1560,7 +1560,7 @@
           "goalsAgainst": 1,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 6.0,
+          "qualProb": 13.17,
           "position": 3
         },
         "Cura\u00e7ao": {
@@ -1573,7 +1573,7 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 1,
-          "qualProb": 43.5,
+          "qualProb": 50.13,
           "position": 4
         }
       },
@@ -1693,7 +1693,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 50.5,
+          "qualProb": 92.37,
           "position": 2
         },
         {
@@ -1706,7 +1706,7 @@
           "goalsAgainst": 1,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 6.0,
+          "qualProb": 13.17,
           "position": 3
         },
         {
@@ -1719,7 +1719,7 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 1,
-          "qualProb": 43.5,
+          "qualProb": 50.13,
           "position": 4
         }
       ]
@@ -1749,7 +1749,7 @@
           "goalsAgainst": 6,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 1.83,
+          "qualProb": 99.43,
           "position": 3
         },
         "Japan": {
@@ -1762,7 +1762,7 @@
           "goalsAgainst": 2,
           "goalDifference": 4,
           "points": 4,
-          "qualProb": 98.17,
+          "qualProb": 100.0,
           "position": 2
         },
         "Tunisia": {
@@ -1895,7 +1895,7 @@
           "goalsAgainst": 2,
           "goalDifference": 4,
           "points": 4,
-          "qualProb": 98.17,
+          "qualProb": 100.0,
           "position": 2
         },
         {
@@ -1908,7 +1908,7 @@
           "goalsAgainst": 6,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 1.83,
+          "qualProb": 99.43,
           "position": 3
         },
         {
@@ -1951,7 +1951,7 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0.7,
           "position": 4
         },
         "Norway": {
@@ -1977,7 +1977,7 @@
           "goalsAgainst": 6,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 52.73,
           "position": 3
         }
       },
@@ -2110,7 +2110,7 @@
           "goalsAgainst": 6,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 52.73,
           "position": 3
         },
         {
@@ -2123,7 +2123,7 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0.7,
           "position": 4
         }
       ]
@@ -2140,7 +2140,7 @@
           "goalsAgainst": 8,
           "goalDifference": -6,
           "points": 0,
-          "qualProb": 0,
+          "qualProb": 0.0,
           "position": 4
         },
         "Scotland": {
@@ -2153,7 +2153,7 @@
           "goalsAgainst": 4,
           "goalDifference": -3,
           "points": 3,
-          "qualProb": 0,
+          "qualProb": 35.2,
           "position": 3
         },
         "Morocco": {
@@ -2166,7 +2166,7 @@
           "goalsAgainst": 3,
           "goalDifference": 3,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 2
         },
         "Brazil": {
@@ -2179,7 +2179,7 @@
           "goalsAgainst": 1,
           "goalDifference": 6,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 1
         }
       },
@@ -2286,7 +2286,7 @@
           "goalsAgainst": 1,
           "goalDifference": 6,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 1
         },
         {
@@ -2299,7 +2299,7 @@
           "goalsAgainst": 3,
           "goalDifference": 3,
           "points": 7,
-          "qualProb": 100,
+          "qualProb": 100.0,
           "position": 2
         },
         {
@@ -2312,7 +2312,7 @@
           "goalsAgainst": 4,
           "goalDifference": -3,
           "points": 3,
-          "qualProb": 0,
+          "qualProb": 35.2,
           "position": 3
         },
         {
@@ -2325,7 +2325,7 @@
           "goalsAgainst": 8,
           "goalDifference": -6,
           "points": 0,
-          "qualProb": 0,
+          "qualProb": 0.0,
           "position": 4
         }
       ]
@@ -2355,7 +2355,7 @@
           "goalsAgainst": 4,
           "goalDifference": -1,
           "points": 3,
-          "qualProb": 69.67,
+          "qualProb": 99.93,
           "position": 3
         },
         "Panama": {
@@ -2368,7 +2368,7 @@
           "goalsAgainst": 2,
           "goalDifference": -2,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0.07,
           "position": 4
         },
         "Ghana": {
@@ -2381,7 +2381,7 @@
           "goalsAgainst": 0,
           "goalDifference": 1,
           "points": 4,
-          "qualProb": 30.33,
+          "qualProb": 100.0,
           "position": 2
         }
       },
@@ -2501,7 +2501,7 @@
           "goalsAgainst": 0,
           "goalDifference": 1,
           "points": 4,
-          "qualProb": 30.33,
+          "qualProb": 100.0,
           "position": 2
         },
         {
@@ -2514,7 +2514,7 @@
           "goalsAgainst": 4,
           "goalDifference": -1,
           "points": 3,
-          "qualProb": 69.67,
+          "qualProb": 99.93,
           "position": 3
         },
         {
@@ -2527,7 +2527,7 @@
           "goalsAgainst": 2,
           "goalDifference": -2,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0.07,
           "position": 4
         }
       ]
@@ -2544,7 +2544,7 @@
           "goalsAgainst": 0,
           "goalDifference": 4,
           "points": 4,
-          "qualProb": 98.33,
+          "qualProb": 100.0,
           "position": 1
         },
         "Saudi Arabia": {
@@ -2557,7 +2557,7 @@
           "goalsAgainst": 5,
           "goalDifference": -4,
           "points": 1,
-          "qualProb": 11.33,
+          "qualProb": 10.9,
           "position": 4
         },
         "Cape Verde": {
@@ -2570,7 +2570,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 87.67,
+          "qualProb": 89.1,
           "position": 3
         },
         "Uruguay": {
@@ -2583,7 +2583,7 @@
           "goalsAgainst": 3,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 2.67,
+          "qualProb": 35.3,
           "position": 2
         }
       },
@@ -2690,7 +2690,7 @@
           "goalsAgainst": 0,
           "goalDifference": 4,
           "points": 4,
-          "qualProb": 98.33,
+          "qualProb": 100.0,
           "position": 1
         },
         {
@@ -2703,7 +2703,7 @@
           "goalsAgainst": 3,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 2.67,
+          "qualProb": 35.3,
           "position": 2
         },
         {
@@ -2716,7 +2716,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 87.67,
+          "qualProb": 89.1,
           "position": 3
         },
         {
@@ -2729,7 +2729,7 @@
           "goalsAgainst": 5,
           "goalDifference": -4,
           "points": 1,
-          "qualProb": 11.33,
+          "qualProb": 10.9,
           "position": 4
         }
       ]
@@ -2746,7 +2746,7 @@
           "goalsAgainst": 5,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 1.17,
           "position": 4
         },
         "Algeria": {
@@ -2759,7 +2759,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 14.33,
+          "qualProb": 90.4,
           "position": 3
         },
         "Argentina": {
@@ -2785,7 +2785,7 @@
           "goalsAgainst": 3,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 85.67,
+          "qualProb": 99.93,
           "position": 2
         }
       },
@@ -2905,7 +2905,7 @@
           "goalsAgainst": 3,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 85.67,
+          "qualProb": 99.93,
           "position": 2
         },
         {
@@ -2918,7 +2918,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 14.33,
+          "qualProb": 90.4,
           "position": 3
         },
         {
@@ -2931,7 +2931,7 @@
           "goalsAgainst": 5,
           "goalDifference": -3,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 1.17,
           "position": 4
         }
       ]
@@ -2961,7 +2961,7 @@
           "goalsAgainst": 8,
           "goalDifference": -7,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 1.83,
           "position": 4
         },
         "Democratic Republic of the Congo": {
@@ -2974,7 +2974,7 @@
           "goalsAgainst": 2,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 0.0,
+          "qualProb": 56.27,
           "position": 3
         },
         "Colombia": {
@@ -3120,7 +3120,7 @@
           "goalsAgainst": 2,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 0.0,
+          "qualProb": 56.27,
           "position": 3
         },
         {
@@ -3133,7 +3133,7 @@
           "goalsAgainst": 8,
           "goalDifference": -7,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 1.83,
           "position": 4
         }
       ]
@@ -3150,7 +3150,7 @@
           "goalsAgainst": 3,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 0.17,
+          "qualProb": 2.6,
           "position": 3
         },
         "Mexico": {
@@ -3176,7 +3176,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 98.33,
+          "qualProb": 99.9,
           "position": 2
         },
         "South Africa": {
@@ -3189,7 +3189,7 @@
           "goalsAgainst": 3,
           "goalDifference": -2,
           "points": 1,
-          "qualProb": 1.5,
+          "qualProb": 3.27,
           "position": 4
         }
       },
@@ -3311,7 +3311,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 98.33,
+          "qualProb": 99.9,
           "position": 2
         },
         {
@@ -3324,7 +3324,7 @@
           "goalsAgainst": 3,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 0.17,
+          "qualProb": 2.6,
           "position": 3
         },
         {
@@ -3337,7 +3337,7 @@
           "goalsAgainst": 3,
           "goalDifference": -2,
           "points": 1,
-          "qualProb": 1.5,
+          "qualProb": 3.27,
           "position": 4
         }
       ]
@@ -3354,7 +3354,7 @@
           "goalsAgainst": 1,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 84.17,
+          "qualProb": 96.97,
           "position": 3
         },
         "Iran": {
@@ -3367,7 +3367,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 39.67,
+          "qualProb": 80.83,
           "position": 2
         },
         "Egypt": {
@@ -3380,7 +3380,7 @@
           "goalsAgainst": 2,
           "goalDifference": 2,
           "points": 4,
-          "qualProb": 74.17,
+          "qualProb": 100.0,
           "position": 1
         },
         "New Zealand": {
@@ -3393,7 +3393,7 @@
           "goalsAgainst": 5,
           "goalDifference": -2,
           "points": 1,
-          "qualProb": 2.0,
+          "qualProb": 3.03,
           "position": 4
         }
       },
@@ -3500,7 +3500,7 @@
           "goalsAgainst": 2,
           "goalDifference": 2,
           "points": 4,
-          "qualProb": 74.17,
+          "qualProb": 100.0,
           "position": 1
         },
         {
@@ -3513,7 +3513,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 39.67,
+          "qualProb": 80.83,
           "position": 2
         },
         {
@@ -3526,7 +3526,7 @@
           "goalsAgainst": 1,
           "goalDifference": 0,
           "points": 2,
-          "qualProb": 84.17,
+          "qualProb": 96.97,
           "position": 3
         },
         {
@@ -3539,7 +3539,7 @@
           "goalsAgainst": 5,
           "goalDifference": -2,
           "points": 1,
-          "qualProb": 2.0,
+          "qualProb": 3.03,
           "position": 4
         }
       ]
@@ -3564,10 +3564,10 @@
           "stadium_id": "9",
           "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": true,
-          "home_path": "",
+          "home_path": "WINNER",
           "away_path": "BEST_THIRD",
-          "home_prob": 97.01,
-          "away_prob": 2.99
+          "home_prob": 98.7,
+          "away_prob": 1.3
         },
         {
           "id": "77",
@@ -3603,7 +3603,7 @@
           "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
           "isFinished": true,
           "home_path": "RUNNER_UP",
-          "away_path": "",
+          "away_path": "RUNNER_UP",
           "home_prob": 0.0,
           "away_prob": 100.0
         },
@@ -3623,8 +3623,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 85.56,
-          "away_prob": 14.44
+          "home_prob": 94.46,
+          "away_prob": 5.54
         },
         {
           "id": "83",
@@ -3642,8 +3642,8 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 99.25,
-          "away_prob": 0.75
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "84",
@@ -3661,8 +3661,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 99.88,
-          "away_prob": 0.12
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "81",
@@ -3678,10 +3678,10 @@
           "stadium_id": "15",
           "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
           "isFinished": true,
-          "home_path": "",
+          "home_path": "WINNER",
           "away_path": "BEST_THIRD",
-          "home_prob": 100.0,
-          "away_prob": 0.0
+          "home_prob": 97.0,
+          "away_prob": 3.0
         },
         {
           "id": "82",
@@ -3718,15 +3718,15 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 79.25,
-          "away_prob": 20.75
+          "home_prob": 80.52,
+          "away_prob": 19.48
         },
         {
           "id": "78",
           "utcDate": "2026-07-01T01:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_32",
-          "home": "Ivory Coast",
+          "home": "Cura\u00e7ao",
           "away": "Norway",
           "score_h": 0,
           "score_a": 1,
@@ -3737,8 +3737,8 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 0.0,
-          "away_prob": 100.0
+          "home_prob": 1.43,
+          "away_prob": 98.57
         },
         {
           "id": "79",
@@ -3754,7 +3754,7 @@
           "stadium_id": "1",
           "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
           "isFinished": true,
-          "home_path": "",
+          "home_path": "WINNER",
           "away_path": "BEST_THIRD",
           "home_prob": 100.0,
           "away_prob": 0.0
@@ -3765,7 +3765,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "England",
-          "away": "Cura\u00e7ao",
+          "away": "Ivory Coast",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3775,8 +3775,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "BEST_THIRD",
-          "home_prob": 98.96,
-          "away_prob": 1.04
+          "home_prob": 99.59,
+          "away_prob": 0.41
         },
         {
           "id": "86",
@@ -3792,7 +3792,7 @@
           "stadium_id": "8",
           "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": true,
-          "home_path": "",
+          "home_path": "WINNER",
           "away_path": "RUNNER_UP",
           "home_prob": 100.0,
           "away_prob": 0.0
@@ -3804,8 +3804,8 @@
           "stage": "LAST_32",
           "home": "Australia",
           "away": "Egypt",
-          "score_h": 1,
-          "score_a": 0,
+          "score_h": 0,
+          "score_a": 1,
           "home_scorers": "null",
           "away_scorers": "null",
           "stadium_id": "4",
@@ -3813,8 +3813,8 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 30.0,
-          "away_prob": 70.0
+          "home_prob": 15.0,
+          "away_prob": 85.0
         },
         {
           "id": "85",
@@ -3830,10 +3830,10 @@
           "stadium_id": "13",
           "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
           "isFinished": true,
-          "home_path": "",
+          "home_path": "WINNER",
           "away_path": "BEST_THIRD",
-          "home_prob": 86.3,
-          "away_prob": 13.7
+          "home_prob": 95.45,
+          "away_prob": 4.55
         },
         {
           "id": "87",
@@ -3851,8 +3851,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "BEST_THIRD",
-          "home_prob": 100.0,
-          "away_prob": 0.0
+          "home_prob": 99.44,
+          "away_prob": 0.56
         }
       ]
     },
@@ -3876,8 +3876,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 12.8,
-          "away_prob": 87.2
+          "home_prob": 13.02,
+          "away_prob": 86.98
         },
         {
           "id": "90",
@@ -3895,8 +3895,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 11.24,
-          "away_prob": 88.76
+          "home_prob": 6.45,
+          "away_prob": 93.55
         },
         {
           "id": "93",
@@ -3914,8 +3914,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 14.03,
-          "away_prob": 85.97
+          "home_prob": 13.65,
+          "away_prob": 86.35
         },
         {
           "id": "94",
@@ -3933,8 +3933,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 66.67,
-          "away_prob": 33.33
+          "home_prob": 64.67,
+          "away_prob": 35.33
         },
         {
           "id": "91",
@@ -3952,8 +3952,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 71.55,
-          "away_prob": 28.45
+          "home_prob": 62.36,
+          "away_prob": 37.64
         },
         {
           "id": "92",
@@ -3971,8 +3971,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 17.35,
-          "away_prob": 82.65
+          "home_prob": 16.51,
+          "away_prob": 83.49
         },
         {
           "id": "95",
@@ -3980,7 +3980,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_16",
           "home": "Argentina",
-          "away": "Australia",
+          "away": "Egypt",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3990,8 +3990,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 99.89,
-          "away_prob": 0.11
+          "home_prob": 99.34,
+          "away_prob": 0.66
         },
         {
           "id": "96",
@@ -4009,8 +4009,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 9.13,
-          "away_prob": 90.87
+          "home_prob": 10.62,
+          "away_prob": 89.38
         }
       ]
     },
@@ -4034,8 +4034,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 86.72,
-          "away_prob": 13.28
+          "home_prob": 83.95,
+          "away_prob": 16.05
         },
         {
           "id": "98",
@@ -4053,8 +4053,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 98.38,
-          "away_prob": 1.62
+          "home_prob": 98.03,
+          "away_prob": 1.97
         },
         {
           "id": "99",
@@ -4072,8 +4072,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 38.64,
-          "away_prob": 61.36
+          "home_prob": 32.18,
+          "away_prob": 67.82
         },
         {
           "id": "100",
@@ -4091,8 +4091,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 81.14,
-          "away_prob": 18.86
+          "home_prob": 82.94,
+          "away_prob": 17.06
         }
       ]
     },
@@ -4116,8 +4116,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 38.87,
-          "away_prob": 61.13
+          "home_prob": 36.52,
+          "away_prob": 63.48
         },
         {
           "id": "102",
@@ -4135,8 +4135,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 19.83,
-          "away_prob": 80.17
+          "home_prob": 21.91,
+          "away_prob": 78.09
         }
       ]
     },
@@ -4160,8 +4160,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 47.43,
-          "away_prob": 52.57
+          "home_prob": 50.58,
+          "away_prob": 49.42
         }
       ]
     }
@@ -12728,9 +12728,405 @@
           "winProb": 0.0
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-25T01:29:36.118084Z",
+      "finishedCount": 52,
+      "ranking": [
+        {
+          "name": "Spain",
+          "winProb": 28.2
+        },
+        {
+          "name": "Argentina",
+          "winProb": 25.27
+        },
+        {
+          "name": "France",
+          "winProb": 14.87
+        },
+        {
+          "name": "England",
+          "winProb": 7.3
+        },
+        {
+          "name": "Colombia",
+          "winProb": 4.73
+        },
+        {
+          "name": "Portugal",
+          "winProb": 3.47
+        },
+        {
+          "name": "Brazil",
+          "winProb": 2.77
+        },
+        {
+          "name": "Netherlands",
+          "winProb": 2.57
+        },
+        {
+          "name": "Germany",
+          "winProb": 2.07
+        },
+        {
+          "name": "Mexico",
+          "winProb": 1.7
+        },
+        {
+          "name": "Norway",
+          "winProb": 1.7
+        },
+        {
+          "name": "United States",
+          "winProb": 1.2
+        },
+        {
+          "name": "Japan",
+          "winProb": 1.1
+        },
+        {
+          "name": "Switzerland",
+          "winProb": 0.83
+        },
+        {
+          "name": "Belgium",
+          "winProb": 0.6
+        },
+        {
+          "name": "Morocco",
+          "winProb": 0.4
+        },
+        {
+          "name": "Uruguay",
+          "winProb": 0.3
+        },
+        {
+          "name": "Iran",
+          "winProb": 0.27
+        },
+        {
+          "name": "Canada",
+          "winProb": 0.17
+        },
+        {
+          "name": "Austria",
+          "winProb": 0.07
+        },
+        {
+          "name": "Egypt",
+          "winProb": 0.07
+        },
+        {
+          "name": "Senegal",
+          "winProb": 0.07
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "winProb": 0.07
+        },
+        {
+          "name": "Australia",
+          "winProb": 0.07
+        },
+        {
+          "name": "Cura\u00e7ao",
+          "winProb": 0.03
+        },
+        {
+          "name": "South Africa",
+          "winProb": 0.03
+        },
+        {
+          "name": "South Korea",
+          "winProb": 0.03
+        },
+        {
+          "name": "Croatia",
+          "winProb": 0.03
+        },
+        {
+          "name": "Scotland",
+          "winProb": 0.03
+        },
+        {
+          "name": "Ivory Coast",
+          "winProb": 0.0
+        },
+        {
+          "name": "Qatar",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ghana",
+          "winProb": 0.0
+        },
+        {
+          "name": "Paraguay",
+          "winProb": 0.0
+        },
+        {
+          "name": "Saudi Arabia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Czech Republic",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ecuador",
+          "winProb": 0.0
+        },
+        {
+          "name": "Algeria",
+          "winProb": 0.0
+        },
+        {
+          "name": "Panama",
+          "winProb": 0.0
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "winProb": 0.0
+        },
+        {
+          "name": "Uzbekistan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cape Verde",
+          "winProb": 0.0
+        },
+        {
+          "name": "New Zealand",
+          "winProb": 0.0
+        },
+        {
+          "name": "Iraq",
+          "winProb": 0.0
+        },
+        {
+          "name": "Haiti",
+          "winProb": 0.0
+        },
+        {
+          "name": "Jordan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Turkey",
+          "winProb": 0.0
+        },
+        {
+          "name": "Tunisia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Sweden",
+          "winProb": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T02:00:45.461837Z",
+      "finishedCount": 52,
+      "ranking": [
+        {
+          "name": "Spain",
+          "winProb": 27.03
+        },
+        {
+          "name": "Argentina",
+          "winProb": 26.47
+        },
+        {
+          "name": "France",
+          "winProb": 13.9
+        },
+        {
+          "name": "England",
+          "winProb": 6.7
+        },
+        {
+          "name": "Colombia",
+          "winProb": 4.93
+        },
+        {
+          "name": "Portugal",
+          "winProb": 4.1
+        },
+        {
+          "name": "Brazil",
+          "winProb": 3.33
+        },
+        {
+          "name": "Germany",
+          "winProb": 2.7
+        },
+        {
+          "name": "Netherlands",
+          "winProb": 2.4
+        },
+        {
+          "name": "Norway",
+          "winProb": 1.97
+        },
+        {
+          "name": "Mexico",
+          "winProb": 1.8
+        },
+        {
+          "name": "United States",
+          "winProb": 1.03
+        },
+        {
+          "name": "Switzerland",
+          "winProb": 0.77
+        },
+        {
+          "name": "Japan",
+          "winProb": 0.77
+        },
+        {
+          "name": "Belgium",
+          "winProb": 0.6
+        },
+        {
+          "name": "Morocco",
+          "winProb": 0.53
+        },
+        {
+          "name": "Canada",
+          "winProb": 0.2
+        },
+        {
+          "name": "Egypt",
+          "winProb": 0.13
+        },
+        {
+          "name": "Uruguay",
+          "winProb": 0.13
+        },
+        {
+          "name": "Croatia",
+          "winProb": 0.1
+        },
+        {
+          "name": "Senegal",
+          "winProb": 0.07
+        },
+        {
+          "name": "Iran",
+          "winProb": 0.07
+        },
+        {
+          "name": "Austria",
+          "winProb": 0.07
+        },
+        {
+          "name": "Ivory Coast",
+          "winProb": 0.03
+        },
+        {
+          "name": "Algeria",
+          "winProb": 0.03
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "winProb": 0.03
+        },
+        {
+          "name": "Ecuador",
+          "winProb": 0.03
+        },
+        {
+          "name": "South Korea",
+          "winProb": 0.03
+        },
+        {
+          "name": "Turkey",
+          "winProb": 0.03
+        },
+        {
+          "name": "Haiti",
+          "winProb": 0.0
+        },
+        {
+          "name": "Jordan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Iraq",
+          "winProb": 0.0
+        },
+        {
+          "name": "Qatar",
+          "winProb": 0.0
+        },
+        {
+          "name": "Saudi Arabia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Czech Republic",
+          "winProb": 0.0
+        },
+        {
+          "name": "Tunisia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Australia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Scotland",
+          "winProb": 0.0
+        },
+        {
+          "name": "Uzbekistan",
+          "winProb": 0.0
+        },
+        {
+          "name": "New Zealand",
+          "winProb": 0.0
+        },
+        {
+          "name": "Panama",
+          "winProb": 0.0
+        },
+        {
+          "name": "Paraguay",
+          "winProb": 0.0
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cape Verde",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ghana",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Africa",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cura\u00e7ao",
+          "winProb": 0.0
+        },
+        {
+          "name": "Sweden",
+          "winProb": 0.0
+        }
+      ]
     }
   ],
-  "lastUpdate": "2026-06-25T00:41:18.465923Z",
+  "lastUpdate": "2026-06-25T02:43:10.963249Z",
   "groupQualStatus": {
     "Group D": {
       "confirmed": false,
@@ -12771,14 +13167,14 @@
     "Group L": {
       "confirmed": false,
       "pred_1st": "England",
-      "pred_2nd": "Croatia",
-      "pred_3rd": "Ghana"
+      "pred_2nd": "Ghana",
+      "pred_3rd": "Croatia"
     },
     "Group H": {
       "confirmed": false,
       "pred_1st": "Spain",
       "pred_2nd": "Cape Verde",
-      "pred_3rd": "Saudi Arabia"
+      "pred_3rd": "Uruguay"
     },
     "Group J": {
       "confirmed": false,
@@ -12800,74 +13196,30 @@
     },
     "Group G": {
       "confirmed": false,
-      "pred_1st": "Belgium",
-      "pred_2nd": "Egypt",
+      "pred_1st": "Egypt",
+      "pred_2nd": "Belgium",
       "pred_3rd": "Iran"
     }
   },
-  "best8Thirds": [
+  "best8ThirdsPredicted": [
     {
-      "name": "Cura\u00e7ao",
-      "group": "E",
-      "qualProb": 43.5,
-      "points": 1,
-      "goalDifference": -6,
-      "goalsFor": 1,
-      "played": 2,
-      "confirmed": false,
-      "selected": true
-    },
-    {
-      "name": "Iran",
-      "group": "G",
-      "qualProb": 39.67,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 2,
-      "played": 2,
-      "confirmed": false,
-      "selected": true
-    },
-    {
-      "name": "Ghana",
-      "group": "L",
-      "qualProb": 30.33,
+      "name": "Bosnia and Herzegovina",
+      "group": "B",
+      "qualProb": 100.0,
       "points": 4,
-      "goalDifference": 1,
-      "goalsFor": 1,
-      "played": 2,
-      "confirmed": false,
+      "goalDifference": -1,
+      "goalsFor": 5,
+      "played": 3,
+      "confirmed": true,
       "selected": true
     },
     {
-      "name": "Algeria",
-      "group": "J",
-      "qualProb": 14.33,
+      "name": "Croatia",
+      "group": "L",
+      "qualProb": 99.93,
       "points": 3,
-      "goalDifference": -2,
-      "goalsFor": 2,
-      "played": 2,
-      "confirmed": false,
-      "selected": true
-    },
-    {
-      "name": "Paraguay",
-      "group": "D",
-      "qualProb": 12.83,
-      "points": 3,
-      "goalDifference": -2,
-      "goalsFor": 2,
-      "played": 2,
-      "confirmed": false,
-      "selected": true
-    },
-    {
-      "name": "Saudi Arabia",
-      "group": "H",
-      "qualProb": 11.33,
-      "points": 1,
-      "goalDifference": -4,
-      "goalsFor": 1,
+      "goalDifference": -1,
+      "goalsFor": 3,
       "played": 2,
       "confirmed": false,
       "selected": true
@@ -12875,7 +13227,7 @@
     {
       "name": "Sweden",
       "group": "F",
-      "qualProb": 1.83,
+      "qualProb": 99.43,
       "points": 3,
       "goalDifference": 0,
       "goalsFor": 6,
@@ -12884,15 +13236,237 @@
       "selected": true
     },
     {
+      "name": "Algeria",
+      "group": "J",
+      "qualProb": 90.4,
+      "points": 3,
+      "goalDifference": -2,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Iran",
+      "group": "G",
+      "qualProb": 80.83,
+      "points": 2,
+      "goalDifference": 0,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Paraguay",
+      "group": "D",
+      "qualProb": 80.7,
+      "points": 3,
+      "goalDifference": -2,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "group": "K",
+      "qualProb": 56.27,
+      "points": 1,
+      "goalDifference": -1,
+      "goalsFor": 1,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Senegal",
+      "group": "I",
+      "qualProb": 52.73,
+      "points": 0,
+      "goalDifference": -3,
+      "goalsFor": 3,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Cura\u00e7ao",
+      "group": "E",
+      "qualProb": 50.13,
+      "points": 1,
+      "goalDifference": -6,
+      "goalsFor": 1,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
+    },
+    {
+      "name": "Uruguay",
+      "group": "H",
+      "qualProb": 35.3,
+      "points": 2,
+      "goalDifference": 0,
+      "goalsFor": 3,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
+    },
+    {
+      "name": "Scotland",
+      "group": "C",
+      "qualProb": 35.2,
+      "points": 3,
+      "goalDifference": -3,
+      "goalsFor": 1,
+      "played": 3,
+      "confirmed": true,
+      "selected": false
+    },
+    {
       "name": "South Africa",
       "group": "A",
-      "qualProb": 1.5,
+      "qualProb": 3.27,
       "points": 1,
       "goalDifference": -2,
       "goalsFor": 1,
       "played": 2,
       "confirmed": false,
+      "selected": false
+    }
+  ],
+  "best8ThirdsRealTime": [
+    {
+      "name": "Bosnia and Herzegovina",
+      "group": "B",
+      "qualProb": 100.0,
+      "points": 4,
+      "goalDifference": -1,
+      "goalsFor": 5,
+      "played": 3,
+      "confirmed": true,
       "selected": true
+    },
+    {
+      "name": "Sweden",
+      "group": "F",
+      "qualProb": 99.43,
+      "points": 3,
+      "goalDifference": 0,
+      "goalsFor": 6,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Croatia",
+      "group": "L",
+      "qualProb": 99.93,
+      "points": 3,
+      "goalDifference": -1,
+      "goalsFor": 3,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Paraguay",
+      "group": "D",
+      "qualProb": 80.7,
+      "points": 3,
+      "goalDifference": -2,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Algeria",
+      "group": "J",
+      "qualProb": 90.4,
+      "points": 3,
+      "goalDifference": -2,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Scotland",
+      "group": "C",
+      "qualProb": 35.2,
+      "points": 3,
+      "goalDifference": -3,
+      "goalsFor": 1,
+      "played": 3,
+      "confirmed": true,
+      "selected": true
+    },
+    {
+      "name": "Cape Verde",
+      "group": "H",
+      "qualProb": 89.1,
+      "points": 2,
+      "goalDifference": 0,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Belgium",
+      "group": "G",
+      "qualProb": 96.97,
+      "points": 2,
+      "goalDifference": 0,
+      "goalsFor": 1,
+      "played": 2,
+      "confirmed": false,
+      "selected": true
+    },
+    {
+      "name": "Czech Republic",
+      "group": "A",
+      "qualProb": 2.6,
+      "points": 1,
+      "goalDifference": -1,
+      "goalsFor": 2,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "group": "K",
+      "qualProb": 56.27,
+      "points": 1,
+      "goalDifference": -1,
+      "goalsFor": 1,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
+    },
+    {
+      "name": "Ecuador",
+      "group": "E",
+      "qualProb": 13.17,
+      "points": 1,
+      "goalDifference": -1,
+      "goalsFor": 0,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
+    },
+    {
+      "name": "Senegal",
+      "group": "I",
+      "qualProb": 52.73,
+      "points": 0,
+      "goalDifference": -3,
+      "goalsFor": 3,
+      "played": 2,
+      "confirmed": false,
+      "selected": false
     }
   ]
 }

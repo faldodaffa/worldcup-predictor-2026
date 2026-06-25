@@ -836,14 +836,22 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
             
     current_combo_map = permutations.get(combo_key, {})
 
-    # Build reverse map: resolved team name -> 'Winner Group X' slot
-    # Needed because some raw fixtures already have team names instead of 'Winner Group X'
+    # Build reverse map: resolved team name -> 'Winner Group X' slot (or Runner-up/3rd)
+    # Needed because some raw fixtures already have team names instead of slots
+    team_to_slot = {}
     winner_to_slot = {}
     for grp_name, grp_data in groups.items():
         grp_letter = grp_name.replace('Group ', '')
         st = get_predicted_standings(grp_name)
         if st:
             winner_to_slot[st[0]['name']] = f'Winner Group {grp_letter}'
+            for i, team_st in enumerate(st):
+                if i == 0:
+                    team_to_slot[team_st['name']] = f'Winner Group {grp_letter}'
+                elif i == 1:
+                    team_to_slot[team_st['name']] = f'Runner-up Group {grp_letter}'
+                elif i == 2:
+                    team_to_slot[team_st['name']] = f'3rd Group {grp_letter}'
 
     used_thirds = set()  # track assigned 3rd-place teams to prevent duplicates
 
@@ -898,8 +906,16 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
             home = m['home']
             away = m['away']
 
-            home_path = 'WINNER' if home.startswith('Winner Group') else ('RUNNER_UP' if home.startswith('Runner-up Group') else ('BEST_THIRD' if '3rd Group' in home else ''))
-            away_path = 'WINNER' if away.startswith('Winner Group') else ('RUNNER_UP' if away.startswith('Runner-up Group') else ('BEST_THIRD' if '3rd Group' in away else ''))
+            home_slot = home
+            if home not in ['TBD', ''] and not home.startswith('Winner Group') and not home.startswith('Runner-up Group') and '3rd Group' not in home and not home.startswith('Winner Match'):
+                home_slot = team_to_slot.get(home, home)
+                
+            away_slot = away
+            if away not in ['TBD', ''] and not away.startswith('Winner Group') and not away.startswith('Runner-up Group') and '3rd Group' not in away and not away.startswith('Winner Match'):
+                away_slot = team_to_slot.get(away, away)
+
+            home_path = 'WINNER' if home_slot.startswith('Winner Group') else ('RUNNER_UP' if home_slot.startswith('Runner-up Group') else ('BEST_THIRD' if '3rd Group' in home_slot else ''))
+            away_path = 'WINNER' if away_slot.startswith('Winner Group') else ('RUNNER_UP' if away_slot.startswith('Runner-up Group') else ('BEST_THIRD' if '3rd Group' in away_slot else ''))
 
             if home.startswith('Winner Match '):
                 m_id = home.replace('Winner Match ', '')
