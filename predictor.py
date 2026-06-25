@@ -661,7 +661,59 @@ def simulate_tournament(groups, knockouts):
         real_dh = [{'name': t['name'], 'prob': t['winProb']} for t in ranking if t['name'] not in GIANTS][:3]
     if not real_flops:
         real_flops = [{'name': t['name'], 'prob': t['winProb']} for t in ranking if t['name'] in GIANTS][:2]
-        
+
+    # Build group qualification status for standings syncing
+    group_qual_status = {}
+    for grp_name, grp_data in groups.items():
+        st = sorted(grp_data.get('standings', []), key=lambda x: (
+            -x.get('qualProb', 0), -x.get('points', 0),
+            -x.get('goalDifference', 0), -x.get('goalsFor', 0)
+        ))
+        confirmed = all(t.get('played', 0) >= 3 for t in st)
+        group_qual_status[grp_name] = {
+            'confirmed': confirmed,
+            'pred_1st': st[0]['name'] if len(st) > 0 else None,
+            'pred_2nd': st[1]['name'] if len(st) > 1 else None,
+            'pred_3rd': st[2]['name'] if len(st) > 2 else None,
+        }
+
+    # Build best 8 third-place teams list for standings table
+    all_thirds = []
+    for grp_name, grp_data in groups.items():
+        st = sorted(grp_data.get('standings', []), key=lambda x: (
+            -x.get('qualProb', 0), -x.get('points', 0),
+            -x.get('goalDifference', 0), -x.get('goalsFor', 0)
+        ))
+        if len(st) >= 3:
+            t = st[2]
+            all_thirds.append({
+                'name': t['name'],
+                'group': grp_name.replace('Group ', ''),
+                'qualProb': t.get('qualProb', 0),
+                'points': t.get('points', 0),
+                'goalDifference': t.get('goalDifference', 0),
+                'goalsFor': t.get('goalsFor', 0),
+                'played': t.get('played', 0),
+                'confirmed': group_qual_status.get(grp_name, {}).get('confirmed', False)
+            })
+    all_thirds.sort(key=lambda x: (-x['qualProb'], -x['points'], -x['goalDifference'], -x['goalsFor']))
+    best_8_thirds = all_thirds[:8]
+    
+    # Mark which ones are selected based on combo key
+    try:
+        _t_groups = sorted([t['group'] for t in best_8_thirds])
+        _combo = ''.join(_t_groups)
+        import json as _json, os as _os
+        if _os.path.exists('permutations_495.json'):
+            _perms = _json.load(open('permutations_495.json'))
+            _combo_map = _perms.get(_combo, {})
+            selected_third_names = set(t['name'] for t in best_8_thirds)
+    except:
+        selected_third_names = set(t['name'] for t in best_8_thirds)
+    
+    for t in best_8_thirds:
+        t['selected'] = t['name'] in selected_third_names
+
     return {
         'winner': winner,
         'winnerProb': winner_prob,
@@ -669,7 +721,9 @@ def simulate_tournament(groups, knockouts):
         'darkHorses': real_dh[:3],
         'flops': real_flops[:3],
         'globalRanking': ranking,
-        'bracket': bracket
+        'bracket': bracket,
+        'groupQualStatus': group_qual_status,
+        'best8Thirds': best_8_thirds
     }
 
 def build_bracket(knockouts, groups, tahap7_targets, ranking):
@@ -1223,7 +1277,9 @@ def main():
         'allFixtures': all_fixtures,
         'liveMatches': live_matches,
         'history': history_data,
-        'lastUpdate': timestamp
+        'lastUpdate': timestamp,
+        'groupQualStatus': sim_result.get('groupQualStatus', {}),
+        'best8Thirds': sim_result.get('best8Thirds', [])
     }
     with open('predictions_output.json', 'w') as f:
         json.dump(output, f, indent=2)
