@@ -283,33 +283,41 @@ def process_matches(matches):
         try:
             if len(local_date) == 16:
                 dt = datetime.datetime.strptime(local_date, "%m/%d/%Y %H:%M")
-                m_id = int(m.get('id', 0))
+                stadium_id = str(m.get('stadium_id', ''))
                 
-                # Determine time slots based on official FIFA World Cup 2026 daily schedule
-                # Slot 1: 19:00 UTC, Slot 2: 22:00 UTC, Slot 3: 01:00 UTC (+1d), Slot 4: 04:00 UTC (+1d)
+                # UTC offsets for North America in summer 2026
+                STADIUM_TZ_OFFSETS = {
+                    '1': -6, '2': -4, '3': -5, '4': -5, '5': -5, '6': -4,
+                    '7': -7, '8': -4, '9': -7, '10': -7, '11': -4, '12': -4,
+                    '13': -6, '14': -6, '15': -7, '16': -4
+                }
                 
-                if m_id <= 72: # Normal Group Stage matches (2 or 4 per day)
-                    # We can assign based on match_id modulo 4, but that depends on start.
-                    # June 11 has M1, M2. June 12 has M3, M4. 
-                    # June 13 has M5, M6, M7, M8.
-                    if m_id in [1, 3]: slot_hour = 19
-                    elif m_id in [2, 4]: slot_hour = 22
+                offset = STADIUM_TZ_OFFSETS.get(stadium_id, -5)
+                dt_utc = dt - datetime.timedelta(hours=offset)
+                
+                # Override Matchday 3 to ensure perfectly simultaneous kick-offs
+                if m.get('matchday') == '3':
+                    grp = m.get('group', '')
+                    md3_utc = {
+                        'A': '2026-06-25T01:00:00',
+                        'B': '2026-06-24T19:00:00',
+                        'C': '2026-06-24T22:00:00',
+                        'D': '2026-06-26T02:00:00',
+                        'E': '2026-06-25T20:00:00',
+                        'F': '2026-06-25T23:00:00',
+                        'G': '2026-06-27T03:00:00',
+                        'H': '2026-06-27T00:00:00',
+                        'I': '2026-06-26T19:00:00',
+                        'J': '2026-06-28T02:00:00',
+                        'K': '2026-06-27T23:30:00',
+                        'L': '2026-06-27T21:00:00'
+                    }
+                    if grp in md3_utc:
+                        utc_date = md3_utc[grp] + "Z"
                     else:
-                        slot_idx = (m_id - 5) % 4
-                        if slot_idx == 0: slot_hour = 19
-                        elif slot_idx == 1: slot_hour = 22
-                        elif slot_idx == 2: slot_hour = 25 # 01:00 next day
-                        else: slot_hour = 28 # 04:00 next day
-                else: # Final group matches (played simultaneously, 6 per day)
-                    slot_idx = (m_id - 73) % 6
-                    if slot_idx < 2: slot_hour = 19
-                    elif slot_idx < 4: slot_hour = 22
-                    else: slot_hour = 25 # 01:00 next day
-                
-                # base date is the local_date stripped of its time, default to 00:00
-                dt_base = dt.replace(hour=0, minute=0, second=0)
-                dt_utc = dt_base + datetime.timedelta(hours=slot_hour)
-                utc_date = dt_utc.isoformat() + "Z"
+                        utc_date = dt_utc.isoformat() + "Z"
+                else:
+                    utc_date = dt_utc.isoformat() + "Z"
         except: pass
 
         match_obj = {
