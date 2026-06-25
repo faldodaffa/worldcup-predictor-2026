@@ -729,7 +729,24 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
             
     current_combo_map = permutations.get(combo_key, {})
 
-    def resolve_team(name, opponent_name=None):
+    # Build reverse map: resolved team name -> 'Winner Group X' slot
+    # Needed because some raw fixtures already have team names instead of 'Winner Group X'
+    winner_to_slot = {}
+    for grp_name, grp_data in groups.items():
+        grp_letter = grp_name.replace('Group ', '')
+        st = get_predicted_standings(grp_name)
+        if st:
+            winner_to_slot[st[0]['name']] = f'Winner Group {grp_letter}'
+
+    used_thirds = set()  # track assigned 3rd-place teams to prevent duplicates
+
+    def resolve_team(name, opponent_slot=None):
+        """
+        name: the raw fixture slot string e.g. 'Winner Group E', 'Runner-up Group A', '3rd Group ...'
+              OR already-resolved team name e.g. 'Germany'
+        opponent_slot: the RAW slot string for the opponent — used to look up combo_map.
+                       May be a team name if API already resolved it.
+        """
         if not name: return 'TBD'
         if name.startswith('Winner Group '):
             g = name.replace('Winner Group ', 'Group ')
@@ -740,16 +757,27 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
             st = get_predicted_standings(g)
             if len(st) > 1: return st[1]['name']
         if '3rd Group' in name:
-            if opponent_name and opponent_name in current_combo_map:
-                target_group = current_combo_map[opponent_name]
-                target_letter = target_group.replace('3rd Group ', '')
+            # Normalise opponent_slot: may be team name -> convert to 'Winner Group X'
+            opp_norm = opponent_slot
+            if opp_norm and not opp_norm.startswith('Winner Group ') and opp_norm in winner_to_slot:
+                opp_norm = winner_to_slot[opp_norm]
+            if opp_norm and opp_norm in current_combo_map:
+                target_slot = current_combo_map[opp_norm]   # e.g. '3rd Group D'
+                target_letter = target_slot.replace('3rd Group ', '')
                 for t in best_thirds:
-                    if third_group_map[t] == target_letter:
+                    if third_group_map.get(t) == target_letter and t not in used_thirds:
+                        used_thirds.add(t)
                         return t
-            return best_thirds.pop(0) if best_thirds else 'TBD'
+            # Fallback: pick the next unassigned best-third
+            for t in best_thirds:
+                if t not in used_thirds:
+                    used_thirds.add(t)
+                    return t
+            return 'TBD'
         if name.startswith('Winner Match '):
             return 'TBD'
         return name
+
 
     bracket = []
     match_winners = {}
@@ -770,13 +798,13 @@ def build_bracket(knockouts, groups, tahap7_targets, ranking):
                 m_id = home.replace('Winner Match ', '')
                 home = match_winners.get(m_id, 'TBD')
             else:
-                home = resolve_team(home, opponent_name=m['away'])
+                home = resolve_team(home, opponent_slot=m['away'])
 
             if away.startswith('Winner Match '):
                 m_id = away.replace('Winner Match ', '')
                 away = match_winners.get(m_id, 'TBD')
             else:
-                away = resolve_team(away, opponent_name=m['home'])
+                away = resolve_team(away, opponent_slot=m['home'])
 
             predicted_winner = 'TBD'
             score_h = m.get('score_h')

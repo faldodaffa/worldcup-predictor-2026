@@ -5,33 +5,25 @@
     "Argentina"
   ],
   "winner": "Spain",
-  "winnerProb": 27.47,
+  "winnerProb": 25.63,
   "darkHorses": [
     {
-      "name": "United States",
-      "prob": 60.199999999999996
-    },
-    {
       "name": "Colombia",
-      "prob": 54.56666666666666
-    },
-    {
-      "name": "Norway",
-      "prob": 40.1
+      "prob": 53.766666666666666
     }
   ],
   "flops": [
     {
       "name": "Uruguay",
-      "prob": 90.46666666666667
-    },
-    {
-      "name": "Belgium",
-      "prob": 81.8
+      "prob": 90.66666666666666
     },
     {
       "name": "Germany",
       "prob": 73.46666666666667
+    },
+    {
+      "name": "Portugal",
+      "prob": 64.66666666666666
     }
   ],
   "awards": {
@@ -95,19 +87,25 @@
         "name": "Lionel Messi",
         "goals": 11,
         "team": "Argentina",
-        "score": 10.8
-      },
-      {
-        "name": "Erling Haaland",
-        "goals": 7,
-        "team": "Norway",
-        "score": 7.44
+        "score": 10.87
       },
       {
         "name": "Kylian Mbappe",
         "goals": 7,
         "team": "France",
-        "score": 7.31
+        "score": 7.34
+      },
+      {
+        "name": "Erling Haaland",
+        "goals": 7,
+        "team": "Norway",
+        "score": 6.68
+      },
+      {
+        "name": "JUNIOR Vinicius",
+        "goals": 6,
+        "team": "Brazil",
+        "score": 5.78
       },
       {
         "name": "RONALDO Cristiano",
@@ -119,7 +117,7 @@
         "name": "Harry Kane",
         "goals": 5,
         "team": "England",
-        "score": 5.07
+        "score": 4.97
       },
       {
         "name": "Jonathan David",
@@ -128,22 +126,28 @@
         "score": 4.57
       },
       {
+        "name": "CUNHA Matheus",
+        "goals": 4,
+        "team": "Brazil",
+        "score": 4.42
+      },
+      {
         "name": "Mikel Oyarzabal",
         "goals": 4,
         "team": "Spain",
-        "score": 4.24
+        "score": 4.23
       },
       {
-        "name": "JUNIOR Vinicius",
+        "name": "Brian Brobbey",
         "goals": 3,
-        "team": "Brazil",
-        "score": 3.42
+        "team": "Netherlands",
+        "score": 3.27
       },
       {
-        "name": "CUNHA Matheus",
+        "name": "Crysencio Summerville",
         "goals": 3,
-        "team": "Brazil",
-        "score": 3.25
+        "team": "Netherlands",
+        "score": 3.23
       },
       {
         "name": "Kai Havertz",
@@ -155,31 +159,19 @@
         "name": "Marcus Rashford",
         "goals": 3,
         "team": "England",
-        "score": 2.91
-      },
-      {
-        "name": "SALAH Mohamed",
-        "goals": 3,
-        "team": "Egypt",
-        "score": 2.75
+        "score": 2.83
       },
       {
         "name": "Ousmane Dembele",
         "goals": 3,
         "team": "France",
-        "score": 2.73
+        "score": 2.75
       },
       {
         "name": "Lamine Yamal",
         "goals": 3,
         "team": "Spain",
-        "score": 2.7
-      },
-      {
-        "name": "Bradley Barcola",
-        "goals": 3,
-        "team": "France",
-        "score": 2.59
+        "score": 2.69
       }
     ],
     "topScorerList": [
@@ -202,76 +194,28 @@
         "score": 4
       },
       {
+        "name": "JUNIOR Vinicius",
+        "goals": 4,
+        "team": "Brazil",
+        "score": 4
+      },
+      {
         "name": "Jonathan David",
         "goals": 3,
         "team": "Canada",
         "score": 3
       },
       {
-        "name": "BALOGUN F.",
-        "goals": 2,
-        "team": "United States",
-        "score": 2
-      },
-      {
-        "name": "JUNIOR Vinicius",
-        "goals": 2,
+        "name": "CUNHA Matheus",
+        "goals": 3,
         "team": "Brazil",
-        "score": 2
-      },
-      {
-        "name": "Kai Havertz",
-        "goals": 2,
-        "team": "Germany",
-        "score": 2
-      },
-      {
-        "name": "Crysencio Summerville",
-        "goals": 2,
-        "team": "Netherlands",
-        "score": 2
-      },
-      {
-        "name": "Yasin Ayari",
-        "goals": 2,
-        "team": "Sweden",
-        "score": 2
-      },
-      {
-        "name": "Elijah Just",
-        "goals": 2,
-        "team": "New Zealand",
-        "score": 2
-      },
-      {
-        "name": "ARA\u00daJO Maximiliano",
-        "goals": 2,
-        "team": "Uruguay",
-        "score": 2
-      },
-      {
-        "name": "Harry Kane",
-        "goals": 2,
-        "team": "England",
-        "score": 2
-      },
-      {
-        "name": "MVNVZ Dnil",
-        "goals": 2,
-        "team": "Colombia",
-        "score": 2
+        "score": 3
       },
       {
         "name": "MNZAMBI Jvhan",
-        "goals": 2,
+        "goals": 3,
         "team": "Switzerland",
-        "score": 2
-      },
-      {
-        "name": "CUNHA Matheus",
-        "goals": 2,
-        "team": "Brazil",
-        "score": 2
+        "score": 3
       },
       {
         "name": "AVNDAV Dniz",
@@ -292,15 +236,9 @@
         "score": 2
       },
       {
-        "name": "IVIDA Aiash",
+        "name": "Crysencio Summerville",
         "goals": 2,
-        "team": "Japan",
-        "score": 2
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "goals": 2,
-        "team": "Spain",
+        "team": "Netherlands",
         "score": 2
       },
       {
@@ -310,10 +248,220 @@
         "score": 2
       },
       {
+        "name": "Harry Kane",
+        "goals": 2,
+        "team": "England",
+        "score": 2
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "goals": 2,
+        "team": "Spain",
+        "score": 2
+      },
+      {
         "name": "RONALDO Cristiano",
         "goals": 2,
         "team": "Portugal",
         "score": 2
+      },
+      {
+        "name": "BALOGUN F.",
+        "goals": 2,
+        "team": "United States",
+        "score": 2
+      },
+      {
+        "name": "SAIBARI Asmaail",
+        "goals": 2,
+        "team": "Morocco",
+        "score": 2
+      },
+      {
+        "name": "Kai Havertz",
+        "goals": 2,
+        "team": "Germany",
+        "score": 2
+      },
+      {
+        "name": "Yasin Ayari",
+        "goals": 2,
+        "team": "Sweden",
+        "score": 2
+      },
+      {
+        "name": "MHMICH Armin",
+        "goals": 2,
+        "team": "Bosnia and Herzegovina",
+        "score": 2
+      },
+      {
+        "name": "IVIDA Aiash",
+        "goals": 2,
+        "team": "Japan",
+        "score": 2
+      },
+      {
+        "name": "ARA\u00daJO Maximiliano",
+        "goals": 2,
+        "team": "Uruguay",
+        "score": 2
+      },
+      {
+        "name": "MVNVZ Dnil",
+        "goals": 2,
+        "team": "Colombia",
+        "score": 2
+      },
+      {
+        "name": "Elijah Just",
+        "goals": 2,
+        "team": "New Zealand",
+        "score": 2
+      },
+      {
+        "name": "Nestory Irankunda",
+        "goals": 1,
+        "team": "Australia",
+        "score": 1
+      },
+      {
+        "name": "Connor Metcalfe",
+        "goals": 1,
+        "team": "Australia",
+        "score": 1
+      },
+      {
+        "name": "KHOUKHI Boualem",
+        "goals": 1,
+        "team": "Qatar",
+        "score": 1
+      },
+      {
+        "name": "Breel Embolo",
+        "goals": 1,
+        "team": "Switzerland",
+        "score": 1
+      },
+      {
+        "name": "BARGS Kamrvn",
+        "goals": 1,
+        "team": "United States",
+        "score": 1
+      },
+      {
+        "name": "FREEMAN Alex",
+        "goals": 1,
+        "team": "United States",
+        "score": 1
+      },
+      {
+        "name": "KESSI\u00c9 Franck",
+        "goals": 1,
+        "team": "Ivory Coast",
+        "score": 1
+      },
+      {
+        "name": "Anthony Elanga",
+        "goals": 1,
+        "team": "Sweden",
+        "score": 1
+      },
+      {
+        "name": "Ousmane Dembele",
+        "goals": 1,
+        "team": "France",
+        "score": 1
+      },
+      {
+        "name": "HLMGRN PDRSN Markvs",
+        "goals": 1,
+        "team": "Norway",
+        "score": 1
+      },
+      {
+        "name": "McGINN John",
+        "goals": 1,
+        "team": "Scotland",
+        "score": 1
+      },
+      {
+        "name": "Jude Bellingham",
+        "goals": 1,
+        "team": "England",
+        "score": 1
+      },
+      {
+        "name": "Marcus Rashford",
+        "goals": 1,
+        "team": "England",
+        "score": 1
+      },
+      {
+        "name": "Martin Baturina",
+        "goals": 1,
+        "team": "Croatia",
+        "score": 1
+      },
+      {
+        "name": "Petar Musa",
+        "goals": 1,
+        "team": "Croatia",
+        "score": 1
+      },
+      {
+        "name": "Lamine Yamal",
+        "goals": 1,
+        "team": "Spain",
+        "score": 1
+      },
+      {
+        "name": "MOHAMED ALTMBKTI Hassan",
+        "goals": 1,
+        "team": "Spain",
+        "score": 1
+      },
+      {
+        "name": "RASHDAN Al",
+        "goals": 1,
+        "team": "Jordan",
+        "score": 1
+      },
+      {
+        "name": "BNBVALI Nzir",
+        "goals": 1,
+        "team": "Algeria",
+        "score": 1
+      },
+      {
+        "name": "Amine Gouiri",
+        "goals": 1,
+        "team": "Algeria",
+        "score": 1
+      },
+      {
+        "name": "MNDZ Nvnv",
+        "goals": 1,
+        "team": "Portugal",
+        "score": 1
+      },
+      {
+        "name": "NAMTVF Abdalvhid",
+        "goals": 1,
+        "team": "Portugal",
+        "score": 1
+      },
+      {
+        "name": "LEAO Rafael",
+        "goals": 1,
+        "team": "Portugal",
+        "score": 1
+      },
+      {
+        "name": "Ante Budimir",
+        "goals": 1,
+        "team": "Croatia",
+        "score": 1
       },
       {
         "name": "HWANG I.B.",
@@ -331,18 +479,6 @@
         "name": "KREJ\u010c\u00cd L.",
         "goals": 1,
         "team": "Czech Republic",
-        "score": 1
-      },
-      {
-        "name": "Cyle Larin",
-        "goals": 1,
-        "team": "Canada",
-        "score": 1
-      },
-      {
-        "name": "LUKI\u0106 Jovo",
-        "goals": 1,
-        "team": "Bosnia and Herzegovina",
         "score": 1
       },
       {
@@ -364,39 +500,75 @@
         "score": 1
       },
       {
-        "name": "McGINN John",
+        "name": "Bradley Barcola",
         "goals": 1,
-        "team": "Scotland",
+        "team": "France",
         "score": 1
       },
       {
-        "name": "Nestory Irankunda",
+        "name": "Ibrahim Mbaye",
         "goals": 1,
-        "team": "Australia",
+        "team": "Senegal",
         "score": 1
       },
       {
-        "name": "Connor Metcalfe",
+        "name": "HUSSEIN Aymen",
         "goals": 1,
-        "team": "Australia",
+        "team": "Iraq",
         "score": 1
       },
       {
-        "name": "Ismael Saibari",
+        "name": "\u00d8STIG\u00c5RD Leo",
+        "goals": 1,
+        "team": "Norway",
+        "score": 1
+      },
+      {
+        "name": "HUSSEIN Aymen",
+        "goals": 1,
+        "team": "Norway",
+        "score": 1
+      },
+      {
+        "name": "NEVES Joao",
+        "goals": 1,
+        "team": "Portugal",
+        "score": 1
+      },
+      {
+        "name": "WISSA Y.",
+        "goals": 1,
+        "team": "Democratic Republic of the Congo",
+        "score": 1
+      },
+      {
+        "name": "Achraf Hakimi",
         "goals": 1,
         "team": "Morocco",
         "score": 1
       },
       {
-        "name": "KHOUKHI Boualem",
+        "name": "RHIMI Svfian",
         "goals": 1,
-        "team": "Qatar",
+        "team": "Morocco",
         "score": 1
       },
       {
-        "name": "Breel Embolo",
+        "name": "Gessime Yassine",
         "goals": 1,
-        "team": "Switzerland",
+        "team": "Morocco",
+        "score": 1
+      },
+      {
+        "name": "BOUNOU Yassine",
+        "goals": 1,
+        "team": "Haiti",
+        "score": 1
+      },
+      {
+        "name": "Wilson Isidor",
+        "goals": 1,
+        "team": "Haiti",
         "score": 1
       },
       {
@@ -442,24 +614,6 @@
         "score": 1
       },
       {
-        "name": "DIJK Virgil Van",
-        "goals": 1,
-        "team": "Netherlands",
-        "score": 1
-      },
-      {
-        "name": "Keito Nakamura",
-        "goals": 1,
-        "team": "Japan",
-        "score": 1
-      },
-      {
-        "name": "Koki Ogawa",
-        "goals": 1,
-        "team": "Japan",
-        "score": 1
-      },
-      {
         "name": "Isak Hien",
         "goals": 1,
         "team": "Sweden",
@@ -484,159 +638,9 @@
         "score": 1
       },
       {
-        "name": "REZAIIAN Ramin",
-        "goals": 1,
-        "team": "Iran",
-        "score": 1
-      },
-      {
-        "name": "MOHEBI Mohammad",
-        "goals": 1,
-        "team": "Iran",
-        "score": 1
-      },
-      {
-        "name": "HANY Mohamed",
-        "goals": 1,
-        "team": "Belgium",
-        "score": 1
-      },
-      {
-        "name": "ASHOUR Emam",
-        "goals": 1,
-        "team": "Egypt",
-        "score": 1
-      },
-      {
-        "name": "AL-AMRI Abdulelah",
-        "goals": 1,
-        "team": "Saudi Arabia",
-        "score": 1
-      },
-      {
-        "name": "Bradley Barcola",
-        "goals": 1,
-        "team": "France",
-        "score": 1
-      },
-      {
-        "name": "Ibrahim Mbaye",
-        "goals": 1,
-        "team": "Senegal",
-        "score": 1
-      },
-      {
-        "name": "HUSSEIN Aymen",
-        "goals": 1,
-        "team": "Iraq",
-        "score": 1
-      },
-      {
-        "name": "\u00d8STIG\u00c5RD Leo",
-        "goals": 1,
-        "team": "Norway",
-        "score": 1
-      },
-      {
-        "name": "HUSSEIN Aymen",
-        "goals": 1,
-        "team": "Norway",
-        "score": 1
-      },
-      {
-        "name": "ASHMID Rvmanv",
-        "goals": 1,
-        "team": "Austria",
-        "score": 1
-      },
-      {
-        "name": "ALARB Izn",
-        "goals": 1,
-        "team": "Austria",
-        "score": 1
-      },
-      {
-        "name": "AVLVAN Ali",
-        "goals": 1,
-        "team": "Jordan",
-        "score": 1
-      },
-      {
-        "name": "NEVES Joao",
-        "goals": 1,
-        "team": "Portugal",
-        "score": 1
-      },
-      {
-        "name": "WISSA Y.",
-        "goals": 1,
-        "team": "Democratic Republic of the Congo",
-        "score": 1
-      },
-      {
-        "name": "Jude Bellingham",
-        "goals": 1,
-        "team": "England",
-        "score": 1
-      },
-      {
-        "name": "Marcus Rashford",
-        "goals": 1,
-        "team": "England",
-        "score": 1
-      },
-      {
-        "name": "Martin Baturina",
-        "goals": 1,
-        "team": "Croatia",
-        "score": 1
-      },
-      {
-        "name": "Petar Musa",
-        "goals": 1,
-        "team": "Croatia",
-        "score": 1
-      },
-      {
-        "name": "BK FIZ ALLH AF Abas",
-        "goals": 1,
-        "team": "Uzbekistan",
-        "score": 1
-      },
-      {
-        "name": "DIAZ Lviiz",
-        "goals": 1,
-        "team": "Colombia",
-        "score": 1
-      },
-      {
-        "name": "KAMPAZ Khamintvn",
-        "goals": 1,
-        "team": "Colombia",
-        "score": 1
-      },
-      {
-        "name": "IIRNKI Kalb",
-        "goals": 1,
-        "team": "Ghana",
-        "score": 1
-      },
-      {
         "name": "Luis Romo",
         "goals": 1,
         "team": "Mexico",
-        "score": 1
-      },
-      {
-        "name": "VARGAS Rvbn",
-        "goals": 1,
-        "team": "Switzerland",
-        "score": 1
-      },
-      {
-        "name": "MHMICH Armin",
-        "goals": 1,
-        "team": "Bosnia and Herzegovina",
         "score": 1
       },
       {
@@ -658,45 +662,57 @@
         "score": 1
       },
       {
-        "name": "SADILK \u202bMikhal",
-        "goals": 1,
-        "team": "Czech Republic",
-        "score": 1
-      },
-      {
-        "name": "SAIBARI Asmaail",
-        "goals": 1,
-        "team": "Morocco",
-        "score": 1
-      },
-      {
-        "name": "BARGS Kamrvn",
-        "goals": 1,
-        "team": "United States",
-        "score": 1
-      },
-      {
-        "name": "FREEMAN Alex",
-        "goals": 1,
-        "team": "United States",
-        "score": 1
-      },
-      {
         "name": "Matias Galarza",
         "goals": 1,
         "team": "Paraguay",
         "score": 1
       },
       {
-        "name": "KESSI\u00c9 Franck",
+        "name": "ALAIBGVVICH Karim",
         "goals": 1,
-        "team": "Ivory Coast",
+        "team": "Bosnia and Herzegovina",
         "score": 1
       },
       {
-        "name": "Anthony Elanga",
+        "name": "Abvnad",
         "goals": 1,
-        "team": "Sweden",
+        "team": "Bosnia and Herzegovina",
+        "score": 1
+      },
+      {
+        "name": "AL-HAYDOS Hassan",
+        "goals": 1,
+        "team": "Qatar",
+        "score": 1
+      },
+      {
+        "name": "Ismael Saibari",
+        "goals": 1,
+        "team": "Morocco",
+        "score": 1
+      },
+      {
+        "name": "DIJK Virgil Van",
+        "goals": 1,
+        "team": "Netherlands",
+        "score": 1
+      },
+      {
+        "name": "Keito Nakamura",
+        "goals": 1,
+        "team": "Japan",
+        "score": 1
+      },
+      {
+        "name": "Koki Ogawa",
+        "goals": 1,
+        "team": "Japan",
+        "score": 1
+      },
+      {
+        "name": "VARGAS Rvbn",
+        "goals": 1,
+        "team": "Switzerland",
         "score": 1
       },
       {
@@ -736,18 +752,6 @@
         "score": 1
       },
       {
-        "name": "Lamine Yamal",
-        "goals": 1,
-        "team": "Spain",
-        "score": 1
-      },
-      {
-        "name": "MOHAMED ALTMBKTI Hassan",
-        "goals": 1,
-        "team": "Spain",
-        "score": 1
-      },
-      {
         "name": "Agustin Canobbio",
         "goals": 1,
         "team": "Uruguay",
@@ -766,111 +770,154 @@
         "score": 1
       },
       {
-        "name": "Ousmane Dembele",
+        "name": "AL-AMRI Abdulelah",
         "goals": 1,
-        "team": "France",
+        "team": "Saudi Arabia",
         "score": 1
       },
       {
-        "name": "HLMGRN PDRSN Markvs",
+        "name": "ASHMID Rvmanv",
         "goals": 1,
-        "team": "Norway",
+        "team": "Austria",
         "score": 1
       },
       {
-        "name": "RASHDAN Al",
+        "name": "ALARB Izn",
+        "goals": 1,
+        "team": "Austria",
+        "score": 1
+      },
+      {
+        "name": "AVLVAN Ali",
         "goals": 1,
         "team": "Jordan",
         "score": 1
       },
       {
-        "name": "BNBVALI Nzir",
+        "name": "BK FIZ ALLH AF Abas",
         "goals": 1,
-        "team": "Algeria",
+        "team": "Uzbekistan",
         "score": 1
       },
       {
-        "name": "Amine Gouiri",
+        "name": "DIAZ Lviiz",
         "goals": 1,
-        "team": "Algeria",
+        "team": "Colombia",
         "score": 1
       },
       {
-        "name": "MNDZ Nvnv",
+        "name": "KAMPAZ Khamintvn",
         "goals": 1,
-        "team": "Portugal",
+        "team": "Colombia",
         "score": 1
       },
       {
-        "name": "NAMTVF Abdalvhid",
+        "name": "Cyle Larin",
         "goals": 1,
-        "team": "Portugal",
+        "team": "Canada",
         "score": 1
       },
       {
-        "name": "LEAO Rafael",
+        "name": "LUKI\u0106 Jovo",
         "goals": 1,
-        "team": "Portugal",
+        "team": "Bosnia and Herzegovina",
         "score": 1
       },
       {
-        "name": "Ante Budimir",
+        "name": "REZAIIAN Ramin",
         "goals": 1,
-        "team": "Croatia",
+        "team": "Iran",
+        "score": 1
+      },
+      {
+        "name": "MOHEBI Mohammad",
+        "goals": 1,
+        "team": "Iran",
+        "score": 1
+      },
+      {
+        "name": "IIRNKI Kalb",
+        "goals": 1,
+        "team": "Ghana",
+        "score": 1
+      },
+      {
+        "name": "SADILK \u202bMikhal",
+        "goals": 1,
+        "team": "Czech Republic",
+        "score": 1
+      },
+      {
+        "name": "HANY Mohamed",
+        "goals": 1,
+        "team": "Belgium",
+        "score": 1
+      },
+      {
+        "name": "ASHOUR Emam",
+        "goals": 1,
+        "team": "Egypt",
+        "score": 1
+      },
+      {
+        "name": "Ruben Vargas",
+        "goals": 1,
+        "team": "Switzerland",
+        "score": 1
+      },
+      {
+        "name": "DIVID Prvmis",
+        "goals": 1,
+        "team": "Canada",
         "score": 1
       }
     ]
   },
   "globalRanking": [
     {
-      "name": "Spain",
-      "elo": 2140.506189830162,
-      "winProb": 27.47
-    },
-    {
       "name": "Argentina",
       "elo": 2129.075854640029,
-      "winProb": 26.5
+      "winProb": 25.67
+    },
+    {
+      "name": "Spain",
+      "elo": 2140.506189830162,
+      "winProb": 25.63
     },
     {
       "name": "France",
       "elo": 2077.0868589772394,
-      "winProb": 14.23
+      "winProb": 16.03
     },
     {
       "name": "England",
       "elo": 2021.9778563773261,
-      "winProb": 6.63
+      "winProb": 6.77
     },
     {
       "name": "Colombia",
       "elo": 2000.569892341307,
-      "winProb": 5.63
+      "winProb": 5.8
     },
     {
       "name": "Portugal",
       "elo": 1988.0162779869422,
-      "winProb": 4.43
+      "winProb": 3.9
     },
     {
       "name": "Brazil",
-      "elo": 1974.2383328707203,
-      "winProb": 2.37
-    },
-    {
-      "name": "Netherlands",
-      "elo": 1957.3508456321342,
-      "winProb": 2.37
-    },
-    {
-      "name": "Norway",
-      "elo": 1937.4725728541848,
-      "winProb": 2.0
+      "elo": 1987.2741759739502,
+      "winProb": 3.77
     },
     {
       "name": "Germany",
       "elo": 1957.3073183360063,
-      "winProb": 1.73
+      "winProb": 2.3
+    },
+    {
+      "name": "Netherlands",
+      "elo": 1957.3508456321342,
+      "winProb": 2.03
     },
     {
       "name": "Mexico",
@@ -878,23 +925,33 @@
       "winProb": 1.67
     },
     {
+      "name": "Norway",
+      "elo": 1937.4725728541848,
+      "winProb": 1.57
+    },
+    {
       "name": "United States",
       "elo": 1832.7180685745432,
-      "winProb": 1.27
+      "winProb": 1.03
     },
     {
       "name": "Japan",
       "elo": 1916.2477524763694,
-      "winProb": 1.0
+      "winProb": 0.83
+    },
+    {
+      "name": "Morocco",
+      "elo": 1870.6000343816336,
+      "winProb": 0.7
     },
     {
       "name": "Belgium",
       "elo": 1876.921227814794,
-      "winProb": 0.57
+      "winProb": 0.6
     },
     {
       "name": "Switzerland",
-      "elo": 1859.530932995779,
+      "elo": 1874.319183528308,
       "winProb": 0.5
     },
     {
@@ -904,113 +961,43 @@
     },
     {
       "name": "Canada",
-      "elo": 1766.8564596573278,
-      "winProb": 0.33
+      "elo": 1752.0682091247988,
+      "winProb": 0.23
     },
     {
       "name": "Iran",
       "elo": 1767.9693381242764,
-      "winProb": 0.23
+      "winProb": 0.17
     },
     {
-      "name": "Morocco",
-      "elo": 1864.9090007464815,
-      "winProb": 0.2
+      "name": "Ecuador",
+      "elo": 1899.1472807527705,
+      "winProb": 0.17
+    },
+    {
+      "name": "Austria",
+      "elo": 1835.9077513552525,
+      "winProb": 0.07
     },
     {
       "name": "Egypt",
       "elo": 1720.878560365011,
-      "winProb": 0.13
+      "winProb": 0.07
+    },
+    {
+      "name": "South Korea",
+      "elo": 1788.03021652356,
+      "winProb": 0.03
     },
     {
       "name": "Democratic Republic of the Congo",
       "elo": 1799.452458995279,
-      "winProb": 0.07
+      "winProb": 0.03
     },
     {
       "name": "Australia",
       "elo": 1835.9437418970929,
       "winProb": 0.03
-    },
-    {
-      "name": "Cura\u00e7ao",
-      "elo": 1790.2015889113047,
-      "winProb": 0.03
-    },
-    {
-      "name": "Scotland",
-      "elo": 1784.027869388935,
-      "winProb": 0.03
-    },
-    {
-      "name": "Ivory Coast",
-      "elo": 1718.3438119999184,
-      "winProb": 0.03
-    },
-    {
-      "name": "Ecuador",
-      "elo": 1899.1472807527705,
-      "winProb": 0.03
-    },
-    {
-      "name": "Algeria",
-      "elo": 1780.0949737935587,
-      "winProb": 0.03
-    },
-    {
-      "name": "Croatia",
-      "elo": 1905.8887138960927,
-      "winProb": 0.03
-    },
-    {
-      "name": "Cape Verde",
-      "elo": 1609.9988396456322,
-      "winProb": 0.03
-    },
-    {
-      "name": "Austria",
-      "elo": 1835.9077513552525,
-      "winProb": 0.0
-    },
-    {
-      "name": "Uzbekistan",
-      "elo": 1696.961370676472,
-      "winProb": 0.0
-    },
-    {
-      "name": "Turkey",
-      "elo": 1801.2883864859311,
-      "winProb": 0.0
-    },
-    {
-      "name": "Qatar",
-      "elo": 1455.6521155245628,
-      "winProb": 0.0
-    },
-    {
-      "name": "New Zealand",
-      "elo": 1558.2308736959185,
-      "winProb": 0.0
-    },
-    {
-      "name": "Bosnia and Herzegovina",
-      "elo": 1612.9604918223304,
-      "winProb": 0.0
-    },
-    {
-      "name": "Sweden",
-      "elo": 1720.07677420996,
-      "winProb": 0.0
-    },
-    {
-      "name": "Panama",
-      "elo": 1689.0738452161513,
-      "winProb": 0.0
-    },
-    {
-      "name": "Haiti",
-      "elo": 1524.8247969938632,
-      "winProb": 0.0
     },
     {
       "name": "Saudi Arabia",
@@ -1023,28 +1010,8 @@
       "winProb": 0.0
     },
     {
-      "name": "Czech Republic",
-      "elo": 1711.5656808326567,
-      "winProb": 0.0
-    },
-    {
-      "name": "Ghana",
-      "elo": 1559.0595845104299,
-      "winProb": 0.0
-    },
-    {
-      "name": "Paraguay",
-      "elo": 1778.0498030424328,
-      "winProb": 0.0
-    },
-    {
-      "name": "South Korea",
-      "elo": 1788.03021652356,
-      "winProb": 0.0
-    },
-    {
-      "name": "Senegal",
-      "elo": 1833.2062414186844,
+      "name": "Cape Verde",
+      "elo": 1609.9988396456322,
       "winProb": 0.0
     },
     {
@@ -1058,420 +1025,125 @@
       "winProb": 0.0
     },
     {
+      "name": "Senegal",
+      "elo": 1833.2062414186844,
+      "winProb": 0.0
+    },
+    {
+      "name": "Algeria",
+      "elo": 1780.0949737935587,
+      "winProb": 0.0
+    },
+    {
+      "name": "New Zealand",
+      "elo": 1558.2308736959185,
+      "winProb": 0.0
+    },
+    {
+      "name": "Qatar",
+      "elo": 1442.40809924632,
+      "winProb": 0.0
+    },
+    {
+      "name": "Czech Republic",
+      "elo": 1711.5656808326567,
+      "winProb": 0.0
+    },
+    {
+      "name": "Sweden",
+      "elo": 1720.07677420996,
+      "winProb": 0.0
+    },
+    {
+      "name": "Scotland",
+      "elo": 1770.9920262857052,
+      "winProb": 0.0
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "elo": 1626.204508100573,
+      "winProb": 0.0
+    },
+    {
+      "name": "Cura\u00e7ao",
+      "elo": 1790.2015889113047,
+      "winProb": 0.0
+    },
+    {
       "name": "Jordan",
       "elo": 1651.9214202111605,
+      "winProb": 0.0
+    },
+    {
+      "name": "Ghana",
+      "elo": 1559.0595845104299,
+      "winProb": 0.0
+    },
+    {
+      "name": "Haiti",
+      "elo": 1519.1337633587111,
+      "winProb": 0.0
+    },
+    {
+      "name": "Croatia",
+      "elo": 1905.8887138960927,
+      "winProb": 0.0
+    },
+    {
+      "name": "Ivory Coast",
+      "elo": 1718.3438119999184,
+      "winProb": 0.0
+    },
+    {
+      "name": "Turkey",
+      "elo": 1801.2883864859311,
+      "winProb": 0.0
+    },
+    {
+      "name": "Panama",
+      "elo": 1689.0738452161513,
+      "winProb": 0.0
+    },
+    {
+      "name": "Paraguay",
+      "elo": 1778.0498030424328,
+      "winProb": 0.0
+    },
+    {
+      "name": "Uzbekistan",
+      "elo": 1696.961370676472,
       "winProb": 0.0
     }
   ],
   "groups": {
-    "Group A": {
-      "teams": {
-        "Mexico": {
-          "name": "Mexico",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
-          "goalDifference": 3,
-          "points": 6,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        "South Africa": {
-          "name": "South Africa",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2,
-          "points": 1,
-          "qualProb": 2.33,
-          "position": 4
-        },
-        "South Korea": {
-          "name": "South Korea",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 97.67,
-          "position": 2
-        },
-        "Czech Republic": {
-          "name": "Czech Republic",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDifference": -1,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        }
-      },
-      "matches": [
-        {
-          "id": "1",
-          "utcDate": "2026-06-11T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Mexico",
-          "away": "South Africa",
-          "score_h": 2,
-          "score_a": 0,
-          "home_scorers": "{\u201cJ. Qui\u00f1ones 9'\u201d,\u201dR. Jim\u00e9nez 67'\u201d}",
-          "away_scorers": "null",
-          "stadium_id": "1",
-          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": true
-        },
-        {
-          "id": "2",
-          "utcDate": "2026-06-11T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "South Korea",
-          "away": "Czech Republic",
-          "score_h": 2,
-          "score_a": 1,
-          "home_scorers": "{\"I.B. Hwang 67'\",\"H.G. Oh 80'\"}",
-          "away_scorers": "{\"L. Krej\u010d\u00ed 59'\"}",
-          "stadium_id": "2",
-          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "25",
-          "utcDate": "2026-06-18T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Mexico",
-          "away": "South Korea",
-          "score_h": 1,
-          "score_a": 0,
-          "home_scorers": "{\"Luis Romo 50'\"}",
-          "away_scorers": "null",
-          "stadium_id": "2",
-          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "28",
-          "utcDate": "2026-06-19T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Czech Republic",
-          "away": "South Africa",
-          "score_h": 1,
-          "score_a": 1,
-          "home_scorers": "{\"\u202bmikhal Sadilk 6'\"}",
-          "away_scorers": "null",
-          "stadium_id": "7",
-          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "51",
-          "utcDate": "2026-06-25T01:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "South Africa",
-          "away": "South Korea",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "3",
-          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
-        },
-        {
-          "id": "52",
-          "utcDate": "2026-06-25T04:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Czech Republic",
-          "away": "Mexico",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "1",
-          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": false
-        }
-      ],
-      "standings": [
-        {
-          "name": "Mexico",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
-          "goalDifference": 3,
-          "points": 6,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        {
-          "name": "South Korea",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 97.67,
-          "position": 2
-        },
-        {
-          "name": "Czech Republic",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDifference": -1,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        },
-        {
-          "name": "South Africa",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2,
-          "points": 1,
-          "qualProb": 2.33,
-          "position": 4
-        }
-      ]
-    },
-    "Group B": {
-      "teams": {
-        "Canada": {
-          "name": "Canada",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 1,
-          "goalDifference": 6,
-          "points": 4,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        "Bosnia and Herzegovina": {
-          "name": "Bosnia and Herzegovina",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        },
-        "Qatar": {
-          "name": "Qatar",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 4
-        },
-        "Switzerland": {
-          "name": "Switzerland",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 2,
-          "goalDifference": 3,
-          "points": 4,
-          "qualProb": 100.0,
-          "position": 2
-        }
-      },
-      "matches": [
-        {
-          "id": "3",
-          "utcDate": "2026-06-12T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Canada",
-          "away": "Bosnia and Herzegovina",
-          "score_h": 1,
-          "score_a": 1,
-          "home_scorers": "{\"C. Larin 11'\"}",
-          "away_scorers": "{\"Jovo Luki\u0107 21'\"}",
-          "stadium_id": "12",
-          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "8",
-          "utcDate": "2026-06-14T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Qatar",
-          "away": "Switzerland",
-          "score_h": 1,
-          "score_a": 1,
-          "home_scorers": "{\"B. Khoukhi 90'+5'\"}",
-          "away_scorers": "{\"Breel Embolo 17' (p)\"}",
-          "stadium_id": "15",
-          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "26",
-          "utcDate": "2026-06-18T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Switzerland",
-          "away": "Bosnia and Herzegovina",
-          "score_h": 4,
-          "score_a": 1,
-          "home_scorers": "{\"Jvhan Mnzambi 74'\",\"Rvbn Vargas 84'\",\"Jvhan Mnzambi 90'\"}",
-          "away_scorers": "{\"Armin Mhmich 90+3'\"}",
-          "stadium_id": "16",
-          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "27",
-          "utcDate": "2026-06-19T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Canada",
-          "away": "Qatar",
-          "score_h": 6,
-          "score_a": 0,
-          "home_scorers": "{\"Kail Larin 16'\",\"Jonathan David 29'\",\"Jonathan David 45+3'\",\"Nathan Saliba 64'\",\"Mohamed Almnai 75'\",\"Jonathan David 90+2'\"}",
-          "away_scorers": "null",
-          "stadium_id": "13",
-          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": true
-        },
-        {
-          "id": "53",
-          "utcDate": "2026-06-24T19:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Bosnia and Herzegovina",
-          "away": "Qatar",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "14",
-          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": false,
-          "isLive": false
-        },
-        {
-          "id": "54",
-          "utcDate": "2026-06-24T22:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Switzerland",
-          "away": "Canada",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "13",
-          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": false,
-          "isLive": false
-        }
-      ],
-      "standings": [
-        {
-          "name": "Canada",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 1,
-          "goalDifference": 6,
-          "points": 4,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        {
-          "name": "Switzerland",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 2,
-          "goalDifference": 3,
-          "points": 4,
-          "qualProb": 100.0,
-          "position": 2
-        },
-        {
-          "name": "Bosnia and Herzegovina",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        },
-        {
-          "name": "Qatar",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 4
-        }
-      ]
-    },
     "Group D": {
       "teams": {
+        "Australia": {
+          "name": "Australia",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 89.17,
+          "position": 2
+        },
+        "Turkey": {
+          "name": "Turkey",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 3,
+          "goalDifference": -3,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 4
+        },
         "United States": {
           "name": "United States",
           "played": 2,
@@ -1495,52 +1167,11 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 12.0,
+          "qualProb": 10.83,
           "position": 3
-        },
-        "Australia": {
-          "name": "Australia",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 88.0,
-          "position": 2
-        },
-        "Turkey": {
-          "name": "Turkey",
-          "played": 2,
-          "won": 0,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 3,
-          "goalDifference": -3,
-          "points": 0,
-          "qualProb": 0.0,
-          "position": 4
         }
       },
       "matches": [
-        {
-          "id": "4",
-          "utcDate": "2026-06-12T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "United States",
-          "away": "Paraguay",
-          "score_h": 4,
-          "score_a": 1,
-          "home_scorers": "{\"D. Bobadilla 7'(OG)\",\"F. Balogun 31'\",\"F. Balogun 45'+5'\",\"G. Reyna 90'+8'\"}",
-          "away_scorers": "{\"Maur\u00edcio 73'\"}",
-          "stadium_id": "16",
-          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
         {
           "id": "6",
           "utcDate": "2026-06-13T22:00:00Z",
@@ -1572,6 +1203,21 @@
           "isFinished": true
         },
         {
+          "id": "4",
+          "utcDate": "2026-06-12T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "United States",
+          "away": "Paraguay",
+          "score_h": 4,
+          "score_a": 1,
+          "home_scorers": "{\"D. Bobadilla 7'(OG)\",\"F. Balogun 31'\",\"F. Balogun 45'+5'\",\"G. Reyna 90'+8'\"}",
+          "away_scorers": "{\"Maur\u00edcio 73'\"}",
+          "stadium_id": "16",
+          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
+        },
+        {
           "id": "32",
           "utcDate": "2026-06-20T04:00:00Z",
           "status": "FINISHED",
@@ -1587,21 +1233,6 @@
           "isFinished": true
         },
         {
-          "id": "57",
-          "utcDate": "2026-06-25T19:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Paraguay",
-          "away": "Australia",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "15",
-          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
-          "isFinished": false
-        },
-        {
           "id": "58",
           "utcDate": "2026-06-25T22:00:00Z",
           "status": "SCHEDULED",
@@ -1614,7 +1245,24 @@
           "away_scorers": "null",
           "stadium_id": "16",
           "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
-          "isFinished": false
+          "isFinished": false,
+          "isLive": false
+        },
+        {
+          "id": "57",
+          "utcDate": "2026-06-25T19:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Paraguay",
+          "away": "Australia",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "15",
+          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
+          "isFinished": false,
+          "isLive": false
         }
       ],
       "standings": [
@@ -1641,7 +1289,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 88.0,
+          "qualProb": 89.17,
           "position": 2
         },
         {
@@ -1654,7 +1302,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "qualProb": 12.0,
+          "qualProb": 10.83,
           "position": 3
         },
         {
@@ -1672,238 +1320,210 @@
         }
       ]
     },
-    "Group C": {
+    "Group B": {
       "teams": {
-        "Haiti": {
-          "name": "Haiti",
-          "played": 2,
+        "Qatar": {
+          "name": "Qatar",
+          "played": 3,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 4,
-          "goalDifference": -4,
-          "points": 0,
-          "qualProb": 0.0,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8,
+          "points": 1,
+          "qualProb": 0,
           "position": 4
         },
-        "Scotland": {
-          "name": "Scotland",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 2.5,
-          "position": 3
-        },
-        "Brazil": {
-          "name": "Brazil",
-          "played": 2,
-          "won": 1,
+        "Switzerland": {
+          "name": "Switzerland",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
-          "goalDifference": 3,
-          "points": 4,
-          "qualProb": 98.17,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 7,
+          "qualProb": 100,
           "position": 1
         },
-        "Morocco": {
-          "name": "Morocco",
-          "played": 2,
+        "Canada": {
+          "name": "Canada",
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "goalDifference": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
           "points": 4,
-          "qualProb": 99.33,
+          "qualProb": 100,
           "position": 2
+        },
+        "Bosnia and Herzegovina": {
+          "name": "Bosnia and Herzegovina",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1,
+          "points": 4,
+          "qualProb": 0,
+          "position": 3
         }
       },
       "matches": [
         {
-          "id": "5",
-          "utcDate": "2026-06-13T19:00:00Z",
+          "id": "8",
+          "utcDate": "2026-06-14T04:00:00Z",
           "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Haiti",
-          "away": "Scotland",
-          "score_h": 0,
-          "score_a": 1,
-          "home_scorers": "null",
-          "away_scorers": "{\"J. McGinn 28'\"}",
-          "stadium_id": "9",
-          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "7",
-          "utcDate": "2026-06-14T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Brazil",
-          "away": "Morocco",
+          "home": "Qatar",
+          "away": "Switzerland",
           "score_h": 1,
           "score_a": 1,
-          "home_scorers": "{\"V. J\u00fanior 32'\"}",
-          "away_scorers": "{\"I. Saibari 21'\"}",
-          "stadium_id": "11",
-          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
+          "home_scorers": "{\"B. Khoukhi 90'+5'\"}",
+          "away_scorers": "{\"Breel Embolo 17' (p)\"}",
+          "stadium_id": "15",
+          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
           "isFinished": true
         },
         {
-          "id": "29",
-          "utcDate": "2026-06-19T19:00:00Z",
+          "id": "27",
+          "utcDate": "2026-06-19T01:00:00Z",
           "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Brazil",
-          "away": "Haiti",
-          "score_h": 3,
+          "home": "Canada",
+          "away": "Qatar",
+          "score_h": 6,
           "score_a": 0,
-          "home_scorers": "{\"Matheus Cunha 23'\",\"Matheus Cunha 36'\",\"Vin\u00edcius J\u00fanior 45+3'\"}",
+          "home_scorers": "{\"Kail Larin 16'\",\"Jonathan David 29'\",\"Jonathan David 45+3'\",\"Nathan Saliba 64'\",\"Mohamed Almnai 75'\",\"Jonathan David 90+2'\"}",
           "away_scorers": "null",
-          "stadium_id": "10",
-          "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
+          "stadium_id": "13",
+          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
           "isFinished": true
         },
         {
-          "id": "30",
-          "utcDate": "2026-06-19T22:00:00Z",
+          "id": "53",
+          "utcDate": "2026-06-24T19:00:00Z",
           "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Scotland",
-          "away": "Morocco",
-          "score_h": 0,
+          "home": "Bosnia and Herzegovina",
+          "away": "Qatar",
+          "score_h": 3,
           "score_a": 1,
-          "home_scorers": "null",
-          "away_scorers": "{\"Asmaail Saibari 2'\"}",
-          "stadium_id": "9",
-          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
+          "home_scorers": "{\"Karim Alaibgvvich 29'\",\"Abvnad 34'\",\"Armin Mhmich 80'\"}",
+          "away_scorers": "{\"Hassan Al-Haydos 42'\"}",
+          "stadium_id": "14",
+          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
           "isFinished": true
         },
         {
-          "id": "49",
-          "utcDate": "2026-06-24T19:00:00Z",
-          "status": "SCHEDULED",
+          "id": "26",
+          "utcDate": "2026-06-18T22:00:00Z",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Scotland",
-          "away": "Brazil",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "8",
-          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false,
-          "isLive": false
+          "home": "Switzerland",
+          "away": "Bosnia and Herzegovina",
+          "score_h": 4,
+          "score_a": 1,
+          "home_scorers": "{\"Jvhan Mnzambi 74'\",\"Rvbn Vargas 84'\",\"Jvhan Mnzambi 90'\"}",
+          "away_scorers": "{\"Armin Mhmich 90+3'\"}",
+          "stadium_id": "16",
+          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
         },
         {
-          "id": "50",
-          "utcDate": "2026-06-24T22:00:00Z",
-          "status": "SCHEDULED",
+          "id": "3",
+          "utcDate": "2026-06-12T19:00:00Z",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Morocco",
-          "away": "Haiti",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "7",
-          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false,
-          "isLive": false
+          "home": "Canada",
+          "away": "Bosnia and Herzegovina",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"C. Larin 11'\"}",
+          "away_scorers": "{\"Jovo Luki\u0107 21'\"}",
+          "stadium_id": "12",
+          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "54",
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Switzerland",
+          "away": "Canada",
+          "score_h": 2,
+          "score_a": 1,
+          "home_scorers": "{\"Rub\u00e9n Vargas 46'\",\"Jvhan Mnzambi 57'\"}",
+          "away_scorers": "{\"Prvmis Divid 76'\"}",
+          "stadium_id": "13",
+          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": true
         }
       ],
       "standings": [
         {
-          "name": "Brazil",
-          "played": 2,
-          "won": 1,
+          "name": "Switzerland",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
-          "goalDifference": 3,
-          "points": 4,
-          "qualProb": 98.17,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 7,
+          "qualProb": 100,
           "position": 1
         },
         {
-          "name": "Morocco",
-          "played": 2,
+          "name": "Canada",
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "goalDifference": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
           "points": 4,
-          "qualProb": 99.33,
+          "qualProb": 100,
           "position": 2
         },
         {
-          "name": "Scotland",
-          "played": 2,
+          "name": "Bosnia and Herzegovina",
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 2.5,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1,
+          "points": 4,
+          "qualProb": 0,
           "position": 3
         },
         {
-          "name": "Haiti",
-          "played": 2,
+          "name": "Qatar",
+          "played": 3,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 4,
-          "goalDifference": -4,
-          "points": 0,
-          "qualProb": 0.0,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8,
+          "points": 1,
+          "qualProb": 0,
           "position": 4
         }
       ]
     },
     "Group E": {
       "teams": {
-        "Ivory Coast": {
-          "name": "Ivory Coast",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 49.67,
-          "position": 2
-        },
-        "Ecuador": {
-          "name": "Ecuador",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1,
-          "points": 1,
-          "qualProb": 5.83,
-          "position": 3
-        },
         "Germany": {
           "name": "Germany",
           "played": 2,
@@ -1917,6 +1537,32 @@
           "qualProb": 100.0,
           "position": 1
         },
+        "Ivory Coast": {
+          "name": "Ivory Coast",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 50.33,
+          "position": 2
+        },
+        "Ecuador": {
+          "name": "Ecuador",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 1,
+          "qualProb": 5.0,
+          "position": 3
+        },
         "Cura\u00e7ao": {
           "name": "Cura\u00e7ao",
           "played": 2,
@@ -1927,11 +1573,26 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 1,
-          "qualProb": 44.5,
+          "qualProb": 44.67,
           "position": 4
         }
       },
       "matches": [
+        {
+          "id": "33",
+          "utcDate": "2026-06-20T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "score_h": 2,
+          "score_a": 1,
+          "home_scorers": "{\"Dniz Avndav 68'\",\"Dniz Avndav 90+4'\"}",
+          "away_scorers": "{\"Franck Kessi\u00e9 30'\"}",
+          "stadium_id": "12",
+          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
         {
           "id": "9",
           "utcDate": "2026-06-14T19:00:00Z",
@@ -1963,36 +1624,6 @@
           "isFinished": true
         },
         {
-          "id": "33",
-          "utcDate": "2026-06-20T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Germany",
-          "away": "Ivory Coast",
-          "score_h": 2,
-          "score_a": 1,
-          "home_scorers": "{\"Dniz Avndav 68'\",\"Dniz Avndav 90+4'\"}",
-          "away_scorers": "{\"Franck Kessi\u00e9 30'\"}",
-          "stadium_id": "12",
-          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "34",
-          "utcDate": "2026-06-20T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Ecuador",
-          "away": "Cura\u00e7ao",
-          "score_h": 0,
-          "score_a": 0,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "6",
-          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
           "id": "55",
           "utcDate": "2026-06-26T01:00:00Z",
           "status": "SCHEDULED",
@@ -2021,6 +1652,21 @@
           "stadium_id": "11",
           "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": false
+        },
+        {
+          "id": "34",
+          "utcDate": "2026-06-20T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Ecuador",
+          "away": "Cura\u00e7ao",
+          "score_h": 0,
+          "score_a": 0,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "6",
+          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
         }
       ],
       "standings": [
@@ -2047,7 +1693,7 @@
           "goalsAgainst": 2,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 49.67,
+          "qualProb": 50.33,
           "position": 2
         },
         {
@@ -2060,7 +1706,7 @@
           "goalsAgainst": 1,
           "goalDifference": -1,
           "points": 1,
-          "qualProb": 5.83,
+          "qualProb": 5.0,
           "position": 3
         },
         {
@@ -2073,7 +1719,7 @@
           "goalsAgainst": 7,
           "goalDifference": -6,
           "points": 1,
-          "qualProb": 44.5,
+          "qualProb": 44.67,
           "position": 4
         }
       ]
@@ -2093,19 +1739,6 @@
           "qualProb": 100.0,
           "position": 1
         },
-        "Japan": {
-          "name": "Japan",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 2,
-          "goalDifference": 4,
-          "points": 4,
-          "qualProb": 97.83,
-          "position": 2
-        },
         "Sweden": {
           "name": "Sweden",
           "played": 2,
@@ -2116,8 +1749,21 @@
           "goalsAgainst": 6,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 2.17,
+          "qualProb": 1.33,
           "position": 3
+        },
+        "Japan": {
+          "name": "Japan",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 4,
+          "qualProb": 98.67,
+          "position": 2
         },
         "Tunisia": {
           "name": "Tunisia",
@@ -2135,36 +1781,6 @@
       },
       "matches": [
         {
-          "id": "11",
-          "utcDate": "2026-06-15T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Netherlands",
-          "away": "Japan",
-          "score_h": 2,
-          "score_a": 2,
-          "home_scorers": "{\"Virgil van Dijk 51'\",\"C. Summerville 64'\"}",
-          "away_scorers": "{\"K. Nakamura 57'\",\"K. Ogawa 89'\"}",
-          "stadium_id": "4",
-          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "12",
-          "utcDate": "2026-06-15T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Sweden",
-          "away": "Tunisia",
-          "score_h": 5,
-          "score_a": 1,
-          "home_scorers": "{\"Y.Ayari 7'\",\"A. Isak 30'\",\"V. Gy\u00f6keres 59'\",\"M. Svanberg 84'\",\"Y.Ayari 90'+6'\"}",
-          "away_scorers": "{\"O. Rekik 43'\"}",
-          "stadium_id": "3",
-          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
           "id": "35",
           "utcDate": "2026-06-21T01:00:00Z",
           "status": "FINISHED",
@@ -2177,21 +1793,6 @@
           "away_scorers": "{\"Anthony Elanga 59'\"}",
           "stadium_id": "5",
           "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "36",
-          "utcDate": "2026-06-21T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Tunisia",
-          "away": "Japan",
-          "score_h": 0,
-          "score_a": 4,
-          "home_scorers": "null",
-          "away_scorers": "{\"Daichi Kamada 4'\",\"Aiash Ivida 31'\",\"Junya It\u014d 69'\",\"Aiash Ivida 83'\"}",
-          "stadium_id": "3",
-          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": true
         },
         {
@@ -2223,6 +1824,51 @@
           "stadium_id": "6",
           "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": false
+        },
+        {
+          "id": "12",
+          "utcDate": "2026-06-15T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Sweden",
+          "away": "Tunisia",
+          "score_h": 5,
+          "score_a": 1,
+          "home_scorers": "{\"Y.Ayari 7'\",\"A. Isak 30'\",\"V. Gy\u00f6keres 59'\",\"M. Svanberg 84'\",\"Y.Ayari 90'+6'\"}",
+          "away_scorers": "{\"O. Rekik 43'\"}",
+          "stadium_id": "3",
+          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "11",
+          "utcDate": "2026-06-15T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Netherlands",
+          "away": "Japan",
+          "score_h": 2,
+          "score_a": 2,
+          "home_scorers": "{\"Virgil van Dijk 51'\",\"C. Summerville 64'\"}",
+          "away_scorers": "{\"K. Nakamura 57'\",\"K. Ogawa 89'\"}",
+          "stadium_id": "4",
+          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "36",
+          "utcDate": "2026-06-21T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Tunisia",
+          "away": "Japan",
+          "score_h": 0,
+          "score_a": 4,
+          "home_scorers": "null",
+          "away_scorers": "{\"Daichi Kamada 4'\",\"Aiash Ivida 31'\",\"Junya It\u014d 69'\",\"Aiash Ivida 83'\"}",
+          "stadium_id": "3",
+          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
         }
       ],
       "standings": [
@@ -2249,7 +1895,7 @@
           "goalsAgainst": 2,
           "goalDifference": 4,
           "points": 4,
-          "qualProb": 97.83,
+          "qualProb": 98.67,
           "position": 2
         },
         {
@@ -2262,7 +1908,7 @@
           "goalsAgainst": 6,
           "goalDifference": 0,
           "points": 3,
-          "qualProb": 2.17,
+          "qualProb": 1.33,
           "position": 3
         },
         {
@@ -2276,410 +1922,6 @@
           "goalDifference": -8,
           "points": 0,
           "qualProb": 0.0,
-          "position": 4
-        }
-      ]
-    },
-    "Group G": {
-      "teams": {
-        "Iran": {
-          "name": "Iran",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 53.5,
-          "position": 2
-        },
-        "New Zealand": {
-          "name": "New Zealand",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 5,
-          "goalDifference": -2,
-          "points": 1,
-          "qualProb": 1.67,
-          "position": 4
-        },
-        "Belgium": {
-          "name": "Belgium",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 71.67,
-          "position": 3
-        },
-        "Egypt": {
-          "name": "Egypt",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
-          "points": 4,
-          "qualProb": 73.17,
-          "position": 1
-        }
-      },
-      "matches": [
-        {
-          "id": "13",
-          "utcDate": "2026-06-15T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Iran",
-          "away": "New Zealand",
-          "score_h": 2,
-          "score_a": 2,
-          "home_scorers": "{\"Ramin Rezaiian 32'\",\"Mohammad Mohebi 64'\"}",
-          "away_scorers": "{\"Elijah Just 7'\",\"Elijah Just 54'\"}",
-          "stadium_id": "16",
-          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "15",
-          "utcDate": "2026-06-16T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Belgium",
-          "away": "Egypt",
-          "score_h": 1,
-          "score_a": 1,
-          "home_scorers": "{\"Mohamed Hany 66'\"}",
-          "away_scorers": "{\"Emam Ashour 20'\"}",
-          "stadium_id": "14",
-          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": true
-        },
-        {
-          "id": "37",
-          "utcDate": "2026-06-21T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Belgium",
-          "away": "Iran",
-          "score_h": 0,
-          "score_a": 0,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "16",
-          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "38",
-          "utcDate": "2026-06-21T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "New Zealand",
-          "away": "Egypt",
-          "score_h": 1,
-          "score_a": 3,
-          "home_scorers": "{\"Fin Svrman 15'\"}",
-          "away_scorers": "{\"Mostafa Ziko 58'\",\"Mohamed Salah 67'\",\"Mahmoud Hassan Trezeguet 82'\"}",
-          "stadium_id": "13",
-          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": true
-        },
-        {
-          "id": "63",
-          "utcDate": "2026-06-27T01:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Egypt",
-          "away": "Iran",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "14",
-          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": false
-        },
-        {
-          "id": "64",
-          "utcDate": "2026-06-27T04:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "New Zealand",
-          "away": "Belgium",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "13",
-          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": false
-        }
-      ],
-      "standings": [
-        {
-          "name": "Egypt",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
-          "points": 4,
-          "qualProb": 73.17,
-          "position": 1
-        },
-        {
-          "name": "Iran",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 53.5,
-          "position": 2
-        },
-        {
-          "name": "Belgium",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 71.67,
-          "position": 3
-        },
-        {
-          "name": "New Zealand",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 5,
-          "goalDifference": -2,
-          "points": 1,
-          "qualProb": 1.67,
-          "position": 4
-        }
-      ]
-    },
-    "Group H": {
-      "teams": {
-        "Spain": {
-          "name": "Spain",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 0,
-          "goalDifference": 4,
-          "points": 4,
-          "qualProb": 98.5,
-          "position": 1
-        },
-        "Cape Verde": {
-          "name": "Cape Verde",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 89.33,
-          "position": 3
-        },
-        "Saudi Arabia": {
-          "name": "Saudi Arabia",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 5,
-          "goalDifference": -4,
-          "points": 1,
-          "qualProb": 9.83,
-          "position": 4
-        },
-        "Uruguay": {
-          "name": "Uruguay",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 2.33,
-          "position": 2
-        }
-      },
-      "matches": [
-        {
-          "id": "14",
-          "utcDate": "2026-06-15T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Spain",
-          "away": "Cape Verde",
-          "score_h": 0,
-          "score_a": 0,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "7",
-          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "16",
-          "utcDate": "2026-06-16T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Saudi Arabia",
-          "away": "Uruguay",
-          "score_h": 1,
-          "score_a": 1,
-          "home_scorers": "{\"Abdulelah Al-Amri 41'\"}",
-          "away_scorers": "{\"Maximiliano Ara\u00fajo 80'\"}",
-          "stadium_id": "8",
-          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "39",
-          "utcDate": "2026-06-22T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Spain",
-          "away": "Saudi Arabia",
-          "score_h": 4,
-          "score_a": 0,
-          "home_scorers": "{\"Lamine Yamal 10'\",\"Mikel Oyarzabal 21'\",\"Mikel Oyarzabal 24'\",\"Hassan Mohamed Altmbkti 49'\"}",
-          "away_scorers": "null",
-          "stadium_id": "7",
-          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "40",
-          "utcDate": "2026-06-22T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Uruguay",
-          "away": "Cape Verde",
-          "score_h": 2,
-          "score_a": 2,
-          "home_scorers": "{\"Maximiliano Ara\u00fajo 44'\",\"Agust\u00edn Canobbio 45+6'\"}",
-          "away_scorers": "{\"Kevin Pina 21'\",\"Hliv Varla 61'\"}",
-          "stadium_id": "8",
-          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "65",
-          "utcDate": "2026-06-26T19:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Cape Verde",
-          "away": "Saudi Arabia",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "5",
-          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
-        },
-        {
-          "id": "66",
-          "utcDate": "2026-06-26T22:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Uruguay",
-          "away": "Spain",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "2",
-          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
-        }
-      ],
-      "standings": [
-        {
-          "name": "Spain",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 0,
-          "goalDifference": 4,
-          "points": 4,
-          "qualProb": 98.5,
-          "position": 1
-        },
-        {
-          "name": "Uruguay",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 2.33,
-          "position": 2
-        },
-        {
-          "name": "Cape Verde",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 2,
-          "qualProb": 89.33,
-          "position": 3
-        },
-        {
-          "name": "Saudi Arabia",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 5,
-          "goalDifference": -4,
-          "points": 1,
-          "qualProb": 9.83,
           "position": 4
         }
       ]
@@ -2698,19 +1940,6 @@
           "points": 6,
           "qualProb": 100.0,
           "position": 1
-        },
-        "Senegal": {
-          "name": "Senegal",
-          "played": 2,
-          "won": 0,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 6,
-          "goalDifference": -3,
-          "points": 0,
-          "qualProb": 0.0,
-          "position": 3
         },
         "Iraq": {
           "name": "Iraq",
@@ -2737,39 +1966,22 @@
           "points": 6,
           "qualProb": 100.0,
           "position": 2
+        },
+        "Senegal": {
+          "name": "Senegal",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 3
         }
       },
       "matches": [
-        {
-          "id": "17",
-          "utcDate": "2026-06-16T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "France",
-          "away": "Senegal",
-          "score_h": 3,
-          "score_a": 1,
-          "home_scorers": "{\"K. Mbapp\u00e9 66'\",\"B. Barcola 82'\",\"K. Mbapp\u00e9 90+6'\"}",
-          "away_scorers": "{\"I. Mbaye 90+5'\"}",
-          "stadium_id": "11",
-          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "18",
-          "utcDate": "2026-06-16T22:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Iraq",
-          "away": "Norway",
-          "score_h": 1,
-          "score_a": 4,
-          "home_scorers": "{\"Aymen Hussein 39'\"}",
-          "away_scorers": "{\"Erling Haaland 29'\",\"Erling Haaland 43'\",\"Leo \u00d8stig\u00e5rd 76'\",\"Aymen Hussein 90+7'\"}",
-          "stadium_id": "9",
-          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
         {
           "id": "41",
           "utcDate": "2026-06-22T19:00:00Z",
@@ -2814,6 +2026,36 @@
           "stadium_id": "12",
           "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": false
+        },
+        {
+          "id": "17",
+          "utcDate": "2026-06-16T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "France",
+          "away": "Senegal",
+          "score_h": 3,
+          "score_a": 1,
+          "home_scorers": "{\"K. Mbapp\u00e9 66'\",\"B. Barcola 82'\",\"K. Mbapp\u00e9 90+6'\"}",
+          "away_scorers": "{\"I. Mbaye 90+5'\"}",
+          "stadium_id": "11",
+          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "18",
+          "utcDate": "2026-06-16T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Iraq",
+          "away": "Norway",
+          "score_h": 1,
+          "score_a": 4,
+          "home_scorers": "{\"Aymen Hussein 39'\"}",
+          "away_scorers": "{\"Erling Haaland 29'\",\"Erling Haaland 43'\",\"Leo \u00d8stig\u00e5rd 76'\",\"Aymen Hussein 90+7'\"}",
+          "stadium_id": "9",
+          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
         },
         {
           "id": "62",
@@ -2886,407 +2128,204 @@
         }
       ]
     },
-    "Group J": {
+    "Group C": {
       "teams": {
-        "Argentina": {
-          "name": "Argentina",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 5,
-          "points": 6,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        "Algeria": {
-          "name": "Algeria",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2,
-          "points": 3,
-          "qualProb": 14.83,
-          "position": 3
-        },
-        "Austria": {
-          "name": "Austria",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 85.17,
-          "position": 2
-        },
-        "Jordan": {
-          "name": "Jordan",
-          "played": 2,
+        "Haiti": {
+          "name": "Haiti",
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
+          "goalsAgainst": 8,
+          "goalDifference": -6,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0,
           "position": 4
-        }
-      },
-      "matches": [
-        {
-          "id": "19",
-          "utcDate": "2026-06-17T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Argentina",
-          "away": "Algeria",
-          "score_h": 3,
-          "score_a": 0,
-          "home_scorers": "{\"Lionel Messi 17'\",\"Lionel Messi 60'\",\"Lionel Messi 76'\"}",
-          "away_scorers": "null",
-          "stadium_id": "6",
-          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
         },
-        {
-          "id": "20",
-          "utcDate": "2026-06-17T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Austria",
-          "away": "Jordan",
-          "score_h": 3,
-          "score_a": 1,
-          "home_scorers": "{\"Rvmanv Ashmid 21'\",\"Izn Alarb 76'\"}",
-          "away_scorers": "{\"Ali Avlvan 50'\"}",
-          "stadium_id": "15",
-          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "43",
-          "utcDate": "2026-06-23T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Argentina",
-          "away": "Austria",
-          "score_h": 2,
-          "score_a": 0,
-          "home_scorers": "{\"Lionel Messi 38'\",\"Lionel Messi 90+5'\"}",
-          "away_scorers": "null",
-          "stadium_id": "4",
-          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "44",
-          "utcDate": "2026-06-23T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Jordan",
-          "away": "Algeria",
-          "score_h": 1,
-          "score_a": 2,
-          "home_scorers": "{\"Al Rashdan 36'\"}",
-          "away_scorers": "{\"Nzir Bnbvali 69'\",\"Amine Gouiri 82'\"}",
-          "stadium_id": "15",
-          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
-          "isFinished": true
-        },
-        {
-          "id": "69",
-          "utcDate": "2026-06-27T19:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Algeria",
-          "away": "Austria",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "6",
-          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
-        },
-        {
-          "id": "70",
-          "utcDate": "2026-06-27T22:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Jordan",
-          "away": "Argentina",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "4",
-          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
-        }
-      ],
-      "standings": [
-        {
-          "name": "Argentina",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 5,
-          "points": 6,
-          "qualProb": 100.0,
-          "position": 1
-        },
-        {
-          "name": "Austria",
-          "played": 2,
+        "Scotland": {
+          "name": "Scotland",
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
-          "goalDifference": 0,
-          "points": 3,
-          "qualProb": 85.17,
-          "position": 2
-        },
-        {
-          "name": "Algeria",
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 2,
+          "lost": 2,
+          "goalsFor": 1,
           "goalsAgainst": 4,
-          "goalDifference": -2,
+          "goalDifference": -3,
           "points": 3,
-          "qualProb": 14.83,
+          "qualProb": 0,
           "position": 3
         },
-        {
-          "name": "Jordan",
-          "played": 2,
-          "won": 0,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
-          "points": 0,
-          "qualProb": 0.0,
-          "position": 4
-        }
-      ]
-    },
-    "Group K": {
-      "teams": {
-        "Portugal": {
-          "name": "Portugal",
-          "played": 2,
-          "won": 1,
+        "Morocco": {
+          "name": "Morocco",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
           "goalsFor": 6,
-          "goalsAgainst": 1,
-          "goalDifference": 5,
-          "points": 4,
-          "qualProb": 100.0,
+          "goalsAgainst": 3,
+          "goalDifference": 3,
+          "points": 7,
+          "qualProb": 100,
           "position": 2
         },
-        "Democratic Republic of the Congo": {
-          "name": "Democratic Republic of the Congo",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 2,
-          "goalDifference": -1,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        },
-        "Uzbekistan": {
-          "name": "Uzbekistan",
-          "played": 2,
-          "won": 0,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 8,
-          "goalDifference": -7,
-          "points": 0,
-          "qualProb": 0.0,
-          "position": 4
-        },
-        "Colombia": {
-          "name": "Colombia",
-          "played": 2,
+        "Brazil": {
+          "name": "Brazil",
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "goalsFor": 4,
+          "goalsFor": 7,
           "goalsAgainst": 1,
-          "goalDifference": 3,
-          "points": 6,
-          "qualProb": 100.0,
+          "goalDifference": 6,
+          "points": 7,
+          "qualProb": 100,
           "position": 1
         }
       },
       "matches": [
         {
-          "id": "21",
-          "utcDate": "2026-06-17T19:00:00Z",
+          "id": "5",
+          "utcDate": "2026-06-13T19:00:00Z",
           "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Portugal",
-          "away": "Democratic Republic of the Congo",
-          "score_h": 1,
+          "home": "Haiti",
+          "away": "Scotland",
+          "score_h": 0,
           "score_a": 1,
-          "home_scorers": "{\"J. Neves 6'\"}",
-          "away_scorers": "{\"Y. Wissa 45+5'\"}",
-          "stadium_id": "5",
-          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "23",
-          "utcDate": "2026-06-18T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Uzbekistan",
-          "away": "Colombia",
-          "score_h": 1,
-          "score_a": 3,
-          "home_scorers": "{\"Abas Bk Fiz Allh Af 60'\"}",
-          "away_scorers": "{\"Dnil Mvnvz 40'\",\"Lviiz Diaz 65'\",\"Khamintvn Kampaz 90+9'\"}",
-          "stadium_id": "1",
-          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
-          "isFinished": true
-        },
-        {
-          "id": "45",
-          "utcDate": "2026-06-23T19:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Portugal",
-          "away": "Uzbekistan",
-          "score_h": 5,
-          "score_a": 0,
-          "home_scorers": "{\"Cristiano Ronaldo 6'\",\"Nvnv Mndz 17'\",\"Cristiano Ronaldo 39'\",\"Abdalvhid Namtvf 60'\",\"Rafael Le\u00e3o 87'\"}",
-          "away_scorers": "null",
-          "stadium_id": "5",
-          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
-          "id": "47",
-          "utcDate": "2026-06-24T01:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Colombia",
-          "away": "Democratic Republic of the Congo",
-          "score_h": 1,
-          "score_a": 0,
-          "home_scorers": "{\"Dnil Mvnvz 76'\"}",
-          "away_scorers": "null",
-          "stadium_id": "2",
-          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true,
-          "isLive": false
-        },
-        {
-          "id": "71",
-          "utcDate": "2026-06-28T01:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Colombia",
-          "away": "Portugal",
-          "score_h": null,
-          "score_a": null,
           "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "8",
-          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
+          "away_scorers": "{\"J. McGinn 28'\"}",
+          "stadium_id": "9",
+          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
         },
         {
-          "id": "72",
-          "utcDate": "2026-06-28T04:00:00Z",
-          "status": "SCHEDULED",
+          "id": "50",
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
-          "home": "Democratic Republic of the Congo",
-          "away": "Uzbekistan",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
+          "home": "Morocco",
+          "away": "Haiti",
+          "score_h": 4,
+          "score_a": 2,
+          "home_scorers": "{\"Achraf Hakimi 39'\",\"Asmaail Saibari 45+1'\",\"Svfian Rhimi 78'\",\"Gessime Yassine 89'\"}",
+          "away_scorers": "{\"Yassine Bounou 10'\",\"Wilson Isidor 43'\"}",
           "stadium_id": "7",
           "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
+          "isFinished": true
+        },
+        {
+          "id": "30",
+          "utcDate": "2026-06-19T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Scotland",
+          "away": "Morocco",
+          "score_h": 0,
+          "score_a": 1,
+          "home_scorers": "null",
+          "away_scorers": "{\"Asmaail Saibari 2'\"}",
+          "stadium_id": "9",
+          "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "49",
+          "utcDate": "2026-06-24T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Scotland",
+          "away": "Brazil",
+          "score_h": 0,
+          "score_a": 3,
+          "home_scorers": "null",
+          "away_scorers": "{\"Vin\u00edcius J\u00fanior 7'\",\"Vin\u00edcius J\u00fanior 45+3'\",\"Matheus Cunha 60'\"}",
+          "stadium_id": "8",
+          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "7",
+          "utcDate": "2026-06-14T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Brazil",
+          "away": "Morocco",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"V. J\u00fanior 32'\"}",
+          "away_scorers": "{\"I. Saibari 21'\"}",
+          "stadium_id": "11",
+          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "29",
+          "utcDate": "2026-06-19T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Brazil",
+          "away": "Haiti",
+          "score_h": 3,
+          "score_a": 0,
+          "home_scorers": "{\"Matheus Cunha 23'\",\"Matheus Cunha 36'\",\"Vin\u00edcius J\u00fanior 45+3'\"}",
+          "away_scorers": "null",
+          "stadium_id": "10",
+          "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
         }
       ],
       "standings": [
         {
-          "name": "Colombia",
-          "played": 2,
+          "name": "Brazil",
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "goalsFor": 4,
+          "goalsFor": 7,
           "goalsAgainst": 1,
-          "goalDifference": 3,
-          "points": 6,
-          "qualProb": 100.0,
+          "goalDifference": 6,
+          "points": 7,
+          "qualProb": 100,
           "position": 1
         },
         {
-          "name": "Portugal",
-          "played": 2,
-          "won": 1,
+          "name": "Morocco",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
           "goalsFor": 6,
-          "goalsAgainst": 1,
-          "goalDifference": 5,
-          "points": 4,
-          "qualProb": 100.0,
+          "goalsAgainst": 3,
+          "goalDifference": 3,
+          "points": 7,
+          "qualProb": 100,
           "position": 2
         },
         {
-          "name": "Democratic Republic of the Congo",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 2,
-          "goalDifference": -1,
-          "points": 1,
-          "qualProb": 0.0,
-          "position": 3
-        },
-        {
-          "name": "Uzbekistan",
-          "played": 2,
-          "won": 0,
+          "name": "Scotland",
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
           "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 3,
+          "qualProb": 0,
+          "position": 3
+        },
+        {
+          "name": "Haiti",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 2,
           "goalsAgainst": 8,
-          "goalDifference": -7,
+          "goalDifference": -6,
           "points": 0,
-          "qualProb": 0.0,
+          "qualProb": 0,
           "position": 4
         }
       ]
@@ -3316,21 +2355,8 @@
           "goalsAgainst": 4,
           "goalDifference": -1,
           "points": 3,
-          "qualProb": 67.33,
+          "qualProb": 69.5,
           "position": 3
-        },
-        "Ghana": {
-          "name": "Ghana",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1,
-          "points": 4,
-          "qualProb": 32.67,
-          "position": 2
         },
         "Panama": {
           "name": "Panama",
@@ -3344,6 +2370,19 @@
           "points": 0,
           "qualProb": 0.0,
           "position": 4
+        },
+        "Ghana": {
+          "name": "Ghana",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 4,
+          "qualProb": 30.5,
+          "position": 2
         }
       },
       "matches": [
@@ -3363,21 +2402,6 @@
           "isFinished": true
         },
         {
-          "id": "24",
-          "utcDate": "2026-06-18T04:00:00Z",
-          "status": "FINISHED",
-          "stage": "GROUP_STAGE",
-          "home": "Ghana",
-          "away": "Panama",
-          "score_h": 1,
-          "score_a": 0,
-          "home_scorers": "{\"Kalb Iirnki 90+5'\"}",
-          "away_scorers": "null",
-          "stadium_id": "12",
-          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true
-        },
-        {
           "id": "46",
           "utcDate": "2026-06-23T22:00:00Z",
           "status": "FINISHED",
@@ -3388,6 +2412,36 @@
           "score_a": 1,
           "home_scorers": "null",
           "away_scorers": "{\"Ante Budimir 54'\"}",
+          "stadium_id": "12",
+          "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "67",
+          "utcDate": "2026-06-28T01:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Panama",
+          "away": "England",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "11",
+          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "24",
+          "utcDate": "2026-06-18T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Ghana",
+          "away": "Panama",
+          "score_h": 1,
+          "score_a": 0,
+          "home_scorers": "{\"Kalb Iirnki 90+5'\"}",
+          "away_scorers": "null",
           "stadium_id": "12",
           "stadium": "Hard Rock Stadium (Miami \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": true
@@ -3405,23 +2459,7 @@
           "away_scorers": "null",
           "stadium_id": "9",
           "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": true,
-          "isLive": false
-        },
-        {
-          "id": "67",
-          "utcDate": "2026-06-28T01:00:00Z",
-          "status": "SCHEDULED",
-          "stage": "GROUP_STAGE",
-          "home": "Panama",
-          "away": "England",
-          "score_h": null,
-          "score_a": null,
-          "home_scorers": "null",
-          "away_scorers": "null",
-          "stadium_id": "11",
-          "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
-          "isFinished": false
+          "isFinished": true
         },
         {
           "id": "68",
@@ -3463,7 +2501,7 @@
           "goalsAgainst": 0,
           "goalDifference": 1,
           "points": 4,
-          "qualProb": 32.67,
+          "qualProb": 30.5,
           "position": 2
         },
         {
@@ -3476,7 +2514,7 @@
           "goalsAgainst": 4,
           "goalDifference": -1,
           "points": 3,
-          "qualProb": 67.33,
+          "qualProb": 69.5,
           "position": 3
         },
         {
@@ -3493,6 +2531,1018 @@
           "position": 4
         }
       ]
+    },
+    "Group H": {
+      "teams": {
+        "Spain": {
+          "name": "Spain",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "points": 4,
+          "qualProb": 97.5,
+          "position": 1
+        },
+        "Saudi Arabia": {
+          "name": "Saudi Arabia",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 1,
+          "qualProb": 11.33,
+          "position": 4
+        },
+        "Cape Verde": {
+          "name": "Cape Verde",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 87.33,
+          "position": 3
+        },
+        "Uruguay": {
+          "name": "Uruguay",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 3.83,
+          "position": 2
+        }
+      },
+      "matches": [
+        {
+          "id": "39",
+          "utcDate": "2026-06-22T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Spain",
+          "away": "Saudi Arabia",
+          "score_h": 4,
+          "score_a": 0,
+          "home_scorers": "{\"Lamine Yamal 10'\",\"Mikel Oyarzabal 21'\",\"Mikel Oyarzabal 24'\",\"Hassan Mohamed Altmbkti 49'\"}",
+          "away_scorers": "null",
+          "stadium_id": "7",
+          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "65",
+          "utcDate": "2026-06-26T19:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Cape Verde",
+          "away": "Saudi Arabia",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "5",
+          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "66",
+          "utcDate": "2026-06-26T22:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Uruguay",
+          "away": "Spain",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "2",
+          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "40",
+          "utcDate": "2026-06-22T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Uruguay",
+          "away": "Cape Verde",
+          "score_h": 2,
+          "score_a": 2,
+          "home_scorers": "{\"Maximiliano Ara\u00fajo 44'\",\"Agust\u00edn Canobbio 45+6'\"}",
+          "away_scorers": "{\"Kevin Pina 21'\",\"Hliv Varla 61'\"}",
+          "stadium_id": "8",
+          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "14",
+          "utcDate": "2026-06-15T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Spain",
+          "away": "Cape Verde",
+          "score_h": 0,
+          "score_a": 0,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "7",
+          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "16",
+          "utcDate": "2026-06-16T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"Abdulelah Al-Amri 41'\"}",
+          "away_scorers": "{\"Maximiliano Ara\u00fajo 80'\"}",
+          "stadium_id": "8",
+          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        }
+      ],
+      "standings": [
+        {
+          "name": "Spain",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "points": 4,
+          "qualProb": 97.5,
+          "position": 1
+        },
+        {
+          "name": "Uruguay",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 3.83,
+          "position": 2
+        },
+        {
+          "name": "Cape Verde",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 87.33,
+          "position": 3
+        },
+        {
+          "name": "Saudi Arabia",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 1,
+          "qualProb": 11.33,
+          "position": 4
+        }
+      ]
+    },
+    "Group J": {
+      "teams": {
+        "Jordan": {
+          "name": "Jordan",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 4
+        },
+        "Algeria": {
+          "name": "Algeria",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 3,
+          "qualProb": 12.83,
+          "position": 3
+        },
+        "Argentina": {
+          "name": "Argentina",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        },
+        "Austria": {
+          "name": "Austria",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 87.17,
+          "position": 2
+        }
+      },
+      "matches": [
+        {
+          "id": "44",
+          "utcDate": "2026-06-23T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Jordan",
+          "away": "Algeria",
+          "score_h": 1,
+          "score_a": 2,
+          "home_scorers": "{\"Al Rashdan 36'\"}",
+          "away_scorers": "{\"Nzir Bnbvali 69'\",\"Amine Gouiri 82'\"}",
+          "stadium_id": "15",
+          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
+        },
+        {
+          "id": "43",
+          "utcDate": "2026-06-23T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Argentina",
+          "away": "Austria",
+          "score_h": 2,
+          "score_a": 0,
+          "home_scorers": "{\"Lionel Messi 38'\",\"Lionel Messi 90+5'\"}",
+          "away_scorers": "null",
+          "stadium_id": "4",
+          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "70",
+          "utcDate": "2026-06-27T22:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Jordan",
+          "away": "Argentina",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "4",
+          "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "20",
+          "utcDate": "2026-06-17T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Austria",
+          "away": "Jordan",
+          "score_h": 3,
+          "score_a": 1,
+          "home_scorers": "{\"Rvmanv Ashmid 21'\",\"Izn Alarb 76'\"}",
+          "away_scorers": "{\"Ali Avlvan 50'\"}",
+          "stadium_id": "15",
+          "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
+        },
+        {
+          "id": "19",
+          "utcDate": "2026-06-17T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score_h": 3,
+          "score_a": 0,
+          "home_scorers": "{\"Lionel Messi 17'\",\"Lionel Messi 60'\",\"Lionel Messi 76'\"}",
+          "away_scorers": "null",
+          "stadium_id": "6",
+          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "69",
+          "utcDate": "2026-06-27T19:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Algeria",
+          "away": "Austria",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "6",
+          "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        }
+      ],
+      "standings": [
+        {
+          "name": "Argentina",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        },
+        {
+          "name": "Austria",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 87.17,
+          "position": 2
+        },
+        {
+          "name": "Algeria",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 3,
+          "qualProb": 12.83,
+          "position": 3
+        },
+        {
+          "name": "Jordan",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 4
+        }
+      ]
+    },
+    "Group K": {
+      "teams": {
+        "Portugal": {
+          "name": "Portugal",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 4,
+          "qualProb": 100.0,
+          "position": 2
+        },
+        "Uzbekistan": {
+          "name": "Uzbekistan",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 8,
+          "goalDifference": -7,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 4
+        },
+        "Democratic Republic of the Congo": {
+          "name": "Democratic Republic of the Congo",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1,
+          "qualProb": 0.0,
+          "position": 3
+        },
+        "Colombia": {
+          "name": "Colombia",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        }
+      },
+      "matches": [
+        {
+          "id": "45",
+          "utcDate": "2026-06-23T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "score_h": 5,
+          "score_a": 0,
+          "home_scorers": "{\"Cristiano Ronaldo 6'\",\"Nvnv Mndz 17'\",\"Cristiano Ronaldo 39'\",\"Abdalvhid Namtvf 60'\",\"Rafael Le\u00e3o 87'\"}",
+          "away_scorers": "null",
+          "stadium_id": "5",
+          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "72",
+          "utcDate": "2026-06-28T04:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Democratic Republic of the Congo",
+          "away": "Uzbekistan",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "7",
+          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "21",
+          "utcDate": "2026-06-17T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Portugal",
+          "away": "Democratic Republic of the Congo",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"J. Neves 6'\"}",
+          "away_scorers": "{\"Y. Wissa 45+5'\"}",
+          "stadium_id": "5",
+          "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "47",
+          "utcDate": "2026-06-24T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Colombia",
+          "away": "Democratic Republic of the Congo",
+          "score_h": 1,
+          "score_a": 0,
+          "home_scorers": "{\"Dnil Mvnvz 76'\"}",
+          "away_scorers": "null",
+          "stadium_id": "2",
+          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "71",
+          "utcDate": "2026-06-28T01:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Colombia",
+          "away": "Portugal",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "8",
+          "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false
+        },
+        {
+          "id": "23",
+          "utcDate": "2026-06-18T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "score_h": 1,
+          "score_a": 3,
+          "home_scorers": "{\"Abas Bk Fiz Allh Af 60'\"}",
+          "away_scorers": "{\"Dnil Mvnvz 40'\",\"Lviiz Diaz 65'\",\"Khamintvn Kampaz 90+9'\"}",
+          "stadium_id": "1",
+          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": true
+        }
+      ],
+      "standings": [
+        {
+          "name": "Colombia",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        },
+        {
+          "name": "Portugal",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 4,
+          "qualProb": 100.0,
+          "position": 2
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1,
+          "qualProb": 0.0,
+          "position": 3
+        },
+        {
+          "name": "Uzbekistan",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 8,
+          "goalDifference": -7,
+          "points": 0,
+          "qualProb": 0.0,
+          "position": 4
+        }
+      ]
+    },
+    "Group A": {
+      "teams": {
+        "Czech Republic": {
+          "name": "Czech Republic",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 1,
+          "qualProb": 0.5,
+          "position": 3
+        },
+        "Mexico": {
+          "name": "Mexico",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        },
+        "South Korea": {
+          "name": "South Korea",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 96.83,
+          "position": 2
+        },
+        "South Africa": {
+          "name": "South Africa",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 1,
+          "qualProb": 2.67,
+          "position": 4
+        }
+      },
+      "matches": [
+        {
+          "id": "52",
+          "utcDate": "2026-06-25T04:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Czech Republic",
+          "away": "Mexico",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "1",
+          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": false,
+          "isLive": false
+        },
+        {
+          "id": "2",
+          "utcDate": "2026-06-11T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "South Korea",
+          "away": "Czech Republic",
+          "score_h": 2,
+          "score_a": 1,
+          "home_scorers": "{\"I.B. Hwang 67'\",\"H.G. Oh 80'\"}",
+          "away_scorers": "{\"L. Krej\u010d\u00ed 59'\"}",
+          "stadium_id": "2",
+          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "51",
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "South Africa",
+          "away": "South Korea",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "3",
+          "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": false,
+          "isLive": false
+        },
+        {
+          "id": "25",
+          "utcDate": "2026-06-18T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Mexico",
+          "away": "South Korea",
+          "score_h": 1,
+          "score_a": 0,
+          "home_scorers": "{\"Luis Romo 50'\"}",
+          "away_scorers": "null",
+          "stadium_id": "2",
+          "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        },
+        {
+          "id": "1",
+          "utcDate": "2026-06-11T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Mexico",
+          "away": "South Africa",
+          "score_h": 2,
+          "score_a": 0,
+          "home_scorers": "{\u201cJ. Qui\u00f1ones 9'\u201d,\u201dR. Jim\u00e9nez 67'\u201d}",
+          "away_scorers": "null",
+          "stadium_id": "1",
+          "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": true
+        },
+        {
+          "id": "28",
+          "utcDate": "2026-06-19T04:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Czech Republic",
+          "away": "South Africa",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"\u202bmikhal Sadilk 6'\"}",
+          "away_scorers": "null",
+          "stadium_id": "7",
+          "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
+          "isFinished": true
+        }
+      ],
+      "standings": [
+        {
+          "name": "Mexico",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3,
+          "points": 6,
+          "qualProb": 100.0,
+          "position": 1
+        },
+        {
+          "name": "South Korea",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "qualProb": 96.83,
+          "position": 2
+        },
+        {
+          "name": "Czech Republic",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 1,
+          "qualProb": 0.5,
+          "position": 3
+        },
+        {
+          "name": "South Africa",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 1,
+          "qualProb": 2.67,
+          "position": 4
+        }
+      ]
+    },
+    "Group G": {
+      "teams": {
+        "Belgium": {
+          "name": "Belgium",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 83.67,
+          "position": 3
+        },
+        "Iran": {
+          "name": "Iran",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 43.5,
+          "position": 2
+        },
+        "Egypt": {
+          "name": "Egypt",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 4,
+          "qualProb": 71.33,
+          "position": 1
+        },
+        "New Zealand": {
+          "name": "New Zealand",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
+          "points": 1,
+          "qualProb": 1.5,
+          "position": 4
+        }
+      },
+      "matches": [
+        {
+          "id": "37",
+          "utcDate": "2026-06-21T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Belgium",
+          "away": "Iran",
+          "score_h": 0,
+          "score_a": 0,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "16",
+          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
+        },
+        {
+          "id": "63",
+          "utcDate": "2026-06-27T01:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "Egypt",
+          "away": "Iran",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "14",
+          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": false
+        },
+        {
+          "id": "38",
+          "utcDate": "2026-06-21T22:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "New Zealand",
+          "away": "Egypt",
+          "score_h": 1,
+          "score_a": 3,
+          "home_scorers": "{\"Fin Svrman 15'\"}",
+          "away_scorers": "{\"Mostafa Ziko 58'\",\"Mohamed Salah 67'\",\"Mahmoud Hassan Trezeguet 82'\"}",
+          "stadium_id": "13",
+          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": true
+        },
+        {
+          "id": "13",
+          "utcDate": "2026-06-15T19:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Iran",
+          "away": "New Zealand",
+          "score_h": 2,
+          "score_a": 2,
+          "home_scorers": "{\"Ramin Rezaiian 32'\",\"Mohammad Mohebi 64'\"}",
+          "away_scorers": "{\"Elijah Just 7'\",\"Elijah Just 54'\"}",
+          "stadium_id": "16",
+          "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
+          "isFinished": true
+        },
+        {
+          "id": "15",
+          "utcDate": "2026-06-16T01:00:00Z",
+          "status": "FINISHED",
+          "stage": "GROUP_STAGE",
+          "home": "Belgium",
+          "away": "Egypt",
+          "score_h": 1,
+          "score_a": 1,
+          "home_scorers": "{\"Mohamed Hany 66'\"}",
+          "away_scorers": "{\"Emam Ashour 20'\"}",
+          "stadium_id": "14",
+          "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": true
+        },
+        {
+          "id": "64",
+          "utcDate": "2026-06-27T04:00:00Z",
+          "status": "SCHEDULED",
+          "stage": "GROUP_STAGE",
+          "home": "New Zealand",
+          "away": "Belgium",
+          "score_h": null,
+          "score_a": null,
+          "home_scorers": "null",
+          "away_scorers": "null",
+          "stadium_id": "13",
+          "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
+          "isFinished": false
+        }
+      ],
+      "standings": [
+        {
+          "name": "Egypt",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 4,
+          "qualProb": 71.33,
+          "position": 1
+        },
+        {
+          "name": "Iran",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 43.5,
+          "position": 2
+        },
+        {
+          "name": "Belgium",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 2,
+          "qualProb": 83.67,
+          "position": 3
+        },
+        {
+          "name": "New Zealand",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
+          "points": 1,
+          "qualProb": 1.5,
+          "position": 4
+        }
+      ]
     }
   },
   "bracket": [
@@ -3506,7 +3556,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "Germany",
-          "away": "Iran",
+          "away": "Paraguay",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3516,8 +3566,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "BEST_THIRD",
-          "home_prob": 88.27,
-          "away_prob": 11.73
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "77",
@@ -3525,7 +3575,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "France",
-          "away": "Paraguay",
+          "away": "Sweden",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3544,7 +3594,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "South Korea",
-          "away": "Switzerland",
+          "away": "Canada",
           "score_h": 0,
           "score_a": 1,
           "home_scorers": "null",
@@ -3553,9 +3603,9 @@
           "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
           "isFinished": true,
           "home_path": "RUNNER_UP",
-          "away_path": "RUNNER_UP",
-          "home_prob": 0.0,
-          "away_prob": 100.0
+          "away_path": "",
+          "home_prob": 11.54,
+          "away_prob": 88.46
         },
         {
           "id": "75",
@@ -3563,9 +3613,9 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "Netherlands",
-          "away": "Brazil",
-          "score_h": 0,
-          "score_a": 1,
+          "away": "Morocco",
+          "score_h": 1,
+          "score_a": 0,
           "home_scorers": "null",
           "away_scorers": "null",
           "stadium_id": "3",
@@ -3573,8 +3623,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 50.0,
-          "away_prob": 50.0
+          "home_prob": 74.36,
+          "away_prob": 25.64
         },
         {
           "id": "83",
@@ -3592,8 +3642,8 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 99.33,
-          "away_prob": 0.67
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "84",
@@ -3611,8 +3661,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 100.0,
-          "away_prob": 0.0
+          "home_prob": 99.73,
+          "away_prob": 0.27
         },
         {
           "id": "81",
@@ -3630,15 +3680,15 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "BEST_THIRD",
-          "home_prob": 97.69,
-          "away_prob": 2.31
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "82",
           "utcDate": "2026-07-01T22:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_32",
-          "home": "Egypt",
+          "home": "Belgium",
           "away": "South Africa",
           "score_h": 1,
           "score_a": 0,
@@ -3657,10 +3707,10 @@
           "utcDate": "2026-06-29T22:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_32",
-          "home": "Morocco",
+          "home": "Brazil",
           "away": "Japan",
-          "score_h": 0,
-          "score_a": 1,
+          "score_h": 1,
+          "score_a": 0,
           "home_scorers": "null",
           "away_scorers": "null",
           "stadium_id": "5",
@@ -3668,8 +3718,8 @@
           "isFinished": true,
           "home_path": "WINNER",
           "away_path": "RUNNER_UP",
-          "home_prob": 16.67,
-          "away_prob": 83.33
+          "home_prob": 81.96,
+          "away_prob": 18.04
         },
         {
           "id": "78",
@@ -3687,8 +3737,8 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 1.48,
-          "away_prob": 98.52
+          "home_prob": 0.0,
+          "away_prob": 100.0
         },
         {
           "id": "79",
@@ -3696,7 +3746,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "Mexico",
-          "away": "Cura\u00e7ao",
+          "away": "Saudi Arabia",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3706,8 +3756,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "BEST_THIRD",
-          "home_prob": 98.24,
-          "away_prob": 1.76
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "80",
@@ -3715,7 +3765,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "England",
-          "away": "Ghana",
+          "away": "Cura\u00e7ao",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3742,10 +3792,10 @@
           "stadium_id": "8",
           "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
           "isFinished": true,
-          "home_path": "WINNER",
+          "home_path": "",
           "away_path": "RUNNER_UP",
-          "home_prob": 99.89,
-          "away_prob": 0.11
+          "home_prob": 100.0,
+          "away_prob": 0.0
         },
         {
           "id": "88",
@@ -3753,7 +3803,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "Australia",
-          "away": "Belgium",
+          "away": "Egypt",
           "score_h": 0,
           "score_a": 1,
           "home_scorers": "null",
@@ -3763,16 +3813,16 @@
           "isFinished": true,
           "home_path": "RUNNER_UP",
           "away_path": "RUNNER_UP",
-          "home_prob": 5.0,
-          "away_prob": 95.0
+          "home_prob": 30.0,
+          "away_prob": 70.0
         },
         {
           "id": "85",
           "utcDate": "2026-07-02T19:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_32",
-          "home": "Canada",
-          "away": "Paraguay",
+          "home": "Switzerland",
+          "away": "Iran",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3780,10 +3830,10 @@
           "stadium_id": "13",
           "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
           "isFinished": true,
-          "home_path": "WINNER",
+          "home_path": "",
           "away_path": "BEST_THIRD",
-          "home_prob": 100.0,
-          "away_prob": 0.0
+          "home_prob": 74.63,
+          "away_prob": 25.37
         },
         {
           "id": "87",
@@ -3791,7 +3841,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_32",
           "home": "Colombia",
-          "away": "Saudi Arabia",
+          "away": "Ghana",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3826,16 +3876,16 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 10.84,
-          "away_prob": 89.16
+          "home_prob": 12.55,
+          "away_prob": 87.45
         },
         {
           "id": "90",
           "utcDate": "2026-07-05T01:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_16",
-          "home": "Switzerland",
-          "away": "Brazil",
+          "home": "Canada",
+          "away": "Netherlands",
           "score_h": 0,
           "score_a": 1,
           "home_scorers": "null",
@@ -3845,8 +3895,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 17.42,
-          "away_prob": 82.58
+          "home_prob": 10.18,
+          "away_prob": 89.82
         },
         {
           "id": "93",
@@ -3864,8 +3914,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 13.89,
-          "away_prob": 86.11
+          "home_prob": 13.21,
+          "away_prob": 86.79
         },
         {
           "id": "94",
@@ -3873,9 +3923,9 @@
           "status": "SCHEDULED",
           "stage": "LAST_16",
           "home": "United States",
-          "away": "Egypt",
-          "score_h": 1,
-          "score_a": 0,
+          "away": "Belgium",
+          "score_h": 0,
+          "score_a": 1,
           "home_scorers": "null",
           "away_scorers": "null",
           "stadium_id": "14",
@@ -3883,18 +3933,18 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 90.71,
-          "away_prob": 9.29
+          "home_prob": 63.19,
+          "away_prob": 36.81
         },
         {
           "id": "91",
           "utcDate": "2026-07-05T19:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_16",
-          "home": "Japan",
+          "home": "Brazil",
           "away": "Norway",
-          "score_h": 0,
-          "score_a": 1,
+          "score_h": 1,
+          "score_a": 0,
           "home_scorers": "null",
           "away_scorers": "null",
           "stadium_id": "11",
@@ -3902,8 +3952,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 33.33,
-          "away_prob": 66.67
+          "home_prob": 70.6,
+          "away_prob": 29.4
         },
         {
           "id": "92",
@@ -3921,8 +3971,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 20.12,
-          "away_prob": 79.88
+          "home_prob": 19.79,
+          "away_prob": 80.21
         },
         {
           "id": "95",
@@ -3930,7 +3980,7 @@
           "status": "SCHEDULED",
           "stage": "LAST_16",
           "home": "Argentina",
-          "away": "Belgium",
+          "away": "Egypt",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3940,15 +3990,15 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 97.89,
-          "away_prob": 2.11
+          "home_prob": 99.73,
+          "away_prob": 0.27
         },
         {
           "id": "96",
           "utcDate": "2026-07-08T01:00:00Z",
           "status": "SCHEDULED",
           "stage": "LAST_16",
-          "home": "Canada",
+          "home": "Switzerland",
           "away": "Colombia",
           "score_h": 0,
           "score_a": 1,
@@ -3959,8 +4009,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 5.54,
-          "away_prob": 94.46
+          "home_prob": 7.94,
+          "away_prob": 92.06
         }
       ]
     },
@@ -3974,7 +4024,7 @@
           "status": "SCHEDULED",
           "stage": "QUARTER_FINALS",
           "home": "France",
-          "away": "Brazil",
+          "away": "Netherlands",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -3984,8 +4034,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 85.72,
-          "away_prob": 14.28
+          "home_prob": 88.76,
+          "away_prob": 11.24
         },
         {
           "id": "98",
@@ -3993,7 +4043,7 @@
           "status": "SCHEDULED",
           "stage": "QUARTER_FINALS",
           "home": "Spain",
-          "away": "United States",
+          "away": "Belgium",
           "score_h": 1,
           "score_a": 0,
           "home_scorers": "null",
@@ -4003,15 +4053,15 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 95.58,
-          "away_prob": 4.42
+          "home_prob": 97.71,
+          "away_prob": 2.29
         },
         {
           "id": "99",
           "utcDate": "2026-07-11T22:00:00Z",
           "status": "SCHEDULED",
           "stage": "QUARTER_FINALS",
-          "home": "Norway",
+          "home": "Brazil",
           "away": "England",
           "score_h": 0,
           "score_a": 1,
@@ -4022,8 +4072,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 23.17,
-          "away_prob": 76.83
+          "home_prob": 35.77,
+          "away_prob": 64.23
         },
         {
           "id": "100",
@@ -4041,8 +4091,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 82.48,
-          "away_prob": 17.52
+          "home_prob": 81.57,
+          "away_prob": 18.43
         }
       ]
     },
@@ -4066,8 +4116,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 34.12,
-          "away_prob": 65.88
+          "home_prob": 38.48,
+          "away_prob": 61.52
         },
         {
           "id": "102",
@@ -4085,8 +4135,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 20.01,
-          "away_prob": 79.99
+          "home_prob": 20.87,
+          "away_prob": 79.13
         }
       ]
     },
@@ -4110,8 +4160,8 @@
           "isFinished": true,
           "home_path": "",
           "away_path": "",
-          "home_prob": 50.9,
-          "away_prob": 49.1
+          "home_prob": 49.96,
+          "away_prob": 50.04
         }
       ]
     }
@@ -4820,8 +4870,7 @@
       "away_scorers": "null",
       "stadium_id": "2",
       "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": true,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "48",
@@ -4836,72 +4885,67 @@
       "away_scorers": "null",
       "stadium_id": "9",
       "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": true,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "49",
       "utcDate": "2026-06-24T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "home": "Scotland",
       "away": "Brazil",
-      "score_h": null,
-      "score_a": null,
+      "score_h": 0,
+      "score_a": 3,
       "home_scorers": "null",
-      "away_scorers": "null",
+      "away_scorers": "{\"Vin\u00edcius J\u00fanior 7'\",\"Vin\u00edcius J\u00fanior 45+3'\",\"Matheus Cunha 60'\"}",
       "stadium_id": "8",
       "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "53",
       "utcDate": "2026-06-24T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "home": "Bosnia and Herzegovina",
       "away": "Qatar",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
+      "score_h": 3,
+      "score_a": 1,
+      "home_scorers": "{\"Karim Alaibgvvich 29'\",\"Abvnad 34'\",\"Armin Mhmich 80'\"}",
+      "away_scorers": "{\"Hassan Al-Haydos 42'\"}",
       "stadium_id": "14",
       "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
-      "isFinished": false,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "50",
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "home": "Morocco",
       "away": "Haiti",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
+      "score_h": 4,
+      "score_a": 2,
+      "home_scorers": "{\"Achraf Hakimi 39'\",\"Asmaail Saibari 45+1'\",\"Svfian Rhimi 78'\",\"Gessime Yassine 89'\"}",
+      "away_scorers": "{\"Yassine Bounou 10'\",\"Wilson Isidor 43'\"}",
       "stadium_id": "7",
       "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "54",
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "home": "Switzerland",
       "away": "Canada",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
+      "score_h": 2,
+      "score_a": 1,
+      "home_scorers": "{\"Rub\u00e9n Vargas 46'\",\"Jvhan Mnzambi 57'\"}",
+      "away_scorers": "{\"Prvmis Divid 76'\"}",
       "stadium_id": "13",
       "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
-      "isFinished": false,
-      "isLive": false
+      "isFinished": true
     },
     {
       "id": "51",
@@ -4916,7 +4960,8 @@
       "away_scorers": "null",
       "stadium_id": "3",
       "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
+      "isFinished": false,
+      "isLive": false
     },
     {
       "id": "52",
@@ -4931,7 +4976,8 @@
       "away_scorers": "null",
       "stadium_id": "1",
       "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
-      "isFinished": false
+      "isFinished": false,
+      "isLive": false
     },
     {
       "id": "57",
@@ -4946,7 +4992,8 @@
       "away_scorers": "null",
       "stadium_id": "15",
       "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
-      "isFinished": false
+      "isFinished": false,
+      "isLive": false
     },
     {
       "id": "58",
@@ -4961,6 +5008,22 @@
       "away_scorers": "null",
       "stadium_id": "16",
       "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
+      "isFinished": false,
+      "isLive": false
+    },
+    {
+      "id": "59",
+      "utcDate": "2026-06-26T01:00:00Z",
+      "status": "SCHEDULED",
+      "stage": "GROUP_STAGE",
+      "home": "Japan",
+      "away": "Sweden",
+      "score_h": null,
+      "score_a": null,
+      "home_scorers": "null",
+      "away_scorers": "null",
+      "stadium_id": "4",
+      "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -4979,18 +5042,18 @@
       "isFinished": false
     },
     {
-      "id": "59",
-      "utcDate": "2026-06-26T01:00:00Z",
+      "id": "60",
+      "utcDate": "2026-06-26T04:00:00Z",
       "status": "SCHEDULED",
       "stage": "GROUP_STAGE",
-      "home": "Japan",
-      "away": "Sweden",
+      "home": "Tunisia",
+      "away": "Netherlands",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "4",
-      "stadium": "Arrowhead Stadium (Kansas City \ud83c\uddfa\ud83c\uddf8)",
+      "stadium_id": "6",
+      "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5006,21 +5069,6 @@
       "away_scorers": "null",
       "stadium_id": "11",
       "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
-    },
-    {
-      "id": "60",
-      "utcDate": "2026-06-26T04:00:00Z",
-      "status": "SCHEDULED",
-      "stage": "GROUP_STAGE",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "6",
-      "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5174,21 +5222,6 @@
       "isFinished": false
     },
     {
-      "id": "68",
-      "utcDate": "2026-06-28T04:00:00Z",
-      "status": "SCHEDULED",
-      "stage": "GROUP_STAGE",
-      "home": "Croatia",
-      "away": "Ghana",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "10",
-      "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
-    },
-    {
       "id": "72",
       "utcDate": "2026-06-28T04:00:00Z",
       "status": "SCHEDULED",
@@ -5204,12 +5237,27 @@
       "isFinished": false
     },
     {
+      "id": "68",
+      "utcDate": "2026-06-28T04:00:00Z",
+      "status": "SCHEDULED",
+      "stage": "GROUP_STAGE",
+      "home": "Croatia",
+      "away": "Ghana",
+      "score_h": null,
+      "score_a": null,
+      "home_scorers": "null",
+      "away_scorers": "null",
+      "stadium_id": "10",
+      "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
+      "isFinished": false
+    },
+    {
       "id": "73",
       "utcDate": "2026-06-28T19:00:00Z",
       "status": "SCHEDULED",
       "stage": "LAST_32",
       "home": "Runner-up Group A",
-      "away": "Runner-up Group B",
+      "away": "Canada",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
@@ -5234,21 +5282,6 @@
       "isFinished": false
     },
     {
-      "id": "75",
-      "utcDate": "2026-06-29T22:00:00Z",
-      "status": "SCHEDULED",
-      "stage": "LAST_32",
-      "home": "Winner Group F",
-      "away": "Runner-up Group C",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "3",
-      "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
-    },
-    {
       "id": "76",
       "utcDate": "2026-06-29T22:00:00Z",
       "status": "SCHEDULED",
@@ -5261,6 +5294,21 @@
       "away_scorers": "null",
       "stadium_id": "5",
       "stadium": "NRG Stadium (Houston \ud83c\uddfa\ud83c\uddf8)",
+      "isFinished": false
+    },
+    {
+      "id": "75",
+      "utcDate": "2026-06-29T22:00:00Z",
+      "status": "SCHEDULED",
+      "stage": "LAST_32",
+      "home": "Winner Group F",
+      "away": "Runner-up Group C",
+      "score_h": null,
+      "score_a": null,
+      "home_scorers": "null",
+      "away_scorers": "null",
+      "stadium_id": "3",
+      "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5358,7 +5406,7 @@
       "utcDate": "2026-07-02T19:00:00Z",
       "status": "SCHEDULED",
       "stage": "LAST_32",
-      "home": "Winner Group B",
+      "home": "Switzerland",
       "away": "3rd Group E/F/G/I/J",
       "score_h": null,
       "score_a": null,
@@ -5403,7 +5451,7 @@
       "utcDate": "2026-07-03T19:00:00Z",
       "status": "SCHEDULED",
       "stage": "LAST_32",
-      "home": "Winner Group J",
+      "home": "Argentina",
       "away": "Runner-up Group H",
       "score_h": null,
       "score_a": null,
@@ -5411,21 +5459,6 @@
       "away_scorers": "null",
       "stadium_id": "8",
       "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
-    },
-    {
-      "id": "87",
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "SCHEDULED",
-      "stage": "LAST_32",
-      "home": "Winner Group K",
-      "away": "3rd Group D/E/I/J/L",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "6",
-      "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5444,18 +5477,18 @@
       "isFinished": false
     },
     {
-      "id": "89",
-      "utcDate": "2026-07-05T01:00:00Z",
+      "id": "87",
+      "utcDate": "2026-07-03T22:00:00Z",
       "status": "SCHEDULED",
-      "stage": "LAST_16",
-      "home": "Winner Match 74",
-      "away": "Winner Match 77",
+      "stage": "LAST_32",
+      "home": "Winner Group K",
+      "away": "3rd Group D/E/I/J/L",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "10",
-      "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
+      "stadium_id": "6",
+      "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5474,18 +5507,18 @@
       "isFinished": false
     },
     {
-      "id": "91",
-      "utcDate": "2026-07-05T19:00:00Z",
+      "id": "89",
+      "utcDate": "2026-07-05T01:00:00Z",
       "status": "SCHEDULED",
       "stage": "LAST_16",
-      "home": "Winner Match 76",
-      "away": "Winner Match 78",
+      "home": "Winner Match 74",
+      "away": "Winner Match 77",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "11",
-      "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
+      "stadium_id": "10",
+      "stadium": "Levi's Stadium (San Francisco \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5501,6 +5534,21 @@
       "away_scorers": "null",
       "stadium_id": "1",
       "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
+      "isFinished": false
+    },
+    {
+      "id": "91",
+      "utcDate": "2026-07-05T19:00:00Z",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "home": "Winner Match 76",
+      "away": "Winner Match 78",
+      "score_h": null,
+      "score_a": null,
+      "home_scorers": "null",
+      "away_scorers": "null",
+      "stadium_id": "11",
+      "stadium": "Gillette Stadium (Boston \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5594,21 +5642,6 @@
       "isFinished": false
     },
     {
-      "id": "99",
-      "utcDate": "2026-07-11T22:00:00Z",
-      "status": "SCHEDULED",
-      "stage": "QUARTER_FINALS",
-      "home": "Winner Match 91",
-      "away": "Winner Match 92",
-      "score_h": null,
-      "score_a": null,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "8",
-      "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": false
-    },
-    {
       "id": "100",
       "utcDate": "2026-07-11T22:00:00Z",
       "status": "SCHEDULED",
@@ -5621,6 +5654,21 @@
       "away_scorers": "null",
       "stadium_id": "6",
       "stadium": "Mercedes-Benz Stadium (Atlanta \ud83c\uddfa\ud83c\uddf8)",
+      "isFinished": false
+    },
+    {
+      "id": "99",
+      "utcDate": "2026-07-11T22:00:00Z",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "home": "Winner Match 91",
+      "away": "Winner Match 92",
+      "score_h": null,
+      "score_a": null,
+      "home_scorers": "null",
+      "away_scorers": "null",
+      "stadium_id": "8",
+      "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false
     },
     {
@@ -5686,98 +5734,66 @@
   ],
   "liveMatches": [
     {
-      "id": "47",
-      "utcDate": "2026-06-24T01:00:00Z",
-      "status": "FINISHED",
-      "stage": "GROUP_STAGE",
-      "home": "Colombia",
-      "away": "Democratic Republic of the Congo",
-      "score_h": 1,
-      "score_a": 0,
-      "home_scorers": "{\"Dnil Mvnvz 76'\"}",
-      "away_scorers": "null",
-      "stadium_id": "2",
-      "stadium": "MetLife Stadium (New York/NJ \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": true,
-      "isLive": false
-    },
-    {
-      "id": "48",
-      "utcDate": "2026-06-24T04:00:00Z",
-      "status": "FINISHED",
-      "stage": "GROUP_STAGE",
-      "home": "England",
-      "away": "Ghana",
-      "score_h": 0,
-      "score_a": 0,
-      "home_scorers": "null",
-      "away_scorers": "null",
-      "stadium_id": "9",
-      "stadium": "Lumen Field (Seattle \ud83c\uddfa\ud83c\uddf8)",
-      "isFinished": true,
-      "isLive": false
-    },
-    {
-      "id": "49",
-      "utcDate": "2026-06-24T19:00:00Z",
+      "id": "51",
+      "utcDate": "2026-06-25T01:00:00Z",
       "status": "SCHEDULED",
       "stage": "GROUP_STAGE",
-      "home": "Scotland",
-      "away": "Brazil",
+      "home": "South Africa",
+      "away": "South Korea",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "8",
-      "stadium": "Lincoln Financial Field (Philadelphia \ud83c\uddfa\ud83c\uddf8)",
+      "stadium_id": "3",
+      "stadium": "AT&T Stadium (Dallas \ud83c\uddfa\ud83c\uddf8)",
       "isFinished": false,
       "isLive": false
     },
     {
-      "id": "53",
-      "utcDate": "2026-06-24T19:00:00Z",
+      "id": "52",
+      "utcDate": "2026-06-25T04:00:00Z",
       "status": "SCHEDULED",
       "stage": "GROUP_STAGE",
-      "home": "Bosnia and Herzegovina",
-      "away": "Qatar",
+      "home": "Czech Republic",
+      "away": "Mexico",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "14",
-      "stadium": "Estadio Akron (Guadalajara \ud83c\uddf2\ud83c\uddfd)",
+      "stadium_id": "1",
+      "stadium": "Estadio Azteca (Mexico City \ud83c\uddf2\ud83c\uddfd)",
       "isFinished": false,
       "isLive": false
     },
     {
-      "id": "50",
-      "utcDate": "2026-06-24T22:00:00Z",
+      "id": "57",
+      "utcDate": "2026-06-25T19:00:00Z",
       "status": "SCHEDULED",
       "stage": "GROUP_STAGE",
-      "home": "Morocco",
-      "away": "Haiti",
+      "home": "Paraguay",
+      "away": "Australia",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "7",
-      "stadium": "SoFi Stadium (Los Angeles \ud83c\uddfa\ud83c\uddf8)",
+      "stadium_id": "15",
+      "stadium": "BC Place (Vancouver \ud83c\udde8\ud83c\udde6)",
       "isFinished": false,
       "isLive": false
     },
     {
-      "id": "54",
-      "utcDate": "2026-06-24T22:00:00Z",
+      "id": "58",
+      "utcDate": "2026-06-25T22:00:00Z",
       "status": "SCHEDULED",
       "stage": "GROUP_STAGE",
-      "home": "Switzerland",
-      "away": "Canada",
+      "home": "Turkey",
+      "away": "United States",
       "score_h": null,
       "score_a": null,
       "home_scorers": "null",
       "away_scorers": "null",
-      "stadium_id": "13",
-      "stadium": "Estadio BBVA (Monterrey \ud83c\uddf2\ud83c\uddfd)",
+      "stadium_id": "16",
+      "stadium": "BMO Field (Toronto \ud83c\udde8\ud83c\udde6)",
       "isFinished": false,
       "isLive": false
     }
@@ -12118,7 +12134,601 @@
           "winProb": 0.0
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-24T21:29:37.507436Z",
+      "finishedCount": 49,
+      "ranking": [
+        {
+          "name": "Spain",
+          "winProb": 27.93
+        },
+        {
+          "name": "Argentina",
+          "winProb": 26.7
+        },
+        {
+          "name": "France",
+          "winProb": 13.2
+        },
+        {
+          "name": "England",
+          "winProb": 6.93
+        },
+        {
+          "name": "Colombia",
+          "winProb": 4.77
+        },
+        {
+          "name": "Portugal",
+          "winProb": 3.9
+        },
+        {
+          "name": "Brazil",
+          "winProb": 2.83
+        },
+        {
+          "name": "Netherlands",
+          "winProb": 2.6
+        },
+        {
+          "name": "Germany",
+          "winProb": 2.3
+        },
+        {
+          "name": "Norway",
+          "winProb": 2.0
+        },
+        {
+          "name": "Mexico",
+          "winProb": 1.83
+        },
+        {
+          "name": "United States",
+          "winProb": 1.2
+        },
+        {
+          "name": "Japan",
+          "winProb": 1.0
+        },
+        {
+          "name": "Belgium",
+          "winProb": 0.8
+        },
+        {
+          "name": "Switzerland",
+          "winProb": 0.77
+        },
+        {
+          "name": "Uruguay",
+          "winProb": 0.3
+        },
+        {
+          "name": "Morocco",
+          "winProb": 0.23
+        },
+        {
+          "name": "Ecuador",
+          "winProb": 0.13
+        },
+        {
+          "name": "Senegal",
+          "winProb": 0.1
+        },
+        {
+          "name": "Egypt",
+          "winProb": 0.1
+        },
+        {
+          "name": "Australia",
+          "winProb": 0.1
+        },
+        {
+          "name": "Canada",
+          "winProb": 0.1
+        },
+        {
+          "name": "Croatia",
+          "winProb": 0.07
+        },
+        {
+          "name": "Ivory Coast",
+          "winProb": 0.03
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "winProb": 0.03
+        },
+        {
+          "name": "Iran",
+          "winProb": 0.03
+        },
+        {
+          "name": "Saudi Arabia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Tunisia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cura\u00e7ao",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cape Verde",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ghana",
+          "winProb": 0.0
+        },
+        {
+          "name": "Algeria",
+          "winProb": 0.0
+        },
+        {
+          "name": "Qatar",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Korea",
+          "winProb": 0.0
+        },
+        {
+          "name": "Jordan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Paraguay",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Africa",
+          "winProb": 0.0
+        },
+        {
+          "name": "Haiti",
+          "winProb": 0.0
+        },
+        {
+          "name": "Czech Republic",
+          "winProb": 0.0
+        },
+        {
+          "name": "Turkey",
+          "winProb": 0.0
+        },
+        {
+          "name": "Sweden",
+          "winProb": 0.0
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "winProb": 0.0
+        },
+        {
+          "name": "New Zealand",
+          "winProb": 0.0
+        },
+        {
+          "name": "Uzbekistan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Scotland",
+          "winProb": 0.0
+        },
+        {
+          "name": "Panama",
+          "winProb": 0.0
+        },
+        {
+          "name": "Iraq",
+          "winProb": 0.0
+        },
+        {
+          "name": "Austria",
+          "winProb": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-24T21:32:57.268097Z",
+      "finishedCount": 50,
+      "ranking": [
+        {
+          "name": "Spain",
+          "winProb": 27.17
+        },
+        {
+          "name": "Argentina",
+          "winProb": 26.0
+        },
+        {
+          "name": "France",
+          "winProb": 13.93
+        },
+        {
+          "name": "England",
+          "winProb": 7.07
+        },
+        {
+          "name": "Colombia",
+          "winProb": 5.23
+        },
+        {
+          "name": "Portugal",
+          "winProb": 3.7
+        },
+        {
+          "name": "Brazil",
+          "winProb": 2.93
+        },
+        {
+          "name": "Netherlands",
+          "winProb": 2.53
+        },
+        {
+          "name": "Norway",
+          "winProb": 1.93
+        },
+        {
+          "name": "Mexico",
+          "winProb": 1.93
+        },
+        {
+          "name": "Germany",
+          "winProb": 1.9
+        },
+        {
+          "name": "United States",
+          "winProb": 1.5
+        },
+        {
+          "name": "Japan",
+          "winProb": 1.03
+        },
+        {
+          "name": "Switzerland",
+          "winProb": 0.83
+        },
+        {
+          "name": "Uruguay",
+          "winProb": 0.53
+        },
+        {
+          "name": "Belgium",
+          "winProb": 0.5
+        },
+        {
+          "name": "Canada",
+          "winProb": 0.27
+        },
+        {
+          "name": "Morocco",
+          "winProb": 0.27
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "winProb": 0.17
+        },
+        {
+          "name": "Iran",
+          "winProb": 0.17
+        },
+        {
+          "name": "Egypt",
+          "winProb": 0.1
+        },
+        {
+          "name": "Ecuador",
+          "winProb": 0.07
+        },
+        {
+          "name": "Australia",
+          "winProb": 0.07
+        },
+        {
+          "name": "Croatia",
+          "winProb": 0.03
+        },
+        {
+          "name": "Scotland",
+          "winProb": 0.03
+        },
+        {
+          "name": "Ivory Coast",
+          "winProb": 0.03
+        },
+        {
+          "name": "Senegal",
+          "winProb": 0.03
+        },
+        {
+          "name": "Austria",
+          "winProb": 0.03
+        },
+        {
+          "name": "Tunisia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cape Verde",
+          "winProb": 0.0
+        },
+        {
+          "name": "Qatar",
+          "winProb": 0.0
+        },
+        {
+          "name": "Iraq",
+          "winProb": 0.0
+        },
+        {
+          "name": "New Zealand",
+          "winProb": 0.0
+        },
+        {
+          "name": "Paraguay",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Korea",
+          "winProb": 0.0
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "winProb": 0.0
+        },
+        {
+          "name": "Turkey",
+          "winProb": 0.0
+        },
+        {
+          "name": "Haiti",
+          "winProb": 0.0
+        },
+        {
+          "name": "Sweden",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ghana",
+          "winProb": 0.0
+        },
+        {
+          "name": "Panama",
+          "winProb": 0.0
+        },
+        {
+          "name": "Czech Republic",
+          "winProb": 0.0
+        },
+        {
+          "name": "Uzbekistan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Cura\u00e7ao",
+          "winProb": 0.0
+        },
+        {
+          "name": "Algeria",
+          "winProb": 0.0
+        },
+        {
+          "name": "Jordan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Saudi Arabia",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Africa",
+          "winProb": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T00:03:50.904472Z",
+      "finishedCount": 52,
+      "ranking": [
+        {
+          "name": "Spain",
+          "winProb": 26.93
+        },
+        {
+          "name": "Argentina",
+          "winProb": 25.17
+        },
+        {
+          "name": "France",
+          "winProb": 15.23
+        },
+        {
+          "name": "England",
+          "winProb": 7.03
+        },
+        {
+          "name": "Colombia",
+          "winProb": 5.3
+        },
+        {
+          "name": "Portugal",
+          "winProb": 4.13
+        },
+        {
+          "name": "Brazil",
+          "winProb": 3.23
+        },
+        {
+          "name": "Netherlands",
+          "winProb": 2.73
+        },
+        {
+          "name": "Germany",
+          "winProb": 2.13
+        },
+        {
+          "name": "Norway",
+          "winProb": 1.57
+        },
+        {
+          "name": "United States",
+          "winProb": 1.37
+        },
+        {
+          "name": "Mexico",
+          "winProb": 1.33
+        },
+        {
+          "name": "Japan",
+          "winProb": 1.0
+        },
+        {
+          "name": "Switzerland",
+          "winProb": 0.57
+        },
+        {
+          "name": "Belgium",
+          "winProb": 0.47
+        },
+        {
+          "name": "Uruguay",
+          "winProb": 0.4
+        },
+        {
+          "name": "Morocco",
+          "winProb": 0.37
+        },
+        {
+          "name": "Canada",
+          "winProb": 0.2
+        },
+        {
+          "name": "Iran",
+          "winProb": 0.13
+        },
+        {
+          "name": "Egypt",
+          "winProb": 0.1
+        },
+        {
+          "name": "Cape Verde",
+          "winProb": 0.1
+        },
+        {
+          "name": "Croatia",
+          "winProb": 0.07
+        },
+        {
+          "name": "Ecuador",
+          "winProb": 0.07
+        },
+        {
+          "name": "Australia",
+          "winProb": 0.07
+        },
+        {
+          "name": "Cura\u00e7ao",
+          "winProb": 0.03
+        },
+        {
+          "name": "South Korea",
+          "winProb": 0.03
+        },
+        {
+          "name": "Turkey",
+          "winProb": 0.03
+        },
+        {
+          "name": "Austria",
+          "winProb": 0.03
+        },
+        {
+          "name": "Senegal",
+          "winProb": 0.03
+        },
+        {
+          "name": "Algeria",
+          "winProb": 0.03
+        },
+        {
+          "name": "Democratic Republic of the Congo",
+          "winProb": 0.03
+        },
+        {
+          "name": "Scotland",
+          "winProb": 0.03
+        },
+        {
+          "name": "Ivory Coast",
+          "winProb": 0.03
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "winProb": 0.0
+        },
+        {
+          "name": "New Zealand",
+          "winProb": 0.0
+        },
+        {
+          "name": "Uzbekistan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Jordan",
+          "winProb": 0.0
+        },
+        {
+          "name": "Sweden",
+          "winProb": 0.0
+        },
+        {
+          "name": "Czech Republic",
+          "winProb": 0.0
+        },
+        {
+          "name": "Tunisia",
+          "winProb": 0.0
+        },
+        {
+          "name": "Ghana",
+          "winProb": 0.0
+        },
+        {
+          "name": "Iraq",
+          "winProb": 0.0
+        },
+        {
+          "name": "Qatar",
+          "winProb": 0.0
+        },
+        {
+          "name": "Panama",
+          "winProb": 0.0
+        },
+        {
+          "name": "Paraguay",
+          "winProb": 0.0
+        },
+        {
+          "name": "Haiti",
+          "winProb": 0.0
+        },
+        {
+          "name": "South Africa",
+          "winProb": 0.0
+        },
+        {
+          "name": "Saudi Arabia",
+          "winProb": 0.0
+        }
+      ]
     }
   ],
-  "lastUpdate": "2026-06-24T06:09:30.907328Z"
+  "lastUpdate": "2026-06-25T00:16:54.236180Z"
 }
