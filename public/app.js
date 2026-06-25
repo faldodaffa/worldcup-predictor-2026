@@ -799,22 +799,61 @@ function renderGroups() {
         teams.forEach((t, idx) => {
             let colorClass = 'text-muted';
             let qualTag = '';
+            let rowClass = '';
+
+            const mathStatus = t.mathStatus || 'alive';
+            const isEliminated = mathStatus === 'eliminated' || mathStatus === 'h2h_eliminated';
+            const isLocked1st  = mathStatus === 'locked_1st';
+            const isGuaranteed = mathStatus === 'guaranteed_top2' || mathStatus === 'locked_1st';
 
             if (qualStatus) {
                 const isConfirmed = qualStatus.confirmed;
-                const prefix = isConfirmed ? 'Fix' : 'Prediksi';
-                
-                if (t.name === qualStatus.pred_1st) {
+                const eliminated  = qualStatus.eliminated || [];
+                const guaranteed  = qualStatus.guaranteed_top2 || [];
+                const fix1st      = qualStatus.fix_1st;
+                const fix2nd      = qualStatus.fix_2nd;
+
+                if (isConfirmed) {
+                    // Group fully done: deterministic
+                    if (t.name === qualStatus.pred_1st) {
+                        colorClass = 'text-lime';
+                        qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">✅ Fix Peringkat 1</div>`;
+                    } else if (t.name === qualStatus.pred_2nd) {
+                        colorClass = 'text-lime';
+                        qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">✅ Fix Peringkat 2</div>`;
+                    } else if (t.name === qualStatus.pred_3rd) {
+                        colorClass = 'text-yellow-400';
+                        qualTag = `<div class="text-[9px] text-yellow-400/80 font-normal uppercase tracking-wider mt-0.5">Fix Peringkat 3</div>`;
+                    } else {
+                        colorClass = 'text-red-500 opacity-70';
+                        rowClass = 'opacity-60';
+                        qualTag = `<div class="text-[9px] text-red-500/80 font-normal uppercase tracking-wider mt-0.5">❌ Fix Gugur</div>`;
+                    }
+                } else if (isEliminated || eliminated.includes(t.name)) {
+                    // Mathematically eliminated
+                    colorClass = 'text-red-500/70';
+                    rowClass = 'opacity-50';
+                    const reason = mathStatus === 'h2h_eliminated' ? 'H2H' : 'Pts';
+                    qualTag = `<div class="text-[9px] text-red-500 font-bold uppercase tracking-wider mt-0.5">❌ Gugur Matematis (${reason})</div>`;
+                } else if (t.name === fix1st) {
+                    // Locked group winner
+                    colorClass = 'text-emerald-400';
+                    qualTag = `<div class="text-[9px] text-emerald-400 font-bold uppercase tracking-wider mt-0.5">🔒 Fix Juara Grup</div>`;
+                } else if (isGuaranteed || guaranteed.includes(t.name)) {
+                    // Guaranteed top-2 (Pigeonhole)
                     colorClass = 'text-lime';
-                    qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">${prefix} Peringkat 1</div>`;
+                    qualTag = `<div class="text-[9px] text-lime/90 font-bold uppercase tracking-wider mt-0.5">✅ Fix Lolos Top-2</div>`;
+                } else if (t.name === qualStatus.pred_1st) {
+                    colorClass = 'text-lime';
+                    qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">Prediksi Peringkat 1</div>`;
                 } else if (t.name === qualStatus.pred_2nd) {
                     colorClass = 'text-lime';
-                    qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">${prefix} Peringkat 2</div>`;
+                    qualTag = `<div class="text-[9px] text-lime/80 font-normal uppercase tracking-wider mt-0.5">Prediksi Peringkat 2</div>`;
                 } else if (t.name === qualStatus.pred_3rd) {
                     colorClass = 'text-yellow-400';
-                    qualTag = `<div class="text-[9px] text-yellow-400/80 font-normal uppercase tracking-wider mt-0.5">${prefix} Peringkat 3</div>`;
+                    qualTag = `<div class="text-[9px] text-yellow-400/80 font-normal uppercase tracking-wider mt-0.5">Prediksi Peringkat 3</div>`;
                 } else {
-                    qualTag = `<div class="text-[9px] text-red-500/80 font-normal uppercase tracking-wider mt-0.5">${isConfirmed ? 'Fix' : 'Prediksi'} Gugur</div>`;
+                    qualTag = `<div class="text-[9px] text-red-500/80 font-normal uppercase tracking-wider mt-0.5">Prediksi Gugur</div>`;
                 }
             } else {
                 colorClass = idx < 2 ? 'text-lime' : idx === 2 ? 'text-yellow-400' : 'text-muted';
@@ -822,7 +861,7 @@ function renderGroups() {
 
             const flag = `<img src="https://flagcdn.com/16x12/${getCountryCode(t.name)}.png" onerror="this.style.display='none'" class="inline rounded-[1px] mr-1.5 opacity-90"/>`;
             html += `
-                <tr class="hover:bg-muted/10 transition-colors">
+                <tr class="hover:bg-muted/10 transition-colors ${rowClass}">
                     <td class="py-2">
                         <div class="font-bold ${colorClass} max-w-[100px] sm:max-w-[140px] truncate" title="${t.name}">${flag}${t.name}</div>
                         ${qualTag}
@@ -837,50 +876,62 @@ function renderGroups() {
         container.innerHTML += html;
     });
 
-    if (bestThirdsContainer && currentData.best8Thirds) {
-        let tableHtml = `
-            <div class="bg-card border border-border shadow-sm p-6 rounded-sm mt-8">
-                <h3 class="text-xl font-bold mb-1 text-primary flex items-center gap-2">🔥 8 Peringkat 3 Terbaik</h3>
-                <p class="text-muted text-[11px] mb-4">Sinergi antara simulasi peluang lolos dan klasemen aktual. 8 tim teratas otomatis masuk ke tabel Babak 32 Besar Knockout. Data sudah pasti jika status Fix.</p>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-xs text-left">
-                        <thead>
-                            <tr class="text-muted border-b border-border text-[10px] uppercase tracking-wider">
-                                <th class="pb-2">Pos</th>
-                                <th class="pb-2">Tim</th>
-                                <th class="pb-2 text-center">Grup</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-center">Pts</th>
-                                <th class="pb-2 text-center">SG</th>
-                                <th class="pb-2 text-center">Status</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-border">
-        `;
-        
-        currentData.best8Thirds.forEach((t, idx) => {
-            const isQualified = t.selected;
-            const rankClass = isQualified ? 'text-yellow-400 font-bold' : 'text-muted line-through opacity-60';
-            const flag = `<img src="https://flagcdn.com/16x12/${getCountryCode(t.name)}.png" onerror="this.style.display='none'" class="inline rounded-[1px] mr-1.5 opacity-90"/>`;
-            const statusLabel = isQualified ? (t.confirmed ? 'Fix Lolos' : 'Prediksi Lolos') : (t.confirmed ? 'Fix Gugur' : 'Prediksi Gugur');
-            const statusClass = isQualified ? (t.confirmed ? 'bg-yellow-400/20 text-yellow-400 border-yellow-400/30' : 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30') : 'bg-red-500/20 text-red-500 border-red-500/30';
-
-            tableHtml += `
-                <tr class="hover:bg-muted/10 transition-colors ${!isQualified ? 'opacity-60' : ''}">
-                    <td class="py-2 ${rankClass}">${idx + 1}</td>
-                    <td class="py-2 ${rankClass} truncate" title="${t.name}">${flag}${t.name}</td>
-                    <td class="py-2 text-center text-primary font-mono opacity-80">${t.group}</td>
-                    <td class="py-2 text-center text-primary font-mono opacity-80">${t.played}</td>
-                    <td class="py-2 text-center font-bold font-mono ${isQualified ? 'text-cyan-400' : 'text-muted'}">${t.points}</td>
-                    <td class="py-2 text-center text-primary font-mono opacity-80">${t.goalDifference > 0 ? '+'+t.goalDifference : t.goalDifference}</td>
-                    <td class="py-2 text-center">
-                        <span class="px-2 py-0.5 rounded border text-[9px] uppercase tracking-wider font-bold ${statusClass}">${statusLabel}</span>
-                    </td>
-                </tr>
+    if (bestThirdsContainer && (currentData.best8ThirdsRealTime || currentData.best8ThirdsPredicted)) {
+        const buildTableHtml = (data, title, desc, isRealTime) => {
+            if (!data) return '';
+            let html = `
+                <div class="bg-card border border-border shadow-sm p-4 rounded-sm flex-1">
+                    <h3 class="text-lg font-bold mb-1 text-primary flex items-center gap-2">🔥 ${title}</h3>
+                    <p class="text-muted text-[11px] mb-4">${desc}</p>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-xs text-left">
+                            <thead>
+                                <tr class="text-muted border-b border-border text-[9px] uppercase tracking-wider">
+                                    <th class="pb-2">Pos</th>
+                                    <th class="pb-2">Tim</th>
+                                    <th class="pb-2 text-center">Grup</th>
+                                    <th class="pb-2 text-center">Pts</th>
+                                    <th class="pb-2 text-center">SG</th>
+                                    <th class="pb-2 text-center">Gol</th>
+                                    <th class="pb-2 text-center">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-border">
             `;
-        });
-        tableHtml += `</tbody></table></div></div>`;
-        bestThirdsContainer.innerHTML = tableHtml;
+            data.forEach((t, idx) => {
+                const isQualified = t.selected;
+                const rankClass = isQualified ? 'text-yellow-400 font-bold' : 'text-muted line-through opacity-60';
+                const flag = `<img src="https://flagcdn.com/16x12/${getCountryCode(t.name)}.png" onerror="this.style.display='none'" class="inline rounded-[1px] mr-1.5 opacity-90"/>`;
+                const statusLabel = isQualified ? (t.confirmed ? 'Fix Lolos' : (isRealTime ? 'Aman' : 'Prediksi Lolos')) : (t.confirmed ? 'Fix Gugur' : (isRealTime ? 'Rentan' : 'Prediksi Gugur'));
+                const statusClass = isQualified ? (t.confirmed ? 'bg-yellow-400/20 text-yellow-400 border-yellow-400/30' : 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30') : 'bg-red-500/20 text-red-500 border-red-500/30';
+
+                html += `
+                    <tr class="hover:bg-muted/10 transition-colors ${!isQualified ? 'opacity-60' : ''}">
+                        <td class="py-2 ${rankClass}">${idx + 1}</td>
+                        <td class="py-2 ${rankClass} max-w-[100px] truncate" title="${t.name}">${flag}${t.name}</td>
+                        <td class="py-2 text-center text-primary font-mono opacity-80">${t.group}</td>
+                        <td class="py-2 text-center font-bold font-mono ${isQualified ? 'text-cyan-400' : 'text-muted'}">${t.points}</td>
+                        <td class="py-2 text-center text-primary font-mono opacity-80">${t.goalDifference > 0 ? '+'+t.goalDifference : t.goalDifference}</td>
+                        <td class="py-2 text-center text-primary font-mono opacity-80">${t.goalsFor}</td>
+                        <td class="py-2 text-center">
+                            <span class="px-2 py-0.5 rounded border text-[9px] uppercase tracking-wider font-bold ${statusClass}">${statusLabel}</span>
+                        </td>
+                    </tr>
+                `;
+            });
+            html += `</tbody></table></div></div>`;
+            return html;
+        };
+
+        const rtTable = buildTableHtml(currentData.best8ThirdsRealTime, "Real-Time 3rd Place", "Klasemen aktual saat ini (Prioritas: Poin → SG → Gol).", true);
+        const predTable = buildTableHtml(currentData.best8ThirdsPredicted, "Predicted 3rd Place", "Prediksi kelolosan berdasarkan probabilitas Monte Carlo.", false);
+
+        bestThirdsContainer.innerHTML = `
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                ${rtTable}
+                ${predTable}
+            </div>
+        `;
     } else if (bestThirdsContainer) {
         bestThirdsContainer.innerHTML = '';
     }

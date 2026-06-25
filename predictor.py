@@ -364,6 +364,12 @@ def process_matches(matches):
                     else:
                         t['lost'] += 1
 
+                # Store H2H result for FIFA 2026 tiebreaker
+                h2h_key = 'h2h_results'
+                if h2h_key not in group_map[gk]:
+                    group_map[gk][h2h_key] = {}
+                group_map[gk][h2h_key][(home, away)] = (hg, ag)
+
             group_map[gk]['matches'].append(match_obj)
         else:
             knockouts.append(match_obj)
@@ -414,22 +420,162 @@ def process_matches(matches):
                 G_MOMENTUM_HISTORY[home].append((hg - ag) * (pre_elo_a / 2000.0))
                 G_MOMENTUM_HISTORY[away].append((ag - hg) * (pre_elo_h / 2000.0))
 
+    def sort_with_h2h(teams_list, h2h_results):
+        """FIFA 2026 tiebreaker: H2H pts → H2H GD → H2H GF → overall GD → GF → Elo/FIFA rank."""
+        if not teams_list:
+            return teams_list
+        
+        # Group by equal points, then apply H2H within tied groups
+        from itertools import combinations
+        result = []
+        sorted_by_pts = sorted(teams_list, key=lambda x: -x['points'])
+        
+        i = 0
+        while i < len(sorted_by_pts):
+            # Find all teams with same points
+            j = i + 1
+            while j < len(sorted_by_pts) and sorted_by_pts[j]['points'] == sorted_by_pts[i]['points']:
+                j += 1
+            tied_group = sorted_by_pts[i:j]
+            
+            if len(tied_group) == 1:
+                result.extend(tied_group)
+            else:
+                tied_names = {t['name'] for t in tied_group}
+                # Compute H2H stats among tied teams only
+                h2h_pts = {t['name']: 0 for t in tied_group}
+                h2h_gd  = {t['name']: 0 for t in tied_group}
+                h2h_gf  = {t['name']: 0 for t in tied_group}
+                
+                for (home_t, away_t), (hg, ag) in h2h_results.items():
+                    if home_t in tied_names and away_t in tied_names:
+                        if hg > ag:
+                            h2h_pts[home_t] += 3
+                        elif hg == ag:
+                            h2h_pts[home_t] += 1; h2h_pts[away_t] += 1
+                        else:
+                            h2h_pts[away_t] += 3
+                        h2h_gd[home_t] += hg - ag
+                        h2h_gd[away_t] += ag - hg
+                        h2h_gf[home_t] += hg
+                        h2h_gf[away_t] += ag
+                
+                # Check if H2H is decisive (not all tied in H2H too)
+                sorted_tied = sorted(tied_group, key=lambda x: (
+                    -h2h_pts[x['name']],
+                    -h2h_gd[x['name']],
+                    -h2h_gf[x['name']],
+                    -x['goalDifference'],
+                    -x['goalsFor'],
+                    -get_elo(x['name'])
+                ))
+                # Attach H2H stats for reference
+                for t in sorted_tied:
+                    t['h2h_pts'] = h2h_pts[t['name']]
+                    t['h2h_gd']  = h2h_gd[t['name']]
+                    t['h2h_gf']  = h2h_gf[t['name']]
+                result.extend(sorted_tied)
+            i = j
+        return result
+
+    def compute_math_locks(teams_list, h2h_results):
+        """Compute mathematical locks and eliminations using FIFA 2026 H2H rules."""
+        n_teams = len(teams_list)
+        math_status = {}  # team_name -> 'locked_1st'|'locked_2nd'|'guaranteed_top2'|'eliminated'|'alive'
+        
+        for t in teams_list:
+            pts = t['points']
+            played = t['played']
+            remaining = 3 - played
+            max_pts = pts + remaining * 3
+            
+            # Max pts all other teams can achieve
+            others_max = []
+            for other in teams_list:
+                if other['name'] == t['name']: continue
+                others_max.append(other['points'] + (3 - other['played']) * 3)
+            others_max.sort(reverse=True)
+            
+            # Check if mathematically eliminated: cannot surpass top-2 even at max_pts
+            # Even if this team wins all remaining, they can't reach top-2 H2H
+            # Simple check: if max_pts < 2nd-best other's current points, eliminated
+            if len(others_max) >= 2 and max_pts < others_max[1]:
+                math_status[t['name']] = 'eliminated'
+                continue
+            
+            # Check H2H-based elimination (FIFA 2026 key rule)
+            # If same-pts-group H2H pts are already unreachable
+            # For Turkey case: H2H losses vs both rivals → 0 H2H pts vs their 3 each
+            # Count teams that have already beaten this team AND have >= current pts of t
+            already_beaten_by = []
+            for (home_t, away_t), (hg, ag) in h2h_results.items():
+                if away_t == t['name'] and hg > ag:  # home beat t
+                    already_beaten_by.append(home_t)
+                if home_t == t['name'] and ag > hg:  # away beat t
+                    already_beaten_by.append(away_t)
+            
+            # If 2+ teams already beat t AND both can still get >= t's max points
+            # then t is h2h-eliminated from top-2
+            h2h_eliminators = []
+            for beater in already_beaten_by:
+                beater_data = next((x for x in teams_list if x['name'] == beater), None)
+                if beater_data:
+                    beater_max = beater_data['points'] + (3 - beater_data['played']) * 3
+                    if beater_max >= max_pts:  # Beater can tie or exceed t
+                        h2h_eliminators.append(beater)
+            
+            if len(h2h_eliminators) >= 2:
+                math_status[t['name']] = 'h2h_eliminated'
+                continue
+            
+            # Pigeonhole: 7+ pts = guaranteed top-2
+            if pts >= 7:
+                math_status[t['name']] = 'guaranteed_top2'
+                continue
+            
+            # Check locked_1st: current points > max_pts of all others
+            if pts > max(others_max):
+                math_status[t['name']] = 'locked_1st'
+                continue
+            
+            # Check locked_2nd/guaranteed_top2: pts > 2nd-highest max_pts of others
+            if len(others_max) >= 2 and pts > others_max[1]:
+                math_status[t['name']] = 'guaranteed_top2'
+                continue
+            
+            math_status[t['name']] = 'alive'
+        
+        return math_status
+
     groups = {}
     for key, data in group_map.items():
         teams_list = list(data['teams'].values())
         teams_names = [t['name'] for t in teams_list]
+        h2h_results = data.get('h2h_results', {})
 
         pts_dict = {t['name']: t['points'] for t in teams_list}
         gd_dict = {t['name']: t['goalDifference'] for t in teams_list}
         probs = simulate_group_probs(data['matches'], teams_names, pts_dict, gd_dict)
         for t in teams_list:
             t['qualProb'] = round(probs.get(t['name'], 0), 2)
-        teams_list.sort(key=lambda x: (
-            -x['points'], -x['goalDifference'], -x['goalsFor'],
-            -G_TAHAP7_TARGETS.get(x['name'], 0), -get_elo(x['name'])
-        ))
+        
+        # FIFA 2026: H2H tiebreaker sort
+        teams_list = sort_with_h2h(teams_list, h2h_results)
+        
+        # Compute mathematical locks
+        math_status = compute_math_locks(teams_list, h2h_results)
+        for t in teams_list:
+            t['mathStatus'] = math_status.get(t['name'], 'alive')
+            # Override qualProb for eliminated teams
+            if t['mathStatus'] in ('eliminated', 'h2h_eliminated'):
+                t['qualProb'] = 0.0
+            elif t['mathStatus'] in ('locked_1st', 'guaranteed_top2'):
+                t['qualProb'] = max(t['qualProb'], 99.0)
+        
         for i, t in enumerate(teams_list): t['position'] = i + 1
         data['standings'] = teams_list
+        # Remove non-serializable tuple-keyed h2h dict from output
+        data.pop('h2h_results', None)
         groups[key.replace('GROUP_', 'Group ')] = data
 
     return groups, knockouts, all_fixtures
@@ -687,20 +833,43 @@ def simulate_tournament(groups, knockouts):
         if 'standings' in grp_data:
             for t in grp_data['standings']:
                 t['qualProb'] = round((reach_r32.get(t['name'], 0) / num_sims) * 100, 2)
+                # Re-apply math lock overrides AFTER Monte Carlo (simulation may have given non-zero to eliminated)
+                ms = t.get('mathStatus', 'alive')
+                if ms in ('eliminated', 'h2h_eliminated'):
+                    t['qualProb'] = 0.0
+                elif ms in ('locked_1st', 'guaranteed_top2'):
+                    t['qualProb'] = max(t['qualProb'], 99.0)
 
     # Build group qualification status for standings syncing
     group_qual_status = {}
     for grp_name, grp_data in groups.items():
-        st = sorted(grp_data.get('standings', []), key=lambda x: (
-            -x.get('qualProb', 0), -x.get('points', 0),
-            -x.get('goalDifference', 0), -x.get('goalsFor', 0)
-        ))
+        st = grp_data.get('standings', [])
         confirmed = all(t.get('played', 0) >= 3 for t in st)
+        
+        # Mathematical lock/elimination per team
+        locked_1st = next((t['name'] for t in st if t.get('mathStatus') == 'locked_1st'), None)
+        # guaranteed_top2 means they're in top-2 but who's 1st vs 2nd not yet determined
+        guaranteed_top2 = [t['name'] for t in st if t.get('mathStatus') in ('guaranteed_top2', 'locked_1st')]
+        eliminated = [t['name'] for t in st if t.get('mathStatus') in ('eliminated', 'h2h_eliminated')]
+        
+        # If confirmed (all 3 matchdays done), use final standings directly
+        if confirmed and len(st) >= 2:
+            fix_1st = st[0]['name']
+            fix_2nd = st[1]['name']
+        else:
+            fix_1st = locked_1st
+            fix_2nd = None  # Can't be sure until MD3
+        
         group_qual_status[grp_name] = {
             'confirmed': confirmed,
             'pred_1st': st[0]['name'] if len(st) > 0 else None,
             'pred_2nd': st[1]['name'] if len(st) > 1 else None,
             'pred_3rd': st[2]['name'] if len(st) > 2 else None,
+            'fix_1st': fix_1st,
+            'fix_2nd': fix_2nd,
+            'locked_1st': locked_1st,
+            'guaranteed_top2': guaranteed_top2,
+            'eliminated': eliminated,
         }
 
     # Build best 8 third-place teams list for standings table (PREDICTED)
@@ -1316,6 +1485,42 @@ def main():
         if is_today or is_live:
             m['isLive'] = is_live
             live_matches.append(m)
+
+    # ---- SYNC CONFIRMED TEAMS TO FIXTURES & BRACKET ----
+    # Build slot substitution map from group_qual_status
+    group_qual_status = sim_result.get('groupQualStatus', {})
+    slot_sub = {}  # e.g. {'Winner Group E': 'Germany', 'Runner-up Group B': 'Canada', ...}
+    for grp_name, status in group_qual_status.items():
+        grp_letter = grp_name.replace('Group ', '')
+        # If group is fully confirmed (3 matchdays done), we know exact 1st & 2nd
+        if status.get('confirmed'):
+            if status.get('pred_1st'):
+                slot_sub[f'Winner Group {grp_letter}'] = status['pred_1st']
+            if status.get('pred_2nd'):
+                slot_sub[f'Runner-up Group {grp_letter}'] = status['pred_2nd']
+        else:
+            # Pre-confirm: only if mathematically locked (not just predicted)
+            if status.get('fix_1st'):
+                slot_sub[f'Winner Group {grp_letter}'] = status['fix_1st']
+            # fix_2nd only exported when confirmed=True, skip here to avoid false locks
+
+    def apply_slot_sub(name):
+        return slot_sub.get(name, name)
+
+    # Apply to upcoming fixtures
+    for m in all_fixtures:
+        if m.get('status') != 'FINISHED':
+            m['home'] = apply_slot_sub(m.get('home', ''))
+            m['away'] = apply_slot_sub(m.get('away', ''))
+
+    # Apply to bracket stages
+    bracket = sim_result.get('bracket', [])
+    for stage in bracket:
+        for m in stage.get('matches', []):
+            if not m.get('isFinished', False):
+                m['home'] = apply_slot_sub(m.get('home', ''))
+                m['away'] = apply_slot_sub(m.get('away', ''))
+
 
     # HISTORY LOGGER — record on every NEW result, not just hourly
     # Check if any match result changed since last snapshot
