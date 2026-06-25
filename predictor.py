@@ -715,19 +715,19 @@ def simulate_tournament(groups, knockouts):
                 'confirmed': group_qual_status.get(grp_name, {}).get('confirmed', False)
             })
     all_thirds_pred.sort(key=lambda x: (-x['qualProb'], -x['points'], -x['goalDifference'], -x['goalsFor']))
-    best_8_thirds_predicted = all_thirds_pred[:8]
+    best_8_thirds_predicted = all_thirds_pred
     
     # Mark which ones are selected based on combo key
     try:
-        _t_groups = sorted([t['group'] for t in best_8_thirds_predicted])
+        _t_groups = sorted([t['group'] for t in best_8_thirds_predicted[:8]])
         _combo = ''.join(_t_groups)
         import json as _json, os as _os
         if _os.path.exists('permutations_495.json'):
             _perms = _json.load(open('permutations_495.json'))
             _combo_map = _perms.get(_combo, {})
-            selected_third_names = set(t['name'] for t in best_8_thirds_predicted)
+            selected_third_names = set(t['name'] for t in best_8_thirds_predicted[:8])
     except:
-        selected_third_names = set(t['name'] for t in best_8_thirds_predicted)
+        selected_third_names = set(t['name'] for t in best_8_thirds_predicted[:8])
     
     for t in best_8_thirds_predicted:
         t['selected'] = t['name'] in selected_third_names
@@ -751,17 +751,17 @@ def simulate_tournament(groups, knockouts):
                 'confirmed': group_qual_status.get(grp_name, {}).get('confirmed', False)
             })
     all_thirds_rt.sort(key=lambda x: (-x['points'], -x['goalDifference'], -x['goalsFor']))
-    best_8_thirds_realtime = all_thirds_rt[:8]
+    best_8_thirds_realtime = all_thirds_rt
     
     try:
-        _t_groups_rt = sorted([t['group'] for t in best_8_thirds_realtime])
+        _t_groups_rt = sorted([t['group'] for t in best_8_thirds_realtime[:8]])
         _combo_rt = ''.join(_t_groups_rt)
         if _os.path.exists('permutations_495.json'):
             _perms_rt = _json.load(open('permutations_495.json'))
             _combo_map_rt = _perms_rt.get(_combo_rt, {})
-            selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime)
+            selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime[:8])
     except:
-        selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime)
+        selected_third_names_rt = set(t['name'] for t in best_8_thirds_realtime[:8])
     
     for t in best_8_thirds_realtime:
         t['selected'] = t['name'] in selected_third_names_rt
